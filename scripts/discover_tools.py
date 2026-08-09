@@ -74,6 +74,26 @@ def candidate_repository_keys() -> set[str]:
     return set(candidate_paths_by_repository().keys())
 
 
+def rejected_candidate_identities(root: Path | None = None) -> tuple[set[str], set[str]]:
+    root = root or ROOT
+    path = root / "common" / "rejected-candidates.yaml"
+    if not path.exists():
+        return set(), set()
+    rejections = load_yaml(path).get("rejections") or []
+    slugs = {
+        str(rejection["slug"]).casefold()
+        for rejection in rejections
+        if isinstance(rejection, dict) and rejection.get("slug")
+    }
+    repositories = {
+        repo_key.casefold()
+        for rejection in rejections
+        if isinstance(rejection, dict)
+        and (repo_key := github_repo_key(rejection.get("repository")))
+    }
+    return slugs, repositories
+
+
 def choose_output_slug(repo: dict, output_dir: Path, reserved_slugs: set[str]) -> tuple[str, bool]:
     repo_key = str(repo["full_name"])
     digest = hashlib.sha256(repo_key.casefold().encode("utf-8")).hexdigest()[:8]
@@ -331,14 +351,18 @@ def main() -> None:
         key.casefold() for tool in tools if (key := github_repo_key(tool.get("repository")))
     }
     known_candidates = candidate_repository_keys()
+    rejected_slugs, rejected_repositories = rejected_candidate_identities()
     seen_search: set[str] = set()
     output_dir = ROOT / "common" / "candidates"
     if args.write:
         output_dir.mkdir(parents=True, exist_ok=True)
-    reserved_slugs = {str(tool.get("slug")) for tool in tools if tool.get("slug")}
+    reserved_slugs = {
+        str(tool.get("slug")).casefold() for tool in tools if tool.get("slug")
+    } | rejected_slugs
     discovered = 0
     skipped_catalog = 0
     skipped_candidate = 0
+    skipped_rejected = 0
     packagist_discovered = 0
 
     if args.limit and args.packagist_limit and not args.skip_packagist_discovery:
@@ -357,6 +381,9 @@ def main() -> None:
                 if repo_key in known_candidates:
                     skipped_candidate += 1
                     continue
+                if repo_key in rejected_repositories:
+                    skipped_rejected += 1
+                    continue
                 try:
                     repo = http_json(github_api_repo_url(repo_key_value), token=token)
                 except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
@@ -365,6 +392,10 @@ def main() -> None:
                     continue
                 if not repo.get("description") and package.get("description"):
                     repo["description"] = package["description"]
+                canonical_repo_key = str(repo.get("full_name") or "").casefold()
+                if canonical_repo_key in rejected_repositories:
+                    skipped_rejected += 1
+                    continue
                 category = infer_category(repo, category_hint)
                 slug, already_exists = choose_output_slug(repo, output_dir, reserved_slugs)
                 if already_exists:
@@ -404,6 +435,9 @@ def main() -> None:
                 if repo_key in known_candidates:
                     skipped_candidate += 1
                     continue
+                if repo_key in rejected_repositories:
+                    skipped_rejected += 1
+                    continue
                 category = infer_category(repo, category_hint)
                 slug, already_exists = choose_output_slug(repo, output_dir, reserved_slugs)
                 if already_exists:
@@ -428,7 +462,8 @@ def main() -> None:
         "Discovery summary: "
         f"new={discovered}, packagist_new={packagist_discovered}, refreshed={refreshed}, "
         f"provider_failures={failed_refreshes}, "
-        f"known_catalog={skipped_catalog}, known_candidates={skipped_candidate}"
+        f"known_catalog={skipped_catalog}, known_candidates={skipped_candidate}, "
+        f"rejected={skipped_rejected}"
     )
     if failed_refreshes > args.max_refresh_failures:
         raise SystemExit(

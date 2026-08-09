@@ -592,6 +592,70 @@ class CatalogScriptTests(unittest.TestCase):
                 keys = discover_tools.candidate_repository_keys()
         self.assertEqual(keys, {"jakzal/phpqa"})
 
+    def test_discovery_does_not_requeue_rejected_candidates_or_reuse_their_slugs(self) -> None:
+        rejected = {
+            "slug": "blocked",
+            "name": "Blocked",
+            "repository": "https://github.com/blocked/blocked",
+            "reason": "Outside the catalog scope.",
+            "rejected_at": "2026-08-08",
+            "reconsider_after": None,
+        }
+        rejected_repo = {
+            "name": "blocked",
+            "full_name": "blocked/blocked",
+            "html_url": "https://github.com/blocked/blocked",
+            "description": "Rejected candidate",
+            "stargazers_count": 100,
+            "topics": ["php"],
+        }
+        allowed_repo = {
+            "name": "blocked",
+            "full_name": "other/blocked",
+            "html_url": "https://github.com/other/blocked",
+            "description": "Different candidate with the same repository name",
+            "stargazers_count": 50,
+            "topics": ["php", "static-analysis"],
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            candidate_dir = root / "common" / "candidates"
+            candidate_dir.mkdir(parents=True)
+            (root / "common" / "rejected-candidates.yaml").write_text(
+                dump_yaml({"reviewed_at": "2026-08-08", "rejections": [rejected]}),
+                encoding="utf-8",
+            )
+            with (
+                patch.object(discover_tools, "ROOT", root),
+                patch("discover_tools.load_catalog", return_value=[]),
+                patch("discover_tools.cli_token", return_value=None),
+                patch("discover_tools.search_repositories", return_value=iter([rejected_repo, allowed_repo])),
+                patch("builtins.print"),
+                patch.object(
+                    sys,
+                    "argv",
+                    [
+                        "discover_tools.py",
+                        "--write",
+                        "--limit",
+                        "1",
+                        "--pages",
+                        "1",
+                        "--per-page",
+                        "2",
+                        "--skip-packagist-discovery",
+                        "--skip-refresh-existing",
+                        "--as-of",
+                        "2026-08-09",
+                    ],
+                ),
+            ):
+                discover_tools.main()
+
+            candidate_files = list(candidate_dir.glob("*.yaml"))
+            self.assertEqual([path.name for path in candidate_files], ["other-blocked.yaml"])
+            self.assertEqual(load_yaml(candidate_files[0])["repository"], allowed_repo["html_url"])
+
     def test_candidate_refresh_preserves_editorial_review_state(self) -> None:
         existing = {
             "slug": "sample",
