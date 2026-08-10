@@ -1,0 +1,28 @@
+slug: "phpstan-extensions"
+name: "phpstan-extensions"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "'ignore' error format, solid Symfony SplFileInfo and other useful extensions for PHPStan"
+website: "https://github.com/symplify/phpstan-extensions"
+public_url: "https://github.com/symplify/phpstan-extensions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/symplify/phpstan-extensions"
+packagist: "https://packagist.org/packages/symplify/phpstan-extensions"
+stars: 39
+repo_updated_at: "2025-11-12T16:46:05Z"
+metadata_updated_at: "2026-08-10T18:33:41Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T18:33:41Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T18:33:41Z"
+discovery_queries:
+  - "packagist:phpstan extension"
