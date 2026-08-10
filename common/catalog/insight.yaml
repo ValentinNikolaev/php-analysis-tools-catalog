@@ -21,10 +21,10 @@ pricing: "Paid per-project plans; current pricing is published on the official s
 reviewed_at: "2026-08-08"
 website: "https://insight.symfony.com/"
 public_url: "https://insight.symfony.com/"
-website_status: "temporarily_unreachable"
-website_status_code: 0
-website_checked_at: "2026-08-08T16:46:47Z"
-website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
+website_status: "available"
+website_status_code: 200
+website_checked_at: "2026-08-10T12:32:32Z"
+website_error: ""
 repository: null
 packagist: null
 stars: 0

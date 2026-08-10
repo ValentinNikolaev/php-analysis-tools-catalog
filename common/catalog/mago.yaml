@@ -19,21 +19,21 @@ website: "http://mago.carthage.software/"
 public_url: "http://mago.carthage.software/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/carthage-software/mago"
 latest_release_name: "Mago 1.46.0"
 latest_release_tag: "1.46.0"
 latest_release_url: "https://github.com/carthage-software/mago/releases/tag/1.46.0"
 latest_release_published_at: "2026-08-05T22:32:17Z"
-latest_release_checked_at: null
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: "https://packagist.org/packages/carthage-software/mago"
 latest_version: "1.46.0"
 latest_version_released_at: "2026-08-05T22:31:08+00:00"
-packagist_checked_at: "2026-08-08T16:46:47Z"
-stars: 3371
-repo_updated_at: "2026-08-08T06:12:16Z"
-metadata_updated_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
+stars: 3374
+repo_updated_at: "2026-08-09T23:12:13Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "php"
   - "static-analysis"

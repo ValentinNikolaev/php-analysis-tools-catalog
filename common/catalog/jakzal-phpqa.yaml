@@ -8,27 +8,29 @@ ecosystems:
   - "docker"
 catalog_status: "current"
 description: "Docker image that provides static analysis tools for PHP"
+upstream_description: "Docker image that provides static analysis tools for PHP"
 best_for: "Running a ready-made PHP analysis toolchain in Docker"
+license: "MIT"
 reviewed_at: "2026-08-08"
 website: "https://hub.docker.com/r/jakzal/phpqa/"
 public_url: "https://hub.docker.com/r/jakzal/phpqa/"
-website_status: "temporarily_unreachable"
-website_status_code: 0
-website_checked_at: "2026-08-08T16:46:47Z"
-website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
+website_status: "available"
+website_status_code: 200
+website_checked_at: "2026-08-10T12:32:32Z"
+website_error: ""
 repository: "https://github.com/jakzal/phpqa"
 latest_release_name: "1.124.1"
 latest_release_tag: "v1.124.1"
 latest_release_url: "https://github.com/jakzal/phpqa/releases/tag/v1.124.1"
 latest_release_published_at: "2026-08-03T06:22:09Z"
-latest_release_checked_at: "2026-08-07T18:31:46Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
 stars: 1319
-repo_updated_at: "2026-08-03T06:22:09Z"
-metadata_updated_at: "2026-08-07T18:31:46Z"
+repo_updated_at: "2026-08-10T08:00:34Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "code-quality"
   - "php"

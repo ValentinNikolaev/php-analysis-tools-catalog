@@ -9,26 +9,28 @@ ecosystems:
   - "generic"
 catalog_status: "current"
 description: "🔎 Static code analysis engine to find security issues in code."
+upstream_description: "🔎 Static code analysis engine to find security issues in code."
+license: "LGPL-2.1"
 reviewed_at: "2026-08-08"
 website: "https://github.com/opengrep/opengrep"
 public_url: "https://github.com/opengrep/opengrep"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/opengrep/opengrep"
 latest_release_name: "Opengrep 1.26.0"
 latest_release_tag: "v1.26.0"
 latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.26.0"
 latest_release_published_at: "2026-07-24T20:00:53Z"
-latest_release_checked_at: "2026-08-07T18:31:46Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
-stars: 2886
-repo_updated_at: "2026-08-07T16:03:08Z"
-metadata_updated_at: "2026-08-07T18:31:46Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
+stars: 2900
+repo_updated_at: "2026-08-10T12:30:48Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."

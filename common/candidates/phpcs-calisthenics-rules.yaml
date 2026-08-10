@@ -1,0 +1,28 @@
+slug: "phpcs-calisthenics-rules"
+name: "phpcs-calisthenics-rules"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "[DEPRECATED] Object Calisthenics rules for PHP_CodeSniffer "
+website: "https://tomasvotruba.com/blog/2017/06/26/php-object-calisthenics-rules-made-simple-version-3-0-is-out-now/"
+public_url: "https://tomasvotruba.com/blog/2017/06/26/php-object-calisthenics-rules-made-simple-version-3-0-is-out-now/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/object-calisthenics/phpcs-calisthenics-rules"
+packagist: null
+stars: 595
+repo_updated_at: "2021-06-23T11:19:29Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

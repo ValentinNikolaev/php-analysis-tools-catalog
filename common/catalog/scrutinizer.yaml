@@ -3,18 +3,20 @@ name: "Scrutinizer"
 category: "SaaS"
 catalog_status: "historical"
 description: "The retired Scrutinizer service provided continuous inspection for automated code-quality and bug detection."
+upstream_description: "Legacy repository - archives past feature requests/bug reports"
 website: "https://scrutinizer-ci.com/"
 public_url: "https://scrutinizer-ci.com/"
-website_status: "temporarily_unreachable"
-website_status_code: 0
-website_checked_at: "2026-08-08T16:46:47Z"
-website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
+website_status: "available"
+website_status_code: 200
+website_checked_at: "2026-08-10T12:32:32Z"
+website_error: ""
 repository: "https://github.com/scrutinizer-ci/scrutinizer"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
 stars: 138
 repo_updated_at: "2017-01-05T10:04:00Z"
-metadata_updated_at: "2026-08-07T09:46:41Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "archived"
 source: "https://github.com/scrutinizer-ci/scrutinizer"

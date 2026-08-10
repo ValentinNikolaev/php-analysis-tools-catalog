@@ -10,26 +10,28 @@ ecosystems:
   - "git"
 catalog_status: "current"
 description: "PHP static analysis for architecture & maintainability — 60+ metrics, complexity analysis, dependency graphs, git churn hotspots, and AI-ready MCP server. Alternative to PHPMetrics."
+upstream_description: "PHP static analysis for architecture & maintainability — 60+ metrics, complexity analysis, dependency graphs, git churn hotspots, and AI-ready MCP server. Alternative to PHPMetrics."
+license: "MIT"
 reviewed_at: "2026-08-08"
 website: "https://phpcodearcheology.github.io"
 public_url: "https://phpcodearcheology.github.io"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/PhpCodeArcheology/PhpCodeArcheology"
 latest_release_name: "v2.11.2"
 latest_release_tag: "v2.11.2"
 latest_release_url: "https://github.com/PhpCodeArcheology/PhpCodeArcheology/releases/tag/v2.11.2"
 latest_release_published_at: "2026-07-27T12:28:14Z"
-latest_release_checked_at: "2026-08-07T12:30:54Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
 stars: 87
-repo_updated_at: "2026-08-01T07:45:11Z"
-metadata_updated_at: "2026-08-07T12:30:54Z"
+repo_updated_at: "2026-08-08T07:42:39Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "code-quality"
   - "php"

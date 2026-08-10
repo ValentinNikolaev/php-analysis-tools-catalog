@@ -9,25 +9,28 @@ ecosystems:
   - "generic"
 catalog_status: "current"
 description: "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+upstream_description: "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+license: "LGPL-2.1"
 reviewed_at: "2026-08-08"
 website: "https://semgrep.dev"
 public_url: "https://semgrep.dev"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/semgrep/semgrep"
 latest_release_name: "Release v1.172.0"
 latest_release_tag: "v1.172.0"
 latest_release_url: "https://github.com/semgrep/semgrep/releases/tag/v1.172.0"
 latest_release_published_at: "2026-07-28T22:40:28Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
-stars: 16138
-repo_updated_at: "2026-08-07T01:13:57Z"
-metadata_updated_at: "2026-08-07T09:46:41Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
+stars: 16167
+repo_updated_at: "2026-08-10T00:13:36Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "static-analysis"
 source: "https://github.com/semgrep/semgrep"

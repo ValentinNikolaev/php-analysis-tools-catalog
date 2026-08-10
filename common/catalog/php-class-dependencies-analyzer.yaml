@@ -9,22 +9,23 @@ ecosystems:
   - "generic"
 catalog_status: "current"
 description: "This tool allows you to monitor the dependencies and instability of your classes"
+upstream_description: "This tool allows you to monitor the dependencies and instability of your classes"
 reviewed_at: "2026-08-08"
 website: "https://php-quality-tools.com/class-dependencies-analyzer/"
 public_url: "https://php-quality-tools.com/class-dependencies-analyzer/"
 website_status: "temporarily_unreachable"
 website_status_code: 0
-website_checked_at: "2026-08-08T16:46:47Z"
-website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'php-quality-tools.com'. (_ssl.c:1082)"
+website_checked_at: "2026-08-10T12:32:32Z"
+website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'php-quality-tools.com'. (_ssl.c:1010)"
 repository: "https://github.com/DeGraciaMathieu/php-class-dependencies-analyzer"
-latest_release_checked_at: "2026-08-07T12:30:54Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
 stars: 21
 repo_updated_at: "2026-01-06T08:52:37Z"
-metadata_updated_at: "2026-08-07T12:30:54Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "php"
   - "static-analysis"

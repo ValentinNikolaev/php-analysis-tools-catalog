@@ -1,0 +1,28 @@
+slug: "php-language-server"
+name: "php-language-server"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "PHP Implementation of the VS Code Language Server Protocol 🆚↔🖥"
+website: "https://github.com/felixfbecker/php-language-server"
+public_url: "https://github.com/felixfbecker/php-language-server"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/felixfbecker/php-language-server"
+packagist: null
+stars: 1195
+repo_updated_at: "2023-05-15T12:46:10Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"
