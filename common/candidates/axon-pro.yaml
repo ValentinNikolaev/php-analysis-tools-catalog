@@ -1,0 +1,28 @@
+slug: "axon-pro"
+name: "axon-pro"
+category: "Architecture rules"
+artifact_type: "analyzer"
+description: "Enterprise-grade graph-powered code intelligence engine. Deep structural awareness for Laravel, PHP, Python, and JS. Powers AI agents with high-fidelity architectural context via MCP & Neo4j."
+website: "https://github.com/talhamsajid/axon-pro"
+public_url: "https://github.com/talhamsajid/axon-pro"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/talhamsajid/axon-pro"
+packagist: null
+stars: 53
+repo_updated_at: "2026-02-26T05:15:39Z"
+metadata_updated_at: "2026-08-10T18:33:41Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T18:33:41Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T18:33:41Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

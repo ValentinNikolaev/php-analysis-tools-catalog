@@ -1,0 +1,28 @@
+slug: "pdo-database-class"
+name: "pdo-database-class"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Framework-agnostic PHP database library with unified API for MySQL, MariaDB, PostgreSQL, SQLite, MSSQL, and Oracle. Query Builder, caching, sharding, window functions, CTEs, JSON, migrations, ActiveRecord, CLI tools, AI-powered analysis. Zero external dependencies."
+website: "https://github.com/tommyknocker/pdo-database-class"
+public_url: "https://github.com/tommyknocker/pdo-database-class"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/tommyknocker/pdo-database-class"
+packagist: null
+stars: 82
+repo_updated_at: "2026-04-10T02:40:24Z"
+metadata_updated_at: "2026-08-10T18:33:41Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T18:33:41Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T18:33:41Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

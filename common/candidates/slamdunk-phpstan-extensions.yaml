@@ -1,0 +1,29 @@
+slug: "slamdunk-phpstan-extensions"
+name: "phpstan-extensions"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Extensions for PHPStan"
+website: "https://github.com/Slamdunk/phpstan-extensions"
+public_url: "https://github.com/Slamdunk/phpstan-extensions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Slamdunk/phpstan-extensions"
+packagist: null
+stars: 72
+repo_updated_at: "2026-08-07T13:36:38Z"
+metadata_updated_at: "2026-08-10T18:33:41Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T18:33:41Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T18:33:41Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"
