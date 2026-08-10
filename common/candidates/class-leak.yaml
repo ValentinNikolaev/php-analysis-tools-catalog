@@ -1,0 +1,28 @@
+slug: "class-leak"
+name: "class-leak"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Find leaking classes that you never use... and get rid of them."
+website: "https://tomasvotruba.com/blog/how-to-avoid-maintaining-classes-you-dont-use"
+public_url: "https://tomasvotruba.com/blog/how-to-avoid-maintaining-classes-you-dont-use"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/TomasVotruba/class-leak"
+packagist: null
+stars: 149
+repo_updated_at: "2026-06-20T16:20:05Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

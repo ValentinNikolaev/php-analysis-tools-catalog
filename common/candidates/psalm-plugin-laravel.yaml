@@ -1,0 +1,30 @@
+slug: "psalm-plugin-laravel"
+name: "psalm-plugin-laravel"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Security-focused Laravel static analyser"
+website: "https://github.com/psalm/psalm-plugin-laravel"
+public_url: "https://github.com/psalm/psalm-plugin-laravel"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/psalm/psalm-plugin-laravel"
+packagist: null
+stars: 334
+repo_updated_at: "2026-08-07T22:08:28Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "psalm"
+  - "security"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

@@ -1,0 +1,28 @@
+slug: "doctrine-doctor"
+name: "doctrine-doctor"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "🩺⚡ Runtime Doctrine ORM analysis integrated into Symfony Web Profiler. Detect N+1 queries, security vulnerabilities, and performance issues during query execution."
+website: "https://github.com/ahmed-bhs/doctrine-doctor"
+public_url: "https://github.com/ahmed-bhs/doctrine-doctor"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ahmed-bhs/doctrine-doctor"
+packagist: null
+stars: 124
+repo_updated_at: "2026-07-30T20:35:53Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

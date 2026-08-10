@@ -1,0 +1,29 @@
+slug: "phpstan-bodyscan"
+name: "phpstan-bodyscan"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Get error count for each PHPStan level"
+website: "https://github.com/TomasVotruba/phpstan-bodyscan"
+public_url: "https://github.com/TomasVotruba/phpstan-bodyscan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/TomasVotruba/phpstan-bodyscan"
+packagist: null
+stars: 135
+repo_updated_at: "2026-08-04T07:46:13Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

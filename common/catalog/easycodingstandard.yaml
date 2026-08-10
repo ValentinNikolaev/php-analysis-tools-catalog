@@ -10,23 +10,26 @@ ecosystems:
   - "php-cs-fixer"
 catalog_status: "current"
 description: "ECS runs PHP-CS-Fixer and PHP_CodeSniffer as a single, parallel fast tool with zero dependencies. Run on PHP 7.2+"
+upstream_description: "ECS runs PHP-CS-Fixer and PHP_CodeSniffer as a single, parallel fast tool with zero dependencies. Run on PHP 7.2+"
+license: "MIT"
 reviewed_at: "2026-08-08"
 website: "https://github.com/Symplify/EasyCodingStandard"
 public_url: "https://github.com/Symplify/EasyCodingStandard"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/ecsphp/ecs"
 latest_release_name: "Released ECS 13.2.15"
 latest_release_tag: "13.2.15"
 latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.2.15"
 latest_release_published_at: "2026-07-22T18:56:55Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
-stars: 1619
+packagist_checked_at: "2026-08-10T12:32:32Z"
+stars: 1620
 repo_updated_at: "2026-07-22T20:02:46Z"
-metadata_updated_at: "2026-08-07T04:09:39Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "php"
 source: "README.md"

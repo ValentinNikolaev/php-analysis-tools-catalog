@@ -9,26 +9,27 @@ ecosystems:
   - "composer"
 catalog_status: "current"
 description: "Library that find out the minimum version and the extensions required for a piece of code to run"
+upstream_description: "Library that find out the minimum version and the extensions required for a piece of code to run"
 reviewed_at: "2026-08-08"
 website: "https://llaville.github.io/php-compatinfo/7.2/"
 public_url: "https://llaville.github.io/php-compatinfo/7.2/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-08T16:46:47Z"
+website_checked_at: "2026-08-10T12:32:32Z"
 website_error: ""
 repository: "https://github.com/llaville/php-compatinfo"
 latest_release_name: "7.2.6"
 latest_release_tag: "7.2.6"
 latest_release_url: "https://github.com/llaville/php-compatinfo/releases/tag/7.2.6"
 latest_release_published_at: "2026-04-22T05:01:40Z"
-latest_release_checked_at: "2026-08-07T12:30:54Z"
+latest_release_checked_at: "2026-08-10T12:32:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-08T16:46:47Z"
+packagist_checked_at: "2026-08-10T12:32:32Z"
 stars: 380
 repo_updated_at: "2026-05-20T15:35:41Z"
-metadata_updated_at: "2026-08-07T12:30:54Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

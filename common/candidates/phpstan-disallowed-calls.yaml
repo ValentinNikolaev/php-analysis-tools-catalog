@@ -1,0 +1,29 @@
+slug: "phpstan-disallowed-calls"
+name: "phpstan-disallowed-calls"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "PHPStan rules to detect disallowed method & function calls, constant, namespace, attribute, keyword & superglobal usages, with powerful rules to re-allow a call or a usage in places where it should be allowed."
+website: "https://github.com/spaze/phpstan-disallowed-calls"
+public_url: "https://github.com/spaze/phpstan-disallowed-calls"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/spaze/phpstan-disallowed-calls"
+packagist: null
+stars: 339
+repo_updated_at: "2026-08-02T15:32:10Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

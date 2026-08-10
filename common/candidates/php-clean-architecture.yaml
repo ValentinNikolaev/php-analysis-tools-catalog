@@ -1,0 +1,28 @@
+slug: "php-clean-architecture"
+name: "php-clean-architecture"
+category: "Architecture rules"
+artifact_type: "analyzer"
+description: "Инструмент для измерения качества, упрощения анализа и автоматизации контроля архитектуры приложений на PHP."
+website: "https://github.com/Chetkov/php-clean-architecture"
+public_url: "https://github.com/Chetkov/php-clean-architecture"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Chetkov/php-clean-architecture"
+packagist: null
+stars: 146
+repo_updated_at: "2026-06-01T17:02:43Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

@@ -1,0 +1,30 @@
+slug: "php-code-quality"
+name: "php-code-quality"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Docker image containing multiple code quality tools for PHP (phpqatools and more)."
+website: "https://hub.docker.com/r/adamculp/php-code-quality/"
+public_url: "https://hub.docker.com/r/adamculp/php-code-quality/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/adamculp/php-code-quality"
+packagist: null
+stars: 158
+repo_updated_at: "2026-04-13T22:48:32Z"
+metadata_updated_at: "2026-08-10T12:32:32Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-10T12:32:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-10T12:32:32Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"
