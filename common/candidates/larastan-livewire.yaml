@@ -1,0 +1,28 @@
+slug: "larastan-livewire"
+name: "larastan-livewire"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Larastan / PHPStan extension for Livewire"
+website: "https://github.com/calebdw/larastan-livewire"
+public_url: "https://github.com/calebdw/larastan-livewire"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/calebdw/larastan-livewire"
+packagist: "https://packagist.org/packages/calebdw/larastan-livewire"
+stars: 61
+repo_updated_at: "2026-06-29T02:38:45Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "packagist:phpstan extension"

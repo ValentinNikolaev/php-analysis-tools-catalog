@@ -1,0 +1,28 @@
+slug: "vscode-php-phan"
+name: "vscode-php-phan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Phan - PHP Static Analysis for VS Code"
+website: "https://github.com/TysonAndre/vscode-php-phan"
+public_url: "https://github.com/TysonAndre/vscode-php-phan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/TysonAndre/vscode-php-phan"
+packagist: null
+stars: 23
+repo_updated_at: "2023-07-19T03:41:12Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

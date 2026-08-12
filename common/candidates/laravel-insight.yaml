@@ -1,0 +1,28 @@
+slug: "laravel-insight"
+name: "laravel-insight"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "IDEA plugin to works with Laravel Framework."
+website: "https://github.com/rentalhost/laravel-insight"
+public_url: "https://github.com/rentalhost/laravel-insight"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/rentalhost/laravel-insight"
+packagist: null
+stars: 27
+repo_updated_at: "2017-12-30T22:31:17Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

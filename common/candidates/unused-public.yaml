@@ -1,0 +1,28 @@
+slug: "unused-public"
+name: "unused-public"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Find Unused Public Elements in Your Code"
+website: "https://tomasvotruba.com/blog/can-phpstan-find-dead-public-methods/"
+public_url: "https://tomasvotruba.com/blog/can-phpstan-find-dead-public-methods/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/TomasVotruba/unused-public"
+packagist: "https://packagist.org/packages/tomasvotruba/unused-public"
+stars: 196
+repo_updated_at: "2026-06-21T23:38:42Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "packagist:phpstan extension"

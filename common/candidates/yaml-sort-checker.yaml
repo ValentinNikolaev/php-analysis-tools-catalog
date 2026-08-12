@@ -1,0 +1,28 @@
+slug: "yaml-sort-checker"
+name: "yaml-sort-checker"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Tool for checking if the YAML config files are alphabetically sorted"
+website: "https://github.com/mhujer/yaml-sort-checker"
+public_url: "https://github.com/mhujer/yaml-sort-checker"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/mhujer/yaml-sort-checker"
+packagist: null
+stars: 23
+repo_updated_at: "2023-01-03T15:07:15Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

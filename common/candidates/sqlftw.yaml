@@ -1,0 +1,28 @@
+slug: "sqlftw"
+name: "sqlftw"
+category: "DIY"
+artifact_type: "library"
+description: "Moved to Codeberg → https://codeberg.org/paranoiq/sqlftw"
+website: "https://codeberg.org/paranoiq/sqlftw"
+public_url: "https://codeberg.org/paranoiq/sqlftw"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/SQLFTW/sqlftw"
+packagist: null
+stars: 25
+repo_updated_at: "2026-06-07T19:07:32Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

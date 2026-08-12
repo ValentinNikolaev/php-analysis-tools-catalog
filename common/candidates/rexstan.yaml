@@ -1,0 +1,29 @@
+slug: "rexstan"
+name: "rexstan"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "redaxo phpstan addon"
+website: "https://staabm.github.io/archive.html#rexstan"
+public_url: "https://staabm.github.io/archive.html#rexstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/FriendsOfREDAXO/rexstan"
+packagist: null
+stars: 41
+repo_updated_at: "2026-08-10T05:59:31Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

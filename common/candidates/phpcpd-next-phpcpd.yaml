@@ -1,0 +1,29 @@
+slug: "phpcpd-next-phpcpd"
+name: "phpcpd"
+category: "Fixers"
+artifact_type: "fixer"
+description: " phpcpd-next is a token-based copy/paste (clone) detector for PHP 8.5+, a modernized, openly-licensed successor to Sebastian Bergmann's phpcpd"
+website: "https://github.com/phpcpd-next/phpcpd"
+public_url: "https://github.com/phpcpd-next/phpcpd"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpcpd-next/phpcpd"
+packagist: null
+stars: 32
+repo_updated_at: "2026-07-19T18:03:46Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"
