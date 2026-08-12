@@ -14,7 +14,7 @@ latest_version: ""
 latest_version_released_at: null
 stars: 299
 repo_updated_at: "2026-05-29T09:15:58Z"
-metadata_updated_at: "2026-08-10T12:32:32Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
 quality_tags:
   - "php"
 source: "github-search"
@@ -24,4 +24,4 @@ discovered_at: "2026-08-06"
 last_reviewed_at: "2026-08-08"
 reconsider_after: null
 notes: "Kept as the only actionable discovery candidate after the 2026-08-08 queue review."
-last_discovered_at: "2026-08-10T12:32:32Z"
+last_discovered_at: "2026-08-12T12:32:55Z"

@@ -1,0 +1,28 @@
+slug: "phpstan-el"
+name: "phpstan.el"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Interface to PHPStan (PHP static analyzer)"
+website: "https://github.com/emacs-php/phpstan.el"
+public_url: "https://github.com/emacs-php/phpstan.el"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/emacs-php/phpstan.el"
+packagist: null
+stars: 28
+repo_updated_at: "2026-07-18T14:28:32Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

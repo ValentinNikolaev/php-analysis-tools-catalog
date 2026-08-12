@@ -13,7 +13,7 @@ repository: "https://github.com/noctud/collection"
 packagist: null
 stars: 56
 repo_updated_at: "2026-08-01T21:22:25Z"
-metadata_updated_at: "2026-08-10T18:33:41Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-10T18:33:41Z"
+last_discovered_at: "2026-08-12T12:32:55Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

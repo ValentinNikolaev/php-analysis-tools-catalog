@@ -1,0 +1,29 @@
+slug: "vim-phpstan"
+name: "vim-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "A Vim plugin for PHPStan - https://github.com/phpstan/phpstan. It calls `phpstan` to do static analysis of your PHP code and displays the errors in Vim's quickfix list."
+website: "https://github.com/phpstan/vim-phpstan"
+public_url: "https://github.com/phpstan/vim-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpstan/vim-phpstan"
+packagist: null
+stars: 31
+repo_updated_at: "2018-03-31T18:45:00Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

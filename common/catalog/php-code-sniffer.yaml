@@ -15,21 +15,21 @@ website: "https://github.com/squizlabs/PHP_CodeSniffer"
 public_url: "https://github.com/squizlabs/PHP_CodeSniffer"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-10T12:32:32Z"
+website_checked_at: "2026-08-12T12:32:55Z"
 website_error: ""
 repository: "https://github.com/squizlabs/PHP_CodeSniffer"
 latest_release_name: "3.7.2"
 latest_release_tag: "3.7.2"
 latest_release_url: "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/3.7.2"
 latest_release_published_at: "2023-02-22T23:13:42Z"
-latest_release_checked_at: "2026-08-10T12:32:32Z"
+latest_release_checked_at: "2026-08-12T12:32:55Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-10T12:32:32Z"
-stars: 10773
+packagist_checked_at: "2026-08-12T12:32:55Z"
+stars: 10774
 repo_updated_at: "2024-04-01T20:37:32Z"
-metadata_updated_at: "2026-08-10T12:32:32Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
 quality_tags:
   - "php"
   - "static-analysis"

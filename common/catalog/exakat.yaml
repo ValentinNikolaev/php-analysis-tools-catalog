@@ -8,19 +8,19 @@ website: "http://www.exakat.io/"
 public_url: "http://www.exakat.io/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-10T12:32:32Z"
+website_checked_at: "2026-08-12T12:32:55Z"
 website_error: ""
 repository: "https://github.com/exakat/exakat"
 latest_release_name: "version 0.6.1"
 latest_release_tag: "v-0.6.1"
 latest_release_url: "https://github.com/exakat/exakat/releases/tag/v-0.6.1"
 latest_release_published_at: "2016-04-18T16:44:46Z"
-latest_release_checked_at: "2026-08-10T12:32:32Z"
+latest_release_checked_at: "2026-08-12T12:32:55Z"
 packagist: null
-packagist_checked_at: "2026-08-10T12:32:32Z"
+packagist_checked_at: "2026-08-12T12:32:55Z"
 stars: 380
 repo_updated_at: "2022-03-24T09:32:24Z"
-metadata_updated_at: "2026-08-10T12:32:32Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
 quality_tags:
   - "archived"
   - "php"

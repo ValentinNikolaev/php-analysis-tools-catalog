@@ -1,0 +1,29 @@
+slug: "comments-density"
+name: "Comments-Density"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "A code quality control tool for PHP that will give you an idea of the composition of comments in the codebase, and help improve documentation"
+website: "https://github.com/savinmikhail/Comments-Density"
+public_url: "https://github.com/savinmikhail/Comments-Density"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/savinmikhail/Comments-Density"
+packagist: null
+stars: 50
+repo_updated_at: "2025-03-01T08:20:38Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

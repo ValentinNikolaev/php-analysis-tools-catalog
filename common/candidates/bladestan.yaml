@@ -1,0 +1,26 @@
+slug: "bladestan"
+name: "bladestan"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "PHPStan analysis for Blade templates"
+website: "https://tomasvotruba.com/blog/introducing-bladestan-phpstan-analysis-of-blade-templates/"
+public_url: "https://tomasvotruba.com/blog/introducing-bladestan-phpstan-analysis-of-blade-templates/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/bladestan/bladestan"
+packagist: "https://packagist.org/packages/tomasvotruba/bladestan"
+stars: 375
+repo_updated_at: "2026-08-01T07:49:01Z"
+metadata_updated_at: "2026-08-12T12:32:55Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-12T12:32:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-12T12:32:55Z"
+discovery_queries:
+  - "packagist:phpstan extension"
