@@ -1,0 +1,29 @@
+slug: "yii2-extensions-phpstan"
+name: "phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Enhanced static analysis for Yii2 applications with PHPStan. Precise type inference, dynamic method resolution, and comprehensive property reflection."
+website: "https://github.com/yii2-extensions/phpstan"
+public_url: "https://github.com/yii2-extensions/phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/yii2-extensions/phpstan"
+packagist: null
+stars: 21
+repo_updated_at: "2026-07-31T09:03:03Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

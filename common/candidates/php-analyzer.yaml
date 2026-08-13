@@ -1,0 +1,26 @@
+slug: "php-analyzer"
+name: "php-analyzer"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Performs advanced static analysis on PHP code"
+website: "https://scrutinizer-ci.com/docs/tools/php/php-analyzer/"
+public_url: "https://scrutinizer-ci.com/docs/tools/php/php-analyzer/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/scrutinizer-ci/php-analyzer"
+packagist: null
+stars: 439
+repo_updated_at: "2021-10-03T18:09:07Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "PHP static analyzer stars:>20"

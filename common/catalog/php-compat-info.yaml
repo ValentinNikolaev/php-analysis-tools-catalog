@@ -15,21 +15,21 @@ website: "https://llaville.github.io/php-compatinfo/7.2/"
 public_url: "https://llaville.github.io/php-compatinfo/7.2/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-12T12:32:55Z"
+website_checked_at: "2026-08-13T18:35:01Z"
 website_error: ""
 repository: "https://github.com/llaville/php-compatinfo"
 latest_release_name: "7.2.6"
 latest_release_tag: "7.2.6"
 latest_release_url: "https://github.com/llaville/php-compatinfo/releases/tag/7.2.6"
 latest_release_published_at: "2026-04-22T05:01:40Z"
-latest_release_checked_at: "2026-08-12T12:32:55Z"
+latest_release_checked_at: "2026-08-13T18:35:01Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-12T12:32:55Z"
+packagist_checked_at: "2026-08-13T18:35:01Z"
 stars: 380
 repo_updated_at: "2026-05-20T15:35:41Z"
-metadata_updated_at: "2026-08-12T12:32:55Z"
+metadata_updated_at: "2026-08-13T18:35:01Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

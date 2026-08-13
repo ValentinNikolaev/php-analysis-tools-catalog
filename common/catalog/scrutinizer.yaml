@@ -8,15 +8,15 @@ website: "https://scrutinizer-ci.com/"
 public_url: "https://scrutinizer-ci.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-12T12:32:55Z"
+website_checked_at: "2026-08-13T18:35:01Z"
 website_error: ""
 repository: "https://github.com/scrutinizer-ci/scrutinizer"
-latest_release_checked_at: "2026-08-12T12:32:55Z"
+latest_release_checked_at: "2026-08-13T18:35:01Z"
 packagist: null
-packagist_checked_at: "2026-08-12T12:32:55Z"
+packagist_checked_at: "2026-08-13T18:35:01Z"
 stars: 138
 repo_updated_at: "2017-01-05T10:04:00Z"
-metadata_updated_at: "2026-08-12T12:32:55Z"
+metadata_updated_at: "2026-08-13T18:35:01Z"
 quality_tags:
   - "archived"
 source: "https://github.com/scrutinizer-ci/scrutinizer"

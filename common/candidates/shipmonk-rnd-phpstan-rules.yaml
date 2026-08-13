@@ -1,0 +1,28 @@
+slug: "shipmonk-rnd-phpstan-rules"
+name: "phpstan-rules"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "📏 Various extra strict PHPStan rules we found useful in ShipMonk."
+website: "https://github.com/shipmonk-rnd/phpstan-rules"
+public_url: "https://github.com/shipmonk-rnd/phpstan-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/shipmonk-rnd/phpstan-rules"
+packagist: null
+stars: 155
+repo_updated_at: "2026-07-17T13:52:02Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

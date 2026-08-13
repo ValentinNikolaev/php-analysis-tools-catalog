@@ -1,0 +1,28 @@
+slug: "demo"
+name: "demo"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Run phan entirely in your browser (with emscripten)"
+website: "https://phan.github.io/demo/"
+public_url: "https://phan.github.io/demo/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phan/demo"
+packagist: null
+stars: 23
+repo_updated_at: "2026-06-22T20:11:04Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"
