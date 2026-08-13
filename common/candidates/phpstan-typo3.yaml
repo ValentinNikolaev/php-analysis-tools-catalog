@@ -13,7 +13,7 @@ repository: "https://github.com/sascha-egerer/phpstan-typo3"
 packagist: "https://packagist.org/packages/saschaegerer/phpstan-typo3"
 stars: 51
 repo_updated_at: "2026-07-30T21:50:07Z"
-metadata_updated_at: "2026-08-12T12:32:55Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-12T12:32:55Z"
+last_discovered_at: "2026-08-13T18:35:00Z"
 discovery_queries:
   - "packagist:phpstan extension"

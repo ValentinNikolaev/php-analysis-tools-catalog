@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/phpstan/phpstan-doctrine"
 packagist: "https://packagist.org/packages/phpstan/phpstan-doctrine"
-stars: 673
-repo_updated_at: "2026-08-11T21:52:26Z"
-metadata_updated_at: "2026-08-12T12:32:55Z"
+stars: 674
+repo_updated_at: "2026-08-12T13:52:21Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-08T00:00:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-12T12:32:55Z"
+last_discovered_at: "2026-08-13T18:35:00Z"
 discovery_queries:
   - "packagist:phpstan extension"

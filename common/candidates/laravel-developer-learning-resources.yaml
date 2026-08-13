@@ -1,0 +1,28 @@
+slug: "laravel-developer-learning-resources"
+name: "laravel-developer-learning-resources"
+category: "Misc"
+artifact_type: "analyzer"
+description: "Laravel developer learning resources purpose is to make you to be a great Software Engineer"
+website: "https://github.com/freddymu/laravel-developer-learning-resources"
+public_url: "https://github.com/freddymu/laravel-developer-learning-resources"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/freddymu/laravel-developer-learning-resources"
+packagist: null
+stars: 21
+repo_updated_at: "2020-07-20T08:09:11Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:code-quality stars:>20"

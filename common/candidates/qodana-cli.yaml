@@ -1,0 +1,28 @@
+slug: "qodana-cli"
+name: "qodana-cli"
+category: "Misc"
+artifact_type: "analyzer"
+description: "🔧 JetBrains Qodana’s official command line tool"
+website: "https://www.jetbrains.com/help/qodana/getting-started.html"
+public_url: "https://www.jetbrains.com/help/qodana/getting-started.html"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/JetBrains/qodana-cli"
+packagist: null
+stars: 238
+repo_updated_at: "2026-08-13T15:35:47Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:code-quality stars:>20"

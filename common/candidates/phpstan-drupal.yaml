@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/mglaman/phpstan-drupal"
 packagist: "https://packagist.org/packages/mglaman/phpstan-drupal"
 stars: 208
-repo_updated_at: "2026-08-05T19:33:18Z"
-metadata_updated_at: "2026-08-12T12:32:55Z"
+repo_updated_at: "2026-08-13T15:48:33Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-12T12:32:55Z"
+last_discovered_at: "2026-08-13T18:35:00Z"
 discovery_queries:
   - "packagist:phpstan extension"

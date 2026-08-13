@@ -1,0 +1,28 @@
+slug: "ph-puml"
+name: "ph-puml"
+category: "Architecture rules"
+artifact_type: "analyzer"
+description: "PlantUML class diagram generator for PHP code"
+website: "https://github.com/jhofm/ph-puml"
+public_url: "https://github.com/jhofm/ph-puml"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/jhofm/ph-puml"
+packagist: null
+stars: 27
+repo_updated_at: "2022-12-29T18:15:16Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:code-quality stars:>20"

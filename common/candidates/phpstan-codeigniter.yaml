@@ -1,0 +1,28 @@
+slug: "phpstan-codeigniter"
+name: "phpstan-codeigniter"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "CodeIgniter extensions and rules for PHPStan"
+website: "https://codeigniter.com/"
+public_url: "https://codeigniter.com/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/CodeIgniter/phpstan-codeigniter"
+packagist: null
+stars: 22
+repo_updated_at: "2026-07-21T03:03:02Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

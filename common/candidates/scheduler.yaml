@@ -1,0 +1,28 @@
+slug: "scheduler"
+name: "scheduler"
+category: "Architecture rules"
+artifact_type: "analyzer"
+description: "Laravel on my way"
+website: "https://github.com/zabaala/scheduler"
+public_url: "https://github.com/zabaala/scheduler"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/zabaala/scheduler"
+packagist: null
+stars: 23
+repo_updated_at: "2018-01-24T11:53:28Z"
+metadata_updated_at: "2026-08-13T18:35:00Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-13T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-13T18:35:00Z"
+discovery_queries:
+  - "topic:php topic:code-quality stars:>20"

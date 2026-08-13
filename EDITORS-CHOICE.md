@@ -11,8 +11,8 @@ Tools that inspect PHP code without running it to identify type errors, defects,
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [PHPStan](https://github.com/phpstan/phpstan)<br><sub>⭐ 14,069</sub> | PHP applications that need configurable type-safety checks and a broad extension ecosystem | Rule levels, baselines, and framework extensions support both gradual adoption and deep type analysis. |
-| [psalm](https://psalm.dev)<br><sub>⭐ 5,879</sub> | Projects needing advanced type modelling, taint analysis, and security checks | An expressive type system and taint engine cover correctness and application-security problems. |
+| [PHPStan](https://github.com/phpstan/phpstan)<br><sub>⭐ 14,070</sub> | PHP applications that need configurable type-safety checks and a broad extension ecosystem | Rule levels, baselines, and framework extensions support both gradual adoption and deep type analysis. |
+| [psalm](https://psalm.dev)<br><sub>⭐ 5,881</sub> | Projects needing advanced type modelling, taint analysis, and security checks | An expressive type system and taint engine cover correctness and application-security problems. |
 
 ## Coding standards
 
@@ -46,7 +46,7 @@ Tools that automatically correct coding-standard violations, upgrade PHP syntax,
 |---|---|---|
 | [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)<br><sub>⭐ 13,547</sub> | Projects that want automatic formatting and coding-standard fixes | A broad fixer catalog and custom rule sets make formatting changes deterministic and automatable. |
 | [Rector](https://github.com/rectorphp/rector)<br><sub>⭐ 10,400</sub> | Teams automating PHP upgrades, framework migrations, or repeatable refactoring | AST-based rules turn upgrades and refactoring recipes into reviewable project-wide code changes. |
-| [Laravel Pint](https://laravel.com/docs/pint)<br><sub>⭐ 3,149</sub> | Laravel projects that want a low-configuration, framework-oriented formatter | Laravel-maintained presets deliver practical PHP-CS-Fixer defaults with very little setup. |
+| [Laravel Pint](https://laravel.com/docs/pint)<br><sub>⭐ 3,148</sub> | Laravel projects that want a low-configuration, framework-oriented formatter | Laravel-maintained presets deliver practical PHP-CS-Fixer defaults with very little setup. |
 
 ## Specialized tools
 
@@ -54,4 +54,4 @@ Wrappers, baseliners, multi-language engines, and focused analysis tools that do
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,190</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
+| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,206</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
