@@ -1,0 +1,26 @@
+slug: "phpstan-latte"
+name: "phpstan-latte"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension to check compiled latte templates"
+website: "https://github.com/efabrica-team/phpstan-latte"
+public_url: "https://github.com/efabrica-team/phpstan-latte"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/efabrica-team/phpstan-latte"
+packagist: null
+stars: 45
+repo_updated_at: "2026-04-08T07:09:07Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

@@ -1,0 +1,27 @@
+slug: "wp-compat"
+name: "wp-compat"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension to help verify that your plugin or theme remains compatible with its minimum supported version of WordPress"
+website: "https://github.com/johnbillion/wp-compat"
+public_url: "https://github.com/johnbillion/wp-compat"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/johnbillion/wp-compat"
+packagist: "https://packagist.org/packages/johnbillion/wp-compat"
+stars: 25
+repo_updated_at: "2026-07-31T13:41:35Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "packagist:phpstan extension"

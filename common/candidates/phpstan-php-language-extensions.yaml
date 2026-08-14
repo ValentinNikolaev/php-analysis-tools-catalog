@@ -1,0 +1,26 @@
+slug: "phpstan-php-language-extensions"
+name: "phpstan-php-language-extensions"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for validating php-language-extensions"
+website: "https://github.com/DaveLiddament/phpstan-php-language-extensions"
+public_url: "https://github.com/DaveLiddament/phpstan-php-language-extensions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/DaveLiddament/phpstan-php-language-extensions"
+packagist: "https://packagist.org/packages/dave-liddament/phpstan-php-language-extensions"
+stars: 45
+repo_updated_at: "2025-11-29T14:28:39Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "packagist:phpstan extension"

@@ -1,0 +1,27 @@
+slug: "ctor"
+name: "ctor"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "[deprecated] Rule moved to see ↓"
+website: "https://github.com/symplify/phpstan-rules#newoversettersrule"
+public_url: "https://github.com/symplify/phpstan-rules#newoversettersrule"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/deprecated-packages/ctor"
+packagist: null
+stars: 15
+repo_updated_at: "2026-06-07T19:03:34Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "phpstan"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

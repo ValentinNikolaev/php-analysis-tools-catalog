@@ -16,7 +16,7 @@ website: "https://github.com/opengrep/opengrep"
 public_url: "https://github.com/opengrep/opengrep"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-13T18:35:01Z"
+website_checked_at: "2026-08-14T18:33:00Z"
 website_error: ""
 repository: "https://github.com/opengrep/opengrep"
 latest_release_name: "Opengrep 1.27.0"
@@ -27,7 +27,7 @@ latest_release_checked_at: "2026-08-13T18:35:01Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-13T18:35:01Z"
+packagist_checked_at: "2026-08-14T18:33:00Z"
 stars: 2938
 repo_updated_at: "2026-08-12T22:10:21Z"
 metadata_updated_at: "2026-08-13T18:35:01Z"

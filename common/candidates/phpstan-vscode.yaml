@@ -1,0 +1,28 @@
+slug: "phpstan-vscode"
+name: "phpstan-vscode"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for VSCode"
+website: "https://github.com/swordev/phpstan-vscode"
+public_url: "https://github.com/swordev/phpstan-vscode"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/swordev/phpstan-vscode"
+packagist: null
+stars: 13
+repo_updated_at: "2023-05-27T09:09:11Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"
