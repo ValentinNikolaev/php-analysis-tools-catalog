@@ -1,0 +1,26 @@
+slug: "php-static-analysis-phpstan-extension"
+name: "phpstan-extension"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension to read static analysis attributes"
+website: "https://github.com/php-static-analysis/phpstan-extension"
+public_url: "https://github.com/php-static-analysis/phpstan-extension"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-static-analysis/phpstan-extension"
+packagist: null
+stars: 15
+repo_updated_at: "2025-06-04T16:13:20Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

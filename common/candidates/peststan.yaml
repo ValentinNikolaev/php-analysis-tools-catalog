@@ -1,0 +1,28 @@
+slug: "peststan"
+name: "PestStan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PhpStan support for Pest"
+website: "https://github.com/MrPunyapal/PestStan"
+public_url: "https://github.com/MrPunyapal/PestStan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/MrPunyapal/PestStan"
+packagist: "https://packagist.org/packages/mrpunyapal/peststan"
+stars: 53
+repo_updated_at: "2026-08-11T18:45:06Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "packagist:phpstan extension"

@@ -1,0 +1,28 @@
+slug: "nasastan"
+name: "nasastan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "🚀 PHPStan extension for enforcing NASA's Power of Ten in your PHP code."
+website: "https://packagist.org/packages/joeymckenzie/nasastan"
+public_url: "https://packagist.org/packages/joeymckenzie/nasastan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/JoeyMckenzie/nasastan"
+packagist: null
+stars: 44
+repo_updated_at: "2026-06-22T11:13:26Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

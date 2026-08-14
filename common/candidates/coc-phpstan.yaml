@@ -1,0 +1,28 @@
+slug: "coc-phpstan"
+name: "coc-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan (PHP Static Analysis tool) extension for coc.nvim"
+website: "https://www.npmjs.com/package/@yaegassy/coc-phpstan"
+public_url: "https://www.npmjs.com/package/@yaegassy/coc-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/yaegassy/coc-phpstan"
+packagist: null
+stars: 15
+repo_updated_at: "2023-05-09T02:17:36Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "linter"
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

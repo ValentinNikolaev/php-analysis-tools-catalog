@@ -1,0 +1,29 @@
+slug: "phpstan-dibi"
+name: "phpstan-dibi"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Dibi class reflection extension for PHPStan"
+website: "https://github.com/phpstan/phpstan-dibi"
+public_url: "https://github.com/phpstan/phpstan-dibi"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpstan/phpstan-dibi"
+packagist: null
+stars: 16
+repo_updated_at: "2026-08-13T16:42:49Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"

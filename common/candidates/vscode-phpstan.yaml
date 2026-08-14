@@ -1,0 +1,26 @@
+slug: "vscode-phpstan"
+name: "vscode-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Visual Studio Code extension working with phpstan"
+website: "https://github.com/breeze2/vscode-phpstan"
+public_url: "https://github.com/breeze2/vscode-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/breeze2/vscode-phpstan"
+packagist: null
+stars: 22
+repo_updated_at: "2022-12-30T19:18:55Z"
+metadata_updated_at: "2026-08-14T18:33:00Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-14T18:33:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-14T18:33:00Z"
+discovery_queries:
+  - "PHPStan extension stars:>10"
