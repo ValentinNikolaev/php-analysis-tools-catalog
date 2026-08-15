@@ -1,0 +1,26 @@
+slug: "phpcs-wpcs-vscode"
+name: "phpcs-wpcs-vscode"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "How to install PHP CodeSniffer and the WordPress Coding Standard Rules in Visual Studio Code."
+website: "https://github.com/tommcfarlin/phpcs-wpcs-vscode"
+public_url: "https://github.com/tommcfarlin/phpcs-wpcs-vscode"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/tommcfarlin/phpcs-wpcs-vscode"
+packagist: null
+stars: 200
+repo_updated_at: "2020-07-31T14:13:27Z"
+metadata_updated_at: "2026-08-15T12:26:44Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T12:26:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T12:26:44Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

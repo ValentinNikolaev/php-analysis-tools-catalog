@@ -14,14 +14,14 @@ website_status_code: 200
 website_checked_at: "2026-08-14T18:33:00Z"
 website_error: ""
 repository: "https://github.com/sebastianbergmann/phpcpd"
-latest_release_checked_at: "2026-08-13T18:35:01Z"
+latest_release_checked_at: "2026-08-15T12:26:45Z"
 packagist: "https://packagist.org/packages/sebastian/phpcpd"
 latest_version: "6.0.3"
 latest_version_released_at: "2020-12-07T05:39:23+00:00"
 packagist_checked_at: "2026-08-14T18:33:00Z"
 stars: 2212
 repo_updated_at: "2023-01-10T12:50:42Z"
-metadata_updated_at: "2026-08-13T18:35:01Z"
+metadata_updated_at: "2026-08-15T12:26:45Z"
 quality_tags:
   - "archived"
 source: "README.md"

@@ -15,12 +15,12 @@ latest_release_name: "version 0.6.1"
 latest_release_tag: "v-0.6.1"
 latest_release_url: "https://github.com/exakat/exakat/releases/tag/v-0.6.1"
 latest_release_published_at: "2016-04-18T16:44:46Z"
-latest_release_checked_at: "2026-08-13T18:35:01Z"
+latest_release_checked_at: "2026-08-15T12:26:45Z"
 packagist: null
 packagist_checked_at: "2026-08-14T18:33:00Z"
 stars: 380
 repo_updated_at: "2022-03-24T09:32:24Z"
-metadata_updated_at: "2026-08-13T18:35:01Z"
+metadata_updated_at: "2026-08-15T12:26:45Z"
 quality_tags:
   - "archived"
   - "php"

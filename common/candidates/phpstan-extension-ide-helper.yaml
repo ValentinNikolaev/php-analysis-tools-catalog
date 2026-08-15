@@ -1,0 +1,27 @@
+slug: "phpstan-extension-ide-helper"
+name: "phpstan-extension-ide-helper"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension IDE helper, provides dummy PHPStan namespace classes and functions."
+website: "https://github.com/headercat/phpstan-extension-ide-helper"
+public_url: "https://github.com/headercat/phpstan-extension-ide-helper"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/headercat/phpstan-extension-ide-helper"
+packagist: "https://packagist.org/packages/headercat/phpstan-extension-ide-helper"
+stars: 9
+repo_updated_at: "2026-08-04T22:53:56Z"
+metadata_updated_at: "2026-08-15T12:26:44Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T12:26:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T12:26:44Z"
+discovery_queries:
+  - "packagist:phpstan extension"

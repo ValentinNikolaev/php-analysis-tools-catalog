@@ -1,0 +1,26 @@
+slug: "php-coding-standard-generator"
+name: "php-coding-standard-generator"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Create your own phpmd and phpcs.xml ruleset files and edit them in place. PHPMD is stable - PHPCS support is in alpha"
+website: "http://edorian.github.com/php-coding-standard-generator/"
+public_url: "http://edorian.github.com/php-coding-standard-generator/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/edorian/php-coding-standard-generator"
+packagist: null
+stars: 129
+repo_updated_at: "2017-10-21T16:07:15Z"
+metadata_updated_at: "2026-08-15T12:26:44Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T12:26:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T12:26:44Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

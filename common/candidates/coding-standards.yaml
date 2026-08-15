@@ -1,0 +1,27 @@
+slug: "coding-standards"
+name: "coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Human Made coding standards for modern code"
+website: "https://engineering.hmn.md/how-we-work/style/"
+public_url: "https://engineering.hmn.md/how-we-work/style/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/humanmade/coding-standards"
+packagist: null
+stars: 160
+repo_updated_at: "2026-08-12T07:16:40Z"
+metadata_updated_at: "2026-08-15T12:26:44Z"
+quality_tags:
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T12:26:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T12:26:44Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"
