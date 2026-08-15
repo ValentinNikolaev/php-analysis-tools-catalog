@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: catalog-refresh-main
+  group: catalog-refresh-default-branch
   cancel-in-progress: false
 
 jobs:
@@ -15,10 +15,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Check out main
+      - name: Check out the default branch
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
-          ref: main
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Set up Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
@@ -108,6 +108,8 @@ jobs:
       - name: Commit and push the catalog refresh
         id: publish
         shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git add -- \
             common/catalog \
@@ -128,7 +130,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: refresh catalog metadata"
-          git push origin HEAD:main
+          git push origin "HEAD:${DEFAULT_BRANCH}"
           echo "changed=true" >> "$GITHUB_OUTPUT"
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 

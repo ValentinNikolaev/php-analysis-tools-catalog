@@ -21,13 +21,13 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4", workflow)
         self.assertIn("actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4", workflow)
 
-    def test_catalog_workflow_pushes_validated_changes_to_main(self) -> None:
+    def test_catalog_workflow_pushes_validated_changes_to_the_default_branch(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "update-catalog.yml").read_text(encoding="utf-8")
 
         mutation = workflow.index("python scripts/update_catalog.py")
         validation = workflow.rindex("python scripts/validate_catalog.py")
         tests = workflow.index("python -m unittest discover -s tests")
-        publication = workflow.index("git push origin HEAD:main")
+        publication = workflow.index('git push origin "HEAD:${DEFAULT_BRANCH}"')
         self.assertLess(mutation, validation)
         self.assertLess(validation, tests)
         self.assertLess(tests, publication)
@@ -36,7 +36,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("git add --", workflow)
         self.assertIn("            exports \\", workflow)
         self.assertIn("Verify generators are idempotent", workflow)
-        self.assertIn("          ref: main", workflow)
+        self.assertIn("          ref: ${{ github.event.repository.default_branch }}", workflow)
+        self.assertIn("          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}", workflow)
         self.assertIn("      contents: write", workflow)
         self.assertIn("github-actions[bot]", workflow)
         self.assertNotIn("git add .", workflow)
