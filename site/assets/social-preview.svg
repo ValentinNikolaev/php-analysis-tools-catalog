@@ -28,9 +28,9 @@
     <text x="76" y="407" fill="#b7c6dc" font-size="29">Find the right analyzer, fixer, ruleset,</text>
     <text x="76" y="448" fill="#b7c6dc" font-size="29">metric, or hosted service for your codebase.</text>
     <g transform="translate(76 510)" font-size="22" font-weight="700">
-      <rect width="188" height="52" rx="26" fill="#b6d0ff"/>
-      <text x="94" y="34" fill="#071222" text-anchor="middle">Search &amp; compare</text>
-      <text x="220" y="34" fill="#88b4ff">Evidence-backed trade-offs</text>
+      <rect width="220" height="52" rx="26" fill="#b6d0ff"/>
+      <text x="110" y="34" fill="#071222" text-anchor="middle">Search &amp; compare</text>
+      <text x="252" y="34" fill="#88b4ff">Evidence-backed trade-offs</text>
     </g>
   </g>
 </svg>
