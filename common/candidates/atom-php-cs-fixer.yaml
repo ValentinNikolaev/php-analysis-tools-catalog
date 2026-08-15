@@ -1,0 +1,28 @@
+slug: "atom-php-cs-fixer"
+name: "atom-php-cs-fixer"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Run the 'PHP Coding Standards Fixer' within Atom"
+website: "https://atom.io/packages/php-cs-fixer"
+public_url: "https://atom.io/packages/php-cs-fixer"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/pfefferle/atom-php-cs-fixer"
+packagist: null
+stars: 28
+repo_updated_at: "2021-11-20T09:40:51Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
+quality_tags:
+  - "php"
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T18:42:30Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T18:42:30Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

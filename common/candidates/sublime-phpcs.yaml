@@ -1,0 +1,28 @@
+slug: "sublime-phpcs"
+name: "sublime-phpcs"
+category: "Fixers"
+artifact_type: "fixer"
+description: "🔍 PHP CodeSniffer, PHP Coding Standard Fixer, Linter, and Mess Detector Support for Sublime Text"
+website: "https://github.com/benmatselby/sublime-phpcs"
+public_url: "https://github.com/benmatselby/sublime-phpcs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/benmatselby/sublime-phpcs"
+packagist: null
+stars: 810
+repo_updated_at: "2026-03-18T14:16:51Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
+quality_tags:
+  - "linter"
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T18:42:30Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T18:42:30Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

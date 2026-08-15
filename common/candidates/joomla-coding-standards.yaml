@@ -1,0 +1,28 @@
+slug: "joomla-coding-standards"
+name: "coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Joomla Coding Standards Definition"
+website: "https://developer.joomla.org/coding-standards/basic-guidelines.html"
+public_url: "https://developer.joomla.org/coding-standards/basic-guidelines.html"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/joomla/coding-standards"
+packagist: null
+stars: 130
+repo_updated_at: "2026-03-18T12:47:47Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
+quality_tags:
+  - "php"
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T18:42:30Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T18:42:30Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

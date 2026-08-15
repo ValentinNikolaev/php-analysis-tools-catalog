@@ -18,21 +18,21 @@ website: "https://php-parser.glayzzle.com/"
 public_url: "https://php-parser.glayzzle.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-14T18:33:00Z"
+website_checked_at: "2026-08-15T18:42:31Z"
 website_error: ""
 repository: "https://github.com/glayzzle/php-parser"
 latest_release_name: "v3.7.0"
 latest_release_tag: "v3.7.0"
 latest_release_url: "https://github.com/glayzzle/php-parser/releases/tag/v3.7.0"
 latest_release_published_at: "2026-06-10T13:41:43Z"
-latest_release_checked_at: "2026-08-13T18:35:01Z"
+latest_release_checked_at: "2026-08-15T18:42:31Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-14T18:33:00Z"
+packagist_checked_at: "2026-08-15T18:42:31Z"
 stars: 563
-repo_updated_at: "2026-08-11T05:25:51Z"
-metadata_updated_at: "2026-08-13T18:35:01Z"
+repo_updated_at: "2026-08-13T21:38:19Z"
+metadata_updated_at: "2026-08-15T18:42:31Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

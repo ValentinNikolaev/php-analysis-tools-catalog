@@ -13,7 +13,7 @@ repository: "https://github.com/jiripudil/phpstan-sealed-classes"
 packagist: null
 stars: 35
 repo_updated_at: "2025-09-27T15:23:13Z"
-metadata_updated_at: "2026-08-14T18:33:00Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-14T18:33:00Z"
+last_discovered_at: "2026-08-15T18:42:30Z"
 discovery_queries:
   - "PHPStan extension stars:>10"

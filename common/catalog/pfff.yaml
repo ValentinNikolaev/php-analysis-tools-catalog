@@ -8,19 +8,19 @@ website: "https://github.com/facebook/pfff"
 public_url: "https://github.com/facebook/pfff"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-14T18:33:00Z"
+website_checked_at: "2026-08-15T18:42:31Z"
 website_error: ""
 repository: "https://github.com/facebookarchive/pfff"
 latest_release_name: "pfff-0.29"
 latest_release_tag: "v0.29"
 latest_release_url: "https://github.com/facebookarchive/pfff/releases/tag/v0.29"
 latest_release_published_at: "2015-03-13T20:24:07Z"
-latest_release_checked_at: "2026-08-13T18:35:01Z"
+latest_release_checked_at: "2026-08-15T18:42:31Z"
 packagist: null
-packagist_checked_at: "2026-08-14T18:33:00Z"
+packagist_checked_at: "2026-08-15T18:42:31Z"
 stars: 2437
 repo_updated_at: "2019-03-27T23:04:23Z"
-metadata_updated_at: "2026-08-13T18:35:01Z"
+metadata_updated_at: "2026-08-15T18:42:31Z"
 quality_tags:
   - "archived"
 source: "README.md"

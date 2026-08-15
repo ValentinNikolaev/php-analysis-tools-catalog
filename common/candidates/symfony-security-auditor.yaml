@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/vinceAmstoutz/symfony-security-auditor"
 packagist: null
-stars: 83
-repo_updated_at: "2026-08-13T13:35:32Z"
-metadata_updated_at: "2026-08-13T18:35:00Z"
+stars: 84
+repo_updated_at: "2026-08-15T14:08:20Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
 quality_tags:
   - "php"
   - "security"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-13T18:35:00Z"
+last_discovered_at: "2026-08-15T18:42:30Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

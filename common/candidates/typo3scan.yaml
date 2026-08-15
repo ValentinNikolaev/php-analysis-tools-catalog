@@ -13,7 +13,7 @@ repository: "https://github.com/mschwemer/typo3scan"
 packagist: null
 stars: 98
 repo_updated_at: "2026-08-06T21:24:09Z"
-metadata_updated_at: "2026-08-13T18:35:00Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-13T18:35:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-13T18:35:00Z"
+last_discovered_at: "2026-08-15T18:42:30Z"
 discovery_queries:
   - "topic:php topic:code-quality stars:>20"

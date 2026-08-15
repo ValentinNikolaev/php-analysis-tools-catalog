@@ -9,21 +9,21 @@ website: "https://github.com/mamuz/PhpDependencyAnalysis"
 public_url: "https://github.com/mamuz/PhpDependencyAnalysis"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-14T18:33:00Z"
+website_checked_at: "2026-08-15T18:42:31Z"
 website_error: ""
 repository: "https://github.com/mamuz/PhpDependencyAnalysis"
 latest_release_name: "PhpDependencyAnalysis v2.0.2"
 latest_release_tag: "v2.0.2"
 latest_release_url: "https://github.com/mamuz/PhpDependencyAnalysis/releases/tag/v2.0.2"
 latest_release_published_at: "2019-04-11T15:59:13Z"
-latest_release_checked_at: "2026-08-13T18:35:01Z"
+latest_release_checked_at: "2026-08-15T18:42:31Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-14T18:33:00Z"
+packagist_checked_at: "2026-08-15T18:42:31Z"
 stars: 576
 repo_updated_at: "2023-12-03T20:43:10Z"
-metadata_updated_at: "2026-08-13T18:35:01Z"
+metadata_updated_at: "2026-08-15T18:42:31Z"
 quality_tags:
   - "code-quality"
   - "php"

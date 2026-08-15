@@ -1,0 +1,27 @@
+slug: "vip-scanner"
+name: "vip-scanner"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Deprecated: Scan all sorts of themes and files and things! Use PHPCS and the VIP coding standards instead"
+website: "https://automattic.com"
+public_url: "https://automattic.com"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Automattic/vip-scanner"
+packagist: null
+stars: 140
+repo_updated_at: "2018-07-19T22:14:25Z"
+metadata_updated_at: "2026-08-15T18:42:30Z"
+quality_tags:
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-15T18:42:30Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-15T18:42:30Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"
