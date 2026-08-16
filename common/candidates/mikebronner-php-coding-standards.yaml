@@ -1,0 +1,26 @@
+slug: "mikebronner-php-coding-standards"
+name: "php-coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Custom PHPCS sniffs that support all our coding standards."
+website: "https://github.com/mikebronner/php-coding-standards"
+public_url: "https://github.com/mikebronner/php-coding-standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/mikebronner/php-coding-standards"
+packagist: null
+stars: 16
+repo_updated_at: "2023-03-05T19:03:32Z"
+metadata_updated_at: "2026-08-16T00:28:21Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T00:28:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T00:28:21Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

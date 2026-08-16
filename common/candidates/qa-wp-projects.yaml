@@ -1,0 +1,26 @@
+slug: "qa-wp-projects"
+name: "QA-WP-Projects"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Example code for talk about how to use a variety of PHPCS rules and standards to get an indication of code quality for WP plugins and themes"
+website: "https://github.com/jrfnl/QA-WP-Projects"
+public_url: "https://github.com/jrfnl/QA-WP-Projects"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/jrfnl/QA-WP-Projects"
+packagist: null
+stars: 18
+repo_updated_at: "2026-08-08T12:20:45Z"
+metadata_updated_at: "2026-08-16T00:28:21Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T00:28:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T00:28:21Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

@@ -1,0 +1,26 @@
+slug: "fuelphp-phpcs"
+name: "fuelphp-phpcs"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP Code Sniffer standard for Fuel PHP"
+website: "https://github.com/eviweb/fuelphp-phpcs"
+public_url: "https://github.com/eviweb/fuelphp-phpcs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/eviweb/fuelphp-phpcs"
+packagist: null
+stars: 27
+repo_updated_at: "2020-01-21T11:57:54Z"
+metadata_updated_at: "2026-08-16T00:28:21Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T00:28:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T00:28:21Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

@@ -1,0 +1,27 @@
+slug: "vscode-wpcs-whitelist-flags"
+name: "vscode-wpcs-whitelist-flags"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Add WordPress Coding Standards whitelist flags to your code in Visual Studio Code."
+website: "https://marketplace.visualstudio.com/items?itemName=claudiosanches.wpcs-whitelist-flags"
+public_url: "https://marketplace.visualstudio.com/items?itemName=claudiosanches.wpcs-whitelist-flags"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/claudiosanches/vscode-wpcs-whitelist-flags"
+packagist: null
+stars: 14
+repo_updated_at: "2020-02-26T10:07:55Z"
+metadata_updated_at: "2026-08-16T00:28:21Z"
+quality_tags:
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T00:28:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T00:28:21Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"

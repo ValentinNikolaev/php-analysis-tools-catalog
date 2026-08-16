@@ -1,0 +1,27 @@
+slug: "wpgraphql-coding-standards"
+name: "WPGraphQL-Coding-Standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP_Codesniffer ruleset (sniffs) for the WPGraphQL plugin ecosystem"
+website: "https://github.com/AxeWP/WPGraphQL-Coding-Standards"
+public_url: "https://github.com/AxeWP/WPGraphQL-Coding-Standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/AxeWP/WPGraphQL-Coding-Standards"
+packagist: null
+stars: 11
+repo_updated_at: "2026-07-21T17:25:39Z"
+metadata_updated_at: "2026-08-16T00:28:21Z"
+quality_tags:
+  - "phpcs"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T00:28:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T00:28:21Z"
+discovery_queries:
+  - "PHPCS coding standard stars:>10"
