@@ -1,0 +1,26 @@
+slug: "inertia-phpstan"
+name: "inertia-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension to validate Inertia.js page existence on disk"
+website: "https://github.com/adrum/inertia-phpstan"
+public_url: "https://github.com/adrum/inertia-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/adrum/inertia-phpstan"
+packagist: "https://packagist.org/packages/adrum/inertia-phpstan"
+stars: 8
+repo_updated_at: "2025-07-28T04:55:48Z"
+metadata_updated_at: "2026-08-16T12:26:59Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T12:26:59Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T12:26:59Z"
+discovery_queries:
+  - "packagist:phpstan extension"
