@@ -1,0 +1,26 @@
+slug: "phpstan-phpoption"
+name: "phpstan-phpoption"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for phpoption/phpoption"
+website: "https://github.com/axlon/phpstan-phpoption"
+public_url: "https://github.com/axlon/phpstan-phpoption"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/axlon/phpstan-phpoption"
+packagist: "https://packagist.org/packages/resolve/phpstan-phpoption"
+stars: 1
+repo_updated_at: "2024-11-23T10:51:39Z"
+metadata_updated_at: "2026-08-16T06:26:46Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T06:26:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T06:26:46Z"
+discovery_queries:
+  - "packagist:phpstan extension"

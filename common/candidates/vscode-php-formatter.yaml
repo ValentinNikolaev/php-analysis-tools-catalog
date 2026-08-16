@@ -1,0 +1,26 @@
+slug: "vscode-php-formatter"
+name: "vscode-php-formatter"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Visual Studio Code extension. A wrapper for the Sensiolabs PHP CS Fixer. Analyzes some PHP source code and tries to fix coding standards issues (PSR-1 and PSR-2 compatible)."
+website: "https://github.com/vysker/vscode-php-formatter"
+public_url: "https://github.com/vysker/vscode-php-formatter"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/vysker/vscode-php-formatter"
+packagist: null
+stars: 91
+repo_updated_at: "2018-09-12T21:19:57Z"
+metadata_updated_at: "2026-08-16T06:26:46Z"
+quality_tags: []
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T06:26:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T06:26:46Z"
+discovery_queries:
+  - "PHP code formatter fixer stars:>20"

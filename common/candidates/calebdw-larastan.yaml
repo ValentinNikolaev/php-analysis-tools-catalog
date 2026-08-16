@@ -1,0 +1,28 @@
+slug: "calebdw-larastan"
+name: "larastan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "⚗️ Adds code analysis to Laravel improving developer productivity and code quality."
+website: "https://github.com/calebdw/larastan"
+public_url: "https://github.com/calebdw/larastan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/calebdw/larastan"
+packagist: "https://packagist.org/packages/calebdw/larastan"
+stars: 16
+repo_updated_at: "2026-08-07T18:02:15Z"
+metadata_updated_at: "2026-08-16T06:26:46Z"
+quality_tags:
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T06:26:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T06:26:46Z"
+discovery_queries:
+  - "packagist:phpstan extension"

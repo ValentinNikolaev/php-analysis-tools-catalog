@@ -1,0 +1,27 @@
+slug: "parser-reflection"
+name: "parser-reflection"
+category: "DIY"
+artifact_type: "library"
+description: "Parser Reflection API - Provides source code analysis without loading classes into the PHP memory"
+website: "https://github.com/goaop/parser-reflection"
+public_url: "https://github.com/goaop/parser-reflection"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/goaop/parser-reflection"
+packagist: null
+stars: 101
+repo_updated_at: "2026-08-01T11:41:58Z"
+metadata_updated_at: "2026-08-16T06:26:46Z"
+quality_tags:
+  - "php"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T06:26:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T06:26:46Z"
+discovery_queries:
+  - "PHP AST parser analysis stars:>20"
