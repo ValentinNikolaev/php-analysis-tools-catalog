@@ -18,7 +18,7 @@ website: "https://hhvm.com/"
 public_url: "https://hhvm.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-15T18:42:31Z"
+website_checked_at: "2026-08-16T18:25:53Z"
 website_error: ""
 repository: "https://github.com/facebook/hhvm"
 latest_release_name: "HHVM-3.15.0"
@@ -27,7 +27,7 @@ latest_release_url: "https://github.com/facebook/hhvm/releases/tag/HHVM-3.15.0"
 latest_release_published_at: "2016-09-28T21:01:13Z"
 latest_release_checked_at: "2026-08-15T18:42:31Z"
 packagist: null
-packagist_checked_at: "2026-08-15T18:42:31Z"
+packagist_checked_at: "2026-08-16T18:25:53Z"
 stars: 18652
 repo_updated_at: "2026-08-15T18:27:36Z"
 metadata_updated_at: "2026-08-15T18:42:31Z"

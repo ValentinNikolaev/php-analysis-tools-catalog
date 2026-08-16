@@ -1,0 +1,27 @@
+slug: "maho-phpstan-plugin"
+name: "maho-phpstan-plugin"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan Plugin for Maho"
+website: "https://mahocommerce.com"
+public_url: "https://mahocommerce.com"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/MahoCommerce/maho-phpstan-plugin"
+packagist: "https://packagist.org/packages/mahocommerce/maho-phpstan-plugin"
+stars: 0
+repo_updated_at: "2026-08-11T21:00:02Z"
+metadata_updated_at: "2026-08-16T18:25:52Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-16T18:25:52Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-16T18:25:52Z"
+discovery_queries:
+  - "packagist:phpstan extension"
