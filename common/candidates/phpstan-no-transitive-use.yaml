@@ -1,0 +1,26 @@
+slug: "phpstan-no-transitive-use"
+name: "phpstan-no-transitive-use"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Don't let your code use transitive dependencies."
+website: "https://github.com/SpencerMalone/phpstan-no-transitive-use"
+public_url: "https://github.com/SpencerMalone/phpstan-no-transitive-use"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/SpencerMalone/phpstan-no-transitive-use"
+packagist: "https://packagist.org/packages/spencermalone/phpstan-no-transitive-use"
+stars: 17
+repo_updated_at: "2025-05-28T22:34:49Z"
+metadata_updated_at: "2026-08-17T06:28:02Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T06:28:02Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T06:28:02Z"
+discovery_queries:
+  - "packagist:phpstan extension"

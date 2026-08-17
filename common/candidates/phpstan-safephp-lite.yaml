@@ -1,25 +1,25 @@
-slug: "phpstan-faker"
-name: "phpstan-faker"
+slug: "phpstan-safephp-lite"
+name: "phpstan-safephp-lite"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "PHPStan Reflection extension for custom Faker providers"
-website: "https://github.com/swisnl/phpstan-faker"
-public_url: "https://github.com/swisnl/phpstan-faker"
+description: "A simple PHPStan extension for Safe PHP functions"
+website: "https://github.com/zonuexe/phpstan-safephp-lite"
+public_url: "https://github.com/zonuexe/phpstan-safephp-lite"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/swisnl/phpstan-faker"
-packagist: "https://packagist.org/packages/swisnl/phpstan-faker"
-stars: 4
-repo_updated_at: "2024-12-07T17:43:58Z"
+repository: "https://github.com/zonuexe/phpstan-safephp-lite"
+packagist: "https://packagist.org/packages/zonuexe/phpstan-safephp-lite"
+stars: 1
+repo_updated_at: "2026-05-28T09:46:15Z"
 metadata_updated_at: "2026-08-17T06:28:02Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T00:28:21Z"
+discovered_at: "2026-08-17T06:28:02Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-17T06:28:02Z"
 discovery_queries:
