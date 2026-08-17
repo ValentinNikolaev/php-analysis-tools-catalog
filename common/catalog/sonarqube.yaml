@@ -20,7 +20,7 @@ website: "https://www.sonarsource.com/products/sonarqube/"
 public_url: "https://www.sonarsource.com/products/sonarqube/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-16T18:25:53Z"
+website_checked_at: "2026-08-17T18:26:56Z"
 website_error: ""
 repository: "https://github.com/SonarSource/sonar-php"
 latest_release_name: "3.60.0.16641"
@@ -29,7 +29,7 @@ latest_release_url: "https://github.com/SonarSource/sonar-php/releases/tag/3.60.
 latest_release_published_at: "2026-08-03T13:53:35Z"
 latest_release_checked_at: "2026-08-17T00:28:15Z"
 packagist: null
-packagist_checked_at: "2026-08-16T18:25:53Z"
+packagist_checked_at: "2026-08-17T18:26:56Z"
 stars: 431
 repo_updated_at: "2026-08-16T23:47:57Z"
 metadata_updated_at: "2026-08-17T00:28:15Z"

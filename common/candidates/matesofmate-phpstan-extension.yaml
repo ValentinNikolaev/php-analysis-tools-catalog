@@ -1,25 +1,25 @@
-slug: "jms-serializer-phpstan-extension"
-name: "jms-serializer-phpstan-extension"
+slug: "matesofmate-phpstan-extension"
+name: "phpstan-extension"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "JMS/Serializer extension for PHPStan"
-website: "https://github.com/goetas/jms-serializer-phpstan-extension"
-public_url: "https://github.com/goetas/jms-serializer-phpstan-extension"
+description: "PHPStan extension for Symfony AI Mate providing AI assistants with efficient static analysis tools"
+website: "https://github.com/MatesOfMate/phpstan-extension"
+public_url: "https://github.com/MatesOfMate/phpstan-extension"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/goetas/jms-serializer-phpstan-extension"
-packagist: "https://packagist.org/packages/goetas/jms-serializer-phpstan-extension"
-stars: 3
-repo_updated_at: "2025-04-28T18:35:10Z"
+repository: "https://github.com/MatesOfMate/phpstan-extension"
+packagist: "https://packagist.org/packages/matesofmate/phpstan-extension"
+stars: 1
+repo_updated_at: "2026-08-15T21:14:41Z"
 metadata_updated_at: "2026-08-17T18:26:56Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-17T18:26:56Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-17T18:26:56Z"
 discovery_queries:

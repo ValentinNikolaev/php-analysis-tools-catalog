@@ -16,12 +16,12 @@ website: "https://github.com/troelskn/phpweaver"
 public_url: "https://github.com/troelskn/phpweaver"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-16T18:25:53Z"
+website_checked_at: "2026-08-17T18:26:56Z"
 website_error: ""
 repository: "https://github.com/troelskn/phpweaver"
 latest_release_checked_at: "2026-08-17T00:28:15Z"
 packagist: null
-packagist_checked_at: "2026-08-16T18:25:53Z"
+packagist_checked_at: "2026-08-17T18:26:56Z"
 stars: 85
 repo_updated_at: "2026-01-28T01:01:37Z"
 metadata_updated_at: "2026-08-17T00:28:15Z"

@@ -9,7 +9,7 @@ website: "https://github.com/mamuz/PhpDependencyAnalysis"
 public_url: "https://github.com/mamuz/PhpDependencyAnalysis"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-16T18:25:53Z"
+website_checked_at: "2026-08-17T18:26:56Z"
 website_error: ""
 repository: "https://github.com/mamuz/PhpDependencyAnalysis"
 latest_release_name: "PhpDependencyAnalysis v2.0.2"
@@ -20,7 +20,7 @@ latest_release_checked_at: "2026-08-17T00:28:15Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-16T18:25:53Z"
+packagist_checked_at: "2026-08-17T18:26:56Z"
 stars: 576
 repo_updated_at: "2023-12-03T20:43:10Z"
 metadata_updated_at: "2026-08-17T00:28:15Z"

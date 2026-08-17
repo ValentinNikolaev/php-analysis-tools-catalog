@@ -1,26 +1,25 @@
-slug: "phpstan-prestashop"
-name: "phpstan-prestashop"
+slug: "phpstan-pest-this"
+name: "phpstan-pest-this"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "PHPStan extension for PrestaShop"
-website: "https://github.com/PrestaShop/phpstan-prestashop"
-public_url: "https://github.com/PrestaShop/phpstan-prestashop"
+description: "PHPStan extensions that infer Pest closure `$this` type from configurable test-path mappings."
+website: "https://github.com/odinns/phpstan-pest-this"
+public_url: "https://github.com/odinns/phpstan-pest-this"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/PrestaShop/phpstan-prestashop"
-packagist: "https://packagist.org/packages/prestashop/phpstan-prestashop"
-stars: 6
-repo_updated_at: "2021-11-23T10:08:18Z"
+repository: "https://github.com/odinns/phpstan-pest-this"
+packagist: "https://packagist.org/packages/odinns/phpstan-pest-this"
+stars: 1
+repo_updated_at: "2026-07-27T02:14:50Z"
 metadata_updated_at: "2026-08-17T18:26:56Z"
-quality_tags:
-  - "phpstan"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T18:25:52Z"
+discovered_at: "2026-08-17T18:26:56Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-17T18:26:56Z"
 discovery_queries:
