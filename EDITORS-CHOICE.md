@@ -36,7 +36,7 @@ Parsers, reflection libraries, and control-flow components for developers buildi
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [PHP Parser](https://github.com/nikic/PHP-Parser)<br><sub>⭐ 17,452</sub> | Developers building analyzers, refactoring tools, formatters, or source transformations | A mature AST, traversal API, and code builder underpin many PHP analysis and transformation tools. |
+| [PHP Parser](https://github.com/nikic/PHP-Parser)<br><sub>⭐ 17,453</sub> | Developers building analyzers, refactoring tools, formatters, or source transformations | A mature AST, traversal API, and code builder underpin many PHP analysis and transformation tools. |
 
 ## Fixers and refactoring
 
@@ -44,8 +44,8 @@ Tools that automatically correct coding-standard violations, upgrade PHP syntax,
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)<br><sub>⭐ 13,548</sub> | Projects that want automatic formatting and coding-standard fixes | A broad fixer catalog and custom rule sets make formatting changes deterministic and automatable. |
-| [Rector](https://github.com/rectorphp/rector)<br><sub>⭐ 10,399</sub> | Teams automating PHP upgrades, framework migrations, or repeatable refactoring | AST-based rules turn upgrades and refactoring recipes into reviewable project-wide code changes. |
+| [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)<br><sub>⭐ 13,546</sub> | Projects that want automatic formatting and coding-standard fixes | A broad fixer catalog and custom rule sets make formatting changes deterministic and automatable. |
+| [Rector](https://github.com/rectorphp/rector)<br><sub>⭐ 10,401</sub> | Teams automating PHP upgrades, framework migrations, or repeatable refactoring | AST-based rules turn upgrades and refactoring recipes into reviewable project-wide code changes. |
 | [Laravel Pint](https://laravel.com/docs/pint)<br><sub>⭐ 3,149</sub> | Laravel projects that want a low-configuration, framework-oriented formatter | Laravel-maintained presets deliver practical PHP-CS-Fixer defaults with very little setup. |
 
 ## Specialized tools
@@ -54,4 +54,4 @@ Wrappers, baseliners, multi-language engines, and focused analysis tools that do
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,232</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
+| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,244</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |

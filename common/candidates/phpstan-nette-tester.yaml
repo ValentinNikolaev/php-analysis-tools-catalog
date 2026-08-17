@@ -1,0 +1,26 @@
+slug: "phpstan-nette-tester"
+name: "phpstan-nette-tester"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan nette/tester extension"
+website: "https://github.com/nepada/phpstan-nette-tester"
+public_url: "https://github.com/nepada/phpstan-nette-tester"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/nepada/phpstan-nette-tester"
+packagist: "https://packagist.org/packages/nepada/phpstan-nette-tester"
+stars: 4
+repo_updated_at: "2026-08-01T13:04:12Z"
+metadata_updated_at: "2026-08-17T00:28:13Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T00:28:13Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T00:28:13Z"
+discovery_queries:
+  - "packagist:phpstan extension"

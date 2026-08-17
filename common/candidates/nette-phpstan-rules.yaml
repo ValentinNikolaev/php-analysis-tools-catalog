@@ -1,0 +1,26 @@
+slug: "nette-phpstan-rules"
+name: "phpstan-rules"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "🐘 PHPStan rules and type extensions for Nette libraries"
+website: "https://doc.nette.org/en/tools/phpstan-rules"
+public_url: "https://doc.nette.org/en/tools/phpstan-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/nette/phpstan-rules"
+packagist: "https://packagist.org/packages/nette/phpstan-rules"
+stars: 10
+repo_updated_at: "2026-07-27T15:19:17Z"
+metadata_updated_at: "2026-08-17T00:28:13Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T00:28:13Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T00:28:13Z"
+discovery_queries:
+  - "packagist:phpstan extension"
