@@ -1,0 +1,26 @@
+slug: "phpstan-container-extension"
+name: "phpstan-container-extension"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension to resolve return type for PSR-11 container"
+website: "https://github.com/phil-nelson/phpstan-container-extension"
+public_url: "https://github.com/phil-nelson/phpstan-container-extension"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phil-nelson/phpstan-container-extension"
+packagist: "https://packagist.org/packages/phil-nelson/phpstan-container-extension"
+stars: 3
+repo_updated_at: "2025-01-20T09:31:59Z"
+metadata_updated_at: "2026-08-17T12:26:58Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T12:26:58Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T12:26:58Z"
+discovery_queries:
+  - "packagist:phpstan extension"

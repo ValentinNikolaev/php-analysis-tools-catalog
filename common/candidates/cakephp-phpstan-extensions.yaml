@@ -1,0 +1,27 @@
+slug: "cakephp-phpstan-extensions"
+name: "cakephp-phpstan-extensions"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Services to aid phpstan analysis on CakePHP projects"
+website: "https://github.com/raul338/cakephp-phpstan-extensions"
+public_url: "https://github.com/raul338/cakephp-phpstan-extensions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/raul338/cakephp-phpstan-extensions"
+packagist: "https://packagist.org/packages/raul338/cakephp-phpstan-extensions"
+stars: 0
+repo_updated_at: "2025-02-13T02:12:23Z"
+metadata_updated_at: "2026-08-17T12:26:58Z"
+quality_tags:
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T12:26:58Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T12:26:58Z"
+discovery_queries:
+  - "packagist:phpstan extension"

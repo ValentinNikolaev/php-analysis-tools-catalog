@@ -1,0 +1,26 @@
+slug: "simplesurance-phpstan-extensions"
+name: "phpstan-extensions"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "Custom PHPStan rules"
+website: "https://github.com/simplesurance/phpstan-extensions"
+public_url: "https://github.com/simplesurance/phpstan-extensions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/simplesurance/phpstan-extensions"
+packagist: "https://packagist.org/packages/simplesurance/phpstan-extensions"
+stars: 2
+repo_updated_at: "2025-02-03T16:11:32Z"
+metadata_updated_at: "2026-08-17T12:26:58Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-17T12:26:58Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-17T12:26:58Z"
+discovery_queries:
+  - "packagist:phpstan extension"
