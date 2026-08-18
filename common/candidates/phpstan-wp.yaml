@@ -1,25 +1,25 @@
-slug: "phpstan-stripe"
-name: "phpstan-stripe"
-category: "DIY"
-artifact_type: "library"
-description: "Stripe SDK extension for PHPStan"
-website: "https://github.com/spaze/phpstan-stripe"
-public_url: "https://github.com/spaze/phpstan-stripe"
+slug: "phpstan-wp"
+name: "phpstan-wp"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extensions for WP Media WordPress projects"
+website: "https://github.com/wp-media/phpstan-wp"
+public_url: "https://github.com/wp-media/phpstan-wp"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/spaze/phpstan-stripe"
-packagist: "https://packagist.org/packages/spaze/phpstan-stripe"
-stars: 5
-repo_updated_at: "2026-06-23T18:10:15Z"
+repository: "https://github.com/wp-media/phpstan-wp"
+packagist: "https://packagist.org/packages/wp-media/phpstan-wp"
+stars: 0
+repo_updated_at: "2026-03-10T15:30:15Z"
 metadata_updated_at: "2026-08-18T12:27:06Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T00:28:21Z"
+discovered_at: "2026-08-18T12:27:06Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-18T12:27:06Z"
 discovery_queries:

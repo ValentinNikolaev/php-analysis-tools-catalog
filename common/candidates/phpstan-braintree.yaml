@@ -1,25 +1,25 @@
-slug: "magento2-smilelab-phpstan"
-name: "magento2-smilelab-phpstan"
+slug: "phpstan-braintree"
+name: "phpstan-braintree"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "PHPStan extension for Magento projects."
-website: "https://github.com/Smile-SA/magento2-smilelab-phpstan"
-public_url: "https://github.com/Smile-SA/magento2-smilelab-phpstan"
+description: "Braintree extensions for PHPStan"
+website: "https://github.com/SykesCottages/phpstan-braintree"
+public_url: "https://github.com/SykesCottages/phpstan-braintree"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/Smile-SA/magento2-smilelab-phpstan"
-packagist: "https://packagist.org/packages/smile/magento2-smilelab-phpstan"
-stars: 0
-repo_updated_at: "2026-08-10T09:41:40Z"
+repository: "https://github.com/SykesCottages/phpstan-braintree"
+packagist: "https://packagist.org/packages/sykescottages/phpstan-braintree"
+stars: 2
+repo_updated_at: "2025-01-07T16:26:00Z"
 metadata_updated_at: "2026-08-18T12:27:06Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-17T12:26:58Z"
+discovered_at: "2026-08-18T12:27:06Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-18T12:27:06Z"
 discovery_queries:
