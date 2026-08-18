@@ -1,0 +1,26 @@
+slug: "phpstan-collections"
+name: "phpstan-collections"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "Phpstan extension for bonami/collections library"
+website: "https://github.com/bonami/phpstan-collections"
+public_url: "https://github.com/bonami/phpstan-collections"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/bonami/phpstan-collections"
+packagist: "https://packagist.org/packages/bonami/phpstan-collections"
+stars: 1
+repo_updated_at: "2025-03-27T10:45:04Z"
+metadata_updated_at: "2026-08-18T06:27:28Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-18T06:27:28Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-18T06:27:28Z"
+discovery_queries:
+  - "packagist:phpstan extension"

@@ -1,0 +1,26 @@
+slug: "cego-phpstan"
+name: "phpstan"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "A project for Cego's phpstan rules"
+website: "https://github.com/cego/phpstan"
+public_url: "https://github.com/cego/phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/cego/phpstan"
+packagist: "https://packagist.org/packages/cego/phpstan"
+stars: 0
+repo_updated_at: "2026-06-20T11:32:14Z"
+metadata_updated_at: "2026-08-18T06:27:28Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-18T06:27:28Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-18T06:27:28Z"
+discovery_queries:
+  - "packagist:phpstan extension"
