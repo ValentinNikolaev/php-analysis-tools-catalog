@@ -1,0 +1,26 @@
+slug: "phpstan-containers"
+name: "phpstan-containers"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan Extension to resolve return type for StellarWP's container contract and PSR-11"
+website: "https://github.com/dpanta94/phpstan-containers"
+public_url: "https://github.com/dpanta94/phpstan-containers"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/dpanta94/phpstan-containers"
+packagist: "https://packagist.org/packages/dpanta94/phpstan-containers"
+stars: 0
+repo_updated_at: "2026-06-08T23:51:16Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-18T00:28:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-18T00:28:15Z"
+discovery_queries:
+  - "packagist:phpstan extension"

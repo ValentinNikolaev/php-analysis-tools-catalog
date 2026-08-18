@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/phpstan/phpstan-webmozart-assert"
 packagist: "https://packagist.org/packages/phpstan/phpstan-webmozart-assert"
 stars: 185
-repo_updated_at: "2026-08-16T11:13:02Z"
-metadata_updated_at: "2026-08-17T00:28:13Z"
+repo_updated_at: "2026-08-17T06:39:48Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-17T00:28:13Z"
+last_discovered_at: "2026-08-18T00:28:15Z"
 discovery_queries:
   - "packagist:phpstan extension"

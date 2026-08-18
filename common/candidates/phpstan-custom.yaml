@@ -13,7 +13,7 @@ repository: "https://github.com/taptima/phpstan-custom"
 packagist: null
 stars: 14
 repo_updated_at: "2022-04-21T07:12:11Z"
-metadata_updated_at: "2026-08-17T00:28:13Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-17T00:28:13Z"
+last_discovered_at: "2026-08-18T00:28:15Z"
 discovery_queries:
   - "PHPStan extension stars:>10"

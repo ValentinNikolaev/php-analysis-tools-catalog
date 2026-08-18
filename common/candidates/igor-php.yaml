@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/igor-php/igor-php"
 packagist: null
-stars: 107
+stars: 108
 repo_updated_at: "2026-08-12T12:10:54Z"
-metadata_updated_at: "2026-08-17T00:28:13Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
 quality_tags:
   - "linter"
   - "php"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-17T00:28:13Z"
+last_discovered_at: "2026-08-18T00:28:15Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

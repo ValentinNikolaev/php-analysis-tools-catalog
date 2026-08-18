@@ -1,0 +1,26 @@
+slug: "phpstan-gwiz"
+name: "phpstan-gwiz"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for Gravity Forms and WooCommerce. Adds type aliases and various config changes."
+website: "https://github.com/gravitywiz/phpstan-gwiz"
+public_url: "https://github.com/gravitywiz/phpstan-gwiz"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/gravitywiz/phpstan-gwiz"
+packagist: "https://packagist.org/packages/gravitywiz/phpstan-gwiz"
+stars: 0
+repo_updated_at: "2026-07-10T18:17:45Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-18T00:28:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-18T00:28:15Z"
+discovery_queries:
+  - "packagist:phpstan extension"

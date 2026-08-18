@@ -24,14 +24,14 @@ latest_release_name: "v0.42.1"
 latest_release_tag: "v0.42.1"
 latest_release_url: "https://github.com/ast-metrics/ast-metrics/releases/tag/v0.42.1"
 latest_release_published_at: "2026-08-14T07:48:46Z"
-latest_release_checked_at: "2026-08-17T00:28:15Z"
+latest_release_checked_at: "2026-08-18T00:28:15Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-17T18:26:56Z"
 stars: 151
-repo_updated_at: "2026-08-15T16:55:59Z"
-metadata_updated_at: "2026-08-17T00:28:15Z"
+repo_updated_at: "2026-08-17T07:33:50Z"
+metadata_updated_at: "2026-08-18T00:28:15Z"
 quality_tags:
   - "code-quality"
   - "static-analysis"
