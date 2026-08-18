@@ -1,25 +1,25 @@
-slug: "event-sourcing-phpstan-extension"
-name: "event-sourcing-phpstan-extension"
+slug: "phpstan-sylius"
+name: "phpstan-sylius"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "phpstan extension for event-sourcing library."
-website: "https://patchlevel.dev"
-public_url: "https://patchlevel.dev"
+description: "Sylius-specific extensions for PHPStan"
+website: "https://addons.sylius.com/en_US/products/bitexpert-phpstan-sylius"
+public_url: "https://addons.sylius.com/en_US/products/bitexpert-phpstan-sylius"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/patchlevel/event-sourcing-phpstan-extension"
-packagist: "https://packagist.org/packages/patchlevel/event-sourcing-phpstan-extension"
-stars: 1
-repo_updated_at: "2026-08-18T10:57:34Z"
+repository: "https://github.com/bitExpert/phpstan-sylius"
+packagist: "https://packagist.org/packages/bitexpert/phpstan-sylius"
+stars: 6
+repo_updated_at: "2026-08-12T12:21:07Z"
 metadata_updated_at: "2026-08-18T18:27:06Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-18T18:27:06Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-18T18:27:06Z"
 discovery_queries:

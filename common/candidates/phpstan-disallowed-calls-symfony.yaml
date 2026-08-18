@@ -13,7 +13,7 @@ repository: "https://github.com/spaze/phpstan-disallowed-calls-symfony"
 packagist: "https://packagist.org/packages/spaze/phpstan-disallowed-calls-symfony"
 stars: 4
 repo_updated_at: "2025-11-01T22:40:50Z"
-metadata_updated_at: "2026-08-17T18:26:56Z"
+metadata_updated_at: "2026-08-18T18:27:06Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T18:25:52Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-17T18:26:56Z"
+last_discovered_at: "2026-08-18T18:27:06Z"
 discovery_queries:
   - "packagist:phpstan extension"

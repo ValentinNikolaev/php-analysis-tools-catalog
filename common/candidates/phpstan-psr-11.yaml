@@ -1,25 +1,25 @@
-slug: "event-sourcing-phpstan-extension"
-name: "event-sourcing-phpstan-extension"
+slug: "phpstan-psr-11"
+name: "phpstan-psr-11"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "phpstan extension for event-sourcing library."
-website: "https://patchlevel.dev"
-public_url: "https://patchlevel.dev"
+description: "🕵️ PHPStan dynamic return type extension for PSR-11 Container interface"
+website: "https://github.com/syntatis/phpstan-psr-11"
+public_url: "https://github.com/syntatis/phpstan-psr-11"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/patchlevel/event-sourcing-phpstan-extension"
-packagist: "https://packagist.org/packages/patchlevel/event-sourcing-phpstan-extension"
-stars: 1
-repo_updated_at: "2026-08-18T10:57:34Z"
+repository: "https://github.com/syntatis/phpstan-psr-11"
+packagist: "https://packagist.org/packages/syntatis/phpstan-psr-11"
+stars: 2
+repo_updated_at: "2026-08-07T11:51:07Z"
 metadata_updated_at: "2026-08-18T18:27:06Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-18T18:27:06Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-18T18:27:06Z"
 discovery_queries:
