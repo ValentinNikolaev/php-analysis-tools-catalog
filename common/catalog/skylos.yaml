@@ -18,7 +18,7 @@ website: "https://skylos.dev/"
 public_url: "https://skylos.dev/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-18T18:27:07Z"
+website_checked_at: "2026-08-19T18:26:30Z"
 website_error: ""
 repository: "https://github.com/duriantaco/skylos"
 latest_release_name: "v4.33.2"
@@ -29,7 +29,7 @@ latest_release_checked_at: "2026-08-19T06:27:11Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-18T18:27:07Z"
+packagist_checked_at: "2026-08-19T18:26:30Z"
 stars: 539
 repo_updated_at: "2026-08-18T13:12:43Z"
 metadata_updated_at: "2026-08-19T06:27:11Z"
