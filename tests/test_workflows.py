@@ -77,13 +77,23 @@ class WorkflowTests(unittest.TestCase):
         workflow = (ROOT / ".github" / "workflows" / "pages.yml").read_text(encoding="utf-8")
         self.assertLess(workflow.index("python scripts/validate_catalog.py"), workflow.index("python scripts/generate_site.py"))
 
-    def test_pull_requests_invoke_the_reusable_pages_build_without_deploying(self) -> None:
+    def test_pull_requests_run_a_read_only_pages_build(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "pages-smoke.yml").read_text(encoding="utf-8")
 
         self.assertIn("  pull_request:", workflow)
-        self.assertIn("uses: ./.github/workflows/pages.yml", workflow)
-        self.assertIn("      deploy: false", workflow)
-        self.assertIn("      ref: ${{ github.sha }}", workflow)
+        self.assertIn("    runs-on: ubuntu-24.04", workflow)
+        self.assertIn("      contents: read", workflow)
+        self.assertNotIn("pages: write", workflow)
+        self.assertNotIn("id-token: write", workflow)
+        self.assertNotIn("uses: ./.github/workflows/pages.yml", workflow)
+        self.assertIn("actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6", workflow)
+        self.assertIn("actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6", workflow)
+
+        validation = workflow.index("python scripts/validate_catalog.py")
+        tests = workflow.index("python -m unittest discover -s tests")
+        build = workflow.index("python scripts/generate_site.py --output site-dist")
+        self.assertLess(validation, tests)
+        self.assertLess(tests, build)
 
 
 if __name__ == "__main__":

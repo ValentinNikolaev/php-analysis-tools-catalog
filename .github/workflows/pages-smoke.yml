@@ -1,4 +1,4 @@
-name: Test reusable Pages build
+name: Test Pages build
 
 on:
   pull_request:
@@ -17,9 +17,22 @@ permissions:
 
 jobs:
   pages-build:
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
-    uses: ./.github/workflows/pages.yml
-    with:
-      deploy: false
-      ref: ${{ github.sha }}
+    steps:
+      - name: Check out the pull request revision
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Run catalog and site tests
+        run: |
+          python scripts/validate_catalog.py
+          python -m unittest discover -s tests
+
+      - name: Build the production site
+        run: python scripts/generate_site.py --output site-dist
