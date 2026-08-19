@@ -22,12 +22,12 @@ website_status_code: 200
 website_checked_at: "2026-08-18T18:27:07Z"
 website_error: ""
 repository: "https://github.com/kalessil/phpinspectionsea"
-latest_release_checked_at: "2026-08-18T00:28:15Z"
+latest_release_checked_at: "2026-08-19T06:27:11Z"
 packagist: null
 packagist_checked_at: "2026-08-18T18:27:07Z"
 stars: 1485
 repo_updated_at: "2026-07-09T06:24:09Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+metadata_updated_at: "2026-08-19T06:27:11Z"
 quality_tags:
   - "php"
   - "static-analysis"

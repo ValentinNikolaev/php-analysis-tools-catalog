@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/calebdw/larastan-livewire"
 packagist: "https://packagist.org/packages/calebdw/larastan-livewire"
 stars: 61
-repo_updated_at: "2026-06-29T02:38:45Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+repo_updated_at: "2026-08-18T16:54:44Z"
+metadata_updated_at: "2026-08-19T06:27:10Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T00:28:15Z"
+last_discovered_at: "2026-08-19T06:27:10Z"
 discovery_queries:
   - "packagist:phpstan extension"

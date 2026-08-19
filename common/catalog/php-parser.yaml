@@ -25,14 +25,14 @@ latest_release_name: "PHP-Parser 5.8.0"
 latest_release_tag: "v5.8.0"
 latest_release_url: "https://github.com/nikic/PHP-Parser/releases/tag/v5.8.0"
 latest_release_published_at: "2026-07-04T14:33:02Z"
-latest_release_checked_at: "2026-08-18T00:28:15Z"
+latest_release_checked_at: "2026-08-19T06:27:11Z"
 packagist: "https://packagist.org/packages/nikic/php-parser"
 latest_version: "v5.8.0"
 latest_version_released_at: "2026-07-04T14:30:18+00:00"
 packagist_checked_at: "2026-08-18T18:27:07Z"
-stars: 17452
+stars: 17453
 repo_updated_at: "2026-07-11T16:03:14Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+metadata_updated_at: "2026-08-19T06:27:11Z"
 quality_tags:
   - "php"
   - "static-analysis"

@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/phpstan/extension-installer"
 packagist: "https://packagist.org/packages/phpstan/extension-installer"
-stars: 509
+stars: 510
 repo_updated_at: "2026-08-15T10:07:43Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+metadata_updated_at: "2026-08-19T06:27:10Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-08T00:00:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T00:28:15Z"
+last_discovered_at: "2026-08-19T06:27:10Z"
 discovery_queries:
   - "packagist:phpstan extension"

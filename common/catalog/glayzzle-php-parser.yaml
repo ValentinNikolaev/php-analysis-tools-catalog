@@ -25,14 +25,14 @@ latest_release_name: "v3.7.0"
 latest_release_tag: "v3.7.0"
 latest_release_url: "https://github.com/glayzzle/php-parser/releases/tag/v3.7.0"
 latest_release_published_at: "2026-06-10T13:41:43Z"
-latest_release_checked_at: "2026-08-18T00:28:15Z"
+latest_release_checked_at: "2026-08-19T06:27:11Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-18T18:27:07Z"
 stars: 564
 repo_updated_at: "2026-08-13T21:38:19Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+metadata_updated_at: "2026-08-19T06:27:11Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

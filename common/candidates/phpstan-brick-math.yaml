@@ -13,7 +13,7 @@ repository: "https://github.com/simPod/phpstan-brick-math"
 packagist: "https://packagist.org/packages/simpod/phpstan-brick-math"
 stars: 1
 repo_updated_at: "2026-08-03T08:23:36Z"
-metadata_updated_at: "2026-08-18T00:28:15Z"
+metadata_updated_at: "2026-08-19T06:27:10Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-17T00:28:13Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T00:28:15Z"
+last_discovered_at: "2026-08-19T06:27:10Z"
 discovery_queries:
   - "packagist:phpstan extension"
