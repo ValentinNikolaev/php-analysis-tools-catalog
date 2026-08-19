@@ -44,6 +44,26 @@ class WorkflowTests(unittest.TestCase):
         self.assertNotIn("peter-evans/create-pull-request", workflow)
         self.assertNotIn("pull-requests: write", workflow)
 
+    def test_catalog_refresh_deploys_the_exact_committed_revision_via_reusable_pages_workflow(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "update-catalog.yml").read_text(encoding="utf-8")
+
+        self.assertIn("      changed: ${{ steps.publish.outputs.changed }}", workflow)
+        self.assertIn("      commit: ${{ steps.publish.outputs.commit }}", workflow)
+        self.assertIn("  deploy-pages:", workflow)
+        self.assertIn("    needs: update", workflow)
+        self.assertIn("    if: needs.update.outputs.changed == 'true'", workflow)
+        self.assertIn("    uses: ./.github/workflows/pages.yml", workflow)
+        self.assertIn("      deploy: true", workflow)
+        self.assertIn("      ref: ${{ needs.update.outputs.commit }}", workflow)
+
+        deployment = workflow.index("  deploy-pages:")
+        deploy_job = workflow[deployment:]
+        self.assertIn("      contents: read", deploy_job)
+        self.assertIn("      pages: write", deploy_job)
+        self.assertIn("      id-token: write", deploy_job)
+        self.assertNotIn("      contents: write", deploy_job)
+        self.assertNotIn("actions/deploy-pages@", workflow)
+
     def test_external_actions_are_sha_pinned_and_runners_are_stable(self) -> None:
         for path in (ROOT / ".github" / "workflows").glob("*.yml"):
             workflow = path.read_text(encoding="utf-8")

@@ -18,6 +18,8 @@ from catalog_lib import load_catalog  # noqa: E402
 from generate_readme import is_dead  # noqa: E402
 from generate_site import (  # noqa: E402
     BUILD_MARKER,
+    INITIAL_CATALOG_CARD_COUNT,
+    SITE_JS_VERSION,
     build_site,
     category_id,
     category_options,
@@ -53,6 +55,32 @@ class DocumentParser(HTMLParser):
             self.script_attributes.append(values)
         if tag == "h1":
             self.h1_count += 1
+
+
+class ActiveElementCounter(HTMLParser):
+    """Approximate the live DOM created when scripting is enabled."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.active_count = 0
+        self.source_count = 0
+        self.inert_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        self.source_count += 1
+        if self.inert_depth == 0:
+            self.active_count += 1
+        if tag in {"template", "noscript"}:
+            self.inert_depth += 1
+
+    def handle_startendtag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        self.source_count += 1
+        if self.inert_depth == 0:
+            self.active_count += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"template", "noscript"}:
+            self.inert_depth -= 1
 
 
 class GenerateSiteTests(unittest.TestCase):
@@ -98,7 +126,10 @@ class GenerateSiteTests(unittest.TestCase):
                 self.assertIn(href[1:], parser.ids, href)
         self.assertEqual(
             parser.scripts,
-            ["assets/site.js?v=3", "https://static.cloudflareinsights.com/beacon.min.js"],
+            [
+                f"assets/site.js?v={SITE_JS_VERSION}",
+                "https://static.cloudflareinsights.com/beacon.min.js",
+            ],
         )
         self.assertEqual(parser.script_attributes[1].get("type"), "module")
         self.assertEqual(
@@ -153,6 +184,80 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn('filterToggle.setAttribute("aria-expanded", String(open))', script)
         self.assertIn('.js .catalog-filter-panel:not(.is-open)', styles)
         self.assertIn('position: sticky;', styles)
+
+    def test_catalog_uses_a_bounded_initial_batch_and_progressive_hydration(self) -> None:
+        directory, output = self.build_in_temp()
+        self.addCleanup(directory.cleanup)
+        index = (output / "index.html").read_text(encoding="utf-8")
+        script = (output / "assets" / "site.js").read_text(encoding="utf-8")
+
+        catalog = index[index.index('id="catalog"'):index.index('id="hosted-services"')]
+        initial_markup, deferred_markup = catalog.split(
+            '<template id="catalog-card-template">', maxsplit=1
+        )
+        initial_cards = initial_markup.count('<article class="tool-card"')
+        deferred_cards = deferred_markup.split("</template>", maxsplit=1)[0].count(
+            '<article class="tool-card"'
+        )
+        expected_total = sum(
+            not is_dead(tool, self.REFERENCE_TIME) and tool.get("category") != "SaaS"
+            for tool in load_catalog()
+        )
+
+        self.assertEqual(initial_cards, INITIAL_CATALOG_CARD_COUNT)
+        self.assertEqual(initial_cards + deferred_cards, expected_total)
+        self.assertLess(initial_cards, expected_total // 2)
+        self.assertIn('id="catalog-show-more"', deferred_markup)
+        self.assertIn(f"Show {deferred_cards} more tools", deferred_markup)
+        self.assertIn("const hydrateCatalog = () =>", script)
+        self.assertIn("deferredCatalog.replaceWith(deferredCatalog.content)", script)
+        self.assertIn('showMore.addEventListener("click"', script)
+        self.assertIn("hydrateCatalog();\n    applyFilters();", script)
+        self.assertIn('sort.value !== "recommended"', script)
+
+        counter = ActiveElementCounter()
+        counter.feed(index)
+        self.assertLess(counter.active_count, counter.source_count // 2)
+
+    def test_memorial_cards_are_inert_until_opened_or_deep_linked(self) -> None:
+        directory, output = self.build_in_temp()
+        self.addCleanup(directory.cleanup)
+        index = (output / "index.html").read_text(encoding="utf-8")
+        script = (output / "assets" / "site.js").read_text(encoding="utf-8")
+
+        memorial = index[index.index('id="in-memoriam"'):index.index("</main>")]
+        before_template, deferred_markup = memorial.split(
+            '<template id="memorial-card-template">', maxsplit=1
+        )
+        deferred_cards = deferred_markup.split("</template>", maxsplit=1)[0].count(
+            '<article class="tool-card"'
+        )
+        expected_memorial = sum(is_dead(tool, self.REFERENCE_TIME) for tool in load_catalog())
+
+        self.assertNotIn('<article class="tool-card"', before_template)
+        self.assertEqual(deferred_cards, expected_memorial)
+        self.assertIn("const hydrateMemorial = () =>", script)
+        self.assertIn('memorialDetails.addEventListener("toggle"', script)
+        self.assertIn("deferredMemorial.content.getElementById(id)", script)
+        self.assertIn("hydrateMemorial();", script)
+        self.assertIn("const revealHashTarget = (fragment = window.location.hash)", script)
+        self.assertIn('window.addEventListener("hashchange", () => revealHashTarget())', script)
+        self.assertIn("if (target.hidden)", script)
+        self.assertIn("form.reset();", script)
+        self.assertIn('target.scrollIntoView({ block: "start" })', script)
+
+    def test_no_javascript_fallback_links_to_complete_canonical_catalog(self) -> None:
+        directory, output = self.build_in_temp()
+        self.addCleanup(directory.cleanup)
+        index = (output / "index.html").read_text(encoding="utf-8")
+
+        self.assertNotIn("Every catalog entry remains available below", index)
+        self.assertIn("The first recommendations remain available below", index)
+        self.assertIn(
+            'href="https://github.com/ValentinNikolaev/php-analysis-tools-catalog#complete-catalog"',
+            index,
+        )
+        self.assertIn('href="exports/catalog.json">catalog JSON</a>', index)
 
     def test_client_comparison_enforces_limits_and_builds_an_accessible_table(self) -> None:
         script = (ROOT / "site" / "assets" / "site.js").read_text(encoding="utf-8")

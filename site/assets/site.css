@@ -1,23 +1,24 @@
 :root {
   color-scheme: light dark;
-  --bg: #f4f7fb;
+  --bg: #f7f8fc;
   --surface: #ffffff;
-  --surface-strong: #eaf0f8;
-  --surface-accent: #e8f0ff;
-  --text: #172033;
-  --muted: #56637a;
-  --border: #cdd7e6;
-  --border-strong: #aebcd0;
-  --accent: #1859b7;
-  --accent-strong: #0b3f8a;
+  --surface-strong: #eef0fa;
+  --surface-accent: #e7e8f5;
+  --text: #171a2b;
+  --muted: #5f667a;
+  --border: #d9ddea;
+  --border-strong: #8991ab;
+  --accent: #555889;
+  --accent-strong: #41446f;
   --accent-contrast: #ffffff;
-  --gold: #9a5a00;
-  --success: #176a3a;
-  --warning: #7a5700;
-  --inactive: #93431d;
-  --unknown: #5d6675;
-  --shadow: 0 18px 50px rgb(29 52 86 / 10%);
-  --shadow-small: 0 8px 24px rgb(29 52 86 / 8%);
+  --focus: #7c3aed;
+  --gold: #8a5700;
+  --success: #16784a;
+  --warning: #8a4b00;
+  --inactive: #b4233c;
+  --unknown: #5f667a;
+  --shadow: 0 18px 50px rgb(65 68 111 / 11%);
+  --shadow-small: 0 8px 24px rgb(65 68 111 / 9%);
   --radius: 18px;
   --radius-small: 11px;
   --shell: min(1180px, calc(100% - 2rem));
@@ -28,22 +29,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #08111f;
-    --surface: #101d30;
-    --surface-strong: #16263c;
-    --surface-accent: #122b50;
-    --text: #edf3ff;
-    --muted: #aebbd0;
-    --border: #2b3d57;
-    --border-strong: #405473;
-    --accent: #88b4ff;
-    --accent-strong: #b6d0ff;
-    --accent-contrast: #071222;
-    --gold: #f5c86a;
-    --success: #73d49c;
-    --warning: #f2cf72;
-    --inactive: #ff9c70;
-    --unknown: #b4bdcb;
+    --bg: #0d1020;
+    --surface: #161a2d;
+    --surface-strong: #222743;
+    --surface-accent: #292e50;
+    --text: #f4f5ff;
+    --muted: #b4bbcf;
+    --border: #353c59;
+    --border-strong: #626b8f;
+    --accent: #aeb2e8;
+    --accent-strong: #c9ccf4;
+    --accent-contrast: #0d1020;
+    --focus: #c084fc;
+    --gold: #f0bd62;
+    --success: #52c98b;
+    --warning: #f0ad4e;
+    --inactive: #ff718b;
+    --unknown: #b4bbcf;
     --shadow: 0 20px 60px rgb(0 0 0 / 28%);
     --shadow-small: 0 10px 28px rgb(0 0 0 / 22%);
   }
@@ -88,7 +90,7 @@ a:hover {
 }
 
 :focus-visible {
-  outline: 3px solid var(--accent);
+  outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
 
@@ -1252,19 +1254,32 @@ h3 {
     min-height: auto;
     flex-direction: column;
     align-items: flex-start;
-    padding-block: 0.8rem;
+    gap: 0.35rem;
+    padding-block: 0.55rem 0.35rem;
+  }
+
+  .brand {
+    min-height: 44px;
   }
 
   nav {
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
-    gap: 0.9rem 1.2rem;
-    padding-bottom: 0.25rem;
+    gap: 1.15rem;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding-bottom: 0.2rem;
+    scrollbar-color: var(--border-strong) transparent;
+    scrollbar-width: thin;
   }
 
   nav a {
-    flex: 0 1 auto;
+    display: inline-flex;
+    min-height: 44px;
+    flex: 0 0 auto;
+    align-items: center;
+    white-space: nowrap;
   }
 
   .hero {
