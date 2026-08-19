@@ -13,7 +13,7 @@ repository: "https://github.com/built-fast/phpstan-sensitive-parameter"
 packagist: "https://packagist.org/packages/built-fast/phpstan-sensitive-parameter"
 stars: 9
 repo_updated_at: "2025-07-04T20:46:02Z"
-metadata_updated_at: "2026-08-18T06:27:28Z"
+metadata_updated_at: "2026-08-19T12:27:12Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -26,6 +26,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-18T06:27:28Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T06:27:28Z"
+last_discovered_at: "2026-08-19T12:27:12Z"
 discovery_queries:
   - "packagist:phpstan extension"

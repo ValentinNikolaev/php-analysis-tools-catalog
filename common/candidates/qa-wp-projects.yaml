@@ -13,7 +13,7 @@ repository: "https://github.com/jrfnl/QA-WP-Projects"
 packagist: null
 stars: 18
 repo_updated_at: "2026-08-08T12:20:45Z"
-metadata_updated_at: "2026-08-18T12:27:06Z"
+metadata_updated_at: "2026-08-19T12:27:12Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T12:27:06Z"
+last_discovered_at: "2026-08-19T12:27:12Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"
