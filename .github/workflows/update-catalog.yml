@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
+    outputs:
+      changed: ${{ steps.publish.outputs.changed }}
+      commit: ${{ steps.publish.outputs.commit }}
     steps:
       - name: Check out the default branch
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -138,3 +141,15 @@ jobs:
         run: |
           echo "changed=${{ steps.publish.outputs.changed }}"
           echo "commit=${{ steps.publish.outputs.commit }}"
+
+  deploy-pages:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+    with:
+      deploy: true
+      ref: ${{ needs.update.outputs.commit }}

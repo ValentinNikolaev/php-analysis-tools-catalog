@@ -34,6 +34,8 @@ from generate_readme import (
 SITE_SOURCE = ROOT / "site"
 EXPORT_SOURCE = ROOT / "exports"
 EXPORT_FILENAMES = ("catalog.json", "catalog.csv", "build-manifest.json")
+INITIAL_CATALOG_CARD_COUNT = 12
+SITE_JS_VERSION = 4
 DEFAULT_OUTPUT = ROOT / "site-dist"
 BUILD_MARKER = ".php-analysis-tools-site-build"
 REPOSITORY_URL = "https://github.com/ValentinNikolaev/php-analysis-tools-catalog"
@@ -573,6 +575,38 @@ def render_index(tools: list[dict], reference_time: datetime) -> str:
     remaining_editor_tools = [tool for tool in editor_tools if tool not in featured_editor_tools]
     editor_more_section = editor_more_markup(remaining_editor_tools, reference_time)
     fresh_count, freshness_total = metadata_freshness(tools, reference_time)
+    catalog_cards = [
+        tool_card(tool, reference_time, rank, compare_enabled=True)
+        for rank, tool in enumerate(ordered_tools, start=1)
+    ]
+    initial_catalog_cards = catalog_cards[:INITIAL_CATALOG_CARD_COUNT]
+    deferred_catalog_cards = catalog_cards[INITIAL_CATALOG_CARD_COUNT:]
+    catalog_card_markup = "\n".join(initial_catalog_cards)
+    if deferred_catalog_cards:
+        deferred_catalog_markup = "\n".join(deferred_catalog_cards)
+        catalog_card_markup += f"""
+<template id="catalog-card-template">
+  {deferred_catalog_markup}
+</template>
+<button class="button button--secondary catalog-show-more" id="catalog-show-more" type="button" aria-controls="tool-grid">
+  Show {len(deferred_catalog_cards)} more tools
+</button>"""
+
+    memorial_cards = "\n".join(
+        tool_card(tool, reference_time, rank)
+        for rank, tool in enumerate(
+            sorted(
+                memorial_tools,
+                key=lambda item: item.get("name", "").casefold(),
+            ),
+            start=1,
+        )
+    )
+    memorial_card_markup = (
+        f'<template id="memorial-card-template">\n{memorial_cards}\n</template>'
+        if memorial_cards
+        else ""
+    )
 
     replacements = {
         "{{CANONICAL_URL}}": SITE_URL,
@@ -599,10 +633,7 @@ def render_index(tools: list[dict], reference_time: datetime) -> str:
             editor_card(tool, reference_time) for tool in featured_editor_tools
         ),
         "{{EDITOR_MORE_SECTION}}": editor_more_section,
-        "{{TOOL_CARDS}}": "\n".join(
-            tool_card(tool, reference_time, rank, compare_enabled=True)
-            for rank, tool in enumerate(ordered_tools, start=1)
-        ),
+        "{{TOOL_CARDS}}": catalog_card_markup,
         "{{HOSTED_CARDS}}": "\n".join(
             tool_card(tool, reference_time, rank)
             for rank, tool in enumerate(
@@ -610,19 +641,17 @@ def render_index(tools: list[dict], reference_time: datetime) -> str:
                 start=1,
             )
         ),
-        "{{MEMORIAL_CARDS}}": "\n".join(
-            tool_card(tool, reference_time, rank)
-            for rank, tool in enumerate(
-                sorted(
-                    memorial_tools,
-                    key=lambda item: item.get("name", "").casefold(),
-                ),
-                start=1,
-            )
-        ),
+        "{{MEMORIAL_CARDS}}": memorial_card_markup,
     }
     for token, value in replacements.items():
         template = template.replace(token, value)
+    template = template.replace(
+        "Every catalog entry remains available below, but search, filtering, and sorting require JavaScript.",
+        'The first recommendations remain available below. For the complete catalog, use the '
+        f'<a href="{escape(REPOSITORY_URL)}#complete-catalog">canonical README</a> or '
+        '<a href="exports/catalog.json">catalog JSON</a>. Search, filtering, sorting, and comparison require JavaScript.',
+    )
+    template = template.replace("assets/site.js?v=3", f"assets/site.js?v={SITE_JS_VERSION}")
     if "{{" in template or "}}" in template:
         raise ValueError("Unresolved placeholder remains in site/index.html")
     return template

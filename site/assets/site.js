@@ -18,6 +18,9 @@
   const compareClear = document.querySelector("#compare-clear");
   const compareDialog = document.querySelector("#compare-dialog");
   const compareContent = document.querySelector("#compare-content");
+  const deferredCatalog = document.querySelector("#catalog-card-template");
+  const showMore = document.querySelector("#catalog-show-more");
+  const deferredMemorial = document.querySelector("#memorial-card-template");
 
   if (!(form instanceof HTMLFormElement) || !(grid instanceof HTMLElement)) {
     return;
@@ -34,7 +37,12 @@
     license: form.elements.namedItem("license"),
     capability: form.elements.namedItem("capability"),
   };
-  const cards = Array.from(grid.querySelectorAll(".tool-card"));
+  let cards = Array.from(grid.querySelectorAll(".tool-card"));
+  const totalCatalogCount =
+    cards.length +
+    (deferredCatalog instanceof HTMLTemplateElement
+      ? deferredCatalog.content.querySelectorAll(".tool-card").length
+      : 0);
   const selectedForComparison = new Set();
   const mobileQuery = window.matchMedia("(max-width: 720px)");
   let pendingResetFrame = null;
@@ -53,6 +61,61 @@
   const nameValue = (card) => card.dataset.name || "";
   const facetMatches = (card, datasetKey, selected) =>
     !selected || (card.dataset[datasetKey] || "").includes(`|${normalized(selected)}|`);
+
+  const hydrateCatalog = () => {
+    if (!(deferredCatalog instanceof HTMLTemplateElement) || !deferredCatalog.isConnected) {
+      return false;
+    }
+    deferredCatalog.replaceWith(deferredCatalog.content);
+    if (showMore instanceof HTMLElement) showMore.remove();
+    cards = Array.from(grid.querySelectorAll(".tool-card"));
+    return true;
+  };
+
+  const hydrateMemorial = () => {
+    if (!(deferredMemorial instanceof HTMLTemplateElement) || !deferredMemorial.isConnected) {
+      return false;
+    }
+    const details = deferredMemorial.closest("details");
+    deferredMemorial.replaceWith(deferredMemorial.content);
+    if (details instanceof HTMLDetailsElement) details.open = true;
+    return true;
+  };
+
+  const hydrateCardTarget = (fragment) => {
+    const id = fragment.startsWith("#") ? fragment.slice(1) : fragment;
+    if (!id.startsWith("tool-")) return document.getElementById(id);
+
+    let target = document.getElementById(id);
+    if (target) return target;
+    if (
+      deferredCatalog instanceof HTMLTemplateElement &&
+      deferredCatalog.content.getElementById(id)
+    ) {
+      hydrateCatalog();
+    } else if (
+      deferredMemorial instanceof HTMLTemplateElement &&
+      deferredMemorial.content.getElementById(id)
+    ) {
+      hydrateMemorial();
+    }
+    target = document.getElementById(id);
+    return target;
+  };
+
+  const revealHashTarget = (fragment = window.location.hash) => {
+    if (!fragment.startsWith("#tool-")) return null;
+    const target = hydrateCardTarget(fragment);
+    if (!target) return null;
+
+    applyFilters({ updateUrl: false });
+    if (target.hidden) {
+      form.reset();
+      applyResetNow();
+    }
+    window.requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
+    return target;
+  };
 
   const comparators = {
     recommended: (left, right) => numberValue(left, "rank") - numberValue(right, "rank"),
@@ -94,6 +157,8 @@
 
   const applyFilters = ({ updateUrl = true } = {}) => {
     const query = normalized(search.value);
+    const catalogIsComplete =
+      !(deferredCatalog instanceof HTMLTemplateElement) || !deferredCatalog.isConnected;
     let visibleCount = 0;
 
     for (const card of cards) {
@@ -114,14 +179,24 @@
       if (visible) visibleCount += 1;
     }
 
-    const comparator = comparators[sort.value] || comparators.recommended;
-    for (const card of [...cards].sort(comparator)) {
-      grid.append(card);
+    if (catalogIsComplete) {
+      const comparator = comparators[sort.value] || comparators.recommended;
+      for (const card of [...cards].sort(comparator)) {
+        grid.append(card);
+      }
     }
 
     const resultText = `${visibleCount} ${visibleCount === 1 ? "tool" : "tools"}`;
-    if (resultLabel) resultLabel.textContent = `Showing ${resultText}`;
-    if (mobileResultLabel) mobileResultLabel.textContent = resultText;
+    if (resultLabel) {
+      resultLabel.textContent = catalogIsComplete
+        ? `Showing ${resultText}`
+        : `Showing ${visibleCount} of ${totalCatalogCount} tools`;
+    }
+    if (mobileResultLabel) {
+      mobileResultLabel.textContent = catalogIsComplete
+        ? resultText
+        : `${visibleCount} of ${totalCatalogCount} tools`;
+    }
     if (filterCountLabel) filterCountLabel.textContent = String(selectedFacetCount());
     if (emptyState) emptyState.hidden = visibleCount !== 0;
     if (editorPicks instanceof HTMLElement) {
@@ -145,8 +220,28 @@
   };
 
   form.addEventListener("submit", (event) => event.preventDefault());
-  form.addEventListener("input", () => applyFilters());
-  form.addEventListener("change", () => applyFilters());
+  form.addEventListener("input", () => {
+    hydrateCatalog();
+    applyFilters();
+  });
+  form.addEventListener("change", () => {
+    hydrateCatalog();
+    applyFilters();
+  });
+
+  if (showMore instanceof HTMLButtonElement) {
+    showMore.addEventListener("click", () => {
+      hydrateCatalog();
+      applyFilters();
+    });
+  }
+
+  const memorialDetails = deferredMemorial?.closest("details");
+  if (memorialDetails instanceof HTMLDetailsElement) {
+    memorialDetails.addEventListener("toggle", () => {
+      if (memorialDetails.open) hydrateMemorial();
+    });
+  }
 
   const applyResetNow = () => {
     if (pendingResetFrame !== null) {
@@ -335,24 +430,19 @@
   mobileQuery.addEventListener("change", (event) => setPanelOpen(!event.matches));
 
   document.querySelectorAll('a[href^="#tool-"]').forEach((link) => {
-    link.addEventListener("click", (event) => {
+    link.addEventListener("click", () => {
       const fragment = link.getAttribute("href");
-      const target = fragment ? document.getElementById(fragment.slice(1)) : null;
-      if (target?.hidden) {
-        event.preventDefault();
-        form.reset();
-        applyResetNow();
-
-        const url = new URL(window.location.href);
-        url.hash = fragment;
-        const method = window.location.hash === fragment ? "replaceState" : "pushState";
-        window.history[method](null, "", url);
-        target.scrollIntoView({ block: "start" });
-      }
+      if (fragment) revealHashTarget(fragment);
     });
   });
 
+  window.addEventListener("hashchange", () => revealHashTarget());
+
   restoreFromAddress();
+  if (search.value.trim() || selectedFacetCount() || sort.value !== "recommended") {
+    hydrateCatalog();
+  }
   setPanelOpen(!mobileQuery.matches);
   applyFilters({ updateUrl: false });
+  revealHashTarget();
 })();
