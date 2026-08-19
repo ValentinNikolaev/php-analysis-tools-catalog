@@ -161,6 +161,13 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn('id="compare-tray"', index)
         self.assertIn('id="compare-dialog"', index)
         self.assertIn('id="compare-content"', index)
+        self.assertIn('<nav class="site-nav" aria-label="Primary navigation">', index)
+        self.assertIn('<details class="site-nav__disclosure" open>', index)
+        self.assertIn('<summary class="site-nav__summary">Menu</summary>', index)
+        self.assertIn('<div class="site-nav__links">', index)
+        self.assertIn('name="theme-color" content="#f7f7fb"', index)
+        self.assertIn('name="theme-color" content="#0f1020"', index)
+        self.assertIn('href="assets/site.css?v=7"', index)
 
     def test_client_filters_persist_all_facets_and_support_a_mobile_panel(self) -> None:
         script = (ROOT / "site" / "assets" / "site.js").read_text(encoding="utf-8")
@@ -182,8 +189,51 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn('params.get(key)', script)
         self.assertIn('window.matchMedia("(max-width: 720px)")', script)
         self.assertIn('filterToggle.setAttribute("aria-expanded", String(open))', script)
+        self.assertIn("setNavigationForViewport(mobileQuery.matches)", script)
+        self.assertIn("navDisclosure.open = !mobile", script)
         self.assertIn('.js .catalog-filter-panel:not(.is-open)', styles)
         self.assertIn('position: sticky;', styles)
+
+    def test_client_searches_hosted_services_without_applying_installable_facets(self) -> None:
+        directory, output = self.build_in_temp()
+        self.addCleanup(directory.cleanup)
+        index = (output / "index.html").read_text(encoding="utf-8")
+        script = (output / "assets" / "site.js").read_text(encoding="utf-8")
+
+        hosted_markup = index[
+            index.index('id="hosted-services"'):index.index('id="methodology"')
+        ]
+        self.assertRegex(
+            hosted_markup,
+            r'id="tool-checkmarx"[\s\S]+?data-search="[^"]*checkmarx[^"]*"',
+        )
+        self.assertIn(
+            'hostedGrid.querySelectorAll(".tool-card")',
+            script,
+        )
+        self.assertIn(
+            'const visible = !query || (card.dataset.search || "").includes(query);',
+            script,
+        )
+        self.assertIn(
+            'hostedSection.hidden = Boolean(query && visibleHostedCount === 0)',
+            script,
+        )
+        self.assertIn(
+            'emptyState.hidden = visibleCount + visibleHostedCount !== 0',
+            script,
+        )
+        self.assertIn('"installable tool"', script)
+        self.assertIn('"hosted service"', script)
+        self.assertIn(
+            '`${visibleCount}/${totalCatalogCount} installable`',
+            script,
+        )
+        self.assertIn('`${compactInstallableText} · ${visibleHostedCount} hosted`', script)
+        self.assertNotRegex(
+            script,
+            r'for \(const card of hostedCards\)[\s\S]{0,400}facetMatches\(',
+        )
 
     def test_catalog_uses_a_bounded_initial_batch_and_progressive_hydration(self) -> None:
         directory, output = self.build_in_temp()
@@ -349,7 +399,7 @@ class GenerateSiteTests(unittest.TestCase):
             build_site(output, reference_time=self.REFERENCE_TIME, base_path="/preview")
             not_found = (output / "404.html").read_text(encoding="utf-8")
 
-        self.assertIn('href="/preview/assets/site.css?v=5"', not_found)
+        self.assertIn('href="/preview/assets/site.css?v=7"', not_found)
         self.assertIn('href="/preview/"', not_found)
         self.assertEqual(normalize_base_path("/preview"), "/preview/")
         with self.assertRaisesRegex(ValueError, "absolute URL path"):

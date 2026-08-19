@@ -3,6 +3,9 @@
 
   const form = document.querySelector("#catalog-controls");
   const grid = document.querySelector("#tool-grid");
+  const hostedSection = document.querySelector("#hosted-services");
+  const hostedGrid = hostedSection?.querySelector(".tool-grid--hosted");
+  const navDisclosure = document.querySelector(".site-nav__disclosure");
   const resultLabel = document.querySelector("#catalog-results");
   const mobileResultLabel = document.querySelector("#catalog-mobile-results");
   const filterCountLabel = document.querySelector("#catalog-filter-count");
@@ -38,6 +41,10 @@
     capability: form.elements.namedItem("capability"),
   };
   let cards = Array.from(grid.querySelectorAll(".tool-card"));
+  const hostedCards =
+    hostedGrid instanceof HTMLElement
+      ? Array.from(hostedGrid.querySelectorAll(".tool-card"))
+      : [];
   const totalCatalogCount =
     cards.length +
     (deferredCatalog instanceof HTMLTemplateElement
@@ -61,6 +68,8 @@
   const nameValue = (card) => card.dataset.name || "";
   const facetMatches = (card, datasetKey, selected) =>
     !selected || (card.dataset[datasetKey] || "").includes(`|${normalized(selected)}|`);
+  const countLabel = (count, singular, plural) =>
+    `${count} ${count === 1 ? singular : plural}`;
 
   const hydrateCatalog = () => {
     if (!(deferredCatalog instanceof HTMLTemplateElement) || !deferredCatalog.isConnected) {
@@ -160,6 +169,7 @@
     const catalogIsComplete =
       !(deferredCatalog instanceof HTMLTemplateElement) || !deferredCatalog.isConnected;
     let visibleCount = 0;
+    let visibleHostedCount = 0;
 
     for (const card of cards) {
       const matchesSearch = !query || (card.dataset.search || "").includes(query);
@@ -179,6 +189,12 @@
       if (visible) visibleCount += 1;
     }
 
+    for (const card of hostedCards) {
+      const visible = !query || (card.dataset.search || "").includes(query);
+      card.hidden = !visible;
+      if (visible) visibleHostedCount += 1;
+    }
+
     if (catalogIsComplete) {
       const comparator = comparators[sort.value] || comparators.recommended;
       for (const card of [...cards].sort(comparator)) {
@@ -186,19 +202,34 @@
       }
     }
 
-    const resultText = `${visibleCount} ${visibleCount === 1 ? "tool" : "tools"}`;
+    const installableResultText = countLabel(
+      visibleCount,
+      "installable tool",
+      "installable tools",
+    );
+    const hostedResultText = countLabel(
+      visibleHostedCount,
+      "hosted service",
+      "hosted services",
+    );
+    const groupedResultText = `${installableResultText} · ${hostedResultText}`;
+    const compactInstallableText = catalogIsComplete
+      ? `${visibleCount} installable`
+      : `${visibleCount}/${totalCatalogCount} installable`;
+    const compactGroupedResultText = `${compactInstallableText} · ${visibleHostedCount} hosted`;
     if (resultLabel) {
       resultLabel.textContent = catalogIsComplete
-        ? `Showing ${resultText}`
-        : `Showing ${visibleCount} of ${totalCatalogCount} tools`;
+        ? `Showing ${groupedResultText}`
+        : `Showing ${visibleCount} of ${totalCatalogCount} installable tools · ${hostedResultText}`;
     }
     if (mobileResultLabel) {
-      mobileResultLabel.textContent = catalogIsComplete
-        ? resultText
-        : `${visibleCount} of ${totalCatalogCount} tools`;
+      mobileResultLabel.textContent = compactGroupedResultText;
     }
     if (filterCountLabel) filterCountLabel.textContent = String(selectedFacetCount());
-    if (emptyState) emptyState.hidden = visibleCount !== 0;
+    if (emptyState) emptyState.hidden = visibleCount + visibleHostedCount !== 0;
+    if (hostedSection instanceof HTMLElement) {
+      hostedSection.hidden = Boolean(query && visibleHostedCount === 0);
+    }
     if (editorPicks instanceof HTMLElement) {
       editorPicks.hidden = Boolean(query || selectedFacetCount());
     }
@@ -427,7 +458,24 @@
     });
   }
 
-  mobileQuery.addEventListener("change", (event) => setPanelOpen(!event.matches));
+  const setNavigationForViewport = (mobile) => {
+    if (navDisclosure instanceof HTMLDetailsElement) {
+      navDisclosure.open = !mobile;
+    }
+  };
+
+  mobileQuery.addEventListener("change", (event) => {
+    setPanelOpen(!event.matches);
+    setNavigationForViewport(event.matches);
+  });
+
+  if (navDisclosure instanceof HTMLDetailsElement) {
+    navDisclosure.addEventListener("click", (event) => {
+      if (mobileQuery.matches && event.target instanceof Element && event.target.closest("a")) {
+        navDisclosure.open = false;
+      }
+    });
+  }
 
   document.querySelectorAll('a[href^="#tool-"]').forEach((link) => {
     link.addEventListener("click", () => {
@@ -443,6 +491,7 @@
     hydrateCatalog();
   }
   setPanelOpen(!mobileQuery.matches);
+  setNavigationForViewport(mobileQuery.matches);
   applyFilters({ updateUrl: false });
   revealHashTarget();
 })();

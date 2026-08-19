@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A searchable catalog of PHP static-analysis, code-quality, architecture, metrics, and refactoring tools.">
-  <meta name="theme-color" content="#f7f8fc" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0d1020" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1020" media="(prefers-color-scheme: dark)">
   <meta property="og:type" content="website">
   <meta property="og:title" content="PHP Analysis Tools Catalog">
   <meta property="og:description" content="Find and compare maintained PHP analysis tools by category, activity, stars, and release data.">
@@ -20,7 +20,7 @@
   <meta name="twitter:image" content="{{CANONICAL_URL}}assets/social-preview.png">
   <link rel="canonical" href="{{CANONICAL_URL}}">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/site.css?v=6">
+  <link rel="stylesheet" href="assets/site.css?v=7">
   <title>PHP Analysis Tools Catalog</title>
 </head>
 <body>
@@ -32,13 +32,18 @@
         <span class="brand__mark" aria-hidden="true">&lt;?&gt;</span>
         <span>PHP Analysis Tools</span>
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#editors-choice">Editors’ Choice</a>
-        <a href="#catalog">Catalog</a>
-        <a href="#hosted-services">Hosted services</a>
-        <a href="#methodology">Methodology</a>
-        <a href="{{TOOL_PROPOSAL_URL}}">Submit a tool<span aria-hidden="true"> ↗</span></a>
-        <a href="{{REPOSITORY_URL}}" aria-label="Open the PHP Analysis Tools Catalog source repository">GitHub<span aria-hidden="true"> ↗</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <details class="site-nav__disclosure" open>
+          <summary class="site-nav__summary">Menu</summary>
+          <div class="site-nav__links">
+            <a href="#editors-choice">Editors’ Choice</a>
+            <a href="#catalog">Catalog</a>
+            <a href="#hosted-services">Hosted services</a>
+            <a href="#methodology">Methodology</a>
+            <a href="{{TOOL_PROPOSAL_URL}}">Submit a tool<span aria-hidden="true"> ↗</span></a>
+            <a href="{{REPOSITORY_URL}}" aria-label="Open the PHP Analysis Tools Catalog source repository">GitHub<span aria-hidden="true"> ↗</span></a>
+          </div>
+        </details>
       </nav>
     </div>
   </header>
