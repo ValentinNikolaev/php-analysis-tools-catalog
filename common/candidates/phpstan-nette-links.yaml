@@ -1,0 +1,26 @@
+slug: "phpstan-nette-links"
+name: "phpstan-nette-links"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "PHPStan rules for checking validity of links in Nette applications"
+website: "https://github.com/MetisFW/phpstan-nette-links"
+public_url: "https://github.com/MetisFW/phpstan-nette-links"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/MetisFW/phpstan-nette-links"
+packagist: "https://packagist.org/packages/metisfw/phpstan-nette-links"
+stars: 2
+repo_updated_at: "2025-07-24T12:24:49Z"
+metadata_updated_at: "2026-08-19T18:26:29Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-19T18:26:29Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-19T18:26:29Z"
+discovery_queries:
+  - "packagist:phpstan extension"

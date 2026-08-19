@@ -1,0 +1,26 @@
+slug: "phpstan-namespace-dependency"
+name: "phpstan-namespace-dependency"
+category: "Architecture rules"
+artifact_type: "ruleset"
+description: "Extension of PHPStan: Namespace Dependency Rules"
+website: "https://github.com/nishphp/phpstan-namespace-dependency"
+public_url: "https://github.com/nishphp/phpstan-namespace-dependency"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/nishphp/phpstan-namespace-dependency"
+packagist: "https://packagist.org/packages/nish/phpstan-namespace-dependency"
+stars: 3
+repo_updated_at: "2025-02-04T10:40:21Z"
+metadata_updated_at: "2026-08-19T18:26:29Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-19T18:26:29Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-19T18:26:29Z"
+discovery_queries:
+  - "packagist:phpstan extension"
