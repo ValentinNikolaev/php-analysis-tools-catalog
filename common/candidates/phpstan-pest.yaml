@@ -13,7 +13,7 @@ repository: "https://github.com/ImSuperlative/phpstan-pest"
 packagist: "https://packagist.org/packages/imsuperlative/phpstan-pest"
 stars: 0
 repo_updated_at: "2026-03-09T22:04:19Z"
-metadata_updated_at: "2026-08-18T18:27:06Z"
+metadata_updated_at: "2026-08-20T00:27:53Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-17T18:26:56Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T18:27:06Z"
+last_discovered_at: "2026-08-20T00:27:53Z"
 discovery_queries:
   - "packagist:phpstan extension"

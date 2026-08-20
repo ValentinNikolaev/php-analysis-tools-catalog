@@ -13,7 +13,7 @@ repository: "https://github.com/polylang/polylang-phpstan"
 packagist: "https://packagist.org/packages/wpsyntex/polylang-phpstan"
 stars: 4
 repo_updated_at: "2026-02-12T10:12:03Z"
-metadata_updated_at: "2026-08-18T18:27:06Z"
+metadata_updated_at: "2026-08-20T00:27:53Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T18:25:52Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-18T18:27:06Z"
+last_discovered_at: "2026-08-20T00:27:53Z"
 discovery_queries:
   - "packagist:phpstan extension"

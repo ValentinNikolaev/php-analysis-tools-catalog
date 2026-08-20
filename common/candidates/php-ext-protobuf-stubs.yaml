@@ -1,25 +1,25 @@
-slug: "flarum-phpstan"
-name: "phpstan"
+slug: "php-ext-protobuf-stubs"
+name: "php-ext-protobuf-stubs"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "[READ ONLY] Subtree split of Flarum PHPStan configuration and stubs."
-website: "https://github.com/flarum/phpstan"
-public_url: "https://github.com/flarum/phpstan"
+description: "PHPStan / Psalm / PhpStorm stubs for ext-protobuf"
+website: "https://github.com/krsque/php-ext-protobuf-stubs"
+public_url: "https://github.com/krsque/php-ext-protobuf-stubs"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/flarum/phpstan"
-packagist: "https://packagist.org/packages/flarum/phpstan"
+repository: "https://github.com/krsque/php-ext-protobuf-stubs"
+packagist: "https://packagist.org/packages/krsque/php-ext-protobuf-stubs"
 stars: 0
-repo_updated_at: "2026-08-12T10:51:02Z"
+repo_updated_at: "2026-07-28T14:03:24Z"
 metadata_updated_at: "2026-08-20T00:27:53Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-20T00:27:53Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-20T00:27:53Z"
 discovery_queries:

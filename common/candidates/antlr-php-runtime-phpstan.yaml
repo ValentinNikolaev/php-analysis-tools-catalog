@@ -1,28 +1,26 @@
-slug: "phpstan-moneyphp"
-name: "phpstan-moneyphp"
+slug: "antlr-php-runtime-phpstan"
+name: "antlr-php-runtime-phpstan"
 category: "Bugs finders"
-artifact_type: "extension"
-description: "Moneyphp Money class reflection extension for PHPStan"
-website: "https://github.com/JohnstonCode/phpstan-moneyphp"
-public_url: "https://github.com/JohnstonCode/phpstan-moneyphp"
+artifact_type: "analyzer"
+description: "Static analysis for ANTLR4 PHP Runtime."
+website: "https://github.com/antlr/antlr-php-runtime-phpstan"
+public_url: "https://github.com/antlr/antlr-php-runtime-phpstan"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/JohnstonCode/phpstan-moneyphp"
-packagist: "https://packagist.org/packages/johnstoncode/phpstan-moneyphp"
-stars: 9
-repo_updated_at: "2021-04-24T11:49:37Z"
+repository: "https://github.com/antlr/antlr-php-runtime-phpstan"
+packagist: "https://packagist.org/packages/antlr/antlr-php-runtime-phpstan"
+stars: 6
+repo_updated_at: "2021-11-20T16:03:48Z"
 metadata_updated_at: "2026-08-20T00:27:53Z"
 quality_tags:
-  - "php"
   - "phpstan"
-  - "static-analysis"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-18T18:27:06Z"
+discovered_at: "2026-08-20T00:27:53Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-20T00:27:53Z"
 discovery_queries:
