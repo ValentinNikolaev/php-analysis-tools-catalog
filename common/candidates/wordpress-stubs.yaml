@@ -1,0 +1,28 @@
+slug: "wordpress-stubs"
+name: "wordpress-stubs"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Up-to-date WordPress function and class declaration stubs for static analysis by PHPStan"
+website: "https://packagist.org/packages/php-stubs/wordpress-stubs"
+public_url: "https://packagist.org/packages/php-stubs/wordpress-stubs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-stubs/wordpress-stubs"
+packagist: "https://packagist.org/packages/php-stubs/wordpress-stubs"
+stars: 203
+repo_updated_at: "2026-07-28T11:01:10Z"
+metadata_updated_at: "2026-08-20T18:27:03Z"
+quality_tags:
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-20T18:27:03Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-20T18:27:03Z"
+discovery_queries:
+  - "packagist:static analysis"

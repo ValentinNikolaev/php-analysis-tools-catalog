@@ -18,7 +18,7 @@ website: "https://php-parser.glayzzle.com/"
 public_url: "https://php-parser.glayzzle.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-19T18:26:30Z"
+website_checked_at: "2026-08-20T18:27:04Z"
 website_error: ""
 repository: "https://github.com/glayzzle/php-parser"
 latest_release_name: "v3.7.0"
@@ -29,7 +29,7 @@ latest_release_checked_at: "2026-08-20T06:27:39Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-19T18:26:30Z"
+packagist_checked_at: "2026-08-20T18:27:04Z"
 stars: 564
 repo_updated_at: "2026-08-13T21:38:19Z"
 metadata_updated_at: "2026-08-20T06:27:39Z"

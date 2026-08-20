@@ -13,7 +13,7 @@ repository: "https://github.com/evosoftcz/phpstan-eda"
 packagist: "https://packagist.org/packages/evosoftcz/phpstan-eda"
 stars: 0
 repo_updated_at: "2024-11-15T12:47:56Z"
-metadata_updated_at: "2026-08-19T18:26:29Z"
+metadata_updated_at: "2026-08-20T18:27:03Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-19T18:26:29Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-19T18:26:29Z"
+last_discovered_at: "2026-08-20T18:27:03Z"
 discovery_queries:
   - "packagist:phpstan extension"

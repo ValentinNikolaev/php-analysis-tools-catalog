@@ -1,0 +1,26 @@
+slug: "side-effects-detector"
+name: "side-effects-detector"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Analyzes php-code for side-effects."
+website: "https://github.com/staabm/side-effects-detector"
+public_url: "https://github.com/staabm/side-effects-detector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/staabm/side-effects-detector"
+packagist: "https://packagist.org/packages/staabm/side-effects-detector"
+stars: 165
+repo_updated_at: "2026-06-22T10:44:35Z"
+metadata_updated_at: "2026-08-20T18:27:03Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-20T18:27:03Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-20T18:27:03Z"
+discovery_queries:
+  - "packagist:static analysis"

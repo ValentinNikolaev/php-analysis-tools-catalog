@@ -17,7 +17,7 @@ website: "http://ast-metrics.dev"
 public_url: "http://ast-metrics.dev"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-19T18:26:30Z"
+website_checked_at: "2026-08-20T18:27:04Z"
 website_error: ""
 repository: "https://github.com/ast-metrics/ast-metrics"
 latest_release_name: "v0.42.1"
@@ -28,7 +28,7 @@ latest_release_checked_at: "2026-08-20T06:27:39Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-19T18:26:30Z"
+packagist_checked_at: "2026-08-20T18:27:04Z"
 stars: 151
 repo_updated_at: "2026-08-19T06:45:13Z"
 metadata_updated_at: "2026-08-20T06:27:39Z"
