@@ -13,7 +13,7 @@ repository: "https://github.com/pfefferle/atom-php-cs-fixer"
 packagist: null
 stars: 28
 repo_updated_at: "2021-11-20T09:40:51Z"
-metadata_updated_at: "2026-08-19T06:27:10Z"
+metadata_updated_at: "2026-08-20T06:27:37Z"
 quality_tags:
   - "php"
   - "phpcs"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-15T18:42:30Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-19T06:27:10Z"
+last_discovered_at: "2026-08-20T06:27:37Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

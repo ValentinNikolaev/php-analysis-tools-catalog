@@ -13,7 +13,7 @@ repository: "https://github.com/shipmonk-rnd/phpstan-baseline-per-identifier"
 packagist: "https://packagist.org/packages/shipmonk/phpstan-baseline-per-identifier"
 stars: 93
 repo_updated_at: "2026-06-18T12:29:37Z"
-metadata_updated_at: "2026-08-19T06:27:10Z"
+metadata_updated_at: "2026-08-20T06:27:37Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-19T06:27:10Z"
+last_discovered_at: "2026-08-20T06:27:37Z"
 discovery_queries:
   - "packagist:phpstan extension"
