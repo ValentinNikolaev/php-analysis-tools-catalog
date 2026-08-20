@@ -1,0 +1,26 @@
+slug: "laravel-backpack-phpstan-extension"
+name: "laravel-backpack-phpstan-extension"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for Laravel Backpack - Adds static analysis support for Backpack CRUD, Basset, and other Backpack components"
+website: "https://github.com/aazbeltran/laravel-backpack-phpstan-extension"
+public_url: "https://github.com/aazbeltran/laravel-backpack-phpstan-extension"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/aazbeltran/laravel-backpack-phpstan-extension"
+packagist: "https://packagist.org/packages/aazbeltran/laravel-backpack-phpstan-extension"
+stars: 0
+repo_updated_at: "2025-09-02T06:25:59Z"
+metadata_updated_at: "2026-08-20T12:27:21Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-20T12:27:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-20T12:27:21Z"
+discovery_queries:
+  - "packagist:phpstan extension"

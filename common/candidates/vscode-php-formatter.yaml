@@ -13,7 +13,7 @@ repository: "https://github.com/vysker/vscode-php-formatter"
 packagist: null
 stars: 91
 repo_updated_at: "2018-09-12T21:19:57Z"
-metadata_updated_at: "2026-08-19T12:27:12Z"
+metadata_updated_at: "2026-08-20T12:27:21Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-19T12:27:12Z"
+last_discovered_at: "2026-08-20T12:27:21Z"
 discovery_queries:
   - "PHP code formatter fixer stars:>20"

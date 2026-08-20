@@ -1,0 +1,26 @@
+slug: "reflectioncommon"
+name: "ReflectionCommon"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Common reflection classes used by phpdocumentor to reflect the code structure"
+website: "https://github.com/phpDocumentor/ReflectionCommon"
+public_url: "https://github.com/phpDocumentor/ReflectionCommon"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpDocumentor/ReflectionCommon"
+packagist: "https://packagist.org/packages/phpdocumentor/reflection-common"
+stars: 9037
+repo_updated_at: "2025-11-10T21:22:02Z"
+metadata_updated_at: "2026-08-20T12:27:21Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-20T12:27:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-20T12:27:21Z"
+discovery_queries:
+  - "packagist:static analysis"

@@ -1,25 +1,25 @@
-slug: "phpstan-faker"
-name: "phpstan-faker"
+slug: "dcb-library-phpstanextension"
+name: "dcb-library-phpstanextension"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "PHPStan Reflection extension for custom Faker providers"
-website: "https://github.com/swisnl/phpstan-faker"
-public_url: "https://github.com/swisnl/phpstan-faker"
+description: "Discovered PHP analysis candidate."
+website: "https://github.com/bwaidelich/dcb-library-phpstanextension"
+public_url: "https://github.com/bwaidelich/dcb-library-phpstanextension"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/swisnl/phpstan-faker"
-packagist: "https://packagist.org/packages/swisnl/phpstan-faker"
-stars: 4
-repo_updated_at: "2024-12-07T17:43:58Z"
+repository: "https://github.com/bwaidelich/dcb-library-phpstanextension"
+packagist: "https://packagist.org/packages/wwwision/dcb-library-phpstanextension"
+stars: 1
+repo_updated_at: "2023-08-28T15:55:59Z"
 metadata_updated_at: "2026-08-20T12:27:21Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T00:28:21Z"
+discovered_at: "2026-08-20T12:27:21Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-20T12:27:21Z"
 discovery_queries:
