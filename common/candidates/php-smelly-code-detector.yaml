@@ -13,7 +13,7 @@ repository: "https://github.com/DeGraciaMathieu/php-smelly-code-detector"
 packagist: null
 stars: 29
 repo_updated_at: "2025-02-27T16:45:51Z"
-metadata_updated_at: "2026-08-20T12:27:21Z"
+metadata_updated_at: "2026-08-21T12:27:21Z"
 quality_tags:
   - "php"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T12:27:21Z"
+last_discovered_at: "2026-08-21T12:27:21Z"
 discovery_queries:
   - "PHP code metrics complexity stars:>10"

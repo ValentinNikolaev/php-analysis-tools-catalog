@@ -1,25 +1,28 @@
-slug: "reflectioncommon"
-name: "ReflectionCommon"
+slug: "enlightn"
+name: "enlightn"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "Common reflection classes used by phpdocumentor to reflect the code structure"
-website: "https://github.com/phpDocumentor/ReflectionCommon"
-public_url: "https://github.com/phpDocumentor/ReflectionCommon"
+description: "Your performance & security consultant, an artisan command away."
+website: "https://www.laravel-enlightn.com/"
+public_url: "https://www.laravel-enlightn.com/"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/phpDocumentor/ReflectionCommon"
-packagist: "https://packagist.org/packages/phpdocumentor/reflection-common"
-stars: 9036
-repo_updated_at: "2025-11-10T21:22:02Z"
+repository: "https://github.com/enlightn/enlightn"
+packagist: "https://packagist.org/packages/enlightn/enlightn"
+stars: 983
+repo_updated_at: "2024-06-15T19:11:23Z"
 metadata_updated_at: "2026-08-21T12:27:21Z"
-quality_tags: []
+quality_tags:
+  - "code-quality"
+  - "security"
+  - "static-analysis"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-20T12:27:21Z"
+discovered_at: "2026-08-21T12:27:21Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-21T12:27:21Z"
 discovery_queries:

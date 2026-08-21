@@ -1,26 +1,26 @@
-slug: "phpstan-miaoxing"
-name: "phpstan-miaoxing"
+slug: "tombstone"
+name: "tombstone"
 category: "Bugs finders"
-artifact_type: "extension"
-description: "PHPStan Miaoxing extension"
-website: "https://github.com/miaoxing/phpstan-miaoxing"
-public_url: "https://github.com/miaoxing/phpstan-miaoxing"
+artifact_type: "analyzer"
+description: "Dead code detection with tombstones for PHP 🪦🧟"
+website: "https://github.com/scheb/tombstone"
+public_url: "https://github.com/scheb/tombstone"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/miaoxing/phpstan-miaoxing"
-packagist: "https://packagist.org/packages/miaoxing/phpstan-miaoxing"
-stars: 0
-repo_updated_at: "2025-05-01T15:41:38Z"
+repository: "https://github.com/scheb/tombstone"
+packagist: "https://packagist.org/packages/scheb/tombstone"
+stars: 290
+repo_updated_at: "2026-06-08T17:21:48Z"
 metadata_updated_at: "2026-08-21T12:27:21Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-20T12:27:21Z"
+discovered_at: "2026-08-21T12:27:21Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-21T12:27:21Z"
 discovery_queries:
-  - "packagist:phpstan extension"
+  - "packagist:static analysis"

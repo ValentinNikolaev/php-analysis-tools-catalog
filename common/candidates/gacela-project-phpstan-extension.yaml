@@ -13,7 +13,7 @@ repository: "https://github.com/gacela-project/phpstan-extension"
 packagist: "https://packagist.org/packages/gacela-project/phpstan-extension"
 stars: 4
 repo_updated_at: "2026-08-09T04:50:37Z"
-metadata_updated_at: "2026-08-20T12:27:21Z"
+metadata_updated_at: "2026-08-21T12:27:21Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-18T12:27:06Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T12:27:21Z"
+last_discovered_at: "2026-08-21T12:27:21Z"
 discovery_queries:
   - "packagist:phpstan extension"

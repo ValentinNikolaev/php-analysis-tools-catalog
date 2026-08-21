@@ -1,25 +1,25 @@
-slug: "reflectioncommon"
-name: "ReflectionCommon"
+slug: "filacheck"
+name: "FilaCheck"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "Common reflection classes used by phpdocumentor to reflect the code structure"
-website: "https://github.com/phpDocumentor/ReflectionCommon"
-public_url: "https://github.com/phpDocumentor/ReflectionCommon"
+description: "Static analysis for Filament v4/v5 projects. Detect deprecated patterns and code issues."
+website: "https://github.com/LaravelDaily/FilaCheck"
+public_url: "https://github.com/LaravelDaily/FilaCheck"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/phpDocumentor/ReflectionCommon"
-packagist: "https://packagist.org/packages/phpdocumentor/reflection-common"
-stars: 9036
-repo_updated_at: "2025-11-10T21:22:02Z"
+repository: "https://github.com/LaravelDaily/FilaCheck"
+packagist: "https://packagist.org/packages/laraveldaily/filacheck"
+stars: 130
+repo_updated_at: "2026-08-17T11:44:52Z"
 metadata_updated_at: "2026-08-21T12:27:21Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-20T12:27:21Z"
+discovered_at: "2026-08-21T12:27:21Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-21T12:27:21Z"
 discovery_queries:
