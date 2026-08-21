@@ -1,0 +1,27 @@
+slug: "tokenizer"
+name: "tokenizer"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "[READ ONLY] Locate available classes by parent, interface or trait. Subtree split of the Spiral Tokenizer component (see spiral/framework)"
+website: "https://github.com/spiral/framework"
+public_url: "https://github.com/spiral/framework"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/spiral/tokenizer"
+packagist: "https://packagist.org/packages/spiral/tokenizer"
+stars: 18
+repo_updated_at: "2026-08-16T12:31:10Z"
+metadata_updated_at: "2026-08-21T18:26:53Z"
+quality_tags:
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-21T18:26:53Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-21T18:26:53Z"
+discovery_queries:
+  - "packagist:static analysis"

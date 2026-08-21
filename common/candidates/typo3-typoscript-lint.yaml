@@ -1,0 +1,28 @@
+slug: "typo3-typoscript-lint"
+name: "typo3-typoscript-lint"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Find coding errors in your TypoScript files."
+website: "https://github.com/martin-helmich/typo3-typoscript-lint"
+public_url: "https://github.com/martin-helmich/typo3-typoscript-lint"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/martin-helmich/typo3-typoscript-lint"
+packagist: "https://packagist.org/packages/helmich/typo3-typoscript-lint"
+stars: 90
+repo_updated_at: "2025-08-22T09:14:24Z"
+metadata_updated_at: "2026-08-21T18:26:53Z"
+quality_tags:
+  - "linter"
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-21T18:26:53Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-21T18:26:53Z"
+discovery_queries:
+  - "packagist:static analysis"
