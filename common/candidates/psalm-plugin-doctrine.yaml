@@ -1,27 +1,27 @@
-slug: "phpstan-prestashop"
-name: "phpstan-prestashop"
+slug: "psalm-plugin-doctrine"
+name: "psalm-plugin-doctrine"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "PHPStan extension for PrestaShop"
-website: "https://github.com/PrestaShop/phpstan-prestashop"
-public_url: "https://github.com/PrestaShop/phpstan-prestashop"
+description: "Stubs to let Psalm understand Doctrine better"
+website: "https://github.com/psalm/psalm-plugin-doctrine"
+public_url: "https://github.com/psalm/psalm-plugin-doctrine"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/PrestaShop/phpstan-prestashop"
-packagist: "https://packagist.org/packages/prestashop/phpstan-prestashop"
-stars: 6
-repo_updated_at: "2021-11-23T10:08:18Z"
+repository: "https://github.com/psalm/psalm-plugin-doctrine"
+packagist: "https://packagist.org/packages/weirdan/doctrine-psalm-plugin"
+stars: 87
+repo_updated_at: "2025-01-26T11:42:25Z"
 metadata_updated_at: "2026-08-21T00:28:05Z"
 quality_tags:
-  - "phpstan"
+  - "psalm"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T18:25:52Z"
+discovered_at: "2026-08-21T00:28:05Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-21T00:28:05Z"
 discovery_queries:
-  - "packagist:phpstan extension"
+  - "packagist:static analysis"

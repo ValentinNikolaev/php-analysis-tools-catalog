@@ -1,0 +1,26 @@
+slug: "infection-static-analysis-plugin"
+name: "infection-static-analysis-plugin"
+category: "Bugs finders"
+artifact_type: "extension"
+description: ":white_check_mark: :dragon_face: Static analysis on top of mutation testing - prevents escaped mutants from being invalid according to static analysis"
+website: "https://github.com/Roave/infection-static-analysis-plugin"
+public_url: "https://github.com/Roave/infection-static-analysis-plugin"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Roave/infection-static-analysis-plugin"
+packagist: "https://packagist.org/packages/roave/infection-static-analysis-plugin"
+stars: 132
+repo_updated_at: "2026-08-19T22:51:13Z"
+metadata_updated_at: "2026-08-21T00:28:05Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-21T00:28:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-21T00:28:05Z"
+discovery_queries:
+  - "packagist:static analysis"
