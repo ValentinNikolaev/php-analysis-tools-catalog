@@ -1,0 +1,28 @@
+slug: "phpstan-decodelabs"
+name: "phpstan-decodelabs"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan compatibility extension"
+website: "https://github.com/decodelabs/phpstan-decodelabs"
+public_url: "https://github.com/decodelabs/phpstan-decodelabs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/decodelabs/phpstan-decodelabs"
+packagist: "https://packagist.org/packages/decodelabs/phpstan-decodelabs"
+stars: 2
+repo_updated_at: "2026-05-13T12:42:36Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-21T06:27:48Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-21T06:27:48Z"
+discovery_queries:
+  - "packagist:phpstan extension"

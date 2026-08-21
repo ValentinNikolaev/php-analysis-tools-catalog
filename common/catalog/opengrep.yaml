@@ -23,14 +23,14 @@ latest_release_name: "Opengrep 1.27.1"
 latest_release_tag: "v1.27.1"
 latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.27.1"
 latest_release_published_at: "2026-08-14T19:53:19Z"
-latest_release_checked_at: "2026-08-20T06:27:39Z"
+latest_release_checked_at: "2026-08-21T06:27:48Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-20T18:27:04Z"
-stars: 2973
-repo_updated_at: "2026-08-19T15:17:20Z"
-metadata_updated_at: "2026-08-20T06:27:39Z"
+stars: 2975
+repo_updated_at: "2026-08-20T14:41:23Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."

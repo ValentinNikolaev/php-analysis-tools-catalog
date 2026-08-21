@@ -14,14 +14,14 @@ website_status_code: 200
 website_checked_at: "2026-08-20T18:27:04Z"
 website_error: ""
 repository: "https://github.com/sebastianbergmann/phploc"
-latest_release_checked_at: "2026-08-20T06:27:39Z"
+latest_release_checked_at: "2026-08-21T06:27:48Z"
 packagist: "https://packagist.org/packages/phploc/phploc"
 latest_version: "7.0.2"
 latest_version_released_at: "2020-12-07T05:51:20+00:00"
 packagist_checked_at: "2026-08-20T18:27:04Z"
 stars: 2343
 repo_updated_at: "2025-04-12T05:04:58Z"
-metadata_updated_at: "2026-08-20T06:27:39Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
 quality_tags:
   - "archived"
 source: "README.md"

@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/johnbillion/wp-compat"
 packagist: "https://packagist.org/packages/johnbillion/wp-compat"
 stars: 25
-repo_updated_at: "2026-07-31T13:41:35Z"
-metadata_updated_at: "2026-08-20T06:27:37Z"
+repo_updated_at: "2026-08-20T19:36:57Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T06:27:37Z"
+last_discovered_at: "2026-08-21T06:27:48Z"
 discovery_queries:
   - "packagist:phpstan extension"

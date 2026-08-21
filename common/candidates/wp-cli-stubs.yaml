@@ -1,0 +1,26 @@
+slug: "wp-cli-stubs"
+name: "wp-cli-stubs"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "WP-CLI function and class declaration stubs for static analysis."
+website: "https://packagist.org/packages/php-stubs/wp-cli-stubs"
+public_url: "https://packagist.org/packages/php-stubs/wp-cli-stubs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-stubs/wp-cli-stubs"
+packagist: "https://packagist.org/packages/php-stubs/wp-cli-stubs"
+stars: 30
+repo_updated_at: "2026-05-26T12:27:54Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-21T06:27:48Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-21T06:27:48Z"
+discovery_queries:
+  - "packagist:static analysis"

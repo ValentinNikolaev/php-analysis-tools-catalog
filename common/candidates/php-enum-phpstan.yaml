@@ -13,7 +13,7 @@ repository: "https://github.com/marc-mabe/php-enum-phpstan"
 packagist: null
 stars: 12
 repo_updated_at: "2025-11-23T16:41:51Z"
-metadata_updated_at: "2026-08-20T06:27:37Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T06:27:37Z"
+last_discovered_at: "2026-08-21T06:27:48Z"
 discovery_queries:
   - "PHPStan extension stars:>10"

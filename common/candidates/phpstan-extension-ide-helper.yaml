@@ -13,7 +13,7 @@ repository: "https://github.com/headercat/phpstan-extension-ide-helper"
 packagist: "https://packagist.org/packages/headercat/phpstan-extension-ide-helper"
 stars: 9
 repo_updated_at: "2026-08-04T22:53:56Z"
-metadata_updated_at: "2026-08-20T06:27:37Z"
+metadata_updated_at: "2026-08-21T06:27:48Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-15T18:42:30Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T06:27:37Z"
+last_discovered_at: "2026-08-21T06:27:48Z"
 discovery_queries:
   - "packagist:phpstan extension"
