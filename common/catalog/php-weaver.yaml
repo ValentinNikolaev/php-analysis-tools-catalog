@@ -19,12 +19,12 @@ website_status_code: 200
 website_checked_at: "2026-08-21T18:26:54Z"
 website_error: ""
 repository: "https://github.com/troelskn/phpweaver"
-latest_release_checked_at: "2026-08-21T06:27:48Z"
+latest_release_checked_at: "2026-08-22T12:26:54Z"
 packagist: null
 packagist_checked_at: "2026-08-21T18:26:54Z"
 stars: 85
 repo_updated_at: "2026-01-28T01:01:37Z"
-metadata_updated_at: "2026-08-21T06:27:48Z"
+metadata_updated_at: "2026-08-22T12:26:54Z"
 quality_tags: []
 source: "README.md"
 notes: ""

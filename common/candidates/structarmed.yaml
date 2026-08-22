@@ -1,0 +1,27 @@
+slug: "structarmed"
+name: "structarmed"
+category: "Architecture rules"
+artifact_type: "ruleset"
+description: "🛡️ Configurable PHP architecture guards — define your layers and rules, then keep them enforced"
+website: "https://boundwize.github.io/structarmed/"
+public_url: "https://boundwize.github.io/structarmed/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/boundwize/structarmed"
+packagist: "https://packagist.org/packages/boundwize/structarmed"
+stars: 45
+repo_updated_at: "2026-08-21T15:20:51Z"
+metadata_updated_at: "2026-08-22T12:26:54Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-22T12:26:54Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-22T12:26:54Z"
+discovery_queries:
+  - "packagist:static analysis"

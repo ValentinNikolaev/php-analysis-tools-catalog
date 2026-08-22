@@ -26,14 +26,14 @@ latest_release_name: "Version 2.23.0"
 latest_release_tag: "v2.23.0"
 latest_release_url: "https://github.com/phpro/grumphp/releases/tag/v2.23.0"
 latest_release_published_at: "2026-07-22T11:39:27Z"
-latest_release_checked_at: "2026-08-21T06:27:48Z"
+latest_release_checked_at: "2026-08-22T12:26:54Z"
 packagist: "https://packagist.org/packages/phpro/grumphp"
 latest_version: "v2.23.0"
 latest_version_released_at: "2026-07-22T11:36:59+00:00"
 packagist_checked_at: "2026-08-21T18:26:54Z"
-stars: 4309
+stars: 4311
 repo_updated_at: "2026-08-11T09:34:59Z"
-metadata_updated_at: "2026-08-21T06:27:48Z"
+metadata_updated_at: "2026-08-22T12:26:54Z"
 quality_tags:
   - "code-quality"
   - "php"

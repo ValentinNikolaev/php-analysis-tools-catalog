@@ -1,0 +1,27 @@
+slug: "psr2r-sniffer"
+name: "psr2r-sniffer"
+category: "Fixers"
+artifact_type: "fixer"
+description: "A PSR-2-R code sniffer and code-style auto-correction-tool - including many useful additions"
+website: "https://github.com/php-fig-rectified/psr2r-sniffer"
+public_url: "https://github.com/php-fig-rectified/psr2r-sniffer"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-fig-rectified/psr2r-sniffer"
+packagist: "https://packagist.org/packages/fig-r/psr2r-sniffer"
+stars: 32
+repo_updated_at: "2026-08-06T14:53:38Z"
+metadata_updated_at: "2026-08-22T12:26:54Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-22T12:26:54Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-22T12:26:54Z"
+discovery_queries:
+  - "packagist:static analysis"

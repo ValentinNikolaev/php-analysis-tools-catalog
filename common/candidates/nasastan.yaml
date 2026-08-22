@@ -13,7 +13,7 @@ repository: "https://github.com/JoeyMckenzie/nasastan"
 packagist: null
 stars: 44
 repo_updated_at: "2026-06-22T11:13:26Z"
-metadata_updated_at: "2026-08-21T06:27:48Z"
+metadata_updated_at: "2026-08-22T12:26:54Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-21T06:27:48Z"
+last_discovered_at: "2026-08-22T12:26:54Z"
 discovery_queries:
   - "PHPStan extension stars:>10"
