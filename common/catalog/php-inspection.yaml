@@ -19,12 +19,12 @@ website: "https://plugins.jetbrains.com/plugin/7622?pr=phpStorm"
 public_url: "https://plugins.jetbrains.com/plugin/7622?pr=phpStorm"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-21T18:26:54Z"
+website_checked_at: "2026-08-22T18:25:48Z"
 website_error: ""
 repository: "https://github.com/kalessil/phpinspectionsea"
 latest_release_checked_at: "2026-08-22T12:26:54Z"
 packagist: null
-packagist_checked_at: "2026-08-21T18:26:54Z"
+packagist_checked_at: "2026-08-22T18:25:48Z"
 stars: 1485
 repo_updated_at: "2026-07-09T06:24:09Z"
 metadata_updated_at: "2026-08-22T12:26:54Z"

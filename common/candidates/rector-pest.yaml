@@ -1,28 +1,27 @@
-slug: "rector-symfony"
-name: "rector-symfony"
+slug: "rector-pest"
+name: "rector-pest"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Rector upgrade rules for Symfony"
-website: "https://getrector.com/find-rule?activeRectorSetGroup=symfony"
-public_url: "https://getrector.com/find-rule?activeRectorSetGroup=symfony"
+description: "Rector rules for Pest"
+website: "https://github.com/MrPunyapal/rector-pest"
+public_url: "https://github.com/MrPunyapal/rector-pest"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/rectorphp/rector-symfony"
-packagist: null
-stars: 239
-repo_updated_at: "2026-08-20T17:05:18Z"
+repository: "https://github.com/MrPunyapal/rector-pest"
+packagist: "https://packagist.org/packages/mrpunyapal/rector-pest"
+stars: 74
+repo_updated_at: "2026-08-11T18:46:23Z"
 metadata_updated_at: "2026-08-22T18:25:48Z"
 quality_tags:
-  - "php"
   - "rector"
-source: "github-search"
+source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T00:28:21Z"
+discovered_at: "2026-08-22T18:25:48Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-22T18:25:48Z"
 discovery_queries:
-  - "PHP Rector rules stars:>10"
+  - "packagist:static analysis"

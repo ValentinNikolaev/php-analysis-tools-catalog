@@ -1,0 +1,26 @@
+slug: "typo3-debug-dump-pass"
+name: "typo3-debug-dump-pass"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Add Container debug dump pass for better static analysis (TYPO3-Rector, PHPStan)"
+website: "https://github.com/sabbelasichon/typo3-debug-dump-pass"
+public_url: "https://github.com/sabbelasichon/typo3-debug-dump-pass"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/sabbelasichon/typo3-debug-dump-pass"
+packagist: "https://packagist.org/packages/ssch/typo3-debug-dump-pass"
+stars: 3
+repo_updated_at: "2026-02-04T08:31:50Z"
+metadata_updated_at: "2026-08-22T18:25:48Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-22T18:25:48Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-22T18:25:48Z"
+discovery_queries:
+  - "packagist:static analysis"

@@ -9,7 +9,7 @@ website: "https://github.com/wapmorgan/PhpCodeAnalyzer.git"
 public_url: "https://github.com/wapmorgan/PhpCodeAnalyzer.git"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-21T18:26:54Z"
+website_checked_at: "2026-08-22T18:25:48Z"
 website_error: ""
 repository: "https://github.com/wapmorgan/PhpCodeAnalyzer"
 latest_release_name: "1.0.6: Added `--version` option"
@@ -18,7 +18,7 @@ latest_release_url: "https://github.com/wapmorgan/PhpCodeAnalyzer/releases/tag/1
 latest_release_published_at: "2019-05-09T15:25:48Z"
 latest_release_checked_at: "2026-08-22T12:26:54Z"
 packagist: null
-packagist_checked_at: "2026-08-21T18:26:54Z"
+packagist_checked_at: "2026-08-22T18:25:48Z"
 stars: 96
 repo_updated_at: "2023-01-17T00:23:31Z"
 metadata_updated_at: "2026-08-22T12:26:54Z"

@@ -13,7 +13,7 @@ repository: "https://github.com/efabrica-team/rector-nette"
 packagist: null
 stars: 27
 repo_updated_at: "2023-04-14T14:54:18Z"
-metadata_updated_at: "2026-08-21T12:27:21Z"
+metadata_updated_at: "2026-08-22T18:25:48Z"
 quality_tags:
   - "php"
   - "rector"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-21T12:27:21Z"
+last_discovered_at: "2026-08-22T18:25:48Z"
 discovery_queries:
   - "PHP Rector rules stars:>10"
