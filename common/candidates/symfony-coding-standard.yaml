@@ -13,7 +13,7 @@ repository: "https://github.com/djoos/Symfony-coding-standard"
 packagist: "https://packagist.org/packages/escapestudios/symfony2-coding-standard"
 stars: 405
 repo_updated_at: "2026-03-24T10:27:39Z"
-metadata_updated_at: "2026-08-21T00:28:05Z"
+metadata_updated_at: "2026-08-22T06:27:03Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T00:28:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-21T00:28:05Z"
+last_discovered_at: "2026-08-22T06:27:03Z"
 discovery_queries:
   - "packagist:static analysis"

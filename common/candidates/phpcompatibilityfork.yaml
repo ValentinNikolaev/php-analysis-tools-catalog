@@ -1,0 +1,26 @@
+slug: "phpcompatibilityfork"
+name: "PHPCompatibilityFork"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "A fork of PHPCompatibility/PHPCompatibility. For original PHPCompatibility repository, see https://github.com/PHPCompatibility/PHPCompatibility."
+website: "http://techblog.wimgodden.be/tag/codesniffer/"
+public_url: "http://techblog.wimgodden.be/tag/codesniffer/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/magento/PHPCompatibilityFork"
+packagist: "https://packagist.org/packages/magento/php-compatibility-fork"
+stars: 5
+repo_updated_at: "2023-11-29T23:02:37Z"
+metadata_updated_at: "2026-08-22T06:27:03Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-22T06:27:03Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-22T06:27:03Z"
+discovery_queries:
+  - "packagist:static analysis"

@@ -1,25 +1,25 @@
-slug: "jms-serializer-phpstan-extension"
-name: "jms-serializer-phpstan-extension"
+slug: "skystan"
+name: "skystan"
 category: "Bugs finders"
 artifact_type: "extension"
-description: "JMS/Serializer extension for PHPStan"
-website: "https://github.com/goetas/jms-serializer-phpstan-extension"
-public_url: "https://github.com/goetas/jms-serializer-phpstan-extension"
+description: "A PHPStan extension to enforce correct usage of Laravel background jobs"
+website: "https://github.com/boring-o11y/skystan"
+public_url: "https://github.com/boring-o11y/skystan"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/goetas/jms-serializer-phpstan-extension"
-packagist: "https://packagist.org/packages/goetas/jms-serializer-phpstan-extension"
-stars: 3
-repo_updated_at: "2025-04-28T18:35:10Z"
+repository: "https://github.com/boring-o11y/skystan"
+packagist: "https://packagist.org/packages/boring-o11y/skystan"
+stars: 4
+repo_updated_at: "2026-07-03T17:07:51Z"
 metadata_updated_at: "2026-08-22T06:27:03Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-22T06:27:03Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-22T06:27:03Z"
 discovery_queries:

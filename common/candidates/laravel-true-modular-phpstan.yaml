@@ -13,7 +13,7 @@ repository: "https://github.com/happenv-com/laravel-true-modular-phpstan"
 packagist: "https://packagist.org/packages/happenv-com/laravel-true-modular-phpstan"
 stars: 0
 repo_updated_at: "2026-06-28T06:18:53Z"
-metadata_updated_at: "2026-08-21T00:28:05Z"
+metadata_updated_at: "2026-08-22T06:27:03Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-17T18:26:56Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-21T00:28:05Z"
+last_discovered_at: "2026-08-22T06:27:03Z"
 discovery_queries:
   - "packagist:phpstan extension"

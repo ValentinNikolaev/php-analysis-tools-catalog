@@ -1,26 +1,27 @@
-slug: "flarum-phpstan"
-name: "phpstan"
+slug: "docheader"
+name: "docheader"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "[READ ONLY] Subtree split of Flarum PHPStan configuration and stubs."
-website: "https://github.com/flarum/phpstan"
-public_url: "https://github.com/flarum/phpstan"
+description: "A small tool to check license headers"
+website: "https://github.com/malukenho/docheader"
+public_url: "https://github.com/malukenho/docheader"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/flarum/phpstan"
-packagist: "https://packagist.org/packages/flarum/phpstan"
-stars: 0
-repo_updated_at: "2026-08-12T10:51:02Z"
+repository: "https://github.com/malukenho/docheader"
+packagist: "https://packagist.org/packages/malukenho/docheader"
+stars: 68
+repo_updated_at: "2024-02-05T12:07:56Z"
 metadata_updated_at: "2026-08-22T06:27:03Z"
-quality_tags: []
+quality_tags:
+  - "php"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T12:26:59Z"
+discovered_at: "2026-08-22T06:27:03Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-22T06:27:03Z"
 discovery_queries:
-  - "packagist:phpstan extension"
+  - "packagist:static analysis"
