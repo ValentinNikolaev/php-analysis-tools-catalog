@@ -13,7 +13,7 @@ repository: "https://github.com/nishphp/phpstan-safestring-rule"
 packagist: "https://packagist.org/packages/nish/phpstan-safestring-rule"
 stars: 4
 repo_updated_at: "2026-03-05T07:26:19Z"
-metadata_updated_at: "2026-08-20T18:27:03Z"
+metadata_updated_at: "2026-08-22T00:27:50Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-19T18:26:29Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-20T18:27:03Z"
+last_discovered_at: "2026-08-22T00:27:50Z"
 discovery_queries:
   - "packagist:phpstan extension"
