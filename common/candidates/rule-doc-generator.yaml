@@ -1,27 +1,25 @@
-slug: "phpcs-psr4-sniff"
-name: "phpcs-psr4-sniff"
+slug: "rule-doc-generator"
+name: "rule-doc-generator"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "[READ-ONLY] PHP_CodeSniffer sniff that checks class name matches PSR-4 project structure."
-website: "https://github.com/suin/phpcs-psr4-sniff"
-public_url: "https://github.com/suin/phpcs-psr4-sniff"
+description: "[DEPRECATED] Documentation generator for coding standard or static analysis rules\""
+website: "https://github.com/symplify/rule-doc-generator"
+public_url: "https://github.com/symplify/rule-doc-generator"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/suin/phpcs-psr4-sniff"
-packagist: "https://packagist.org/packages/suin/phpcs-psr4-sniff"
-stars: 27
-repo_updated_at: "2024-04-29T02:04:22Z"
+repository: "https://github.com/symplify/rule-doc-generator"
+packagist: "https://packagist.org/packages/symplify/rule-doc-generator"
+stars: 30
+repo_updated_at: "2024-08-08T12:13:42Z"
 metadata_updated_at: "2026-08-23T00:27:55Z"
-quality_tags:
-  - "phpcs"
-  - "static-analysis"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-21T18:26:53Z"
+discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-23T00:27:55Z"
 discovery_queries:

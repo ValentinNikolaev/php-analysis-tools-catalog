@@ -1,27 +1,27 @@
-slug: "phpcs-psr4-sniff"
-name: "phpcs-psr4-sniff"
+slug: "phpcs-import-detection"
+name: "phpcs-import-detection"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "[READ-ONLY] PHP_CodeSniffer sniff that checks class name matches PSR-4 project structure."
-website: "https://github.com/suin/phpcs-psr4-sniff"
-public_url: "https://github.com/suin/phpcs-psr4-sniff"
+description: "A set of phpcs sniffs to look for unused or unimported symbols."
+website: "https://github.com/sirbrillig/phpcs-import-detection"
+public_url: "https://github.com/sirbrillig/phpcs-import-detection"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/suin/phpcs-psr4-sniff"
-packagist: "https://packagist.org/packages/suin/phpcs-psr4-sniff"
-stars: 27
-repo_updated_at: "2024-04-29T02:04:22Z"
+repository: "https://github.com/sirbrillig/phpcs-import-detection"
+packagist: "https://packagist.org/packages/sirbrillig/phpcs-import-detection"
+stars: 33
+repo_updated_at: "2026-03-18T19:55:17Z"
 metadata_updated_at: "2026-08-23T00:27:55Z"
 quality_tags:
+  - "php"
   - "phpcs"
-  - "static-analysis"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-21T18:26:53Z"
+discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-23T00:27:55Z"
 discovery_queries:

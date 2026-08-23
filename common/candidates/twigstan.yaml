@@ -1,26 +1,26 @@
-slug: "phpstan-eda"
-name: "phpstan-eda"
+slug: "twigstan"
+name: "twigstan"
 category: "Bugs finders"
-artifact_type: "extension"
-description: "Eda class reflection extension for PHPStan"
-website: "https://github.com/evosoftcz/phpstan-eda"
-public_url: "https://github.com/evosoftcz/phpstan-eda"
+artifact_type: "analyzer"
+description: "TwigStan is a static analyzer for Twig templates powered by PHPStan"
+website: "https://github.com/twigstan/twigstan"
+public_url: "https://github.com/twigstan/twigstan"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/evosoftcz/phpstan-eda"
-packagist: "https://packagist.org/packages/evosoftcz/phpstan-eda"
-stars: 0
-repo_updated_at: "2024-11-15T12:47:56Z"
+repository: "https://github.com/twigstan/twigstan"
+packagist: "https://packagist.org/packages/twigstan/twigstan"
+stars: 278
+repo_updated_at: "2025-11-11T10:02:03Z"
 metadata_updated_at: "2026-08-23T00:27:55Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-19T18:26:29Z"
+discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-23T00:27:55Z"
 discovery_queries:
-  - "packagist:phpstan extension"
+  - "packagist:static analysis"

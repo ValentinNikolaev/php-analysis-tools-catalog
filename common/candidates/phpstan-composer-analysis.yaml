@@ -1,27 +1,25 @@
-slug: "phplint"
-name: "phplint"
+slug: "phpstan-composer-analysis"
+name: "phpstan-composer-analysis"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: ":bug:  A tool that can speed up linting of php files by running several lint processes at once."
-website: "https://github.com/overtrue/phplint"
-public_url: "https://github.com/overtrue/phplint"
+description: "PHPStan Wrapper for shipmonk/composer-dependency-analyser."
+website: "https://github.com/pb30/phpstan-composer-analysis"
+public_url: "https://github.com/pb30/phpstan-composer-analysis"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/overtrue/phplint"
-packagist: "https://packagist.org/packages/overtrue/phplint"
-stars: 1022
-repo_updated_at: "2026-08-18T07:21:10Z"
+repository: "https://github.com/pb30/phpstan-composer-analysis"
+packagist: "https://packagist.org/packages/pb30/phpstan-composer-analysis"
+stars: 17
+repo_updated_at: "2026-06-18T16:51:52Z"
 metadata_updated_at: "2026-08-23T00:27:55Z"
-quality_tags:
-  - "linter"
-  - "php"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-20T18:27:03Z"
+discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-23T00:27:55Z"
 discovery_queries:
