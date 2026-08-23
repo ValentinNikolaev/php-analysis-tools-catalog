@@ -1,18 +1,18 @@
-slug: "docheader"
-name: "docheader"
+slug: "gravity-forms-stubs"
+name: "gravity-forms-stubs"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "A small tool to check license headers"
-website: "https://github.com/malukenho/docheader"
-public_url: "https://github.com/malukenho/docheader"
+description: "Up-to-date Gravity Forms function and class declaration stubs for static analysis by PHPStan"
+website: "https://docs.gravityforms.com/gravityforms-change-log/"
+public_url: "https://docs.gravityforms.com/gravityforms-change-log/"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/malukenho/docheader"
-packagist: "https://packagist.org/packages/malukenho/docheader"
-stars: 68
-repo_updated_at: "2024-02-05T12:07:56Z"
+repository: "https://github.com/php-stubs/gravity-forms-stubs"
+packagist: "https://packagist.org/packages/php-stubs/gravity-forms-stubs"
+stars: 5
+repo_updated_at: "2025-02-24T10:36:06Z"
 metadata_updated_at: "2026-08-23T12:26:33Z"
 quality_tags:
   - "php"
@@ -20,7 +20,7 @@ source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-22T06:27:03Z"
+discovered_at: "2026-08-23T12:26:33Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-23T12:26:33Z"
 discovery_queries:

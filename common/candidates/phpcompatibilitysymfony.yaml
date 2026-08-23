@@ -1,0 +1,27 @@
+slug: "phpcompatibilitysymfony"
+name: "PHPCompatibilitySymfony"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHPCompatibility rulesets which can be included in projects using the Symfony polyfill libraries"
+website: "https://github.com/PHPCompatibility/PHPCompatibilitySymfony"
+public_url: "https://github.com/PHPCompatibility/PHPCompatibilitySymfony"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/PHPCompatibility/PHPCompatibilitySymfony"
+packagist: "https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony"
+stars: 8
+repo_updated_at: "2026-08-15T17:24:52Z"
+metadata_updated_at: "2026-08-23T12:26:33Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-23T12:26:33Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-23T12:26:33Z"
+discovery_queries:
+  - "packagist:static analysis"

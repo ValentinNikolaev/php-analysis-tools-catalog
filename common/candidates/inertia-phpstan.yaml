@@ -13,7 +13,7 @@ repository: "https://github.com/adrum/inertia-phpstan"
 packagist: "https://packagist.org/packages/adrum/inertia-phpstan"
 stars: 8
 repo_updated_at: "2025-07-28T04:55:48Z"
-metadata_updated_at: "2026-08-22T06:27:03Z"
+metadata_updated_at: "2026-08-23T12:26:33Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T12:26:59Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T06:27:03Z"
+last_discovered_at: "2026-08-23T12:26:33Z"
 discovery_queries:
   - "packagist:phpstan extension"
