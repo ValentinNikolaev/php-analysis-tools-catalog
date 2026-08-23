@@ -13,7 +13,7 @@ repository: "https://github.com/breeze2/vscode-phpstan"
 packagist: null
 stars: 22
 repo_updated_at: "2022-12-30T19:18:55Z"
-metadata_updated_at: "2026-08-22T12:26:54Z"
+metadata_updated_at: "2026-08-23T18:25:42Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T12:26:54Z"
+last_discovered_at: "2026-08-23T18:25:42Z"
 discovery_queries:
   - "PHPStan extension stars:>10"

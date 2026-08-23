@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/JetBrains/qodana-cli"
 packagist: null
 stars: 239
-repo_updated_at: "2026-08-21T09:49:33Z"
-metadata_updated_at: "2026-08-22T12:26:54Z"
+repo_updated_at: "2026-08-22T20:16:05Z"
+metadata_updated_at: "2026-08-23T18:25:42Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-13T18:35:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T12:26:54Z"
+last_discovered_at: "2026-08-23T18:25:42Z"
 discovery_queries:
   - "topic:php topic:code-quality stars:>20"

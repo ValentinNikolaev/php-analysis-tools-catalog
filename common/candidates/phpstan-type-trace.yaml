@@ -1,0 +1,29 @@
+slug: "phpstan-type-trace"
+name: "phpstan-type-trace"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "See the full type-inference chain of any value in PHPStan, not just a single snapshot."
+website: "https://github.com/kayw-geek/phpstan-type-trace"
+public_url: "https://github.com/kayw-geek/phpstan-type-trace"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/kayw-geek/phpstan-type-trace"
+packagist: "https://packagist.org/packages/kayw-geek/phpstan-type-trace"
+stars: 20
+repo_updated_at: "2026-05-27T01:16:08Z"
+metadata_updated_at: "2026-08-23T18:25:42Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-23T18:25:42Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-23T18:25:42Z"
+discovery_queries:
+  - "packagist:static analysis"

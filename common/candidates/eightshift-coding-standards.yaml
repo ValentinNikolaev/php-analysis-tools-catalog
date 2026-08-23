@@ -1,0 +1,26 @@
+slug: "eightshift-coding-standards"
+name: "eightshift-coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Eightshift coding standards for WordPress"
+website: "https://eightshift.com"
+public_url: "https://eightshift.com"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/infinum/eightshift-coding-standards"
+packagist: "https://packagist.org/packages/infinum/eightshift-coding-standards"
+stars: 17
+repo_updated_at: "2026-07-29T11:10:00Z"
+metadata_updated_at: "2026-08-23T18:25:42Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-23T18:25:42Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-23T18:25:42Z"
+discovery_queries:
+  - "packagist:static analysis"
