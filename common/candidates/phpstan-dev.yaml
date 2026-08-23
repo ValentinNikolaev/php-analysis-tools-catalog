@@ -1,0 +1,28 @@
+slug: "phpstan-dev"
+name: "phpstan-dev"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "Smooth tests for PHPStan rules: inplace fixture asserts and autofix!"
+website: "https://github.com/shipmonk-rnd/phpstan-dev"
+public_url: "https://github.com/shipmonk-rnd/phpstan-dev"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/shipmonk-rnd/phpstan-dev"
+packagist: "https://packagist.org/packages/shipmonk/phpstan-dev"
+stars: 7
+repo_updated_at: "2026-06-23T07:57:18Z"
+metadata_updated_at: "2026-08-23T06:26:52Z"
+quality_tags:
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-23T06:26:52Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-23T06:26:52Z"
+discovery_queries:
+  - "packagist:static analysis"

@@ -1,0 +1,26 @@
+slug: "phpcsdevtools"
+name: "PHPCSDevTools"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Tools for PHP_CodeSniffer sniff developers"
+website: "https://phpcsstandards.github.io/PHPCSDevTools/"
+public_url: "https://phpcsstandards.github.io/PHPCSDevTools/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/PHPCSStandards/PHPCSDevTools"
+packagist: "https://packagist.org/packages/phpcsstandards/phpcsdevtools"
+stars: 17
+repo_updated_at: "2026-08-14T02:16:30Z"
+metadata_updated_at: "2026-08-23T06:26:52Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-23T06:26:52Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-23T06:26:52Z"
+discovery_queries:
+  - "packagist:static analysis"
