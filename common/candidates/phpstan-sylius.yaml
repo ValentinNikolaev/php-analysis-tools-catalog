@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/bitExpert/phpstan-sylius"
 packagist: "https://packagist.org/packages/bitexpert/phpstan-sylius"
 stars: 6
-repo_updated_at: "2026-08-21T06:06:55Z"
-metadata_updated_at: "2026-08-23T12:26:33Z"
+repo_updated_at: "2026-08-24T04:21:45Z"
+metadata_updated_at: "2026-08-24T12:27:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-18T18:27:06Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T12:26:33Z"
+last_discovered_at: "2026-08-24T12:27:35Z"
 discovery_queries:
   - "packagist:phpstan extension"

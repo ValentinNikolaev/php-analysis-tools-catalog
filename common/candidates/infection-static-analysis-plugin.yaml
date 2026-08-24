@@ -13,7 +13,7 @@ repository: "https://github.com/Roave/infection-static-analysis-plugin"
 packagist: "https://packagist.org/packages/roave/infection-static-analysis-plugin"
 stars: 132
 repo_updated_at: "2026-08-23T05:44:58Z"
-metadata_updated_at: "2026-08-23T12:26:33Z"
+metadata_updated_at: "2026-08-24T12:27:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T00:28:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T12:26:33Z"
+last_discovered_at: "2026-08-24T12:27:35Z"
 discovery_queries:
   - "packagist:static analysis"

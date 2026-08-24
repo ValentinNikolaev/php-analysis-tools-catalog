@@ -1,27 +1,25 @@
-slug: "coding-standard-php"
-name: "coding-standard-php"
-category: "Coding standards"
+slug: "mockstan"
+name: "mockstan"
+category: "Bugs finders"
 artifact_type: "ruleset"
-description: "Strict PHP coding standard"
-website: "https://github.com/orisai/coding-standard-php"
-public_url: "https://github.com/orisai/coding-standard-php"
+description: "[deprecated] Rules moved to"
+website: "https://github.com/symplify/phpstan-rules"
+public_url: "https://github.com/symplify/phpstan-rules"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/orisai/coding-standard-php"
-packagist: "https://packagist.org/packages/orisai/coding-standard"
-stars: 19
-repo_updated_at: "2025-06-20T12:53:32Z"
+repository: "https://github.com/deprecated-packages/mockstan"
+packagist: "https://packagist.org/packages/rector/mockstan"
+stars: 4
+repo_updated_at: "2026-06-08T07:44:05Z"
 metadata_updated_at: "2026-08-24T12:27:35Z"
-quality_tags:
-  - "php"
-  - "static-analysis"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-23T12:26:33Z"
+discovered_at: "2026-08-24T12:27:35Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-24T12:27:35Z"
 discovery_queries:

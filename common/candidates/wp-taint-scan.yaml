@@ -1,0 +1,29 @@
+slug: "wp-taint-scan"
+name: "wp-taint-scan"
+category: "DIY"
+artifact_type: "library"
+description: "Go static taint-analysis engine that finds vulnerabilities in WordPress plugins — WordPress-aware (capability tiers, nonce≠authz, REST/AJAX entrypoints). Detects SQLi, XSS, IDOR, privesc, RCE. Built on php-parser-go."
+website: "https://github.com/dimasma0305/wp-taint-scan"
+public_url: "https://github.com/dimasma0305/wp-taint-scan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/dimasma0305/wp-taint-scan"
+packagist: null
+stars: 21
+repo_updated_at: "2026-06-06T13:12:02Z"
+metadata_updated_at: "2026-08-24T12:27:35Z"
+quality_tags:
+  - "php"
+  - "security"
+  - "static-analysis"
+source: "github-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-24T12:27:35Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-24T12:27:35Z"
+discovery_queries:
+  - "topic:php topic:static-analysis stars:>20"

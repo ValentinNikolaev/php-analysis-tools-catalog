@@ -1,26 +1,27 @@
-slug: "psalm-plugin-doctrine"
-name: "psalm-plugin-doctrine"
+slug: "exceptions"
+name: "exceptions"
 category: "Bugs finders"
-artifact_type: "extension"
-description: "Stubs to let Psalm understand Doctrine better"
-website: "https://github.com/psalm/psalm-plugin-doctrine"
-public_url: "https://github.com/psalm/psalm-plugin-doctrine"
+artifact_type: "analyzer"
+description: "Exceptions designed for static analysis and easy usage"
+website: "https://github.com/orisai/exceptions"
+public_url: "https://github.com/orisai/exceptions"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/psalm/psalm-plugin-doctrine"
-packagist: "https://packagist.org/packages/weirdan/doctrine-psalm-plugin"
-stars: 87
-repo_updated_at: "2025-01-26T11:42:25Z"
+repository: "https://github.com/orisai/exceptions"
+packagist: "https://packagist.org/packages/orisai/exceptions"
+stars: 22
+repo_updated_at: "2025-06-30T16:36:03Z"
 metadata_updated_at: "2026-08-24T12:27:35Z"
 quality_tags:
-  - "psalm"
+  - "php"
+  - "phpstan"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-21T00:28:05Z"
+discovered_at: "2026-08-24T12:27:35Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-24T12:27:35Z"
 discovery_queries:
