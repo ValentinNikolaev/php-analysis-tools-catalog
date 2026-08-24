@@ -13,7 +13,7 @@ repository: "https://github.com/qltysh-archive/codeclimate-phpcodesniffer"
 packagist: null
 stars: 28
 repo_updated_at: "2025-04-23T16:52:29Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T18:25:42Z"
+last_discovered_at: "2026-08-24T18:27:08Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

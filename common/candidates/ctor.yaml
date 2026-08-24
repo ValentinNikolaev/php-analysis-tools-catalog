@@ -13,7 +13,7 @@ repository: "https://github.com/deprecated-packages/ctor"
 packagist: null
 stars: 15
 repo_updated_at: "2026-06-07T19:03:34Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
 quality_tags:
   - "phpstan"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T18:25:42Z"
+last_discovered_at: "2026-08-24T18:27:08Z"
 discovery_queries:
   - "PHPStan extension stars:>10"

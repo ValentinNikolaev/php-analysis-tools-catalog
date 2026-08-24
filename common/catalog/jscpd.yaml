@@ -15,19 +15,19 @@ website: "https://github.com/kucherenko/jscpd"
 public_url: "https://github.com/kucherenko/jscpd"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-23T18:25:42Z"
+website_checked_at: "2026-08-24T18:27:09Z"
 website_error: ""
 repository: "https://github.com/kucherenko/jscpd"
 latest_release_name: "Release v5.0.16"
 latest_release_tag: "v5.0.16"
 latest_release_url: "https://github.com/kucherenko/jscpd/releases/tag/v5.0.16"
 latest_release_published_at: "2026-08-18T07:09:29Z"
-latest_release_checked_at: "2026-08-23T18:25:42Z"
+latest_release_checked_at: "2026-08-24T18:27:09Z"
 packagist: null
-packagist_checked_at: "2026-08-23T18:25:42Z"
-stars: 6043
-repo_updated_at: "2026-08-21T14:16:14Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+packagist_checked_at: "2026-08-24T18:27:09Z"
+stars: 6045
+repo_updated_at: "2026-08-24T14:41:53Z"
+metadata_updated_at: "2026-08-24T18:27:09Z"
 quality_tags:
   - "code-quality"
 source: "README.md"

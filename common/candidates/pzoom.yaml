@@ -13,7 +13,7 @@ repository: "https://github.com/muglug/pzoom"
 packagist: null
 stars: 34
 repo_updated_at: "2026-07-02T12:53:29Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T18:25:42Z"
+last_discovered_at: "2026-08-24T18:27:08Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

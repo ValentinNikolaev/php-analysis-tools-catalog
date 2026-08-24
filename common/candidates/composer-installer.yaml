@@ -1,0 +1,26 @@
+slug: "composer-installer"
+name: "composer-installer"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Composer installer for PHP_CodeSniffer coding standards"
+website: "https://packagist.org/packages/dealerdirect/phpcodesniffer-composer-installer"
+public_url: "https://packagist.org/packages/dealerdirect/phpcodesniffer-composer-installer"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/PHPCSStandards/composer-installer"
+packagist: "https://packagist.org/packages/dealerdirect/phpcodesniffer-composer-installer"
+stars: 601
+repo_updated_at: "2026-08-07T21:59:58Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-24T18:27:08Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-24T18:27:08Z"
+discovery_queries:
+  - "packagist:phpcs standard"

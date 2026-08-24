@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/ahmed-bhs/doctrine-doctor"
 packagist: null
 stars: 127
-repo_updated_at: "2026-08-19T10:41:53Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+repo_updated_at: "2026-08-24T07:57:27Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T18:25:42Z"
+last_discovered_at: "2026-08-24T18:27:08Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

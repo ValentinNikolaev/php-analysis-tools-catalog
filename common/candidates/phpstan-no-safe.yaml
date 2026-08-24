@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/WyriHaximus/phpstan-no-safe"
 packagist: "https://packagist.org/packages/wyrihaximus/phpstan-no-safe"
 stars: 0
-repo_updated_at: "2026-08-22T14:33:23Z"
-metadata_updated_at: "2026-08-23T18:25:42Z"
+repo_updated_at: "2026-08-23T22:16:28Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-15T18:42:30Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T18:25:42Z"
+last_discovered_at: "2026-08-24T18:27:08Z"
 discovery_queries:
   - "packagist:phpstan extension"

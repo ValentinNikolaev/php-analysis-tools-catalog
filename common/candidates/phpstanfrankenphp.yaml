@@ -1,0 +1,29 @@
+slug: "phpstanfrankenphp"
+name: "PhpStanFrankenPhp"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "PHPStan rules that help you migrate from PHP-FPM to FrankenPHP classic, then to worker mode. Rules are split by level with demos for every case."
+website: "https://packagist.org/packages/nowo-tech/phpstan-frankenphp"
+public_url: "https://packagist.org/packages/nowo-tech/phpstan-frankenphp"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/nowo-tech/PhpStanFrankenPhp"
+packagist: "https://packagist.org/packages/nowo-tech/phpstan-frankenphp"
+stars: 0
+repo_updated_at: "2026-08-24T16:08:43Z"
+metadata_updated_at: "2026-08-24T18:27:08Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-24T18:27:08Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-24T18:27:08Z"
+discovery_queries:
+  - "packagist:static analysis"
