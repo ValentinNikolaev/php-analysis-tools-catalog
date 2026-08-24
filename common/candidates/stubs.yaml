@@ -1,0 +1,26 @@
+slug: "stubs"
+name: "stubs"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Method headers for IDE integration and static analysis support."
+website: "http://php-decimal.io"
+public_url: "http://php-decimal.io"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-decimal/stubs"
+packagist: "https://packagist.org/packages/php-decimal/stubs"
+stars: 6
+repo_updated_at: "2023-06-08T17:15:15Z"
+metadata_updated_at: "2026-08-24T06:28:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-24T06:28:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-24T06:28:15Z"
+discovery_queries:
+  - "packagist:static analysis"

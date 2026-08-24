@@ -1,27 +1,26 @@
-slug: "phpstan-dev"
-name: "phpstan-dev"
+slug: "core"
+name: "core"
 category: "Bugs finders"
-artifact_type: "ruleset"
-description: "Smooth tests for PHPStan rules: inplace fixture asserts and autofix!"
-website: "https://github.com/shipmonk-rnd/phpstan-dev"
-public_url: "https://github.com/shipmonk-rnd/phpstan-dev"
+artifact_type: "analyzer"
+description: "REDAXO, a PHP-based CMS since 2004. Both simple and flexible."
+website: "https://redaxo.org"
+public_url: "https://redaxo.org"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/shipmonk-rnd/phpstan-dev"
-packagist: "https://packagist.org/packages/shipmonk/phpstan-dev"
-stars: 7
-repo_updated_at: "2026-06-23T07:57:18Z"
+repository: "https://github.com/redaxo/core"
+packagist: "https://packagist.org/packages/redaxo/source"
+stars: 353
+repo_updated_at: "2026-08-22T12:55:44Z"
 metadata_updated_at: "2026-08-24T06:28:15Z"
 quality_tags:
-  - "phpstan"
-  - "static-analysis"
+  - "php"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-23T06:26:52Z"
+discovered_at: "2026-08-24T06:28:15Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-24T06:28:15Z"
 discovery_queries:
