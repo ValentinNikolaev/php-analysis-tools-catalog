@@ -1,0 +1,26 @@
+slug: "github"
+name: ".github"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "At Conduction, we are driven by a vision that sees the digitization of the world as an extraordinary opportunity. It's a chance to transform our world into something more democratic, inclusive, and transparent. We understand that digitalization is not just inevitable but comes with immense potential and challenges.  "
+website: "https://www.conduction.nl/"
+public_url: "https://www.conduction.nl/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ConductionNL/.github"
+packagist: "https://packagist.org/packages/conduction/hydra-gates"
+stars: 1
+repo_updated_at: "2026-08-23T20:51:54Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-24T00:27:57Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-24T00:27:57Z"
+discovery_queries:
+  - "packagist:static analysis"

@@ -13,7 +13,7 @@ repository: "https://github.com/cego/phpstan"
 packagist: "https://packagist.org/packages/cego/phpstan"
 stars: 0
 repo_updated_at: "2026-06-20T11:32:14Z"
-metadata_updated_at: "2026-08-22T18:25:48Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-18T06:27:28Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T18:25:48Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:phpstan extension"

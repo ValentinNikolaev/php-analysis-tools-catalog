@@ -13,7 +13,7 @@ repository: "https://github.com/BackEndTea/phpstan-multiple-error-formatter"
 packagist: "https://packagist.org/packages/backendtea/phpstan-multiple-error-formatter"
 stars: 1
 repo_updated_at: "2024-11-27T11:01:06Z"
-metadata_updated_at: "2026-08-22T18:25:48Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-18T06:27:28Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T18:25:48Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:phpstan extension"

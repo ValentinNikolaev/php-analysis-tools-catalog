@@ -13,7 +13,7 @@ repository: "https://github.com/php-stubs/wordpress-tests-stubs"
 packagist: "https://packagist.org/packages/php-stubs/wordpress-tests-stubs"
 stars: 5
 repo_updated_at: "2026-08-20T07:26:23Z"
-metadata_updated_at: "2026-08-23T00:27:55Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T00:27:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T00:27:55Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:static analysis"

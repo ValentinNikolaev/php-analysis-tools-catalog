@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/WyriHaximus/phpstan-reactphp"
 packagist: "https://packagist.org/packages/wyrihaximus/phpstan-react"
 stars: 2
-repo_updated_at: "2026-08-22T14:33:26Z"
-metadata_updated_at: "2026-08-22T18:25:48Z"
+repo_updated_at: "2026-08-23T22:17:39Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T18:25:48Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:phpstan extension"

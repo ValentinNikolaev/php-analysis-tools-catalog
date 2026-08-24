@@ -13,7 +13,7 @@ repository: "https://github.com/scheb/tombstone-analyzer"
 packagist: "https://packagist.org/packages/scheb/tombstone-analyzer"
 stars: 28
 repo_updated_at: "2025-12-19T17:57:19Z"
-metadata_updated_at: "2026-08-22T18:25:48Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T18:25:48Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-22T18:25:48Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:static analysis"

@@ -1,25 +1,25 @@
-slug: "reflectioncommon"
-name: "ReflectionCommon"
+slug: "pyrameter"
+name: "pyrameter"
 category: "Bugs finders"
-artifact_type: "analyzer"
-description: "Common reflection classes used by phpdocumentor to reflect the code structure"
-website: "https://github.com/phpDocumentor/ReflectionCommon"
-public_url: "https://github.com/phpDocumentor/ReflectionCommon"
+artifact_type: "extension"
+description: "📐 PHPUnit extension that measures the shape of your test suite"
+website: "https://github.com/boundwize/pyrameter"
+public_url: "https://github.com/boundwize/pyrameter"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/phpDocumentor/ReflectionCommon"
-packagist: "https://packagist.org/packages/phpdocumentor/reflection-common"
-stars: 9036
-repo_updated_at: "2025-11-10T21:22:02Z"
+repository: "https://github.com/boundwize/pyrameter"
+packagist: "https://packagist.org/packages/boundwize/pyrameter"
+stars: 6
+repo_updated_at: "2026-08-20T13:44:36Z"
 metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-20T12:27:21Z"
+discovered_at: "2026-08-24T00:27:57Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:

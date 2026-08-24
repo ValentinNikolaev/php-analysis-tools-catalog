@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/twigstan/twigstan"
 packagist: "https://packagist.org/packages/twigstan/twigstan"
-stars: 278
+stars: 279
 repo_updated_at: "2025-11-11T10:02:03Z"
-metadata_updated_at: "2026-08-23T00:27:55Z"
+metadata_updated_at: "2026-08-24T00:27:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-23T00:27:55Z"
+last_discovered_at: "2026-08-24T00:27:57Z"
 discovery_queries:
   - "packagist:static analysis"
