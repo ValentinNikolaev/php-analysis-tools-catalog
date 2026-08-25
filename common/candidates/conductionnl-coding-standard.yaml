@@ -1,0 +1,26 @@
+slug: "conductionnl-coding-standard"
+name: "coding-standard"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Conduction coding standards for the PHP CS Fixer. Extends nextcloud/coding-standard — adds rules, never overrides them."
+website: "https://github.com/ConductionNL/coding-standard"
+public_url: "https://github.com/ConductionNL/coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ConductionNL/coding-standard"
+packagist: "https://packagist.org/packages/conduction/coding-standard"
+stars: 0
+repo_updated_at: "2026-08-12T08:59:59Z"
+metadata_updated_at: "2026-08-25T12:27:46Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T12:27:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T12:27:46Z"
+discovery_queries:
+  - "packagist:phpcs standard"

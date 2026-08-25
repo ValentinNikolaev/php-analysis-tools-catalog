@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/redaxo/core"
 packagist: "https://packagist.org/packages/redaxo/source"
-stars: 353
-repo_updated_at: "2026-08-22T12:55:44Z"
-metadata_updated_at: "2026-08-24T06:28:15Z"
+stars: 354
+repo_updated_at: "2026-08-25T08:09:47Z"
+metadata_updated_at: "2026-08-25T12:27:46Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T06:28:15Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T06:28:15Z"
+last_discovered_at: "2026-08-25T12:27:46Z"
 discovery_queries:
   - "packagist:static analysis"
