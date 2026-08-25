@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/calebdw/larastan"
 packagist: "https://packagist.org/packages/calebdw/larastan"
 stars: 16
-repo_updated_at: "2026-08-07T18:02:15Z"
-metadata_updated_at: "2026-08-24T00:27:57Z"
+repo_updated_at: "2026-08-24T06:12:52Z"
+metadata_updated_at: "2026-08-25T00:27:58Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T00:27:57Z"
+last_discovered_at: "2026-08-25T00:27:58Z"
 discovery_queries:
   - "packagist:phpstan extension"

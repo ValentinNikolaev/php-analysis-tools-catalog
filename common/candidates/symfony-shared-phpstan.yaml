@@ -13,7 +13,7 @@ repository: "https://github.com/Drenso/symfony-shared-phpstan"
 packagist: "https://packagist.org/packages/drenso/symfony-shared-phpstan"
 stars: 0
 repo_updated_at: "2026-08-21T19:43:35Z"
-metadata_updated_at: "2026-08-24T00:27:57Z"
+metadata_updated_at: "2026-08-25T00:27:58Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T00:27:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T00:27:57Z"
+last_discovered_at: "2026-08-25T00:27:58Z"
 discovery_queries:
   - "packagist:phpstan extension"

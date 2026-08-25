@@ -13,7 +13,7 @@ repository: "https://github.com/MateusNobreSilva/app_send_mail"
 packagist: null
 stars: 29
 repo_updated_at: "2026-03-10T12:53:30Z"
-metadata_updated_at: "2026-08-24T00:27:57Z"
+metadata_updated_at: "2026-08-25T00:27:58Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T00:27:57Z"
+last_discovered_at: "2026-08-25T00:27:58Z"
 discovery_queries:
   - "PHP code formatter fixer stars:>20"

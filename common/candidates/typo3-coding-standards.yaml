@@ -1,26 +1,26 @@
-slug: "codeigniter-coding-standard"
-name: "coding-standard"
+slug: "typo3-coding-standards"
+name: "coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Official Coding Standards for CodeIgniter"
-website: "https://github.com/CodeIgniter/coding-standard"
-public_url: "https://github.com/CodeIgniter/coding-standard"
+description: "TYPO3 Coding Standards to be used by TYPO3 projects or extensions"
+website: "https://github.com/TYPO3/coding-standards"
+public_url: "https://github.com/TYPO3/coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/CodeIgniter/coding-standard"
-packagist: "https://packagist.org/packages/codeigniter/coding-standard"
-stars: 73
-repo_updated_at: "2026-07-28T17:42:28Z"
+repository: "https://github.com/TYPO3/coding-standards"
+packagist: "https://packagist.org/packages/typo3/coding-standards"
+stars: 67
+repo_updated_at: "2026-07-24T12:06:55Z"
 metadata_updated_at: "2026-08-25T00:27:58Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-21T12:27:21Z"
+discovered_at: "2026-08-25T00:27:58Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-25T00:27:58Z"
 discovery_queries:
-  - "packagist:static analysis"
+  - "packagist:phpcs standard"

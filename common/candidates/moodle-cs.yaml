@@ -1,27 +1,26 @@
-slug: "wpforms-phpcs"
-name: "wpforms-phpcs"
+slug: "moodle-cs"
+name: "moodle-cs"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "PHP Coding Standards used by the WPForms team."
-website: "https://wpforms.com"
-public_url: "https://wpforms.com"
+description: "Moodle Coding Style"
+website: "https://github.com/moodlehq/moodle-cs"
+public_url: "https://github.com/moodlehq/moodle-cs"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/awesomemotive/wpforms-phpcs"
-packagist: null
-stars: 14
-repo_updated_at: "2025-12-01T15:28:40Z"
+repository: "https://github.com/moodlehq/moodle-cs"
+packagist: "https://packagist.org/packages/moodlehq/moodle-cs"
+stars: 27
+repo_updated_at: "2026-04-10T09:06:01Z"
 metadata_updated_at: "2026-08-25T00:27:58Z"
-quality_tags:
-  - "phpcs"
-source: "github-search"
+quality_tags: []
+source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-16T00:28:21Z"
+discovered_at: "2026-08-25T00:27:58Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-25T00:27:58Z"
 discovery_queries:
-  - "PHPCS coding standard stars:>10"
+  - "packagist:phpcs standard"
