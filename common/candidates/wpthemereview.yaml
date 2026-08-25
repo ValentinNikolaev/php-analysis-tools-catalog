@@ -1,0 +1,26 @@
+slug: "wpthemereview"
+name: "WPThemeReview"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP_CodeSniffer rules (sniffs) to enforce WordPress theme review coding conventions"
+website: "https://github.com/WPTT/WPThemeReview"
+public_url: "https://github.com/WPTT/WPThemeReview"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/WPTT/WPThemeReview"
+packagist: "https://packagist.org/packages/wptrt/wpthemereview"
+stars: 213
+repo_updated_at: "2021-06-22T15:21:42Z"
+metadata_updated_at: "2026-08-25T06:27:43Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T06:27:43Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T06:27:43Z"
+discovery_queries:
+  - "packagist:phpcs standard"

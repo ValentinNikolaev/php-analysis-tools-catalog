@@ -1,0 +1,28 @@
+slug: "codestyler"
+name: "codestyler"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "A tool to automatically fix PHP Coding Standards issues by Dragon Code."
+website: "https://github.com/TheDragonCode/codestyler"
+public_url: "https://github.com/TheDragonCode/codestyler"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/TheDragonCode/codestyler"
+packagist: "https://packagist.org/packages/dragon-code/codestyler"
+stars: 29
+repo_updated_at: "2026-07-18T11:08:01Z"
+metadata_updated_at: "2026-08-25T06:27:43Z"
+quality_tags:
+  - "linter"
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T06:27:43Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T06:27:43Z"
+discovery_queries:
+  - "packagist:phpcs standard"
