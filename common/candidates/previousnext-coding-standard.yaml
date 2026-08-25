@@ -1,0 +1,26 @@
+slug: "previousnext-coding-standard"
+name: "coding-standard"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "An enhanced coding standard for Drupal projects."
+website: "https://github.com/previousnext/coding-standard"
+public_url: "https://github.com/previousnext/coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/previousnext/coding-standard"
+packagist: "https://packagist.org/packages/previousnext/coding-standard"
+stars: 3
+repo_updated_at: "2026-04-21T04:26:16Z"
+metadata_updated_at: "2026-08-25T18:27:05Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T18:27:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T18:27:05Z"
+discovery_queries:
+  - "packagist:phpcs standard"

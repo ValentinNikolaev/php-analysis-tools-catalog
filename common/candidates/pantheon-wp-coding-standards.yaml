@@ -1,0 +1,27 @@
+slug: "pantheon-wp-coding-standards"
+name: "Pantheon-WP-Coding-Standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Pantheon WordPress PHPCS rulesets"
+website: "https://github.com/pantheon-systems/Pantheon-WP-Coding-Standards"
+public_url: "https://github.com/pantheon-systems/Pantheon-WP-Coding-Standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/pantheon-systems/Pantheon-WP-Coding-Standards"
+packagist: "https://packagist.org/packages/pantheon-systems/pantheon-wp-coding-standards"
+stars: 9
+repo_updated_at: "2026-07-28T17:00:44Z"
+metadata_updated_at: "2026-08-25T18:27:05Z"
+quality_tags:
+  - "phpcs"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T18:27:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T18:27:05Z"
+discovery_queries:
+  - "packagist:phpcs standard"

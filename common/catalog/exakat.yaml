@@ -6,10 +6,10 @@ description: "Legacy repository for the Exakat PHP static-analysis engine, super
 upstream_description: "The Exakat Engine : smart static analysis for PHP"
 website: "http://www.exakat.io/"
 public_url: "http://www.exakat.io/"
-website_status: "available"
-website_status_code: 200
-website_checked_at: "2026-08-24T18:27:09Z"
-website_error: ""
+website_status: "temporarily_unreachable"
+website_status_code: 0
+website_checked_at: "2026-08-25T18:27:06Z"
+website_error: "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
 repository: "https://github.com/exakat/exakat"
 latest_release_name: "version 0.6.1"
 latest_release_tag: "v-0.6.1"
@@ -17,7 +17,7 @@ latest_release_url: "https://github.com/exakat/exakat/releases/tag/v-0.6.1"
 latest_release_published_at: "2016-04-18T16:44:46Z"
 latest_release_checked_at: "2026-08-24T18:27:09Z"
 packagist: null
-packagist_checked_at: "2026-08-24T18:27:09Z"
+packagist_checked_at: "2026-08-25T18:27:06Z"
 stars: 380
 repo_updated_at: "2022-03-24T09:32:24Z"
 metadata_updated_at: "2026-08-24T18:27:09Z"

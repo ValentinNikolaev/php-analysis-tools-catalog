@@ -1,0 +1,28 @@
+slug: "php-coding-standard"
+name: "php-coding-standard"
+category: "Coding standards"
+artifact_type: "analyzer"
+description: "Combines various code quality tools into a single command with shared output for easier CI integration"
+website: "https://github.com/spaceemotion/php-coding-standard"
+public_url: "https://github.com/spaceemotion/php-coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/spaceemotion/php-coding-standard"
+packagist: "https://packagist.org/packages/spaceemotion/php-coding-standard"
+stars: 19
+repo_updated_at: "2024-05-31T20:52:39Z"
+metadata_updated_at: "2026-08-25T18:27:05Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-25T18:27:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-25T18:27:05Z"
+discovery_queries:
+  - "packagist:phpcs standard"
