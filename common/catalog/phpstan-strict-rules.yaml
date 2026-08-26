@@ -30,14 +30,14 @@ latest_release_name: "2.0.12"
 latest_release_tag: "2.0.12"
 latest_release_url: "https://github.com/phpstan/phpstan-strict-rules/releases/tag/2.0.12"
 latest_release_published_at: "2026-07-19T08:33:15Z"
-latest_release_checked_at: "2026-08-24T18:27:09Z"
+latest_release_checked_at: "2026-08-26T00:28:16Z"
 packagist: "https://packagist.org/packages/phpstan/phpstan-strict-rules"
 latest_version: "2.0.12"
 latest_version_released_at: "2026-07-19T07:24:06+00:00"
 packagist_checked_at: "2026-08-25T18:27:06Z"
-stars: 704
+stars: 705
 repo_updated_at: "2026-08-24T00:41:20Z"
-metadata_updated_at: "2026-08-24T18:27:09Z"
+metadata_updated_at: "2026-08-26T00:28:16Z"
 quality_tags:
   - "php"
   - "phpstan"

@@ -13,7 +13,7 @@ repository: "https://github.com/php-static-analysis/rector-rule"
 packagist: null
 stars: 23
 repo_updated_at: "2025-06-05T07:59:46Z"
-metadata_updated_at: "2026-08-25T00:27:58Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T06:26:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T00:27:58Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "PHP Rector rules stars:>10"

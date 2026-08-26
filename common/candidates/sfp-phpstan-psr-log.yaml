@@ -13,7 +13,7 @@ repository: "https://github.com/struggle-for-php/sfp-phpstan-psr-log"
 packagist: "https://packagist.org/packages/struggle-for-php/sfp-phpstan-psr-log"
 stars: 46
 repo_updated_at: "2026-05-28T12:37:21Z"
-metadata_updated_at: "2026-08-25T00:27:58Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T00:27:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T00:27:58Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "packagist:static analysis"

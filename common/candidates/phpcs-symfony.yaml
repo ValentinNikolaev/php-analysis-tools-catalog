@@ -13,7 +13,7 @@ repository: "https://github.com/l3l0/phpcs-symfony"
 packagist: null
 stars: 12
 repo_updated_at: "2011-10-13T17:24:04Z"
-metadata_updated_at: "2026-08-25T00:27:58Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T00:27:58Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

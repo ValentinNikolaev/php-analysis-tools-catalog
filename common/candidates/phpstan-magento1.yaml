@@ -13,7 +13,7 @@ repository: "https://github.com/macopedia/phpstan-magento1"
 packagist: "https://packagist.org/packages/macopedia/phpstan-magento1"
 stars: 4
 repo_updated_at: "2026-04-23T12:44:09Z"
-metadata_updated_at: "2026-08-25T00:27:58Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T00:27:58Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "packagist:phpstan extension"

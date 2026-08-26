@@ -16,12 +16,12 @@ latest_release_name: "2.0.33: 8.2 fix and 8.0 rules change"
 latest_release_tag: "2.0.33"
 latest_release_url: "https://github.com/wapmorgan/PhpDeprecationDetector/releases/tag/2.0.33"
 latest_release_published_at: "2023-04-23T09:24:55Z"
-latest_release_checked_at: "2026-08-24T18:27:09Z"
+latest_release_checked_at: "2026-08-26T00:28:16Z"
 packagist: null
 packagist_checked_at: "2026-08-25T18:27:06Z"
 stars: 367
 repo_updated_at: "2024-02-14T12:40:26Z"
-metadata_updated_at: "2026-08-24T18:27:09Z"
+metadata_updated_at: "2026-08-26T00:28:16Z"
 quality_tags:
   - "static-analysis"
 source: "README.md"

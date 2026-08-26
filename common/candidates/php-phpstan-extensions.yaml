@@ -13,7 +13,7 @@ repository: "https://github.com/rkrx/php-phpstan-extensions"
 packagist: "https://packagist.org/packages/rkr/phpstan-extensions"
 stars: 0
 repo_updated_at: "2026-02-19T17:02:34Z"
-metadata_updated_at: "2026-08-24T18:27:08Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-19T06:27:10Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T18:27:08Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "packagist:phpstan extension"

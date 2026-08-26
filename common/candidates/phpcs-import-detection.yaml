@@ -13,7 +13,7 @@ repository: "https://github.com/sirbrillig/phpcs-import-detection"
 packagist: "https://packagist.org/packages/sirbrillig/phpcs-import-detection"
 stars: 33
 repo_updated_at: "2026-03-18T19:55:17Z"
-metadata_updated_at: "2026-08-25T00:27:58Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags:
   - "php"
   - "phpcs"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T00:27:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T00:27:58Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "packagist:static analysis"

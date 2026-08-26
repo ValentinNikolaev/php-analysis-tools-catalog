@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/Corgea/Sighthound"
 packagist: null
 stars: 277
-repo_updated_at: "2026-08-24T11:08:57Z"
-metadata_updated_at: "2026-08-24T18:27:08Z"
+repo_updated_at: "2026-08-25T21:09:31Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
 quality_tags:
   - "php"
   - "security"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-24T18:27:08Z"
+last_discovered_at: "2026-08-26T00:28:15Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

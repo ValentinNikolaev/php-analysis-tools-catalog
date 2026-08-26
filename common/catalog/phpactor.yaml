@@ -25,14 +25,14 @@ latest_release_name: "2026.06.23.0"
 latest_release_tag: "2026.06.23.0"
 latest_release_url: "https://github.com/phpactor/phpactor/releases/tag/2026.06.23.0"
 latest_release_published_at: "2026-08-15T11:53:53Z"
-latest_release_checked_at: "2026-08-24T18:27:09Z"
+latest_release_checked_at: "2026-08-26T00:28:16Z"
 packagist: "https://packagist.org/packages/phpactor/phpactor"
 latest_version: "2026.07.22.0"
 latest_version_released_at: "2026-07-22T20:41:58+00:00"
 packagist_checked_at: "2026-08-25T18:27:06Z"
-stars: 1919
+stars: 1920
 repo_updated_at: "2026-08-22T12:00:18Z"
-metadata_updated_at: "2026-08-24T18:27:09Z"
+metadata_updated_at: "2026-08-26T00:28:16Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

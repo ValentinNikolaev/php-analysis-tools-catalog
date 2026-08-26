@@ -1,0 +1,26 @@
+slug: "phpcs-symfony2-standard"
+name: "phpcs-symfony2-standard"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "A composer installable Symfony2 PHP_CodeSniffer standard"
+website: "https://github.com/leaphub/phpcs-symfony2-standard"
+public_url: "https://github.com/leaphub/phpcs-symfony2-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/leaphub/phpcs-symfony2-standard"
+packagist: "https://packagist.org/packages/leaphub/phpcs-symfony2-standard"
+stars: 46
+repo_updated_at: "2021-05-21T08:07:18Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-26T00:28:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-26T00:28:15Z"
+discovery_queries:
+  - "packagist:phpcs standard"

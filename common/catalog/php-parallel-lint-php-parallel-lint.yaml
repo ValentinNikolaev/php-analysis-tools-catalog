@@ -24,14 +24,14 @@ latest_release_name: "v1.4.0"
 latest_release_tag: "v1.4.0"
 latest_release_url: "https://github.com/php-parallel-lint/PHP-Parallel-Lint/releases/tag/v1.4.0"
 latest_release_published_at: "2024-03-27T12:35:26Z"
-latest_release_checked_at: "2026-08-24T18:27:09Z"
+latest_release_checked_at: "2026-08-26T00:28:16Z"
 packagist: "https://packagist.org/packages/php-parallel-lint/php-parallel-lint"
 latest_version: "v1.4.0"
 latest_version_released_at: "2024-03-27T12:14:49+00:00"
 packagist_checked_at: "2026-08-25T18:27:06Z"
-stars: 356
+stars: 357
 repo_updated_at: "2026-07-26T21:37:41Z"
-metadata_updated_at: "2026-08-24T18:27:09Z"
+metadata_updated_at: "2026-08-26T00:28:16Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Maintained successor to the legacy JakubOnderka repository."

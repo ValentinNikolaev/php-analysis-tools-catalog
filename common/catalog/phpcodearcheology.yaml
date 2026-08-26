@@ -24,14 +24,14 @@ latest_release_name: "v2.11.2"
 latest_release_tag: "v2.11.2"
 latest_release_url: "https://github.com/PhpCodeArcheology/PhpCodeArcheology/releases/tag/v2.11.2"
 latest_release_published_at: "2026-07-27T12:28:14Z"
-latest_release_checked_at: "2026-08-24T18:27:09Z"
+latest_release_checked_at: "2026-08-26T00:28:16Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-25T18:27:06Z"
-stars: 88
+stars: 89
 repo_updated_at: "2026-08-22T07:43:19Z"
-metadata_updated_at: "2026-08-24T18:27:09Z"
+metadata_updated_at: "2026-08-26T00:28:16Z"
 quality_tags:
   - "code-quality"
   - "php"

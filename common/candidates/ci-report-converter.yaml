@@ -1,0 +1,29 @@
+slug: "ci-report-converter"
+name: "CI-Report-Converter"
+category: "Coding standards"
+artifact_type: "analyzer"
+description: "The tool converts different error reporting standards for deep compatibility with popular CI systems (TeamCity, IntelliJ IDEA, GitHub Actions, etc)."
+website: "https://github.com/JBZoo"
+public_url: "https://github.com/JBZoo"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/JBZoo/CI-Report-Converter"
+packagist: "https://packagist.org/packages/jbzoo/ci-report-converter"
+stars: 30
+repo_updated_at: "2026-07-20T22:10:49Z"
+metadata_updated_at: "2026-08-26T00:28:15Z"
+quality_tags:
+  - "phpcs"
+  - "phpstan"
+  - "psalm"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-26T00:28:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-26T00:28:15Z"
+discovery_queries:
+  - "packagist:phpcs standard"
