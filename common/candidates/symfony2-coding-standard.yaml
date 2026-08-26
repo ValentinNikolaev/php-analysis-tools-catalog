@@ -1,0 +1,26 @@
+slug: "symfony2-coding-standard"
+name: "Symfony2-coding-standard"
+category: "Coding standards"
+artifact_type: "analyzer"
+description: ":no_entry: DEPRECATED - Symfony2-coding-standard"
+website: "https://github.com/BedrockStreaming/Symfony2-coding-standard"
+public_url: "https://github.com/BedrockStreaming/Symfony2-coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/BedrockStreaming/Symfony2-coding-standard"
+packagist: "https://packagist.org/packages/m6web/symfony2-coding-standard"
+stars: 17
+repo_updated_at: "2018-12-03T09:44:51Z"
+metadata_updated_at: "2026-08-26T18:56:54Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-26T18:56:54Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-26T18:56:54Z"
+discovery_queries:
+  - "packagist:phpcs standard"

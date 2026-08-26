@@ -1,26 +1,25 @@
-slug: "consistence-coding-standard"
-name: "coding-standard"
+slug: "wpengine-coding-standards"
+name: "wpengine-coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Consistence - Coding Standard - PHP Code Sniffer rules"
-website: "https://github.com/consistence/coding-standard"
-public_url: "https://github.com/consistence/coding-standard"
+description: "WP Engine Coding Standards for WordPress"
+website: "https://github.com/wpengine/wpengine-coding-standards"
+public_url: "https://github.com/wpengine/wpengine-coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/consistence/coding-standard"
-packagist: "https://packagist.org/packages/consistence/coding-standard"
-stars: 76
-repo_updated_at: "2025-03-10T13:49:38Z"
+repository: "https://github.com/wpengine/wpengine-coding-standards"
+packagist: "https://packagist.org/packages/wpengine/wpengine-coding-standards"
+stars: 30
+repo_updated_at: "2024-06-04T13:40:06Z"
 metadata_updated_at: "2026-08-26T18:56:54Z"
-quality_tags:
-  - "php"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T18:27:05Z"
+discovered_at: "2026-08-26T18:56:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T18:56:54Z"
 discovery_queries:

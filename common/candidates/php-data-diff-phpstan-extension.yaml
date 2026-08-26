@@ -13,7 +13,7 @@ repository: "https://github.com/rkrx/php-data-diff-phpstan-extension"
 packagist: "https://packagist.org/packages/rkr/data-diff-phpstan-extension"
 stars: 0
 repo_updated_at: "2026-02-19T18:57:57Z"
-metadata_updated_at: "2026-08-25T12:27:46Z"
+metadata_updated_at: "2026-08-26T18:56:54Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-20T00:27:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T12:27:46Z"
+last_discovered_at: "2026-08-26T18:56:54Z"
 discovery_queries:
   - "packagist:phpstan extension"

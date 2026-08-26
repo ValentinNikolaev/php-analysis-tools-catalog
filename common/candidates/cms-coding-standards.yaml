@@ -1,26 +1,26 @@
-slug: "consistence-coding-standard"
-name: "coding-standard"
+slug: "cms-coding-standards"
+name: "cms-coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Consistence - Coding Standard - PHP Code Sniffer rules"
-website: "https://github.com/consistence/coding-standard"
-public_url: "https://github.com/consistence/coding-standard"
+description: "Extended Joomla Coding Standards definition for use in the Joomla CMS environment"
+website: "https://github.com/joomla/cms-coding-standards"
+public_url: "https://github.com/joomla/cms-coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/consistence/coding-standard"
-packagist: "https://packagist.org/packages/consistence/coding-standard"
-stars: 76
-repo_updated_at: "2025-03-10T13:49:38Z"
+repository: "https://github.com/joomla/cms-coding-standards"
+packagist: "https://packagist.org/packages/joomla/cms-coding-standards"
+stars: 9
+repo_updated_at: "2024-03-24T14:36:40Z"
 metadata_updated_at: "2026-08-26T18:56:54Z"
 quality_tags:
-  - "php"
+  - "phpcs"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T18:27:05Z"
+discovered_at: "2026-08-26T18:56:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T18:56:54Z"
 discovery_queries:

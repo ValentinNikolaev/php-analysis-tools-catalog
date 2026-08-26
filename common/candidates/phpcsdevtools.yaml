@@ -13,7 +13,7 @@ repository: "https://github.com/PHPCSStandards/PHPCSDevTools"
 packagist: "https://packagist.org/packages/phpcsstandards/phpcsdevtools"
 stars: 17
 repo_updated_at: "2026-08-14T02:16:30Z"
-metadata_updated_at: "2026-08-25T12:27:46Z"
+metadata_updated_at: "2026-08-26T18:56:54Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T06:26:52Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T12:27:46Z"
+last_discovered_at: "2026-08-26T18:56:54Z"
 discovery_queries:
   - "packagist:static analysis"

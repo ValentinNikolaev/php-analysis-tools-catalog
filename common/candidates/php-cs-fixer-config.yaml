@@ -1,25 +1,25 @@
-slug: "laravel-php-cs-fixer"
-name: "Laravel-PHP-CS-Fixer"
+slug: "php-cs-fixer-config"
+name: "php-cs-fixer-config"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Artisan Command for FriendsOfPHP/PHP-CS_Fixer"
-website: "https://github.com/stechstudio/Laravel-PHP-CS-Fixer"
-public_url: "https://github.com/stechstudio/Laravel-PHP-CS-Fixer"
+description: "php-cs-fixer config for REDAXO"
+website: "https://github.com/redaxo/php-cs-fixer-config"
+public_url: "https://github.com/redaxo/php-cs-fixer-config"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/stechstudio/Laravel-PHP-CS-Fixer"
-packagist: "https://packagist.org/packages/stechstudio/laravel-php-cs-fixer"
-stars: 146
-repo_updated_at: "2023-02-10T15:55:59Z"
+repository: "https://github.com/redaxo/php-cs-fixer-config"
+packagist: "https://packagist.org/packages/redaxo/php-cs-fixer-config"
+stars: 10
+repo_updated_at: "2026-08-25T17:50:01Z"
 metadata_updated_at: "2026-08-26T18:56:54Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T18:27:05Z"
+discovered_at: "2026-08-26T18:56:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T18:56:54Z"
 discovery_queries:
