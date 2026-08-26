@@ -1,25 +1,26 @@
-slug: "wpthemereview"
-name: "WPThemeReview"
+slug: "dekodeinteraktiv-coding-standards"
+name: "coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "PHP_CodeSniffer rules (sniffs) to enforce WordPress theme review coding conventions"
-website: "https://github.com/WPTT/WPThemeReview"
-public_url: "https://github.com/WPTT/WPThemeReview"
+description: "Dekode Coding Standards"
+website: "https://packagist.org/packages/dekode/coding-standards"
+public_url: "https://packagist.org/packages/dekode/coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/WPTT/WPThemeReview"
-packagist: "https://packagist.org/packages/wptrt/wpthemereview"
-stars: 213
-repo_updated_at: "2021-06-22T15:21:42Z"
+repository: "https://github.com/DekodeInteraktiv/coding-standards"
+packagist: "https://packagist.org/packages/dekode/coding-standards"
+stars: 6
+repo_updated_at: "2026-07-29T07:18:17Z"
 metadata_updated_at: "2026-08-26T12:27:34Z"
-quality_tags: []
+quality_tags:
+  - "phpcs"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T06:27:43Z"
+discovered_at: "2026-08-26T12:27:34Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T12:27:34Z"
 discovery_queries:

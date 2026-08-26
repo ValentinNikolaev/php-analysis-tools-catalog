@@ -13,7 +13,7 @@ repository: "https://github.com/phpmyadmin/coding-standard"
 packagist: "https://packagist.org/packages/phpmyadmin/coding-standard"
 stars: 20
 repo_updated_at: "2026-08-13T15:35:35Z"
-metadata_updated_at: "2026-08-25T06:27:43Z"
+metadata_updated_at: "2026-08-26T12:27:34Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T06:27:43Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-25T06:27:43Z"
+last_discovered_at: "2026-08-26T12:27:34Z"
 discovery_queries:
   - "packagist:phpcs standard"

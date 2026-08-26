@@ -1,26 +1,26 @@
-slug: "phpcs-neutron-ruleset"
-name: "phpcs-neutron-ruleset"
+slug: "galette-coding-standard"
+name: "coding-standard"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "A phpcs meta-ruleset for WordPress development"
-website: "https://github.com/Automattic/phpcs-neutron-ruleset"
-public_url: "https://github.com/Automattic/phpcs-neutron-ruleset"
+description: "Galette Coding Standard for PHP_CodeSniffer"
+website: "https://github.com/galette/coding-standard"
+public_url: "https://github.com/galette/coding-standard"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/Automattic/phpcs-neutron-ruleset"
-packagist: "https://packagist.org/packages/automattic/phpcs-neutron-ruleset"
-stars: 17
-repo_updated_at: "2022-12-03T22:40:17Z"
+repository: "https://github.com/galette/coding-standard"
+packagist: "https://packagist.org/packages/galette/coding-standard"
+stars: 0
+repo_updated_at: "2025-12-30T16:15:21Z"
 metadata_updated_at: "2026-08-26T12:27:34Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T06:27:43Z"
+discovered_at: "2026-08-26T12:27:34Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T12:27:34Z"
 discovery_queries:
-  - "packagist:static analysis"
+  - "packagist:phpcs standard"

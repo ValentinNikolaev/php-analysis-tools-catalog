@@ -1,26 +1,26 @@
-slug: "phpcs-neutron-ruleset"
-name: "phpcs-neutron-ruleset"
+slug: "phpcs-tool"
+name: "phpcs-tool"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "A phpcs meta-ruleset for WordPress development"
-website: "https://github.com/Automattic/phpcs-neutron-ruleset"
-public_url: "https://github.com/Automattic/phpcs-neutron-ruleset"
+description: "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards. Hostnet version."
+website: "https://github.com/hostnet/phpcs-tool"
+public_url: "https://github.com/hostnet/phpcs-tool"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/Automattic/phpcs-neutron-ruleset"
-packagist: "https://packagist.org/packages/automattic/phpcs-neutron-ruleset"
-stars: 17
-repo_updated_at: "2022-12-03T22:40:17Z"
+repository: "https://github.com/hostnet/phpcs-tool"
+packagist: "https://packagist.org/packages/hostnet/phpcs-tool"
+stars: 4
+repo_updated_at: "2026-04-29T05:36:31Z"
 metadata_updated_at: "2026-08-26T12:27:34Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T06:27:43Z"
+discovered_at: "2026-08-26T12:27:34Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-26T12:27:34Z"
 discovery_queries:
-  - "packagist:static analysis"
+  - "packagist:phpcs standard"
