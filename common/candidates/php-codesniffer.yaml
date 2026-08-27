@@ -1,25 +1,25 @@
-slug: "wpthemereview"
-name: "WPThemeReview"
+slug: "php-codesniffer"
+name: "PHP_CodeSniffer"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "PHP_CodeSniffer rules (sniffs) to enforce WordPress theme review coding conventions"
-website: "https://github.com/WPTT/WPThemeReview"
-public_url: "https://github.com/WPTT/WPThemeReview"
+description: "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards."
+website: "http://pear.php.net/package/PHP_CodeSniffer"
+public_url: "http://pear.php.net/package/PHP_CodeSniffer"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/WPTT/WPThemeReview"
-packagist: "https://packagist.org/packages/wptrt/wpthemereview"
-stars: 213
-repo_updated_at: "2021-06-22T15:21:42Z"
+repository: "https://github.com/instaclick/PHP_CodeSniffer"
+packagist: "https://packagist.org/packages/instaclick/php-code-sniffer"
+stars: 2
+repo_updated_at: "2013-03-22T21:50:51Z"
 metadata_updated_at: "2026-08-27T15:57:02Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T06:27:43Z"
+discovered_at: "2026-08-27T15:57:02Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-27T15:57:02Z"
 discovery_queries:

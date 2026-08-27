@@ -13,7 +13,7 @@ repository: "https://github.com/hostnet/phpcs-tool"
 packagist: "https://packagist.org/packages/hostnet/phpcs-tool"
 stars: 4
 repo_updated_at: "2026-04-29T05:36:31Z"
-metadata_updated_at: "2026-08-26T12:27:34Z"
+metadata_updated_at: "2026-08-27T15:57:02Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-26T12:27:34Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T12:27:34Z"
+last_discovered_at: "2026-08-27T15:57:02Z"
 discovery_queries:
   - "packagist:phpcs standard"

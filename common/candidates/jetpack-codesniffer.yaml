@@ -1,0 +1,26 @@
+slug: "jetpack-codesniffer"
+name: "jetpack-codesniffer"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "[READ ONLY] phpcs sniffs for the Jetpack Coding Standard. This repository is a mirror, for issue tracking and development head to: https://github.com/automattic/jetpack"
+website: "https://github.com/Automattic/jetpack-codesniffer"
+public_url: "https://github.com/Automattic/jetpack-codesniffer"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Automattic/jetpack-codesniffer"
+packagist: "https://packagist.org/packages/automattic/jetpack-codesniffer"
+stars: 2
+repo_updated_at: "2026-08-26T21:05:05Z"
+metadata_updated_at: "2026-08-27T15:57:02Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-27T15:57:02Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-27T15:57:02Z"
+discovery_queries:
+  - "packagist:phpcs standard"

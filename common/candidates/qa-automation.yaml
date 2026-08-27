@@ -1,26 +1,26 @@
-slug: "phpyh-coding-standard"
-name: "coding-standard"
+slug: "qa-automation"
+name: "qa-automation"
 category: "Coding standards"
-artifact_type: "ruleset"
-description: "Phpyh Coding Standard"
-website: "https://github.com/phpyh/coding-standard"
-public_url: "https://github.com/phpyh/coding-standard"
+artifact_type: "analyzer"
+description: "Holds all quality assurance automation tools"
+website: "https://github.com/ec-europa/qa-automation"
+public_url: "https://github.com/ec-europa/qa-automation"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/phpyh/coding-standard"
-packagist: "https://packagist.org/packages/phpyh/coding-standard"
-stars: 23
-repo_updated_at: "2025-10-21T10:31:52Z"
+repository: "https://github.com/ec-europa/qa-automation"
+packagist: "https://packagist.org/packages/ec-europa/qa-automation"
+stars: 10
+repo_updated_at: "2026-04-27T12:24:35Z"
 metadata_updated_at: "2026-08-27T15:57:02Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T06:27:43Z"
+discovered_at: "2026-08-27T15:57:02Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-27T15:57:02Z"
 discovery_queries:
-  - "packagist:static analysis"
+  - "packagist:phpcs standard"
