@@ -22,14 +22,14 @@ latest_release_name: "3.7.2"
 latest_release_tag: "3.7.2"
 latest_release_url: "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/3.7.2"
 latest_release_published_at: "2023-02-22T23:13:42Z"
-latest_release_checked_at: "2026-08-26T00:28:16Z"
+latest_release_checked_at: "2026-08-27T02:00:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-26T18:56:55Z"
-stars: 10778
+stars: 10779
 repo_updated_at: "2024-04-01T20:37:32Z"
-metadata_updated_at: "2026-08-26T00:28:16Z"
+metadata_updated_at: "2026-08-27T02:00:12Z"
 quality_tags:
   - "php"
   - "static-analysis"

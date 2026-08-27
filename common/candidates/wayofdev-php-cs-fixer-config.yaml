@@ -1,0 +1,28 @@
+slug: "wayofdev-php-cs-fixer-config"
+name: "php-cs-fixer-config"
+category: "Fixers"
+artifact_type: "fixer"
+description: "🧹 Adds custom rule-sets to PHP CS Fixer for consistent coding standards."
+website: "https://wayof.dev"
+public_url: "https://wayof.dev"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/wayofdev/php-cs-fixer-config"
+packagist: "https://packagist.org/packages/wayofdev/cs-fixer-config"
+stars: 5
+repo_updated_at: "2026-07-28T10:47:34Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-27T02:00:11Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-27T02:00:11Z"
+discovery_queries:
+  - "packagist:phpcs standard"

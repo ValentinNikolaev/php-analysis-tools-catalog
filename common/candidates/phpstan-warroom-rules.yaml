@@ -13,7 +13,7 @@ repository: "https://github.com/script-development/phpstan-warroom-rules"
 packagist: "https://packagist.org/packages/script-development/phpstan-warroom-rules"
 stars: 0
 repo_updated_at: "2026-08-25T11:45:18Z"
-metadata_updated_at: "2026-08-26T00:28:15Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-17T12:26:58Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T00:28:15Z"
+last_discovered_at: "2026-08-27T02:00:11Z"
 discovery_queries:
   - "packagist:phpstan extension"

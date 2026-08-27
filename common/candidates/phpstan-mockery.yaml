@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/phpstan/phpstan-mockery"
 packagist: "https://packagist.org/packages/phpstan/phpstan-mockery"
 stars: 107
-repo_updated_at: "2026-08-21T17:04:10Z"
-metadata_updated_at: "2026-08-26T00:28:15Z"
+repo_updated_at: "2026-08-26T21:30:37Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-08T00:00:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T00:28:15Z"
+last_discovered_at: "2026-08-27T02:00:11Z"
 discovery_queries:
   - "packagist:phpstan extension"

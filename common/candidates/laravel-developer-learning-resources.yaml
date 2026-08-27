@@ -13,7 +13,7 @@ repository: "https://github.com/freddymu/laravel-developer-learning-resources"
 packagist: null
 stars: 21
 repo_updated_at: "2020-07-20T08:09:11Z"
-metadata_updated_at: "2026-08-26T00:28:15Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-13T18:35:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T00:28:15Z"
+last_discovered_at: "2026-08-27T02:00:11Z"
 discovery_queries:
   - "topic:php topic:code-quality stars:>20"

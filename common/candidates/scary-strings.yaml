@@ -13,7 +13,7 @@ repository: "https://github.com/johnsaigle/scary-strings"
 packagist: null
 stars: 52
 repo_updated_at: "2026-02-13T21:17:17Z"
-metadata_updated_at: "2026-08-26T00:28:15Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
 quality_tags:
   - "php"
   - "security"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T00:28:15Z"
+last_discovered_at: "2026-08-27T02:00:11Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

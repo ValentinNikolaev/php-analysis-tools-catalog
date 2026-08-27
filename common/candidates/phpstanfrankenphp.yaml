@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/nowo-tech/PhpStanFrankenPhp"
 packagist: "https://packagist.org/packages/nowo-tech/phpstan-frankenphp"
 stars: 0
-repo_updated_at: "2026-08-24T16:08:43Z"
-metadata_updated_at: "2026-08-26T00:28:15Z"
+repo_updated_at: "2026-08-26T12:05:43Z"
+metadata_updated_at: "2026-08-27T02:00:11Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T18:27:08Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T00:28:15Z"
+last_discovered_at: "2026-08-27T02:00:11Z"
 discovery_queries:
   - "packagist:static analysis"
