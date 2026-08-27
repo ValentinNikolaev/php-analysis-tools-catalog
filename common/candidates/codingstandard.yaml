@@ -1,26 +1,25 @@
-slug: "wp-coding-standards"
-name: "wp-coding-standards"
+slug: "codingstandard"
+name: "CodingStandard"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Pronamic WordPress Coding Standards for PHP_CodeSniffer."
-website: "https://github.com/pronamic/wp-coding-standards"
-public_url: "https://github.com/pronamic/wp-coding-standards"
+description: "A PHP-CS Coding Standard"
+website: "https://github.com/CorpusPHP/CodingStandard"
+public_url: "https://github.com/CorpusPHP/CodingStandard"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/pronamic/wp-coding-standards"
-packagist: "https://packagist.org/packages/pronamic/wp-coding-standards"
-stars: 4
-repo_updated_at: "2026-01-06T10:22:38Z"
+repository: "https://github.com/CorpusPHP/CodingStandard"
+packagist: "https://packagist.org/packages/corpus/coding-standard"
+stars: 0
+repo_updated_at: "2026-07-01T21:47:53Z"
 metadata_updated_at: "2026-08-27T09:23:10Z"
-quality_tags:
-  - "phpcs"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T06:27:42Z"
+discovered_at: "2026-08-27T09:23:10Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-27T09:23:10Z"
 discovery_queries:

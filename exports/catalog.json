@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-08-27T02:00:11Z",
+  "as_of": "2026-08-27T09:23:10Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "5fc22afb25dc5edc3f918388aa9b56db284e552b",
+  "source_commit": "2c823c133ac5ce4115c9c9f8ff649d810200092c",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
@@ -2392,7 +2392,7 @@
       "latest_version": "v3.6.1",
       "latest_version_released_at": "2026-02-21T20:13:10+00:00",
       "license": "MIT",
-      "lifecycle": "Quiet",
+      "lifecycle": "Inactive",
       "metadata_updated_at": "2026-08-27T02:00:12Z",
       "name": "PHP Magic Number Detector",
       "notes": "",
