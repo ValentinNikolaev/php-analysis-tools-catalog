@@ -13,7 +13,7 @@ repository: "https://github.com/orisai/coding-standard-php"
 packagist: "https://packagist.org/packages/orisai/coding-standard"
 stars: 19
 repo_updated_at: "2025-06-20T12:53:32Z"
-metadata_updated_at: "2026-08-26T18:56:54Z"
+metadata_updated_at: "2026-08-27T21:26:35Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T12:26:33Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T18:56:54Z"
+last_discovered_at: "2026-08-27T21:26:35Z"
 discovery_queries:
   - "packagist:static analysis"

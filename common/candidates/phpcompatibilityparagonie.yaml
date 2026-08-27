@@ -13,7 +13,7 @@ repository: "https://github.com/PHPCompatibility/PHPCompatibilityParagonie"
 packagist: "https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie"
 stars: 10
 repo_updated_at: "2026-08-15T16:59:12Z"
-metadata_updated_at: "2026-08-26T18:56:54Z"
+metadata_updated_at: "2026-08-27T21:26:35Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T00:28:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-26T18:56:54Z"
+last_discovered_at: "2026-08-27T21:26:35Z"
 discovery_queries:
   - "packagist:static analysis"

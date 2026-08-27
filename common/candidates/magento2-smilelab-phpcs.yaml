@@ -1,27 +1,25 @@
-slug: "phpcs-standard"
-name: "phpcs-standard"
+slug: "magento2-smilelab-phpcs"
+name: "magento2-smilelab-phpcs"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "PHP CodeSniffer Standard for snake_case variables"
-website: "https://github.com/drevops/phpcs-standard"
-public_url: "https://github.com/drevops/phpcs-standard"
+description: "PHPCS Coding standards for Smile Lab community projects."
+website: "https://github.com/Smile-SA/magento2-smilelab-phpcs"
+public_url: "https://github.com/Smile-SA/magento2-smilelab-phpcs"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/drevops/phpcs-standard"
-packagist: "https://packagist.org/packages/drevops/phpcs-standard"
-stars: 4
-repo_updated_at: "2026-07-22T06:43:28Z"
+repository: "https://github.com/Smile-SA/magento2-smilelab-phpcs"
+packagist: "https://packagist.org/packages/smile/magento2-smilelab-phpcs"
+stars: 3
+repo_updated_at: "2026-04-14T09:01:29Z"
 metadata_updated_at: "2026-08-27T21:26:35Z"
-quality_tags:
-  - "php"
-  - "phpcs"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-25T12:27:46Z"
+discovered_at: "2026-08-27T21:26:35Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-27T21:26:35Z"
 discovery_queries:

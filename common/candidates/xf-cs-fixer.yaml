@@ -1,25 +1,25 @@
-slug: "glpi-project-coding-standard"
-name: "coding-standard"
-category: "Coding standards"
-artifact_type: "ruleset"
-description: "Coding standards stuff"
-website: "https://github.com/glpi-project/coding-standard"
-public_url: "https://github.com/glpi-project/coding-standard"
+slug: "xf-cs-fixer"
+name: "xf-cs-fixer"
+category: "Fixers"
+artifact_type: "fixer"
+description: "A PHP Coding Standards Fixer configuration for XenForo"
+website: "https://xenforo.com"
+public_url: "https://xenforo.com"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/glpi-project/coding-standard"
-packagist: "https://packagist.org/packages/glpi-project/coding-standard"
-stars: 3
-repo_updated_at: "2023-11-28T07:46:47Z"
+repository: "https://github.com/xenforo-ltd/xf-cs-fixer"
+packagist: "https://packagist.org/packages/xenforo-ltd/xf-cs-fixer"
+stars: 6
+repo_updated_at: "2026-08-03T04:37:20Z"
 metadata_updated_at: "2026-08-27T21:26:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T18:56:54Z"
+discovered_at: "2026-08-27T21:26:35Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-27T21:26:35Z"
 discovery_queries:
