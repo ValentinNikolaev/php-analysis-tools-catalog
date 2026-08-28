@@ -13,7 +13,7 @@ repository: "https://github.com/Automattic/phpcs-neutron-ruleset"
 packagist: "https://packagist.org/packages/automattic/phpcs-neutron-ruleset"
 stars: 17
 repo_updated_at: "2022-12-03T22:40:17Z"
-metadata_updated_at: "2026-08-27T15:57:02Z"
+metadata_updated_at: "2026-08-28T16:24:22Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T06:27:43Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-27T15:57:02Z"
+last_discovered_at: "2026-08-28T16:24:22Z"
 discovery_queries:
   - "packagist:static analysis"

@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-08-28T09:25:18Z",
+  "as_of": "2026-08-28T16:24:22Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "47dc18091516834f34f1dc00c9e011a6540abb60",
+  "source_commit": "fceee641d01ef5ddfadce92cd64ef0f07ebb4e92",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
@@ -32,7 +32,7 @@
       "name": "aislop",
       "notes": "Promoted after PHP support and current repository activity were verified on 2026-08-06.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://scanaislop.com",
       "quality_tags": [
         "code-quality",
@@ -51,7 +51,7 @@
         "maintainability"
       ],
       "website": "https://scanaislop.com",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -81,7 +81,7 @@
       "name": "AST Metrics",
       "notes": "Reclassified from bug finding to metrics.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "http://ast-metrics.dev",
       "quality_tags": [
         "code-quality",
@@ -99,7 +99,7 @@
         "architecture"
       ],
       "website": "http://ast-metrics.dev",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -129,7 +129,7 @@
       "name": "Better Reflection",
       "notes": "",
       "packagist": "https://packagist.org/packages/roave/better-reflection",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Roave/BetterReflection",
       "quality_tags": [],
       "repo_updated_at": "2026-08-23T09:38:01Z",
@@ -144,7 +144,7 @@
         "source-reflection"
       ],
       "website": "https://github.com/Roave/BetterReflection",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -178,7 +178,7 @@
         "sast"
       ],
       "website": "https://checkmarx.com/glossary/php-static-code-analysis/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -208,7 +208,7 @@
       "name": "churn-php",
       "notes": "",
       "packagist": "https://packagist.org/packages/bmitch/churn-php",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/bmitch/churn-php",
       "quality_tags": [
         "php"
@@ -226,7 +226,7 @@
         "complexity"
       ],
       "website": "https://github.com/bmitch/churn-php",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -263,7 +263,7 @@
         "quality-gates"
       ],
       "website": "https://www.codacy.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -298,7 +298,7 @@
         "maintainability"
       ],
       "website": "https://codeclimate.com/blog/code-climate-quality-is-now-qlty-software",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -328,7 +328,7 @@
       "name": "composer-dependency-analyser",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/shipmonk/composer-dependency-analyser",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/shipmonk-rnd/composer-dependency-analyser",
       "quality_tags": [],
       "repo_updated_at": "2026-08-11T12:23:21Z",
@@ -343,7 +343,7 @@
         "dependency-analysis"
       ],
       "website": "https://github.com/shipmonk-rnd/composer-dependency-analyser",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -373,7 +373,7 @@
       "name": "composer-normalize",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/ergebnis/composer-normalize",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/ergebnis/composer-normalize",
       "quality_tags": [],
       "repo_updated_at": "2026-08-23T22:02:38Z",
@@ -388,7 +388,7 @@
         "manifest-style"
       ],
       "website": "https://github.com/ergebnis/composer-normalize",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -418,7 +418,7 @@
       "name": "Composer Require Checker",
       "notes": "",
       "packagist": "https://packagist.org/packages/maglnet/composer-require-checker",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/maglnet/ComposerRequireChecker",
       "quality_tags": [
         "code-quality"
@@ -435,7 +435,7 @@
         "dependency-analysis"
       ],
       "website": "https://github.com/maglnet/ComposerRequireChecker",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -465,7 +465,7 @@
       "name": "Composer-Unused",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/icanhazstring/composer-unused",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/composer-unused/composer-unused",
       "quality_tags": [
         "php"
@@ -482,7 +482,7 @@
         "dependency-analysis"
       ],
       "website": "https://github.com/composer-unused/composer-unused",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -508,7 +508,7 @@
       "name": "Coverage Checker",
       "notes": "",
       "packagist": "https://packagist.org/packages/exussum12/coverage-checker",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/exussum12/coverageChecker",
       "quality_tags": [
         "php",
@@ -522,7 +522,7 @@
       "supported_php": ">=8.1",
       "upstream_description": "Allows old code to use new standards",
       "website": "https://github.com/exussum12/coverageChecker",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -553,7 +553,7 @@
       "name": "Coverage Guard",
       "notes": "Marked adjacent because it evaluates PHPUnit coverage data rather than source semantics.",
       "packagist": "https://packagist.org/packages/shipmonk/coverage-guard",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/shipmonk-rnd/coverage-guard",
       "quality_tags": [
         "php",
@@ -572,7 +572,7 @@
         "quality-gates"
       ],
       "website": "https://github.com/shipmonk-rnd/coverage-guard",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -614,7 +614,7 @@
         "test-coverage"
       ],
       "website": "https://deepsource.com/directory/php",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -644,7 +644,7 @@
       "name": "dePHPend",
       "notes": "",
       "packagist": "https://packagist.org/packages/dephpend/dephpend",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/mihaeu/dephpend",
       "quality_tags": [
         "php"
@@ -662,7 +662,7 @@
         "architecture"
       ],
       "website": "https://github.com/mihaeu/dephpend",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -692,7 +692,7 @@
       "name": "Deptrac",
       "notes": "",
       "packagist": "https://packagist.org/packages/deptrac/deptrac",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/sensiolabs-de/deptrac.git",
       "quality_tags": [
         "php"
@@ -710,7 +710,7 @@
         "dependency-analysis"
       ],
       "website": "https://github.com/sensiolabs-de/deptrac.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -738,7 +738,7 @@
       "name": "EasyCodingStandard",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Symplify/EasyCodingStandard",
       "quality_tags": [
         "php"
@@ -755,7 +755,7 @@
         "autofix"
       ],
       "website": "https://github.com/Symplify/EasyCodingStandard",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -785,7 +785,7 @@
       "name": "editorconfig-checker",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/editorconfig-checker/editorconfig-checker",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://editorconfig-checker.github.io/",
       "quality_tags": [
         "code-quality",
@@ -803,7 +803,7 @@
         "code-style"
       ],
       "website": "https://editorconfig-checker.github.io/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -825,7 +825,7 @@
       "name": "Exakat",
       "notes": "The legacy repository was archived in March 2022 and points users to https://github.com/exakat/exakat-ce.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "http://www.exakat.io/",
       "quality_tags": [
         "archived",
@@ -839,7 +839,7 @@
       "stars": 380,
       "upstream_description": "The Exakat Engine : smart static analysis for PHP",
       "website": "http://www.exakat.io/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -865,7 +865,7 @@
       "name": "Fixtro",
       "notes": "",
       "packagist": "https://packagist.org/packages/karlosagudo/fixtro",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/karlosagudo/fixtro",
       "quality_tags": [
         "php",
@@ -879,7 +879,7 @@
       "supported_php": "^7.0",
       "upstream_description": "A QA static analysis code, with a different approach",
       "website": "https://github.com/karlosagudo/fixtro",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -898,7 +898,7 @@
       "name": "FunctionFQNReplacer",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Roave/FunctionFQNReplacer",
       "quality_tags": [
         "archived"
@@ -909,7 +909,7 @@
       "source": "README.md",
       "stars": 158,
       "website": "https://github.com/Roave/FunctionFQNReplacer",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -940,7 +940,7 @@
       "name": "Glayzzle PHP Parser (Node.js)",
       "notes": "Name clarifies that this Node.js library is distinct from nikic/PHP-Parser.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://php-parser.glayzzle.com/",
       "quality_tags": [
         "php"
@@ -957,7 +957,7 @@
         "ast"
       ],
       "website": "https://php-parser.glayzzle.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -988,7 +988,7 @@
       "name": "GrumPHP",
       "notes": "Promoted after current repository activity was verified on 2026-08-06.",
       "packagist": "https://packagist.org/packages/phpro/grumphp",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/phpro/grumphp",
       "quality_tags": [
         "code-quality",
@@ -1007,7 +1007,7 @@
         "git-hooks"
       ],
       "website": "https://github.com/phpro/grumphp",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1037,7 +1037,7 @@
       "name": "HHVM",
       "notes": "Historical only: HHVM ended PHP support after version 3.30; repository activity reflects Hack runtime development.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://hhvm.com/",
       "quality_tags": [
         "historical-analysis-only",
@@ -1055,7 +1055,7 @@
         "historical-reference"
       ],
       "website": "https://hhvm.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1099,7 +1099,7 @@
         "performance"
       ],
       "website": "https://insight.symfony.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1129,7 +1129,7 @@
       "name": "jakzal/phpqa",
       "notes": "Promoted after current repository activity was verified on 2026-08-06; distinct from edgedesigncz/PHPQA.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://hub.docker.com/r/jakzal/phpqa/",
       "quality_tags": [
         "code-quality",
@@ -1148,7 +1148,7 @@
         "quality-gates"
       ],
       "website": "https://hub.docker.com/r/jakzal/phpqa/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1175,7 +1175,7 @@
       "name": "jscpd",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/kucherenko/jscpd",
       "quality_tags": [
         "code-quality"
@@ -1191,7 +1191,7 @@
         "duplication"
       ],
       "website": "https://github.com/kucherenko/jscpd",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1222,7 +1222,7 @@
       "name": "Larastan",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/larastan/larastan",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/larastan/larastan",
       "quality_tags": [
         "php",
@@ -1241,7 +1241,7 @@
         "bug-detection"
       ],
       "website": "https://github.com/larastan/larastan",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1279,7 +1279,7 @@
       "name": "Laravel Pint",
       "notes": "Purpose, documentation, installation, and MIT license verified from Laravel's official repository.",
       "packagist": "https://packagist.org/packages/laravel/pint",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://laravel.com/docs/pint",
       "quality_tags": [
@@ -1300,7 +1300,7 @@
         "autofix"
       ],
       "website": "https://laravel.com/docs/pint",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1334,7 +1334,7 @@
         "refactoring"
       ],
       "website": "https://laravelshift.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1364,7 +1364,7 @@
       "name": "mago",
       "notes": "Review category and description before promoting.",
       "packagist": "https://packagist.org/packages/carthage-software/mago",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "http://mago.carthage.software/",
       "quality_tags": [
         "php",
@@ -1384,7 +1384,7 @@
         "code-style"
       ],
       "website": "http://mago.carthage.software/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1414,7 +1414,7 @@
       "name": "name-collision-detector",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/shipmonk/name-collision-detector",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/shipmonk-rnd/name-collision-detector",
       "quality_tags": [
         "php"
@@ -1431,7 +1431,7 @@
         "namespace-collisions"
       ],
       "website": "https://github.com/shipmonk-rnd/name-collision-detector",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1461,7 +1461,7 @@
       "name": "noverify",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/vkcom/noverify",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/VKCOM/noverify",
       "quality_tags": [
         "php"
@@ -1479,7 +1479,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/VKCOM/noverify",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1508,7 +1508,7 @@
       "name": "Opengrep",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/opengrep/opengrep",
       "quality_tags": [],
       "repo_updated_at": "2026-08-27T19:08:37Z",
@@ -1523,7 +1523,7 @@
         "custom-rules"
       ],
       "website": "https://github.com/opengrep/opengrep",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1549,7 +1549,7 @@
       "name": "Pahout",
       "notes": "",
       "packagist": "https://packagist.org/packages/wata727/pahout",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/wata727/pahout",
       "quality_tags": [
         "php",
@@ -1563,7 +1563,7 @@
       "supported_php": ">=7.1.0",
       "upstream_description": "A pair programming partner for writing better PHP. Pahout means PHP mahout :elephant:",
       "website": "https://github.com/wata727/pahout",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1594,7 +1594,7 @@
       "name": "PDepend",
       "notes": "Promoted after current repository activity was verified on 2026-08-06.",
       "packagist": "https://packagist.org/packages/pdepend/pdepend",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://pdepend.org/",
       "quality_tags": [
         "code-quality",
@@ -1614,7 +1614,7 @@
         "dependency-analysis"
       ],
       "website": "https://pdepend.org/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1636,7 +1636,7 @@
       "name": "Pfff",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/facebook/pfff",
       "quality_tags": [
         "archived"
@@ -1648,7 +1648,7 @@
       "stars": 2437,
       "upstream_description": "Tools for code analysis, visualizations, or style-preserving source transformation.",
       "website": "https://github.com/facebook/pfff",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1677,7 +1677,7 @@
       "name": "Phan",
       "notes": "",
       "packagist": "https://packagist.org/packages/phan/phan",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/etsy/phan",
       "quality_tags": [
         "php",
@@ -1696,7 +1696,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/etsy/phan",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1726,7 +1726,7 @@
       "name": "phanalist",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/denzyl/phanalist",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://denzyldick.github.io/phanalist/",
       "quality_tags": [
         "php",
@@ -1743,7 +1743,7 @@
         "bug-detection"
       ],
       "website": "https://denzyldick.github.io/phanalist/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1770,7 +1770,7 @@
       "name": "PHP Analysis",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/cwi-swat/php-analysis",
       "quality_tags": [],
       "repo_updated_at": "2026-05-13T14:03:04Z",
@@ -1784,7 +1784,7 @@
         "language-analysis"
       ],
       "website": "https://github.com/cwi-swat/php-analysis",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1814,7 +1814,7 @@
       "name": "PHP Architecture Tester",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/carlosas/phpat",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://phpat.dev",
       "quality_tags": [
         "php",
@@ -1832,7 +1832,7 @@
         "architecture"
       ],
       "website": "https://phpat.dev",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1858,7 +1858,7 @@
       "name": "PHP Assumption",
       "notes": "",
       "packagist": "https://packagist.org/packages/rskuipers/php-assumptions",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/rskuipers/php-assumptions.git",
       "quality_tags": [],
       "repo_updated_at": "2025-03-22T15:16:44Z",
@@ -1868,7 +1868,7 @@
       "stars": 164,
       "upstream_description": "Tool to detect assumptions",
       "website": "https://github.com/rskuipers/php-assumptions.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1903,7 +1903,7 @@
       "name": "php-ast",
       "notes": "Purpose, PECL installation, and BSD-style license verified from the official repository.",
       "packagist": "https://packagist.org/packages/nikic/php-ast",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/nikic/php-ast",
       "quality_tags": [
@@ -1924,7 +1924,7 @@
         "ast"
       ],
       "website": "https://github.com/nikic/php-ast",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1950,7 +1950,7 @@
       "name": "PHP BackSlasher",
       "notes": "",
       "packagist": "https://packagist.org/packages/nilportugues/php_backslasher",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/nilportugues/php-backslasher",
       "quality_tags": [
         "php"
@@ -1963,7 +1963,7 @@
       "supported_php": ">=5.4",
       "upstream_description": "[Git hook] Tool to add all PHP internal functions and constants to its namespace by adding backslash to them.",
       "website": "https://github.com/nilportugues/php-backslasher",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -1993,7 +1993,7 @@
       "name": "PHP-cfg",
       "notes": "",
       "packagist": "https://packagist.org/packages/ircmaxell/php-cfg",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/ircmaxell/php-cfg",
       "quality_tags": [],
       "repo_updated_at": "2026-08-01T07:01:01Z",
@@ -2008,7 +2008,7 @@
         "control-flow-analysis"
       ],
       "website": "https://github.com/ircmaxell/php-cfg",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2032,7 +2032,7 @@
       "name": "php-class-dependencies-analyzer",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://php-quality-tools.com/class-dependencies-analyzer/",
       "quality_tags": [
         "php",
@@ -2050,7 +2050,7 @@
         "architecture"
       ],
       "website": "https://php-quality-tools.com/class-dependencies-analyzer/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'php-quality-tools.com'. (_ssl.c:1010)",
       "website_status": "temporarily_unreachable",
       "website_status_code": 0
@@ -2079,7 +2079,7 @@
       "name": "PHP_CodeSniffer (legacy repository)",
       "notes": "Legacy Squizlabs repository; development moved to PHPCSStandards/PHP_CodeSniffer.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/squizlabs/PHP_CodeSniffer",
       "quality_tags": [
         "php",
@@ -2096,7 +2096,7 @@
         "code-style"
       ],
       "website": "https://github.com/squizlabs/PHP_CodeSniffer",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2124,7 +2124,7 @@
       "name": "php-compat-info",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://llaville.github.io/php-compatinfo/7.2/",
       "quality_tags": [
         "php"
@@ -2141,7 +2141,7 @@
         "dependency-analysis"
       ],
       "website": "https://llaville.github.io/php-compatinfo/7.2/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2171,7 +2171,7 @@
       "name": "PHP Compatibility",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/phpcompatibility/php-compatibility",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "http://techblog.wimgodden.be/tag/codesniffer/",
       "quality_tags": [
         "php"
@@ -2188,7 +2188,7 @@
         "php-version-compatibility"
       ],
       "website": "http://techblog.wimgodden.be/tag/codesniffer/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2218,7 +2218,7 @@
       "name": "PHP CS Fixer",
       "notes": "",
       "packagist": "https://packagist.org/packages/friendsofphp/php-cs-fixer",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer",
       "quality_tags": [
         "php",
@@ -2237,7 +2237,7 @@
         "autofix"
       ],
       "website": "https://github.com/FriendsOfPHP/PHP-CS-Fixer",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2267,7 +2267,7 @@
       "name": "PHP Doc Check",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/niels-de-blaauw/php-doc-check",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/NielsdeBlaauw/php-doc-check",
       "quality_tags": [
         "php"
@@ -2283,7 +2283,7 @@
         "documentation"
       ],
       "website": "https://github.com/NielsdeBlaauw/php-doc-check",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2309,7 +2309,7 @@
       "name": "PHP formatter",
       "notes": "",
       "packagist": "https://packagist.org/packages/mmoreram/php-formatter",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/mmoreram/php-formatter",
       "quality_tags": [
         "archived",
@@ -2323,7 +2323,7 @@
       "supported_php": ">=7.0",
       "upstream_description": "PHP Formatter is a PHP developer friendly set of tools",
       "website": "https://github.com/mmoreram/php-formatter",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2347,7 +2347,7 @@
       "name": "PHP Inspections (EA Extended)",
       "notes": "Supports PhpStorm 2024.3+ and IntelliJ IDEA Ultimate.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://plugins.jetbrains.com/plugin/7622?pr=phpStorm",
       "quality_tags": [
         "php",
@@ -2367,7 +2367,7 @@
         "code-style"
       ],
       "website": "https://plugins.jetbrains.com/plugin/7622?pr=phpStorm",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2397,7 +2397,7 @@
       "name": "PHP Magic Number Detector",
       "notes": "",
       "packagist": "https://packagist.org/packages/povils/phpmnd",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/povils/phpmnd",
       "quality_tags": [
         "php",
@@ -2415,7 +2415,7 @@
         "maintainability"
       ],
       "website": "https://github.com/povils/phpmnd",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2434,7 +2434,7 @@
       "name": "PHP-malware-finder",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/nbs-system/php-malware-finder",
       "quality_tags": [],
       "repo_updated_at": "2022-02-22T16:17:08Z",
@@ -2443,7 +2443,7 @@
       "source": "README.md",
       "stars": 343,
       "website": "https://github.com/nbs-system/php-malware-finder",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2462,7 +2462,7 @@
       "name": "PHP Manipulator",
       "notes": "",
       "packagist": "https://packagist.org/packages/jms/php-manipulator",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/schmittjoh/php-manipulator",
       "quality_tags": [],
       "repo_updated_at": "2014-09-27T18:10:16Z",
@@ -2472,7 +2472,7 @@
       "stars": 105,
       "upstream_description": "Library for Analyzing and Modifying PHP Source Code",
       "website": "https://github.com/schmittjoh/php-manipulator",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2502,7 +2502,7 @@
       "name": "PHP Mess Detector",
       "notes": "Repository metadata merged from GitHub discovery.",
       "packagist": "https://packagist.org/packages/phpmd/phpmd",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://phpmd.org",
       "quality_tags": [
         "php",
@@ -2521,7 +2521,7 @@
         "complexity"
       ],
       "website": "https://phpmd.org",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2551,7 +2551,7 @@
       "name": "PHP Metrics",
       "notes": "",
       "packagist": "https://packagist.org/packages/phpmetrics/phpmetrics",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Halleck45/PhpMetrics",
       "quality_tags": [
         "php"
@@ -2569,7 +2569,7 @@
         "architecture"
       ],
       "website": "https://github.com/Halleck45/PhpMetrics",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2598,7 +2598,7 @@
       "name": "PHP-Parallel-Lint (legacy repository)",
       "notes": "Legacy JakubOnderka repository; development continues under php-parallel-lint/PHP-Parallel-Lint.",
       "packagist": "https://packagist.org/packages/jakub-onderka/php-parallel-lint",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
       "quality_tags": [
         "archived",
@@ -2616,7 +2616,7 @@
         "syntax"
       ],
       "website": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2645,7 +2645,7 @@
       "name": "PHP-Parallel-Lint (maintained)",
       "notes": "Maintained successor to the legacy JakubOnderka repository.",
       "packagist": "https://packagist.org/packages/php-parallel-lint/php-parallel-lint",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/php-parallel-lint/PHP-Parallel-Lint",
       "quality_tags": [],
       "repo_updated_at": "2026-07-26T21:37:41Z",
@@ -2661,7 +2661,7 @@
         "syntax"
       ],
       "website": "https://github.com/php-parallel-lint/PHP-Parallel-Lint",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2691,7 +2691,7 @@
       "name": "PHP Parser",
       "notes": "",
       "packagist": "https://packagist.org/packages/nikic/php-parser",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/nikic/PHP-Parser",
       "quality_tags": [
         "php",
@@ -2710,7 +2710,7 @@
         "ast"
       ],
       "website": "https://github.com/nikic/PHP-Parser",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2736,7 +2736,7 @@
       "name": "php-refactoring-browser",
       "notes": "",
       "packagist": "https://packagist.org/packages/qafoolabs/php-refactoring-browser",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/QafooLabs/php-refactoring-browser",
       "quality_tags": [
         "archived"
@@ -2748,7 +2748,7 @@
       "stars": 547,
       "upstream_description": "A command line refactoring tool for PHP",
       "website": "https://github.com/QafooLabs/php-refactoring-browser",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2773,7 +2773,7 @@
       "name": "PHP SA",
       "notes": "",
       "packagist": "https://packagist.org/packages/ovr/phpsa",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/ovr/phpsa",
       "quality_tags": [
         "archived",
@@ -2787,7 +2787,7 @@
       "supported_php": ">=5.5",
       "upstream_description": "Smart/Static Analyzer(sis) for PHP :bowtie::neckbeard:",
       "website": "https://github.com/ovr/phpsa",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2817,7 +2817,7 @@
       "name": "php-scoper",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/humbug/php-scoper",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/humbug/php-scoper",
       "quality_tags": [
         "php"
@@ -2834,7 +2834,7 @@
         "namespace-isolation"
       ],
       "website": "https://github.com/humbug/php-scoper",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2861,7 +2861,7 @@
       "name": "PHP Semantic Versioning Checker",
       "notes": "Reclassified from metrics to API compatibility and release management.",
       "packagist": "https://packagist.org/packages/tomzx/php-semver-checker",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/tomzx/php-semver-checker",
       "quality_tags": [
         "php"
@@ -2879,7 +2879,7 @@
         "release-management"
       ],
       "website": "https://github.com/tomzx/php-semver-checker",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2909,7 +2909,7 @@
       "name": "PHPStan",
       "notes": "Official product spelling corrected to PHPStan.",
       "packagist": "https://packagist.org/packages/phpstan/phpstan",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/phpstan/phpstan",
       "quality_tags": [
         "php",
@@ -2929,7 +2929,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/phpstan/phpstan",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2953,7 +2953,7 @@
       "name": "PHP Static Type Checker",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://codeberg.org/Jumping-Beaver/PHP_Static_Type_Checker",
       "quality_tags": [],
       "repo_updated_at": "2026-04-08T16:22:23Z",
@@ -2967,7 +2967,7 @@
         "type-analysis"
       ],
       "website": "https://codeberg.org/Jumping-Beaver/PHP_Static_Type_Checker",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -2986,7 +2986,7 @@
       "name": "PHP testability",
       "notes": "",
       "packagist": "https://packagist.org/packages/edsonmedina/php_testability",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/edsonmedina/php_testability",
       "quality_tags": [
         "archived",
@@ -3000,7 +3000,7 @@
       "stars": 130,
       "upstream_description": "Analyses and reports testability issues of a php codebase",
       "website": "https://github.com/edsonmedina/php_testability",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3023,7 +3023,7 @@
       "name": "PHP Weaver",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/troelskn/phpweaver",
       "quality_tags": [],
       "repo_updated_at": "2026-01-28T01:01:37Z",
@@ -3038,7 +3038,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/troelskn/phpweaver",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3064,7 +3064,7 @@
       "name": "php7mar",
       "notes": "",
       "packagist": "https://packagist.org/packages/alexia/php7mar",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Alexia/php7mar",
       "quality_tags": [
         "archived"
@@ -3077,7 +3077,7 @@
       "supported_php": ">=5.4.0",
       "upstream_description": "PHP 7 Migration Assistant Report (MAR)",
       "website": "https://github.com/Alexia/php7mar",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3107,7 +3107,7 @@
       "name": "Phpactor",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/phpactor/phpactor",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/phpactor/phpactor",
       "quality_tags": [
         "php"
@@ -3125,7 +3125,7 @@
         "editor-assistance"
       ],
       "website": "https://github.com/phpactor/phpactor",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3155,7 +3155,7 @@
       "name": "PHPArkitect",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/phparkitect/phparkitect",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/phparkitect/arkitect",
       "quality_tags": [
         "php"
@@ -3172,7 +3172,7 @@
         "architecture"
       ],
       "website": "https://github.com/phparkitect/arkitect",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3195,7 +3195,7 @@
       "name": "PhpCodeAnalyzer",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/wapmorgan/PhpCodeAnalyzer.git",
       "quality_tags": [
         "static-analysis"
@@ -3207,7 +3207,7 @@
       "stars": 96,
       "upstream_description": "Really, it's \"php extensions usage analyzer\". It scans codebase and analyzes which non-built-in php extensions used",
       "website": "https://github.com/wapmorgan/PhpCodeAnalyzer.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3236,7 +3236,7 @@
       "name": "PhpCodeArcheology",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://phpcodearcheology.github.io",
       "quality_tags": [
         "code-quality",
@@ -3256,7 +3256,7 @@
         "churn"
       ],
       "website": "https://phpcodearcheology.github.io",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3279,7 +3279,7 @@
       "name": "PHPCodeFixer",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/wapmorgan/PhpCodeFixer",
       "quality_tags": [
         "static-analysis"
@@ -3291,7 +3291,7 @@
       "stars": 367,
       "upstream_description": "Analyzer of PHP code to search issues with deprecated functionality in newer interpreter versions.",
       "website": "https://github.com/wapmorgan/PhpCodeFixer",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3313,7 +3313,7 @@
       "name": "PHPCPD",
       "notes": "",
       "packagist": "https://packagist.org/packages/sebastian/phpcpd",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/sebastianbergmann/phpcpd",
       "quality_tags": [
         "archived"
@@ -3326,7 +3326,7 @@
       "supported_php": ">=7.3",
       "upstream_description": "Copy/Paste Detector (CPD) for PHP code.",
       "website": "https://github.com/sebastianbergmann/phpcpd",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3356,7 +3356,7 @@
       "name": "PHP_CodeSniffer",
       "notes": "Maintained PHPCSStandards repository; successor to the legacy Squizlabs repository.",
       "packagist": "https://packagist.org/packages/phpcsstandards/php_codesniffer",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
       "quality_tags": [
         "php",
@@ -3375,7 +3375,7 @@
         "code-style"
       ],
       "website": "https://github.com/PHPCSStandards/PHP_CodeSniffer",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3400,7 +3400,7 @@
       "name": "PhpDependencyAnalysis",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/mamuz/PhpDependencyAnalysis",
       "quality_tags": [
         "code-quality",
@@ -3413,7 +3413,7 @@
       "stars": 575,
       "upstream_description": "Static code analysis to find violations in a dependency graph",
       "website": "https://github.com/mamuz/PhpDependencyAnalysis",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3449,7 +3449,7 @@
       "name": "PHPStan PHPDoc Parser",
       "notes": "Composer requirements and parser scope verified from the official repository.",
       "packagist": "https://packagist.org/packages/phpstan/phpdoc-parser",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/phpstan/phpdoc-parser",
       "quality_tags": [
@@ -3470,7 +3470,7 @@
         "type-resolution"
       ],
       "website": "https://github.com/phpstan/phpdoc-parser",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3496,7 +3496,7 @@
       "name": "phpdoc to typehint",
       "notes": "",
       "packagist": "https://packagist.org/packages/dunglas/phpdoc-to-typehint",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/dunglas/phpdoc-to-typehint",
       "quality_tags": [
         "archived",
@@ -3510,7 +3510,7 @@
       "supported_php": ">=7.0.0",
       "upstream_description": "Add scalar type hints and return types to existing PHP projects using PHPDoc annotations",
       "website": "https://github.com/dunglas/phpdoc-to-typehint",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3540,7 +3540,7 @@
       "name": "PHPDoctor",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/voku/phpdoctor",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/voku/PHPDoctor",
       "quality_tags": [
         "php",
@@ -3559,7 +3559,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/voku/PHPDoctor",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3591,7 +3591,7 @@
       "name": "PHPInsights",
       "notes": "Primary website corrected to the documentation linked from the official repository.",
       "packagist": "https://packagist.org/packages/nunomaduro/phpinsights",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://nunomaduro.github.io/phpinsights/",
       "quality_tags": [
         "php"
@@ -3610,7 +3610,7 @@
         "architecture"
       ],
       "website": "https://nunomaduro.github.io/phpinsights/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "HTTP 404",
       "website_status": "unavailable",
       "website_status_code": 404
@@ -3632,7 +3632,7 @@
       "name": "PHPLOC",
       "notes": "",
       "packagist": "https://packagist.org/packages/phploc/phploc",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/sebastianbergmann/phploc",
       "quality_tags": [
         "archived"
@@ -3645,7 +3645,7 @@
       "supported_php": ">=7.3",
       "upstream_description": "A tool for quickly measuring the size of a PHP project.",
       "website": "https://github.com/sebastianbergmann/phploc",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3675,7 +3675,7 @@
       "name": "PHPQA",
       "notes": "",
       "packagist": "https://packagist.org/packages/edgedesign/phpqa",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://edgedesigncz.github.io/phpqa/",
       "quality_tags": [],
       "repo_updated_at": "2025-11-22T07:45:23Z",
@@ -3690,7 +3690,7 @@
         "quality-gates"
       ],
       "website": "https://edgedesigncz.github.io/phpqa/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3727,7 +3727,7 @@
       "name": "phpstan-dba",
       "notes": "Scope and installation verified from the official repository.",
       "packagist": "https://packagist.org/packages/staabm/phpstan-dba",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/staabm/phpstan-dba",
       "quality_tags": [
@@ -3749,7 +3749,7 @@
         "type-analysis"
       ],
       "website": "https://github.com/staabm/phpstan-dba",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3785,7 +3785,7 @@
       "name": "PHPStan Deprecation Rules",
       "notes": "Detection scope and installation verified from the official repository.",
       "packagist": "https://packagist.org/packages/phpstan/phpstan-deprecation-rules",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/phpstan/phpstan-deprecation-rules",
       "quality_tags": [
@@ -3806,7 +3806,7 @@
         "upgrade"
       ],
       "website": "https://github.com/phpstan/phpstan-deprecation-rules",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3841,7 +3841,7 @@
       "name": "PHPStan Strict Rules",
       "notes": "Scope, installation, and license verified from the official repository.",
       "packagist": "https://packagist.org/packages/phpstan/phpstan-strict-rules",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/phpstan/phpstan-strict-rules",
       "quality_tags": [
@@ -3862,7 +3862,7 @@
         "bug-detection"
       ],
       "website": "https://github.com/phpstan/phpstan-strict-rules",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3900,7 +3900,7 @@
       "name": "PHPStan Symfony",
       "notes": "Capabilities and installation verified from the official repository.",
       "packagist": "https://packagist.org/packages/phpstan/phpstan-symfony",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/phpstan/phpstan-symfony",
       "quality_tags": [
@@ -3922,7 +3922,7 @@
         "bug-detection"
       ],
       "website": "https://github.com/phpstan/phpstan-symfony",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -3952,7 +3952,7 @@
       "name": "Progpilot",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/designsecurity/progpilot",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/designsecurity/progpilot",
       "quality_tags": [
         "php"
@@ -3970,7 +3970,7 @@
         "taint-analysis"
       ],
       "website": "https://github.com/designsecurity/progpilot",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4000,7 +4000,7 @@
       "name": "psalm",
       "notes": "Review category and description before promoting.",
       "packagist": "https://packagist.org/packages/vimeo/psalm",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://psalm.dev",
       "quality_tags": [
         "php",
@@ -4021,7 +4021,7 @@
         "taint-analysis"
       ],
       "website": "https://psalm.dev",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4042,7 +4042,7 @@
       "name": "psecio:parse",
       "notes": "",
       "packagist": "https://packagist.org/packages/psecio/parse",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/psecio/parse.git",
       "quality_tags": [
         "php",
@@ -4056,7 +4056,7 @@
       "supported_php": ">=5.4",
       "upstream_description": "Parse: A Static Security Scanner",
       "website": "https://github.com/psecio/parse.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4094,7 +4094,7 @@
       "name": "Qlty",
       "notes": "Successor to Code Climate Quality. License is Fair Source/BSL rather than OSI-approved open source; PHP support verified from official Qlty documentation.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Qlty CLI is free for all use; Qlty Cloud has separate service plans.",
       "public_url": "https://qlty.sh/",
       "quality_tags": [
@@ -4119,7 +4119,7 @@
         "test-coverage"
       ],
       "website": "https://qlty.sh/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4162,7 +4162,7 @@
         "quality-gates"
       ],
       "website": "https://www.jetbrains.com/qodana/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4181,7 +4181,7 @@
       "name": "Quality Analyzer",
       "notes": "",
       "packagist": "https://packagist.org/packages/qafoo/quality-analyzer",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/Qafoo/QualityAnalyzer.git",
       "quality_tags": [],
       "repo_updated_at": "2019-12-06T12:45:14Z",
@@ -4191,7 +4191,7 @@
       "stars": 490,
       "upstream_description": "Tool helping us to analyze software projects",
       "website": "https://github.com/Qafoo/QualityAnalyzer.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4221,7 +4221,7 @@
       "name": "Rector",
       "notes": "",
       "packagist": "https://packagist.org/packages/rector/rector",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/rectorphp/rector",
       "quality_tags": [
         "php"
@@ -4240,7 +4240,7 @@
         "autofix"
       ],
       "website": "https://github.com/rectorphp/rector",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4270,7 +4270,7 @@
       "name": "Reflection",
       "notes": "",
       "packagist": "https://packagist.org/packages/phpdocumentor/reflection",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/phpDocumentor/Reflection.git",
       "quality_tags": [],
       "repo_updated_at": "2026-08-25T08:44:16Z",
@@ -4286,7 +4286,7 @@
         "type-resolution"
       ],
       "website": "https://github.com/phpDocumentor/Reflection.git",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4322,7 +4322,7 @@
         "sast"
       ],
       "website": "https://www.sonarsource.com/blog/sonarsource-acquires-rips-technologies/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4359,7 +4359,7 @@
       "name": "Roave Backward Compatibility Check",
       "notes": "Added after manual review of the official repository, installation, and CI documentation.",
       "packagist": "https://packagist.org/packages/roave/backward-compatibility-check",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/Roave/BackwardCompatibilityCheck",
       "quality_tags": [
@@ -4380,7 +4380,7 @@
         "release-management"
       ],
       "website": "https://github.com/Roave/BackwardCompatibilityCheck",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4398,7 +4398,7 @@
       "name": "Scrutinizer",
       "notes": "The service website has an expired TLS certificate and the legacy repository is archived.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://scrutinizer-ci.com/",
       "quality_tags": [
         "archived"
@@ -4410,7 +4410,7 @@
       "stars": 138,
       "upstream_description": "Legacy repository - archives past feature requests/bug reports",
       "website": "https://scrutinizer-ci.com/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4439,7 +4439,7 @@
       "name": "Semgrep",
       "notes": "Repository activity and the latest GitHub release were verified on 2026-08-07.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://semgrep.dev",
       "quality_tags": [
         "static-analysis"
@@ -4456,7 +4456,7 @@
         "custom-rules"
       ],
       "website": "https://semgrep.dev",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4488,15 +4488,15 @@
       "latest_release_published_at": "2026-08-07T09:22:12Z",
       "latest_release_tag": "1.3.3",
       "latest_release_url": "https://github.com/shipmonk-rnd/dead-code-detector/releases/tag/1.3.3",
-      "latest_version": "1.3.3",
-      "latest_version_released_at": "2026-08-06T14:08:28+00:00",
+      "latest_version": "1.4.0",
+      "latest_version_released_at": "2026-08-28T10:48:53+00:00",
       "license": "MIT",
       "lifecycle": "Active",
       "metadata_updated_at": "2026-08-28T03:23:32Z",
       "name": "ShipMonk Dead Code Detector",
       "notes": "Capabilities and PHP support verified from the official README and composer.json.",
       "packagist": "https://packagist.org/packages/shipmonk/dead-code-detector",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/shipmonk-rnd/dead-code-detector",
       "quality_tags": [
@@ -4518,7 +4518,7 @@
         "autofix"
       ],
       "website": "https://github.com/shipmonk-rnd/dead-code-detector",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4545,7 +4545,7 @@
       "source": "https://github.com/sideci",
       "stars": 0,
       "website": "https://github.com/sideci",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4575,7 +4575,7 @@
       "name": "Skylos",
       "notes": "Promoted after PHP support and current repository activity were verified on 2026-08-06.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://skylos.dev/",
       "quality_tags": [
         "code-quality",
@@ -4595,7 +4595,7 @@
         "pull-request-review"
       ],
       "website": "https://skylos.dev/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4632,7 +4632,7 @@
       "name": "Slevomat Coding Standard",
       "notes": "Rule categories, autofix support, installation, and license verified from the official repository.",
       "packagist": "https://packagist.org/packages/slevomat/coding-standard",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/slevomat/coding-standard",
       "quality_tags": [
@@ -4654,7 +4654,7 @@
         "dead-code"
       ],
       "website": "https://github.com/slevomat/coding-standard",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4694,7 +4694,7 @@
         "sast"
       ],
       "website": "https://snyk.io/code-checker/php/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4722,7 +4722,7 @@
       "name": "SonarQube PHP",
       "notes": "Canonical catalog entry for the SonarPHP analyzer; the hosted SonarQube Cloud product is listed separately. SonarSource integrated technology acquired with RIPS.",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://www.sonarsource.com/products/sonarqube/",
       "quality_tags": [
         "code-quality",
@@ -4744,7 +4744,7 @@
         "security"
       ],
       "website": "https://www.sonarsource.com/products/sonarqube/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4786,7 +4786,7 @@
         "quality-gates"
       ],
       "website": "https://www.sonarsource.com/products/sonarqube/cloud/",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4816,7 +4816,7 @@
       "name": "Static Analysis Results Baseliner",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/dave-liddament/sarb",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/DaveLiddament/sarb",
       "quality_tags": [],
       "repo_updated_at": "2026-07-12T08:42:09Z",
@@ -4831,7 +4831,7 @@
         "baseline-management"
       ],
       "website": "https://github.com/DaveLiddament/sarb",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4861,7 +4861,7 @@
       "name": "TLint",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
       "packagist": "https://packagist.org/packages/tightenco/tlint",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/tighten/tlint",
       "quality_tags": [
         "php"
@@ -4878,7 +4878,7 @@
         "code-style"
       ],
       "website": "https://github.com/tighten/tlint",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4897,7 +4897,7 @@
       "name": "Transphpile",
       "notes": "",
       "packagist": null,
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "public_url": "https://github.com/jaytaph/Transphpile",
       "quality_tags": [],
       "repo_updated_at": "2017-09-02T00:24:19Z",
@@ -4907,7 +4907,7 @@
       "stars": 178,
       "upstream_description": "PHP 7 to PHP 5.6 Transpiler",
       "website": "https://github.com/jaytaph/Transphpile",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200
@@ -4945,7 +4945,7 @@
       "name": "WordPress Coding Standards",
       "notes": "Scope, package name, and license verified from the official WordPress repository.",
       "packagist": "https://packagist.org/packages/wp-coding-standards/wpcs",
-      "packagist_checked_at": "2026-08-27T15:57:02Z",
+      "packagist_checked_at": "2026-08-28T16:24:24Z",
       "pricing": "Free and open source",
       "public_url": "https://github.com/WordPress/WordPress-Coding-Standards",
       "quality_tags": [
@@ -4966,7 +4966,7 @@
         "wordpress-compatibility"
       ],
       "website": "https://github.com/WordPress/WordPress-Coding-Standards",
-      "website_checked_at": "2026-08-27T15:57:02Z",
+      "website_checked_at": "2026-08-28T16:24:24Z",
       "website_error": "",
       "website_status": "available",
       "website_status_code": 200

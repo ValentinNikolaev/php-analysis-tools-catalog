@@ -16,7 +16,7 @@ website: "https://github.com/opengrep/opengrep"
 public_url: "https://github.com/opengrep/opengrep"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-27T15:57:02Z"
+website_checked_at: "2026-08-28T16:24:24Z"
 website_error: ""
 repository: "https://github.com/opengrep/opengrep"
 latest_release_name: "Opengrep 1.28.0"
@@ -27,7 +27,7 @@ latest_release_checked_at: "2026-08-28T03:23:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-08-27T15:57:02Z"
+packagist_checked_at: "2026-08-28T16:24:24Z"
 stars: 2996
 repo_updated_at: "2026-08-27T19:08:37Z"
 metadata_updated_at: "2026-08-28T03:23:32Z"

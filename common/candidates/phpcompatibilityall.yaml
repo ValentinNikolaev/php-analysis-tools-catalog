@@ -13,7 +13,7 @@ repository: "https://github.com/PHPCompatibility/PHPCompatibilityAll"
 packagist: "https://packagist.org/packages/phpcompatibility/phpcompatibility-all"
 stars: 13
 repo_updated_at: "2026-08-15T17:54:11Z"
-metadata_updated_at: "2026-08-27T15:57:02Z"
+metadata_updated_at: "2026-08-28T16:24:22Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-27T15:57:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-27T15:57:02Z"
+last_discovered_at: "2026-08-28T16:24:22Z"
 discovery_queries:
   - "packagist:phpcs standard"
