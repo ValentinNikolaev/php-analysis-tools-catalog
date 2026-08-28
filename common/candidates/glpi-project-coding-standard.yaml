@@ -13,7 +13,7 @@ repository: "https://github.com/glpi-project/coding-standard"
 packagist: "https://packagist.org/packages/glpi-project/coding-standard"
 stars: 3
 repo_updated_at: "2023-11-28T07:46:47Z"
-metadata_updated_at: "2026-08-27T21:26:35Z"
+metadata_updated_at: "2026-08-28T21:31:45Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-26T18:56:54Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-27T21:26:35Z"
+last_discovered_at: "2026-08-28T21:31:45Z"
 discovery_queries:
   - "packagist:phpcs standard"

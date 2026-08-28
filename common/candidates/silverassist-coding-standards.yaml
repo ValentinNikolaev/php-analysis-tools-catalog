@@ -1,0 +1,28 @@
+slug: "silverassist-coding-standards"
+name: "coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Framework-agnostic PHPCS ruleset (PSR-12 + PHPDoc enforcement) and PHPStan base config shared by all Silver Assist PHP projects, WordPress or not."
+website: "https://packagist.org/packages/silverassist/coding-standards"
+public_url: "https://packagist.org/packages/silverassist/coding-standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/SilverAssist/coding-standards"
+packagist: "https://packagist.org/packages/silverassist/coding-standards"
+stars: 1
+repo_updated_at: "2026-08-24T02:54:06Z"
+metadata_updated_at: "2026-08-28T21:31:45Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-28T21:31:45Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-28T21:31:45Z"
+discovery_queries:
+  - "packagist:phpcs standard"
