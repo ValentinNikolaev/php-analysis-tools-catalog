@@ -1,0 +1,26 @@
+slug: "valantic-php-cs-fixer-config"
+name: "php-cs-fixer-config"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Provides a standard php-cs-fixer configuration used in projects built by valantic."
+website: "https://github.com/valantic/php-cs-fixer-config"
+public_url: "https://github.com/valantic/php-cs-fixer-config"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/valantic/php-cs-fixer-config"
+packagist: "https://packagist.org/packages/valantic/php-cs-fixer-config"
+stars: 1
+repo_updated_at: "2026-08-03T05:59:19Z"
+metadata_updated_at: "2026-08-28T03:23:32Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-28T03:23:32Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-28T03:23:32Z"
+discovery_queries:
+  - "packagist:phpcs standard"

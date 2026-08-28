@@ -13,7 +13,7 @@ repository: "https://github.com/sabbelasichon/typo3-debug-dump-pass"
 packagist: "https://packagist.org/packages/ssch/typo3-debug-dump-pass"
 stars: 3
 repo_updated_at: "2026-02-04T08:31:50Z"
-metadata_updated_at: "2026-08-27T02:00:11Z"
+metadata_updated_at: "2026-08-28T03:23:32Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T18:25:48Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-27T02:00:11Z"
+last_discovered_at: "2026-08-28T03:23:32Z"
 discovery_queries:
   - "packagist:static analysis"
