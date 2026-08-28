@@ -1,27 +1,26 @@
-slug: "inpsyde-phpcs"
-name: "phpcs"
-category: "Coding standards"
-artifact_type: "ruleset"
-description: "Syde PHP coding standards for WordPress development at scale."
-website: "https://github.com/inpsyde/phpcs"
-public_url: "https://github.com/inpsyde/phpcs"
+slug: "codingstandards"
+name: "CodingStandards"
+category: "Fixers"
+artifact_type: "fixer"
+description: "A pre-defined set of coding standards for PHP CS Fixer."
+website: "https://packagist.org/packages/phlak/coding-standards"
+public_url: "https://packagist.org/packages/phlak/coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/inpsyde/phpcs"
-packagist: "https://packagist.org/packages/syde/phpcs"
-stars: 10
-repo_updated_at: "2026-08-13T07:33:35Z"
+repository: "https://github.com/PHLAK/CodingStandards"
+packagist: "https://packagist.org/packages/phlak/coding-standards"
+stars: 2
+repo_updated_at: "2026-07-03T22:56:43Z"
 metadata_updated_at: "2026-08-28T09:25:18Z"
 quality_tags:
   - "php"
-  - "phpcs"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T06:27:42Z"
+discovered_at: "2026-08-28T09:25:18Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-28T09:25:18Z"
 discovery_queries:
