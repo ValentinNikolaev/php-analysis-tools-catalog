@@ -1,18 +1,18 @@
-slug: "phpcompatibilityall"
-name: "PHPCompatibilityAll"
+slug: "symfony-custom-coding-standard"
+name: "symfony-custom-coding-standard"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Collection of all the PHPCS rulesets offered by the PHPCompatibility organisation."
-website: "https://github.com/PHPCompatibility/PHPCompatibilityAll"
-public_url: "https://github.com/PHPCompatibility/PHPCompatibilityAll"
+description: "Customized Symfony coding standard"
+website: "https://github.com/VincentLanglet/symfony-custom-coding-standard"
+public_url: "https://github.com/VincentLanglet/symfony-custom-coding-standard"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/PHPCompatibility/PHPCompatibilityAll"
-packagist: "https://packagist.org/packages/phpcompatibility/phpcompatibility-all"
-stars: 13
-repo_updated_at: "2026-08-15T17:54:11Z"
+repository: "https://github.com/VincentLanglet/symfony-custom-coding-standard"
+packagist: "https://packagist.org/packages/vincentlanglet/symfony-custom-coding-standard"
+stars: 12
+repo_updated_at: "2022-03-27T20:41:48Z"
 metadata_updated_at: "2026-08-29T18:26:34Z"
 quality_tags:
   - "php"
@@ -20,7 +20,7 @@ source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-27T15:57:02Z"
+discovered_at: "2026-08-29T18:26:34Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-29T18:26:34Z"
 discovery_queries:

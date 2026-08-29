@@ -13,7 +13,7 @@ repository: "https://github.com/wdes/coding-standard"
 packagist: "https://packagist.org/packages/wdes/coding-standard"
 stars: 0
 repo_updated_at: "2023-12-16T21:47:01Z"
-metadata_updated_at: "2026-08-28T16:24:22Z"
+metadata_updated_at: "2026-08-29T18:26:34Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-28T16:24:22Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-28T16:24:22Z"
+last_discovered_at: "2026-08-29T18:26:34Z"
 discovery_queries:
   - "packagist:phpcs standard"
