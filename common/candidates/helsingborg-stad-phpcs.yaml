@@ -1,0 +1,26 @@
+slug: "helsingborg-stad-phpcs"
+name: "phpcs"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP_CodeSniffer rulesets supporting the coding standards for the Helsingborg Stad organization"
+website: "https://github.com/helsingborg-stad/phpcs"
+public_url: "https://github.com/helsingborg-stad/phpcs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/helsingborg-stad/phpcs"
+packagist: "https://packagist.org/packages/helsingborg-stad/phpcs"
+stars: 0
+repo_updated_at: "2026-08-08T08:47:45Z"
+metadata_updated_at: "2026-08-29T00:51:56Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-29T00:51:56Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-29T00:51:56Z"
+discovery_queries:
+  - "packagist:phpcs standard"

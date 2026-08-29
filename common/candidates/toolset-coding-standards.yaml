@@ -1,0 +1,26 @@
+slug: "toolset-coding-standards"
+name: "toolset-coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "A set of phpcs rules used in Toolset"
+website: "https://github.com/OnTheGoSystems/toolset-coding-standards"
+public_url: "https://github.com/OnTheGoSystems/toolset-coding-standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/OnTheGoSystems/toolset-coding-standards"
+packagist: "https://packagist.org/packages/otgs/toolset-coding-standards"
+stars: 1
+repo_updated_at: "2026-08-10T16:05:20Z"
+metadata_updated_at: "2026-08-29T00:51:56Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-29T00:51:56Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-29T00:51:56Z"
+discovery_queries:
+  - "packagist:phpcs standard"
