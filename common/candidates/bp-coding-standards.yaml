@@ -1,27 +1,26 @@
-slug: "inpsyde-phpcs"
-name: "phpcs"
+slug: "bp-coding-standards"
+name: "bp-coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Syde PHP coding standards for WordPress development at scale."
-website: "https://github.com/inpsyde/phpcs"
-public_url: "https://github.com/inpsyde/phpcs"
+description: "PHP_CodeSniffer rules (sniffs) to enforce BuddyPress minimum coding conventions."
+website: "https://github.com/buddypress/bp-coding-standards"
+public_url: "https://github.com/buddypress/bp-coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/inpsyde/phpcs"
-packagist: "https://packagist.org/packages/syde/phpcs"
-stars: 10
-repo_updated_at: "2026-08-13T07:33:35Z"
+repository: "https://github.com/buddypress/bp-coding-standards"
+packagist: "https://packagist.org/packages/buddypress/bp-coding-standards"
+stars: 1
+repo_updated_at: "2026-08-02T04:07:51Z"
 metadata_updated_at: "2026-08-29T12:30:49Z"
 quality_tags:
-  - "php"
   - "phpcs"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T06:27:42Z"
+discovered_at: "2026-08-29T12:30:49Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-29T12:30:49Z"
 discovery_queries:

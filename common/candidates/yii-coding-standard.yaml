@@ -1,27 +1,25 @@
-slug: "inpsyde-phpcs"
-name: "phpcs"
+slug: "yii-coding-standard"
+name: "yii-coding-standard"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Syde PHP coding standards for WordPress development at scale."
-website: "https://github.com/inpsyde/phpcs"
-public_url: "https://github.com/inpsyde/phpcs"
+description: "Yii Framework PHP CodeSniffer Coding Standard"
+website: "https://github.com/Ardem/yii-coding-standard"
+public_url: "https://github.com/Ardem/yii-coding-standard"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/inpsyde/phpcs"
-packagist: "https://packagist.org/packages/syde/phpcs"
-stars: 10
-repo_updated_at: "2026-08-13T07:33:35Z"
+repository: "https://github.com/Ardem/yii-coding-standard"
+packagist: "https://packagist.org/packages/ardem/yii-coding-standard"
+stars: 37
+repo_updated_at: "2015-08-27T12:13:47Z"
 metadata_updated_at: "2026-08-29T12:30:49Z"
-quality_tags:
-  - "php"
-  - "phpcs"
+quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T06:27:42Z"
+discovered_at: "2026-08-29T12:30:49Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-29T12:30:49Z"
 discovery_queries:

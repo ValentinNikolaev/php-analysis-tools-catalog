@@ -13,7 +13,7 @@ repository: "https://github.com/imbo/imbo-coding-standard"
 packagist: "https://packagist.org/packages/imbo/imbo-coding-standard"
 stars: 2
 repo_updated_at: "2026-06-07T12:36:37Z"
-metadata_updated_at: "2026-08-28T09:25:18Z"
+metadata_updated_at: "2026-08-29T12:30:49Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-28T09:25:18Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-28T09:25:18Z"
+last_discovered_at: "2026-08-29T12:30:49Z"
 discovery_queries:
   - "packagist:phpcs standard"
