@@ -1,0 +1,26 @@
+slug: "ernilambar-coding-standard"
+name: "coding-standard"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP_CodeSniffer standard for PHP projects."
+website: "https://packagist.org/packages/ernilambar/coding-standard"
+public_url: "https://packagist.org/packages/ernilambar/coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ernilambar/coding-standard"
+packagist: "https://packagist.org/packages/ernilambar/coding-standard"
+stars: 1
+repo_updated_at: "2026-08-13T12:07:01Z"
+metadata_updated_at: "2026-08-29T06:34:25Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-29T06:34:25Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-29T06:34:25Z"
+discovery_queries:
+  - "packagist:phpcs standard"

@@ -23,14 +23,14 @@ latest_release_name: "Release v1.175.0"
 latest_release_tag: "v1.175.0"
 latest_release_url: "https://github.com/semgrep/semgrep/releases/tag/v1.175.0"
 latest_release_published_at: "2026-08-26T17:08:58Z"
-latest_release_checked_at: "2026-08-28T03:23:32Z"
+latest_release_checked_at: "2026-08-29T06:34:26Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-28T16:24:24Z"
-stars: 16420
+stars: 16434
 repo_updated_at: "2026-08-28T02:34:55Z"
-metadata_updated_at: "2026-08-28T03:23:32Z"
+metadata_updated_at: "2026-08-29T06:34:26Z"
 quality_tags:
   - "static-analysis"
 source: "https://github.com/semgrep/semgrep"

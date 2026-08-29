@@ -1,0 +1,26 @@
+slug: "phpcs-drupal"
+name: "phpcs-drupal"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Additional rules for Drupal coding standards."
+website: "https://github.com/FlorentTorregrosa/phpcs-drupal"
+public_url: "https://github.com/FlorentTorregrosa/phpcs-drupal"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/FlorentTorregrosa/phpcs-drupal"
+packagist: "https://packagist.org/packages/florenttorregrosa/phpcs_drupal"
+stars: 0
+repo_updated_at: "2024-06-25T09:49:17Z"
+metadata_updated_at: "2026-08-29T06:34:25Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-29T06:34:25Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-29T06:34:25Z"
+discovery_queries:
+  - "packagist:phpcs standard"

@@ -1,0 +1,26 @@
+slug: "fabianblum-phpcs-psr4-sniff"
+name: "phpcs-psr4-sniff"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "[READ-ONLY] PHP_CodeSniffer sniff that checks class name matches PSR-4 project structure. (PHP 8.3 Ready) "
+website: "https://github.com/fabianblum/phpcs-psr4-sniff"
+public_url: "https://github.com/fabianblum/phpcs-psr4-sniff"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/fabianblum/phpcs-psr4-sniff"
+packagist: "https://packagist.org/packages/fabianblum/phpcs-psr4-sniff"
+stars: 1
+repo_updated_at: "2024-09-03T12:21:01Z"
+metadata_updated_at: "2026-08-29T06:34:25Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-29T06:34:25Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-29T06:34:25Z"
+discovery_queries:
+  - "packagist:phpcs standard"

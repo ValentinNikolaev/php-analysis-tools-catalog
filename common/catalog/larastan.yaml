@@ -26,14 +26,14 @@ latest_release_name: "3.10.0"
 latest_release_tag: "v3.10.0"
 latest_release_url: "https://github.com/larastan/larastan/releases/tag/v3.10.0"
 latest_release_published_at: "2026-05-28T08:55:15Z"
-latest_release_checked_at: "2026-08-28T03:23:32Z"
+latest_release_checked_at: "2026-08-29T06:34:26Z"
 packagist: "https://packagist.org/packages/larastan/larastan"
 latest_version: "v3.10.0"
 latest_version_released_at: "2026-05-28T08:00:58+00:00"
 packagist_checked_at: "2026-08-28T16:24:24Z"
-stars: 6493
-repo_updated_at: "2026-08-27T22:04:14Z"
-metadata_updated_at: "2026-08-28T03:23:32Z"
+stars: 6494
+repo_updated_at: "2026-08-28T06:43:05Z"
+metadata_updated_at: "2026-08-29T06:34:26Z"
 quality_tags:
   - "php"
   - "phpstan"
