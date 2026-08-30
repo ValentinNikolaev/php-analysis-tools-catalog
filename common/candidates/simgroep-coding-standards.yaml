@@ -1,25 +1,25 @@
-slug: "php-cs-fixer-config"
-name: "php-cs-fixer-config"
+slug: "simgroep-coding-standards"
+name: "coding-standards"
 category: "Fixers"
 artifact_type: "fixer"
-description: "php-cs-fixer config for REDAXO"
-website: "https://github.com/redaxo/php-cs-fixer-config"
-public_url: "https://github.com/redaxo/php-cs-fixer-config"
+description: "Coding standard configuration for SIMGroep PHP projects using fabpot/php-cs-fixer"
+website: "https://github.com/simgroep/coding-standards"
+public_url: "https://github.com/simgroep/coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/redaxo/php-cs-fixer-config"
-packagist: "https://packagist.org/packages/redaxo/php-cs-fixer-config"
-stars: 10
-repo_updated_at: "2026-08-26T23:16:01Z"
+repository: "https://github.com/simgroep/coding-standards"
+packagist: "https://packagist.org/packages/simgroep/coding-standards"
+stars: 0
+repo_updated_at: "2024-03-14T05:52:04Z"
 metadata_updated_at: "2026-08-30T01:02:54Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T18:56:54Z"
+discovered_at: "2026-08-30T01:02:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-30T01:02:54Z"
 discovery_queries:

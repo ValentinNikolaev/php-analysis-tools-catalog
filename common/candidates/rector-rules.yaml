@@ -1,26 +1,27 @@
-slug: "php-cs-fixer-config"
-name: "php-cs-fixer-config"
+slug: "rector-rules"
+name: "rector-rules"
 category: "Fixers"
 artifact_type: "fixer"
-description: "php-cs-fixer config for REDAXO"
-website: "https://github.com/redaxo/php-cs-fixer-config"
-public_url: "https://github.com/redaxo/php-cs-fixer-config"
+description: "👓 Provides a composer package with rules for rector/rector."
+website: "https://github.com/ergebnis/rector-rules"
+public_url: "https://github.com/ergebnis/rector-rules"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/redaxo/php-cs-fixer-config"
-packagist: "https://packagist.org/packages/redaxo/php-cs-fixer-config"
+repository: "https://github.com/ergebnis/rector-rules"
+packagist: "https://packagist.org/packages/ergebnis/rector-rules"
 stars: 10
-repo_updated_at: "2026-08-26T23:16:01Z"
+repo_updated_at: "2026-08-22T23:44:59Z"
 metadata_updated_at: "2026-08-30T01:02:54Z"
-quality_tags: []
+quality_tags:
+  - "rector"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T18:56:54Z"
+discovered_at: "2026-08-30T01:02:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-30T01:02:54Z"
 discovery_queries:
-  - "packagist:phpcs standard"
+  - "packagist:rector rules"

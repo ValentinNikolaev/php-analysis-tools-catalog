@@ -1,25 +1,25 @@
-slug: "php-cs-fixer-config"
+slug: "cultuurnet-php-cs-fixer-config"
 name: "php-cs-fixer-config"
 category: "Fixers"
 artifact_type: "fixer"
-description: "php-cs-fixer config for REDAXO"
-website: "https://github.com/redaxo/php-cs-fixer-config"
-public_url: "https://github.com/redaxo/php-cs-fixer-config"
+description: "Configuration for PHP Coding Standards Fixer to be used on all PHP projects at Publiq"
+website: "https://github.com/cultuurnet/php-cs-fixer-config"
+public_url: "https://github.com/cultuurnet/php-cs-fixer-config"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/redaxo/php-cs-fixer-config"
-packagist: "https://packagist.org/packages/redaxo/php-cs-fixer-config"
-stars: 10
-repo_updated_at: "2026-08-26T23:16:01Z"
+repository: "https://github.com/cultuurnet/php-cs-fixer-config"
+packagist: "https://packagist.org/packages/publiq/php-cs-fixer-config"
+stars: 0
+repo_updated_at: "2024-08-07T12:42:25Z"
 metadata_updated_at: "2026-08-30T01:02:54Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-26T18:56:54Z"
+discovered_at: "2026-08-30T01:02:54Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-30T01:02:54Z"
 discovery_queries:

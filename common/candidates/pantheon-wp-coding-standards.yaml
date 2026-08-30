@@ -13,7 +13,7 @@ repository: "https://github.com/pantheon-systems/Pantheon-WP-Coding-Standards"
 packagist: "https://packagist.org/packages/pantheon-systems/pantheon-wp-coding-standards"
 stars: 9
 repo_updated_at: "2026-07-28T17:00:44Z"
-metadata_updated_at: "2026-08-28T21:31:45Z"
+metadata_updated_at: "2026-08-30T01:02:54Z"
 quality_tags:
   - "phpcs"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T18:27:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-28T21:31:45Z"
+last_discovered_at: "2026-08-30T01:02:54Z"
 discovery_queries:
   - "packagist:phpcs standard"

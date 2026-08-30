@@ -13,7 +13,7 @@ repository: "https://github.com/dimasma0305/wp-taint-scan"
 packagist: null
 stars: 21
 repo_updated_at: "2026-06-06T13:12:02Z"
-metadata_updated_at: "2026-08-28T21:31:45Z"
+metadata_updated_at: "2026-08-30T01:02:54Z"
 quality_tags:
   - "php"
   - "security"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T12:27:35Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-28T21:31:45Z"
+last_discovered_at: "2026-08-30T01:02:54Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"
