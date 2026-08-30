@@ -1,0 +1,26 @@
+slug: "laminas-servicemanager-migration"
+name: "laminas-servicemanager-migration"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Migrate your code to laminas-servicemanager 4.x compatibility utilizing Rector rules."
+website: "https://docs.laminas.dev/laminas-servicemanager-migration/"
+public_url: "https://docs.laminas.dev/laminas-servicemanager-migration/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/laminas/laminas-servicemanager-migration"
+packagist: "https://packagist.org/packages/laminas/laminas-servicemanager-migration"
+stars: 6
+repo_updated_at: "2026-08-24T05:17:05Z"
+metadata_updated_at: "2026-08-30T18:26:24Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-30T18:26:24Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-30T18:26:24Z"
+discovery_queries:
+  - "packagist:rector rules"
