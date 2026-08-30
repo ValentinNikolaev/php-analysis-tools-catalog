@@ -15,7 +15,7 @@ website: "https://github.com/cwi-swat/php-analysis"
 public_url: "https://github.com/cwi-swat/php-analysis"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-08-29T12:30:49Z"
+website_checked_at: "2026-08-30T12:32:10Z"
 website_error: ""
 repository: "https://github.com/cwi-swat/php-analysis"
 latest_release_name: "PHP 7.1 Support"
@@ -24,7 +24,7 @@ latest_release_url: "https://github.com/cwi-swat/php-analysis/releases/tag/v1.1.
 latest_release_published_at: "2017-12-23T19:58:45Z"
 latest_release_checked_at: "2026-08-30T06:35:49Z"
 packagist: null
-packagist_checked_at: "2026-08-29T12:30:49Z"
+packagist_checked_at: "2026-08-30T12:32:10Z"
 stars: 29
 repo_updated_at: "2026-05-13T14:03:04Z"
 metadata_updated_at: "2026-08-30T06:35:49Z"

@@ -1,0 +1,30 @@
+slug: "rector-named-literals"
+name: "rector-named-literals"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rule that adds parameter names to literal arguments (bool by default, numeric/string opt-in)"
+website: "https://github.com/rasuvaeff/rector-named-literals"
+public_url: "https://github.com/rasuvaeff/rector-named-literals"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/rasuvaeff/rector-named-literals"
+packagist: "https://packagist.org/packages/rasuvaeff/rector-named-literals"
+stars: 0
+repo_updated_at: "2026-08-15T13:56:29Z"
+metadata_updated_at: "2026-08-30T12:32:09Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+  - "rector"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-30T12:32:09Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-30T12:32:09Z"
+discovery_queries:
+  - "packagist:rector rules"

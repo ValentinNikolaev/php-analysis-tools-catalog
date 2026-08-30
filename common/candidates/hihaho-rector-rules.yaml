@@ -1,0 +1,26 @@
+slug: "hihaho-rector-rules"
+name: "rector-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Hihaho Rector rules for auto-fixing code conventions"
+website: "https://github.com/hihaho/rector-rules"
+public_url: "https://github.com/hihaho/rector-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/hihaho/rector-rules"
+packagist: "https://packagist.org/packages/hihaho/rector-rules"
+stars: 1
+repo_updated_at: "2026-08-14T15:27:54Z"
+metadata_updated_at: "2026-08-30T12:32:09Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-08-30T12:32:09Z"
+last_reviewed_at: null
+last_discovered_at: "2026-08-30T12:32:09Z"
+discovery_queries:
+  - "packagist:rector rules"
