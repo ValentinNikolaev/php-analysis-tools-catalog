@@ -24,12 +24,12 @@ latest_release_name: "Released ECS 13.2.19"
 latest_release_tag: "13.2.19"
 latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.2.19"
 latest_release_published_at: "2026-08-24T17:03:19Z"
-latest_release_checked_at: "2026-08-29T06:34:26Z"
+latest_release_checked_at: "2026-08-30T06:35:49Z"
 packagist: null
 packagist_checked_at: "2026-08-29T12:30:49Z"
 stars: 1622
 repo_updated_at: "2026-08-24T17:02:39Z"
-metadata_updated_at: "2026-08-29T06:34:26Z"
+metadata_updated_at: "2026-08-30T06:35:49Z"
 quality_tags:
   - "php"
 source: "README.md"

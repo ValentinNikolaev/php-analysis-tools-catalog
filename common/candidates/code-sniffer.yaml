@@ -13,7 +13,7 @@ repository: "https://github.com/spryker/code-sniffer"
 packagist: "https://packagist.org/packages/spryker/code-sniffer"
 stars: 38
 repo_updated_at: "2026-08-24T09:26:17Z"
-metadata_updated_at: "2026-08-29T06:34:25Z"
+metadata_updated_at: "2026-08-30T06:35:48Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T00:27:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-29T06:34:25Z"
+last_discovered_at: "2026-08-30T06:35:48Z"
 discovery_queries:
   - "packagist:static analysis"

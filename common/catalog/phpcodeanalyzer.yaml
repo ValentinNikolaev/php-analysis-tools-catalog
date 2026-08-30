@@ -16,12 +16,12 @@ latest_release_name: "1.0.6: Added `--version` option"
 latest_release_tag: "1.0.6"
 latest_release_url: "https://github.com/wapmorgan/PhpCodeAnalyzer/releases/tag/1.0.6"
 latest_release_published_at: "2019-05-09T15:25:48Z"
-latest_release_checked_at: "2026-08-29T06:34:26Z"
+latest_release_checked_at: "2026-08-30T06:35:49Z"
 packagist: null
 packagist_checked_at: "2026-08-29T12:30:49Z"
 stars: 96
 repo_updated_at: "2023-01-17T00:23:31Z"
-metadata_updated_at: "2026-08-29T06:34:26Z"
+metadata_updated_at: "2026-08-30T06:35:49Z"
 quality_tags:
   - "static-analysis"
 source: "README.md"

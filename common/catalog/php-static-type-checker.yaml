@@ -17,14 +17,14 @@ website_status_code: 200
 website_checked_at: "2026-08-29T12:30:49Z"
 website_error: ""
 repository: "https://github.com/Jumping-Beaver/PHP_Static_Type_Checker"
-latest_release_checked_at: "2026-08-29T06:34:26Z"
+latest_release_checked_at: "2026-08-30T06:35:49Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-29T12:30:49Z"
 stars: 0
 repo_updated_at: "2026-04-08T16:22:23Z"
-metadata_updated_at: "2026-08-29T06:34:26Z"
+metadata_updated_at: "2026-08-30T06:35:49Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."

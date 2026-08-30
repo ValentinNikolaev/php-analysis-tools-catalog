@@ -13,7 +13,7 @@ repository: "https://github.com/Moxio/php-codesniffer-sniffs"
 packagist: "https://packagist.org/packages/moxio/php-codesniffer-sniffs"
 stars: 17
 repo_updated_at: "2026-08-12T12:55:52Z"
-metadata_updated_at: "2026-08-29T06:34:25Z"
+metadata_updated_at: "2026-08-30T06:35:48Z"
 quality_tags:
   - "static-analysis"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-26T00:28:15Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-29T06:34:25Z"
+last_discovered_at: "2026-08-30T06:35:48Z"
 discovery_queries:
   - "packagist:phpcs standard"

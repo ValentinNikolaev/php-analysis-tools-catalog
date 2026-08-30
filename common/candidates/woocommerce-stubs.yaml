@@ -13,7 +13,7 @@ repository: "https://github.com/php-stubs/woocommerce-stubs"
 packagist: "https://packagist.org/packages/php-stubs/woocommerce-stubs"
 stars: 96
 repo_updated_at: "2026-08-04T19:40:53Z"
-metadata_updated_at: "2026-08-29T06:34:25Z"
+metadata_updated_at: "2026-08-30T06:35:48Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T06:27:48Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-29T06:34:25Z"
+last_discovered_at: "2026-08-30T06:35:48Z"
 discovery_queries:
   - "packagist:static analysis"

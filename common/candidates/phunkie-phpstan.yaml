@@ -13,7 +13,7 @@ repository: "https://github.com/phunkie/phpstan"
 packagist: "https://packagist.org/packages/phunkie/phpstan"
 stars: 0
 repo_updated_at: "2025-12-08T18:02:32Z"
-metadata_updated_at: "2026-08-29T06:34:25Z"
+metadata_updated_at: "2026-08-30T06:35:48Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-19T06:27:10Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-29T06:34:25Z"
+last_discovered_at: "2026-08-30T06:35:48Z"
 discovery_queries:
   - "packagist:phpstan extension"

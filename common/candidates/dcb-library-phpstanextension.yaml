@@ -13,7 +13,7 @@ repository: "https://github.com/bwaidelich/dcb-library-phpstanextension"
 packagist: "https://packagist.org/packages/wwwision/dcb-library-phpstanextension"
 stars: 1
 repo_updated_at: "2023-08-28T15:55:59Z"
-metadata_updated_at: "2026-08-29T06:34:25Z"
+metadata_updated_at: "2026-08-30T06:35:48Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-20T12:27:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-29T06:34:25Z"
+last_discovered_at: "2026-08-30T06:35:48Z"
 discovery_queries:
   - "packagist:phpstan extension"
