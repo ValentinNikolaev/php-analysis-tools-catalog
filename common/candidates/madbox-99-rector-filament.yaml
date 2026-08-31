@@ -1,25 +1,25 @@
-slug: "rector-ray"
-name: "rector-ray"
+slug: "madbox-99-rector-filament"
+name: "rector-filament"
 category: "Fixers"
 artifact_type: "fixer"
-description: "The rector rules for Ray.Di"
-website: "https://packagist.org/packages/ray/rector-ray"
-public_url: "https://packagist.org/packages/ray/rector-ray"
+description: "Rector rules for Filament codebases."
+website: "https://github.com/MadBox-99/rector-filament"
+public_url: "https://github.com/MadBox-99/rector-filament"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/ray-di/rector-ray"
-packagist: "https://packagist.org/packages/ray/rector-ray"
-stars: 0
-repo_updated_at: "2024-01-01T03:19:36Z"
+repository: "https://github.com/MadBox-99/rector-filament"
+packagist: "https://packagist.org/packages/madbox-99/rector-filament"
+stars: 1
+repo_updated_at: "2026-07-10T09:58:39Z"
 metadata_updated_at: "2026-08-31T18:30:50Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T18:26:24Z"
+discovered_at: "2026-08-31T18:30:50Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-31T18:30:50Z"
 discovery_queries:
