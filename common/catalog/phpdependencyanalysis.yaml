@@ -16,14 +16,14 @@ latest_release_name: "PhpDependencyAnalysis v2.0.2"
 latest_release_tag: "v2.0.2"
 latest_release_url: "https://github.com/mamuz/PhpDependencyAnalysis/releases/tag/v2.0.2"
 latest_release_published_at: "2019-04-11T15:59:13Z"
-latest_release_checked_at: "2026-08-30T06:35:49Z"
+latest_release_checked_at: "2026-08-31T06:49:02Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-30T12:32:10Z"
 stars: 575
 repo_updated_at: "2023-12-03T20:43:10Z"
-metadata_updated_at: "2026-08-30T06:35:49Z"
+metadata_updated_at: "2026-08-31T06:49:02Z"
 quality_tags:
   - "code-quality"
   - "php"

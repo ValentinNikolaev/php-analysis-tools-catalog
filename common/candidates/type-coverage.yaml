@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/TomasVotruba/type-coverage"
 packagist: "https://packagist.org/packages/tomasvotruba/type-coverage"
-stars: 218
+stars: 219
 repo_updated_at: "2026-08-29T08:22:16Z"
-metadata_updated_at: "2026-08-30T06:35:48Z"
+metadata_updated_at: "2026-08-31T06:49:01Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T06:35:48Z"
+last_discovered_at: "2026-08-31T06:49:01Z"
 discovery_queries:
   - "packagist:phpstan extension"

@@ -13,7 +13,7 @@ repository: "https://github.com/xefi/phpstan-xefi-rules"
 packagist: "https://packagist.org/packages/xefi/phpstan-xefi-rules"
 stars: 2
 repo_updated_at: "2025-10-08T06:15:11Z"
-metadata_updated_at: "2026-08-30T06:35:48Z"
+metadata_updated_at: "2026-08-31T06:49:01Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-17T06:28:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T06:35:48Z"
+last_discovered_at: "2026-08-31T06:49:01Z"
 discovery_queries:
   - "packagist:phpstan extension"

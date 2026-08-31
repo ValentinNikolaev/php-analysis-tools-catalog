@@ -31,14 +31,14 @@ latest_release_name: "2.0.5"
 latest_release_tag: "2.0.5"
 latest_release_url: "https://github.com/phpstan/phpstan-deprecation-rules/releases/tag/2.0.5"
 latest_release_published_at: "2026-07-27T15:18:28Z"
-latest_release_checked_at: "2026-08-30T06:35:49Z"
+latest_release_checked_at: "2026-08-31T06:49:02Z"
 packagist: "https://packagist.org/packages/phpstan/phpstan-deprecation-rules"
 latest_version: "2.0.5"
 latest_version_released_at: "2026-07-22T06:50:43+00:00"
 packagist_checked_at: "2026-08-30T12:32:10Z"
-stars: 459
-repo_updated_at: "2026-08-30T01:27:56Z"
-metadata_updated_at: "2026-08-30T06:35:49Z"
+stars: 460
+repo_updated_at: "2026-08-31T01:59:03Z"
+metadata_updated_at: "2026-08-31T06:49:02Z"
 quality_tags:
   - "php"
   - "phpstan"

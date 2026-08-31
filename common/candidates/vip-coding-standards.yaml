@@ -13,7 +13,7 @@ repository: "https://github.com/Automattic/VIP-Coding-Standards"
 packagist: null
 stars: 260
 repo_updated_at: "2026-08-18T14:47:49Z"
-metadata_updated_at: "2026-08-30T06:35:48Z"
+metadata_updated_at: "2026-08-31T06:49:01Z"
 quality_tags:
   - "phpcs"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-15T18:42:30Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T06:35:48Z"
+last_discovered_at: "2026-08-31T06:49:01Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

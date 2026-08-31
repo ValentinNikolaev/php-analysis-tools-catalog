@@ -23,14 +23,14 @@ latest_release_name: "Opengrep 1.29.0"
 latest_release_tag: "v1.29.0"
 latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.29.0"
 latest_release_published_at: "2026-08-28T18:22:54Z"
-latest_release_checked_at: "2026-08-30T06:35:49Z"
+latest_release_checked_at: "2026-08-31T06:49:02Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-08-30T12:32:10Z"
-stars: 3006
-repo_updated_at: "2026-08-30T03:14:05Z"
-metadata_updated_at: "2026-08-30T06:35:49Z"
+stars: 3010
+repo_updated_at: "2026-08-30T17:57:36Z"
+metadata_updated_at: "2026-08-31T06:49:02Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."
