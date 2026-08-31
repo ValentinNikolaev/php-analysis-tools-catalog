@@ -13,7 +13,7 @@ repository: "https://github.com/stellarwp/coding-standards"
 packagist: "https://packagist.org/packages/stellarwp/coding-standards"
 stars: 8
 repo_updated_at: "2026-07-24T19:07:06Z"
-metadata_updated_at: "2026-08-30T01:02:54Z"
+metadata_updated_at: "2026-08-31T01:04:17Z"
 quality_tags:
   - "phpcs"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T12:27:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T01:02:54Z"
+last_discovered_at: "2026-08-31T01:04:17Z"
 discovery_queries:
   - "packagist:phpcs standard"

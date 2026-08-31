@@ -13,7 +13,7 @@ repository: "https://github.com/PHPCSStandards/PHPCSDevCS"
 packagist: "https://packagist.org/packages/phpcsstandards/phpcsdevcs"
 stars: 9
 repo_updated_at: "2026-07-21T01:59:07Z"
-metadata_updated_at: "2026-08-30T01:02:54Z"
+metadata_updated_at: "2026-08-31T01:04:17Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T06:26:52Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T01:02:54Z"
+last_discovered_at: "2026-08-31T01:04:17Z"
 discovery_queries:
   - "packagist:static analysis"

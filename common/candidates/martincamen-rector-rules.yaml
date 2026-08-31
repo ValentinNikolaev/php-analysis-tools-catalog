@@ -1,26 +1,26 @@
-slug: "sirix777-php-cs-fixer-config"
-name: "php-cs-fixer-config"
+slug: "martincamen-rector-rules"
+name: "rector-rules"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Sirix PHP coding standards fixer configuration."
-website: "https://github.com/sirix777/php-cs-fixer-config"
-public_url: "https://github.com/sirix777/php-cs-fixer-config"
+description: "Rector Rules"
+website: "https://github.com/MartinCamen/rector-rules"
+public_url: "https://github.com/MartinCamen/rector-rules"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/sirix777/php-cs-fixer-config"
-packagist: "https://packagist.org/packages/sirix/php-cs-fixer-config"
+repository: "https://github.com/MartinCamen/rector-rules"
+packagist: "https://packagist.org/packages/martincamen/rector-rules"
 stars: 0
-repo_updated_at: "2026-06-08T15:06:33Z"
+repo_updated_at: "2026-08-15T18:38:03Z"
 metadata_updated_at: "2026-08-31T01:04:17Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T01:02:54Z"
+discovered_at: "2026-08-31T01:04:17Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-31T01:04:17Z"
 discovery_queries:
-  - "packagist:phpcs standard"
+  - "packagist:rector rules"

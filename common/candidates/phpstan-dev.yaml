@@ -13,7 +13,7 @@ repository: "https://github.com/shipmonk-rnd/phpstan-dev"
 packagist: "https://packagist.org/packages/shipmonk/phpstan-dev"
 stars: 7
 repo_updated_at: "2026-06-23T07:57:18Z"
-metadata_updated_at: "2026-08-30T01:02:54Z"
+metadata_updated_at: "2026-08-31T01:04:17Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T06:26:52Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T01:02:54Z"
+last_discovered_at: "2026-08-31T01:04:17Z"
 discovery_queries:
   - "packagist:static analysis"
