@@ -1,25 +1,25 @@
-slug: "rectorphp-config"
-name: "rectorphp-config"
+slug: "contao-rector"
+name: "contao-rector"
 category: "Fixers"
 artifact_type: "fixer"
-description: "My RectorPHP configuration tooling and additional rules "
-website: "https://github.com/WyriHaximus/rectorphp-config"
-public_url: "https://github.com/WyriHaximus/rectorphp-config"
+description: "Rector rules for Contao"
+website: "https://github.com/contao/contao-rector"
+public_url: "https://github.com/contao/contao-rector"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/WyriHaximus/rectorphp-config"
-packagist: "https://packagist.org/packages/wyrihaximus/rector-config"
-stars: 0
-repo_updated_at: "2026-08-31T10:58:40Z"
+repository: "https://github.com/contao/contao-rector"
+packagist: "https://packagist.org/packages/contao/contao-rector"
+stars: 5
+repo_updated_at: "2026-03-30T13:44:15Z"
 metadata_updated_at: "2026-08-31T12:37:05Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T12:32:09Z"
+discovered_at: "2026-08-31T12:37:05Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-31T12:37:05Z"
 discovery_queries:

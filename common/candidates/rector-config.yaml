@@ -1,25 +1,25 @@
-slug: "rectorphp-config"
-name: "rectorphp-config"
+slug: "rector-config"
+name: "rector-config"
 category: "Fixers"
 artifact_type: "fixer"
-description: "My RectorPHP configuration tooling and additional rules "
-website: "https://github.com/WyriHaximus/rectorphp-config"
-public_url: "https://github.com/WyriHaximus/rectorphp-config"
+description: "Shared configuration for rector"
+website: "https://github.com/mll-lab/rector-config"
+public_url: "https://github.com/mll-lab/rector-config"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/WyriHaximus/rectorphp-config"
-packagist: "https://packagist.org/packages/wyrihaximus/rector-config"
+repository: "https://github.com/mll-lab/rector-config"
+packagist: "https://packagist.org/packages/mll-lab/rector-config"
 stars: 0
-repo_updated_at: "2026-08-31T10:58:40Z"
+repo_updated_at: "2026-08-13T13:00:06Z"
 metadata_updated_at: "2026-08-31T12:37:05Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T12:32:09Z"
+discovered_at: "2026-08-31T12:37:05Z"
 last_reviewed_at: null
 last_discovered_at: "2026-08-31T12:37:05Z"
 discovery_queries:

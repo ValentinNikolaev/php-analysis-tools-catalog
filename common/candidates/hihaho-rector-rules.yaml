@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/hihaho/rector-rules"
 packagist: "https://packagist.org/packages/hihaho/rector-rules"
 stars: 1
-repo_updated_at: "2026-08-14T15:27:54Z"
-metadata_updated_at: "2026-08-30T12:32:09Z"
+repo_updated_at: "2026-08-31T11:50:29Z"
+metadata_updated_at: "2026-08-31T12:37:05Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-30T12:32:09Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-30T12:32:09Z"
+last_discovered_at: "2026-08-31T12:37:05Z"
 discovery_queries:
   - "packagist:rector rules"
