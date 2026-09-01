@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/php-stubs/gravity-forms-stubs"
 packagist: "https://packagist.org/packages/php-stubs/gravity-forms-stubs"
 stars: 5
-repo_updated_at: "2025-02-24T10:36:06Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+repo_updated_at: "2026-08-31T07:51:22Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T12:26:33Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:static analysis"

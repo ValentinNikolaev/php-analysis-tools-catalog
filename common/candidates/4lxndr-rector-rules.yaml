@@ -1,26 +1,26 @@
-slug: "simgroep-coding-standards"
-name: "coding-standards"
+slug: "4lxndr-rector-rules"
+name: "rector-rules"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Coding standard configuration for SIMGroep PHP projects using fabpot/php-cs-fixer"
-website: "https://github.com/simgroep/coding-standards"
-public_url: "https://github.com/simgroep/coding-standards"
+description: "Collection of custom rector rules"
+website: "https://github.com/4lxndr/rector-rules"
+public_url: "https://github.com/4lxndr/rector-rules"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/simgroep/coding-standards"
-packagist: "https://packagist.org/packages/simgroep/coding-standards"
+repository: "https://github.com/4lxndr/rector-rules"
+packagist: "https://packagist.org/packages/4lxndr/rector-rules"
 stars: 0
-repo_updated_at: "2024-03-14T05:52:04Z"
+repo_updated_at: "2026-02-02T14:20:02Z"
 metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T01:02:54Z"
+discovered_at: "2026-09-01T01:10:20Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
-  - "packagist:phpcs standard"
+  - "packagist:rector rules"

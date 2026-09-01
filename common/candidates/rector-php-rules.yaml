@@ -1,0 +1,26 @@
+slug: "rector-php-rules"
+name: "rector-php-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Fifteen portable custom Rector rules for PHP 8.3+ — strict assertions, no @phpstan-ignore, no superglobals, no env-checks, no constructor fallbacks, no deferred TODO/FIXME markers, PSR Clock, clean functional tests, comment-free YAML."
+website: "https://github.com/AndreyMashukov/rector-php-rules"
+public_url: "https://github.com/AndreyMashukov/rector-php-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/AndreyMashukov/rector-php-rules"
+packagist: "https://packagist.org/packages/amashukov/rector-php-rules"
+stars: 1
+repo_updated_at: "2026-05-29T02:51:57Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-01T01:10:20Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-01T01:10:20Z"
+discovery_queries:
+  - "packagist:rector rules"

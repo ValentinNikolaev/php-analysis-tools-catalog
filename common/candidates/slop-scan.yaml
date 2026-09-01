@@ -1,18 +1,18 @@
-slug: "core"
-name: "core"
+slug: "slop-scan"
+name: "slop-scan"
 category: "Bugs finders"
 artifact_type: "analyzer"
-description: "REDAXO, a PHP-based CMS since 2004. Both simple and flexible."
-website: "https://redaxo.org"
-public_url: "https://redaxo.org"
+description: "💩 Detect AI code slop patterns in your repo"
+website: "https://voku.github.io/slop-scan_docs/"
+public_url: "https://voku.github.io/slop-scan_docs/"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/redaxo/core"
-packagist: "https://packagist.org/packages/redaxo/source"
-stars: 354
-repo_updated_at: "2026-08-31T15:21:08Z"
+repository: "https://github.com/voku/slop-scan"
+packagist: "https://packagist.org/packages/voku/slop-scan"
+stars: 11
+repo_updated_at: "2026-09-01T00:51:17Z"
 metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "php"
@@ -20,7 +20,7 @@ source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-24T06:28:15Z"
+discovered_at: "2026-09-01T01:10:20Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:

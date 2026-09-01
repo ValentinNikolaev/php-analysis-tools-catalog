@@ -13,7 +13,7 @@ repository: "https://github.com/wpengine/wpengine-coding-standards"
 packagist: "https://packagist.org/packages/wpengine/wpengine-coding-standards"
 stars: 30
 repo_updated_at: "2024-06-04T13:40:06Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-26T18:56:54Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpcs standard"

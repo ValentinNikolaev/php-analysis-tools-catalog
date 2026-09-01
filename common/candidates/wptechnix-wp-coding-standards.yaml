@@ -13,7 +13,7 @@ repository: "https://github.com/WPTechnix/wp-coding-standards"
 packagist: "https://packagist.org/packages/wptechnix/wp-coding-standards"
 stars: 0
 repo_updated_at: "2026-08-10T16:21:21Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "linter"
   - "phpcs"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-28T16:24:22Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpcs standard"

@@ -13,7 +13,7 @@ repository: "https://github.com/cytopia/awesome-ci"
 packagist: "https://packagist.org/packages/cytopia/awesome-ci"
 stars: 341
 repo_updated_at: "2022-11-05T18:23:09Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T12:27:35Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:static analysis"

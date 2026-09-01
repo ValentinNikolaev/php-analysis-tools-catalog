@@ -13,7 +13,7 @@ repository: "https://github.com/SilverAssist/coding-standards"
 packagist: "https://packagist.org/packages/silverassist/coding-standards"
 stars: 1
 repo_updated_at: "2026-08-24T02:54:06Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-28T21:31:45Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpcs standard"

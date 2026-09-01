@@ -13,7 +13,7 @@ repository: "https://github.com/spaceemotion/php-coding-standard"
 packagist: "https://packagist.org/packages/spaceemotion/php-coding-standard"
 stars: 19
 repo_updated_at: "2024-05-31T20:52:39Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T18:27:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpcs standard"

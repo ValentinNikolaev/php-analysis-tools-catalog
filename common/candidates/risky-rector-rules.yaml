@@ -1,25 +1,25 @@
-slug: "bridge-rector"
-name: "bridge-rector"
+slug: "risky-rector-rules"
+name: "risky-rector-rules"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Rector rules to convert test suites between Pest, PHPUnit and Testo (split-published from php-testo/testo)"
-website: "https://github.com/php-testo/testo"
-public_url: "https://github.com/php-testo/testo"
+description: "A selection of Rector refactoring rules that should be used with caution"
+website: "https://github.com/ingenerator/risky-rector-rules"
+public_url: "https://github.com/ingenerator/risky-rector-rules"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/php-testo/bridge-rector"
-packagist: "https://packagist.org/packages/testo/bridge-rector"
-stars: 0
-repo_updated_at: "2026-08-27T22:11:26Z"
+repository: "https://github.com/ingenerator/risky-rector-rules"
+packagist: "https://packagist.org/packages/ingenerator/risky-rector-rules"
+stars: 7
+repo_updated_at: "2026-04-17T21:56:35Z"
 metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-31T01:04:17Z"
+discovered_at: "2026-09-01T01:10:20Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:

@@ -13,7 +13,7 @@ repository: "https://github.com/TheDragonCode/codestyler"
 packagist: "https://packagist.org/packages/dragon-code/codestyler"
 stars: 29
 repo_updated_at: "2026-07-18T11:08:01Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "linter"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T06:27:43Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpcs standard"

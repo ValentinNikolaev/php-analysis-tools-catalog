@@ -13,7 +13,7 @@ repository: "https://github.com/antlr/antlr-php-runtime-phpstan"
 packagist: "https://packagist.org/packages/antlr/antlr-php-runtime-phpstan"
 stars: 6
 repo_updated_at: "2021-11-20T16:03:48Z"
-metadata_updated_at: "2026-08-31T01:04:17Z"
+metadata_updated_at: "2026-09-01T01:10:20Z"
 quality_tags:
   - "phpstan"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-20T00:27:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T01:04:17Z"
+last_discovered_at: "2026-09-01T01:10:20Z"
 discovery_queries:
   - "packagist:phpstan extension"
