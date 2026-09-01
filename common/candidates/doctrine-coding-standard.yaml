@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/doctrine/coding-standard"
 packagist: "https://packagist.org/packages/doctrine/coding-standard"
 stars: 320
-repo_updated_at: "2026-08-05T15:44:49Z"
-metadata_updated_at: "2026-08-31T06:49:01Z"
+repo_updated_at: "2026-08-31T12:33:36Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T18:27:08Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T06:49:01Z"
+last_discovered_at: "2026-09-01T12:36:05Z"
 discovery_queries:
   - "packagist:phpcs standard"

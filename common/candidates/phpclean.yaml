@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/funivan/PhpClean"
 packagist: null
 stars: 85
-repo_updated_at: "2026-08-30T16:03:54Z"
-metadata_updated_at: "2026-08-31T06:49:01Z"
+repo_updated_at: "2026-08-31T21:54:30Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T06:49:01Z"
+last_discovered_at: "2026-09-01T12:36:05Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

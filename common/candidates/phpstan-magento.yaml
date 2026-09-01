@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/bitExpert/phpstan-magento"
 packagist: "https://packagist.org/packages/bitexpert/phpstan-magento"
 stars: 148
-repo_updated_at: "2026-06-28T08:23:06Z"
-metadata_updated_at: "2026-08-31T06:49:01Z"
+repo_updated_at: "2026-08-31T16:20:21Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T06:49:01Z"
+last_discovered_at: "2026-09-01T12:36:05Z"
 discovery_queries:
   - "packagist:phpstan extension"

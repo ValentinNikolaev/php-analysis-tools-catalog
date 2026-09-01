@@ -1,0 +1,26 @@
+slug: "crm-rector"
+name: "crm-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector configuration and custom rules for CRM upgrades"
+website: "https://github.com/remp2020/crm-rector"
+public_url: "https://github.com/remp2020/crm-rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/remp2020/crm-rector"
+packagist: "https://packagist.org/packages/remp/crm-rector"
+stars: 0
+repo_updated_at: "2025-04-03T10:36:23Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-01T12:36:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-01T12:36:05Z"
+discovery_queries:
+  - "packagist:rector rules"

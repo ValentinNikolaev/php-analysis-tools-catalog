@@ -13,7 +13,7 @@ repository: "https://github.com/mhujer/yaml-sort-checker"
 packagist: null
 stars: 23
 repo_updated_at: "2023-01-03T15:07:15Z"
-metadata_updated_at: "2026-08-31T06:49:01Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T06:49:01Z"
+last_discovered_at: "2026-09-01T12:36:05Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

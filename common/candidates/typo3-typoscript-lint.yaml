@@ -13,7 +13,7 @@ repository: "https://github.com/martin-helmich/typo3-typoscript-lint"
 packagist: "https://packagist.org/packages/helmich/typo3-typoscript-lint"
 stars: 90
 repo_updated_at: "2025-08-22T09:14:24Z"
-metadata_updated_at: "2026-08-31T06:49:01Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
 quality_tags:
   - "linter"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T18:26:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T06:49:01Z"
+last_discovered_at: "2026-09-01T12:36:05Z"
 discovery_queries:
   - "packagist:static analysis"

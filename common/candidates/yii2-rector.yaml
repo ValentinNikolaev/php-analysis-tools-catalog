@@ -1,0 +1,27 @@
+slug: "yii2-rector"
+name: "yii2-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "A set of Rector rules for Yii2 projects."
+website: "https://github.com/mspirkov/yii2-rector"
+public_url: "https://github.com/mspirkov/yii2-rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/mspirkov/yii2-rector"
+packagist: "https://packagist.org/packages/mspirkov/yii2-rector"
+stars: 1
+repo_updated_at: "2026-08-31T17:23:58Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-01T12:36:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-01T12:36:05Z"
+discovery_queries:
+  - "packagist:rector rules"

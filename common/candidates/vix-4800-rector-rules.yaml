@@ -1,0 +1,28 @@
+slug: "vix-4800-rector-rules"
+name: "rector-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Custom Rector rules"
+website: "https://packagist.org/packages/vix/rector-rules"
+public_url: "https://packagist.org/packages/vix/rector-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/vix-4800/rector-rules"
+packagist: "https://packagist.org/packages/vix/rector-rules"
+stars: 0
+repo_updated_at: "2026-08-11T05:46:14Z"
+metadata_updated_at: "2026-09-01T12:36:05Z"
+quality_tags:
+  - "php"
+  - "rector"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-01T12:36:05Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-01T12:36:05Z"
+discovery_queries:
+  - "packagist:rector rules"
