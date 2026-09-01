@@ -1,0 +1,26 @@
+slug: "univapay-php-sdk-migrate"
+name: "univapay-php-sdk-migrate"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector ruleset that mechanically migrates univapay/php-sdk consumers to univapay/univapay-sdk-compat. require-dev only, removable after migration."
+website: "https://github.com/univapay/univapay-php-sdk-migrate"
+public_url: "https://github.com/univapay/univapay-php-sdk-migrate"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/univapay/univapay-php-sdk-migrate"
+packagist: "https://packagist.org/packages/univapay/univapay-sdk-migrate"
+stars: 0
+repo_updated_at: "2026-08-19T04:23:20Z"
+metadata_updated_at: "2026-09-01T18:31:17Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-01T18:31:17Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-01T18:31:17Z"
+discovery_queries:
+  - "packagist:rector rules"

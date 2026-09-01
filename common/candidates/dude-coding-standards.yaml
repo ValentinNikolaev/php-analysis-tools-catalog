@@ -13,7 +13,7 @@ repository: "https://github.com/digitoimistodude/dude-coding-standards"
 packagist: "https://packagist.org/packages/digitoimistodude/dude-coding-standards"
 stars: 0
 repo_updated_at: "2026-08-27T14:51:32Z"
-metadata_updated_at: "2026-08-31T12:37:05Z"
+metadata_updated_at: "2026-09-01T18:31:17Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-29T12:30:49Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T12:37:05Z"
+last_discovered_at: "2026-09-01T18:31:17Z"
 discovery_queries:
   - "packagist:phpcs standard"

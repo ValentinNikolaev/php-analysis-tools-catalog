@@ -1,25 +1,25 @@
-slug: "yii2-rector-rules"
-name: "yii2-rector-rules"
+slug: "lbaf-rector"
+name: "lbaf-rector"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Collection of rector rules"
-website: "https://github.com/ultimate-guitar/yii2-rector-rules"
-public_url: "https://github.com/ultimate-guitar/yii2-rector-rules"
+description: "Recursive search for rector rules among dependencies"
+website: "https://github.com/entelisteam/lbaf-rector"
+public_url: "https://github.com/entelisteam/lbaf-rector"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/ultimate-guitar/yii2-rector-rules"
-packagist: "https://packagist.org/packages/mu-se/yii2-rector-rules"
-stars: 8
-repo_updated_at: "2023-03-14T13:52:33Z"
+repository: "https://github.com/entelisteam/lbaf-rector"
+packagist: "https://packagist.org/packages/entelisteam/lbaf-rector"
+stars: 0
+repo_updated_at: "2026-07-03T13:21:55Z"
 metadata_updated_at: "2026-09-01T18:31:17Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T12:32:09Z"
+discovered_at: "2026-09-01T18:31:17Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-01T18:31:17Z"
 discovery_queries:

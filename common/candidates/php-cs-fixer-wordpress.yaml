@@ -13,7 +13,7 @@ repository: "https://github.com/vena/php-cs-fixer-wordpress"
 packagist: "https://packagist.org/packages/vena/php-cs-fixer-wordpress"
 stars: 2
 repo_updated_at: "2023-06-23T20:14:01Z"
-metadata_updated_at: "2026-08-31T12:37:05Z"
+metadata_updated_at: "2026-09-01T18:31:17Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-28T09:25:18Z"
 last_reviewed_at: null
-last_discovered_at: "2026-08-31T12:37:05Z"
+last_discovered_at: "2026-09-01T18:31:17Z"
 discovery_queries:
   - "packagist:phpcs standard"

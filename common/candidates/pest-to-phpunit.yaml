@@ -1,25 +1,27 @@
-slug: "yii2-rector-rules"
-name: "yii2-rector-rules"
+slug: "pest-to-phpunit"
+name: "pest-to-phpunit"
 category: "Fixers"
 artifact_type: "fixer"
-description: "Collection of rector rules"
-website: "https://github.com/ultimate-guitar/yii2-rector-rules"
-public_url: "https://github.com/ultimate-guitar/yii2-rector-rules"
+description: "Rector extension to automatically convert Pest tests to PHPUnit test classes"
+website: "https://github.com/HelgeSverre/pest-to-phpunit"
+public_url: "https://github.com/HelgeSverre/pest-to-phpunit"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/ultimate-guitar/yii2-rector-rules"
-packagist: "https://packagist.org/packages/mu-se/yii2-rector-rules"
-stars: 8
-repo_updated_at: "2023-03-14T13:52:33Z"
+repository: "https://github.com/HelgeSverre/pest-to-phpunit"
+packagist: "https://packagist.org/packages/helgesverre/pest-to-phpunit"
+stars: 6
+repo_updated_at: "2026-08-08T20:49:17Z"
 metadata_updated_at: "2026-09-01T18:31:17Z"
-quality_tags: []
+quality_tags:
+  - "php"
+  - "rector"
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-30T12:32:09Z"
+discovered_at: "2026-09-01T18:31:17Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-01T18:31:17Z"
 discovery_queries:
