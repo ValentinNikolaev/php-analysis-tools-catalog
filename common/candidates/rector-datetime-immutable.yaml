@@ -1,0 +1,30 @@
+slug: "rector-datetime-immutable"
+name: "rector-datetime-immutable"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules that migrate DateTime to DateTimeImmutable and auto-fix lost mutations whose return value is ignored"
+website: "https://github.com/rasuvaeff/rector-datetime-immutable"
+public_url: "https://github.com/rasuvaeff/rector-datetime-immutable"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/rasuvaeff/rector-datetime-immutable"
+packagist: "https://packagist.org/packages/rasuvaeff/rector-datetime-immutable"
+stars: 0
+repo_updated_at: "2026-08-31T06:12:21Z"
+metadata_updated_at: "2026-09-02T00:59:46Z"
+quality_tags:
+  - "code-quality"
+  - "php"
+  - "rector"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-02T00:59:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-02T00:59:46Z"
+discovery_queries:
+  - "packagist:rector rules"

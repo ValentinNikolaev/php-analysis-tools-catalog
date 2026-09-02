@@ -1,0 +1,26 @@
+slug: "phpseclib3-rector"
+name: "phpseclib3_rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules to upgrade a phpseclib v2.0 install to phpseclib v3.0"
+website: "https://github.com/phpseclib/phpseclib3_rector"
+public_url: "https://github.com/phpseclib/phpseclib3_rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpseclib/phpseclib3_rector"
+packagist: "https://packagist.org/packages/phpseclib/phpseclib3_rector"
+stars: 0
+repo_updated_at: "2026-01-23T18:11:26Z"
+metadata_updated_at: "2026-09-02T00:59:46Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-02T00:59:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-02T00:59:46Z"
+discovery_queries:
+  - "packagist:rector rules"

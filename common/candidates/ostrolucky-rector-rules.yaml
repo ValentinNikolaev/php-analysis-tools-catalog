@@ -1,0 +1,26 @@
+slug: "ostrolucky-rector-rules"
+name: "rector-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Provides rector php rules for making the code more concise"
+website: "https://github.com/ostrolucky/rector-rules"
+public_url: "https://github.com/ostrolucky/rector-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ostrolucky/rector-rules"
+packagist: "https://packagist.org/packages/ostrolucky/rector-rules"
+stars: 0
+repo_updated_at: "2025-10-01T15:09:23Z"
+metadata_updated_at: "2026-09-02T00:59:46Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-02T00:59:46Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-02T00:59:46Z"
+discovery_queries:
+  - "packagist:rector rules"
