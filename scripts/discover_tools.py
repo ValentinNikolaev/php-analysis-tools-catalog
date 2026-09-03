@@ -363,6 +363,7 @@ def main() -> None:
     skipped_catalog = 0
     skipped_candidate = 0
     skipped_rejected = 0
+    skipped_unavailable = 0
     packagist_discovered = 0
 
     if args.limit and args.packagist_limit and not args.skip_packagist_discovery:
@@ -387,6 +388,13 @@ def main() -> None:
                 try:
                     repo = http_json(github_api_repo_url(repo_key_value), token=token)
                 except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+                    if isinstance(exc, urllib.error.HTTPError) and exc.code in {404, 410}:
+                        skipped_unavailable += 1
+                        print(
+                            f"Skipped Packagist candidate {repo_key_value}: "
+                            f"repository unavailable (HTTP {exc.code})"
+                        )
+                        continue
                     failed_refreshes += 1
                     print(f"Packagist candidate skipped: {repo_key_value} | {exc}")
                     continue
@@ -463,7 +471,7 @@ def main() -> None:
         f"new={discovered}, packagist_new={packagist_discovered}, refreshed={refreshed}, "
         f"provider_failures={failed_refreshes}, "
         f"known_catalog={skipped_catalog}, known_candidates={skipped_candidate}, "
-        f"rejected={skipped_rejected}"
+        f"rejected={skipped_rejected}, unavailable_repositories={skipped_unavailable}"
     )
     if failed_refreshes > args.max_refresh_failures:
         raise SystemExit(
