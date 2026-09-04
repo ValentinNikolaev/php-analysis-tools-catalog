@@ -1,0 +1,28 @@
+slug: "basster-rector-phpunit"
+name: "rector-phpunit"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Additional Rector upgrades rules for PHPUnit"
+website: "https://github.com/Basster/rector-phpunit"
+public_url: "https://github.com/Basster/rector-phpunit"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Basster/rector-phpunit"
+packagist: "https://packagist.org/packages/basster/rector-phpunit"
+stars: 1
+repo_updated_at: "2022-07-08T09:46:08Z"
+metadata_updated_at: "2026-09-04T18:27:57Z"
+quality_tags:
+  - "php"
+  - "rector"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T18:27:57Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T18:27:57Z"
+discovery_queries:
+  - "packagist:rector rules"

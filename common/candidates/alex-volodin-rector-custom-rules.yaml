@@ -1,0 +1,26 @@
+slug: "alex-volodin-rector-custom-rules"
+name: "rector-custom-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector custom rules"
+website: "https://github.com/alex-volodin/rector-custom-rules"
+public_url: "https://github.com/alex-volodin/rector-custom-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/alex-volodin/rector-custom-rules"
+packagist: "https://packagist.org/packages/alex-volodin/rector-custom-rules"
+stars: 0
+repo_updated_at: "2022-11-07T19:35:44Z"
+metadata_updated_at: "2026-09-04T18:27:57Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T18:27:57Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T18:27:57Z"
+discovery_queries:
+  - "packagist:rector rules"
