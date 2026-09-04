@@ -1,0 +1,26 @@
+slug: "rectorfrom0to1"
+name: "RectorFrom0to1"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules for upgrading EventSauce from 0.8 to 1.0."
+website: "https://github.com/EventSaucePHP/RectorFrom0to1"
+public_url: "https://github.com/EventSaucePHP/RectorFrom0to1"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/EventSaucePHP/RectorFrom0to1"
+packagist: "https://packagist.org/packages/eventsauce/rector-0-to-1"
+stars: 0
+repo_updated_at: "2021-06-10T19:35:16Z"
+metadata_updated_at: "2026-09-04T06:39:21Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T06:39:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T06:39:21Z"
+discovery_queries:
+  - "packagist:rector rules"

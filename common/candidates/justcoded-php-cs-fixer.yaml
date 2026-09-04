@@ -1,0 +1,26 @@
+slug: "justcoded-php-cs-fixer"
+name: "php-cs-fixer"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Preconfigured ECS package wrapper with set of recommended rules. Allows code checking/fixing programmatically."
+website: "https://github.com/justcoded/php-cs-fixer"
+public_url: "https://github.com/justcoded/php-cs-fixer"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/justcoded/php-cs-fixer"
+packagist: "https://packagist.org/packages/justcoded/php-cs-fixer"
+stars: 2
+repo_updated_at: "2025-07-04T09:34:31Z"
+metadata_updated_at: "2026-09-04T06:39:21Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T06:39:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T06:39:21Z"
+discovery_queries:
+  - "packagist:phpcs standard"

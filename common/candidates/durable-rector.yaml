@@ -1,0 +1,28 @@
+slug: "durable-rector"
+name: "durable-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules that migrate a project off the official Temporal PHP SDK onto Durable. Read-only subtree-split of gplanchat/durable-dev."
+website: "https://durable.rocks"
+public_url: "https://durable.rocks"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/gplanchat/durable-rector"
+packagist: "https://packagist.org/packages/gplanchat/durable-rector"
+stars: 0
+repo_updated_at: "2026-09-01T10:00:44Z"
+metadata_updated_at: "2026-09-04T06:39:21Z"
+quality_tags:
+  - "php"
+  - "rector"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T06:39:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T06:39:21Z"
+discovery_queries:
+  - "packagist:rector rules"
