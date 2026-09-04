@@ -1,0 +1,26 @@
+slug: "rector-money"
+name: "rector-money"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules for upgrading `moneyphp/money` library"
+website: "https://github.com/Codito-Dev/rector-money"
+public_url: "https://github.com/Codito-Dev/rector-money"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Codito-Dev/rector-money"
+packagist: "https://packagist.org/packages/codito/rector-money"
+stars: 2
+repo_updated_at: "2025-10-14T07:43:37Z"
+metadata_updated_at: "2026-09-04T12:36:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T12:36:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T12:36:15Z"
+discovery_queries:
+  - "packagist:rector rules"

@@ -1,0 +1,26 @@
+slug: "rector-codeigniter4"
+name: "rector-codeigniter4"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector upgrades rules for Codeigniter4"
+website: "https://github.com/PHPDevsr/rector-codeigniter4"
+public_url: "https://github.com/PHPDevsr/rector-codeigniter4"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/PHPDevsr/rector-codeigniter4"
+packagist: "https://packagist.org/packages/phpdevsr/rector-codeigniter4"
+stars: 0
+repo_updated_at: "2024-10-07T19:41:20Z"
+metadata_updated_at: "2026-09-04T12:36:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T12:36:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T12:36:15Z"
+discovery_queries:
+  - "packagist:rector rules"

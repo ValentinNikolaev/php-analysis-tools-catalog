@@ -1,0 +1,26 @@
+slug: "calendar-rector"
+name: "calendar-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Experimental rector rules allowing to migrate from native \\DateTimeImmutable into Aeon DateTime - don't use!"
+website: "https://github.com/aeon-php/calendar-rector"
+public_url: "https://github.com/aeon-php/calendar-rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/aeon-php/calendar-rector"
+packagist: "https://packagist.org/packages/aeon-php/calendar-rector"
+stars: 2
+repo_updated_at: "2023-02-01T23:11:44Z"
+metadata_updated_at: "2026-09-04T12:36:15Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T12:36:15Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T12:36:15Z"
+discovery_queries:
+  - "packagist:rector rules"
