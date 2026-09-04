@@ -13,7 +13,7 @@ repository: "https://github.com/awesomemotive/wpforms-phpcs"
 packagist: null
 stars: 14
 repo_updated_at: "2025-12-01T15:28:40Z"
-metadata_updated_at: "2026-09-01T12:36:05Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags:
   - "phpcs"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T12:36:05Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

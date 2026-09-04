@@ -1,0 +1,26 @@
+slug: "awesome-rector-rules"
+name: "awesome-rector-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "A collection of some awesome Rector rules"
+website: "https://kaper.dev"
+public_url: "https://kaper.dev"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/kapersoft/awesome-rector-rules"
+packagist: "https://packagist.org/packages/kapersoft/awesome-rector-rules"
+stars: 0
+repo_updated_at: "2026-08-28T01:22:55Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T00:57:35Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T00:57:35Z"
+discovery_queries:
+  - "packagist:rector rules"

@@ -13,7 +13,7 @@ repository: "https://github.com/php-stubs/wordpress-globals"
 packagist: "https://packagist.org/packages/php-stubs/wordpress-globals"
 stars: 13
 repo_updated_at: "2022-02-09T18:30:12Z"
-metadata_updated_at: "2026-09-01T12:36:05Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T00:27:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T12:36:05Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "packagist:static analysis"

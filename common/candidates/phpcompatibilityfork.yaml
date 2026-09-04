@@ -13,7 +13,7 @@ repository: "https://github.com/magento/PHPCompatibilityFork"
 packagist: "https://packagist.org/packages/magento/php-compatibility-fork"
 stars: 5
 repo_updated_at: "2023-11-29T23:02:37Z"
-metadata_updated_at: "2026-09-01T01:10:20Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-22T06:27:03Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T01:10:20Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "packagist:static analysis"

@@ -13,7 +13,7 @@ repository: "https://github.com/friendsofhyperf/rector"
 packagist: "https://packagist.org/packages/friendsofhyperf/rector"
 stars: 4
 repo_updated_at: "2024-11-14T06:02:14Z"
-metadata_updated_at: "2026-09-01T12:36:05Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-31T06:49:01Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T12:36:05Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "packagist:rector rules"

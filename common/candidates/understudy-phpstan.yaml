@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/rasuvaeff/understudy-phpstan"
 packagist: "https://packagist.org/packages/rasuvaeff/understudy-phpstan"
 stars: 0
-repo_updated_at: "2026-08-28T15:32:58Z"
-metadata_updated_at: "2026-09-01T18:31:17Z"
+repo_updated_at: "2026-09-03T18:49:50Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-27T09:23:10Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T18:31:17Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "packagist:phpstan extension"

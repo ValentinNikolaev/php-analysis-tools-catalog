@@ -1,0 +1,26 @@
+slug: "phpstan-laravel-actions"
+name: "phpstan-laravel-actions"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for lorisleiva/laravel-actions: return types, throw types and argument validation for action classes."
+website: "https://github.com/humanik/phpstan-laravel-actions"
+public_url: "https://github.com/humanik/phpstan-laravel-actions"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/humanik/phpstan-laravel-actions"
+packagist: "https://packagist.org/packages/humanik/phpstan-laravel-actions"
+stars: 1
+repo_updated_at: "2026-08-01T16:01:39Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-04T00:57:35Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-04T00:57:35Z"
+discovery_queries:
+  - "packagist:phpstan extension"

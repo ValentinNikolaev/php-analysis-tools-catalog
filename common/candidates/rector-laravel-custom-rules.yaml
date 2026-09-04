@@ -13,7 +13,7 @@ repository: "https://github.com/jp928/rector-laravel-custom-rules"
 packagist: "https://packagist.org/packages/rector-laravel-custom-rules/rules"
 stars: 1
 repo_updated_at: "2025-09-02T23:04:48Z"
-metadata_updated_at: "2026-09-01T18:31:17Z"
+metadata_updated_at: "2026-09-04T00:57:35Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-31T18:30:50Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-01T18:31:17Z"
+last_discovered_at: "2026-09-04T00:57:35Z"
 discovery_queries:
   - "packagist:rector rules"
