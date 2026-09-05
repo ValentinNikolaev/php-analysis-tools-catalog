@@ -1,0 +1,26 @@
+slug: "tempest-upgrade"
+name: "tempest-upgrade"
+category: "Fixers"
+artifact_type: "fixer"
+description: "[READ ONLY] Sub split of the Tempest upgrade component."
+website: "https://github.com/tempestphp/tempest-upgrade"
+public_url: "https://github.com/tempestphp/tempest-upgrade"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/tempestphp/tempest-upgrade"
+packagist: "https://packagist.org/packages/tempest/upgrade"
+stars: 0
+repo_updated_at: "2026-09-04T08:11:04Z"
+metadata_updated_at: "2026-09-05T00:56:47Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-05T00:56:47Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-05T00:56:47Z"
+discovery_queries:
+  - "packagist:rector rules"
