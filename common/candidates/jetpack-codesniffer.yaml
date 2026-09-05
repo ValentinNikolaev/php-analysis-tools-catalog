@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/Automattic/jetpack-codesniffer"
 packagist: "https://packagist.org/packages/automattic/jetpack-codesniffer"
 stars: 2
-repo_updated_at: "2026-09-01T17:36:51Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+repo_updated_at: "2026-09-04T05:50:15Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-27T15:57:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "packagist:phpcs standard"

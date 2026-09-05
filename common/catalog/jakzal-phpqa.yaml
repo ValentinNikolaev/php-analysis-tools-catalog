@@ -23,14 +23,14 @@ latest_release_name: "1.125.2"
 latest_release_tag: "v1.125.2"
 latest_release_url: "https://github.com/jakzal/phpqa/releases/tag/v1.125.2"
 latest_release_published_at: "2026-08-31T09:22:12Z"
-latest_release_checked_at: "2026-09-04T00:57:36Z"
+latest_release_checked_at: "2026-09-05T06:35:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-09-05T00:56:47Z"
 stars: 1321
 repo_updated_at: "2026-08-31T09:22:11Z"
-metadata_updated_at: "2026-09-04T00:57:36Z"
+metadata_updated_at: "2026-09-05T06:35:12Z"
 quality_tags:
   - "code-quality"
   - "php"

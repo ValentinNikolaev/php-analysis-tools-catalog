@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/driftingly/rector-laravel"
 packagist: null
-stars: 1277
+stars: 1278
 repo_updated_at: "2026-09-03T18:12:51Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags:
   - "php"
   - "rector"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "PHP Rector rules stars:>10"

@@ -13,7 +13,7 @@ repository: "https://github.com/ImSuperlative/rector-arrow-fn"
 packagist: "https://packagist.org/packages/imsuperlative/rector-arrow-fn"
 stars: 0
 repo_updated_at: "2026-02-19T14:13:13Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-01T12:36:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "packagist:rector rules"

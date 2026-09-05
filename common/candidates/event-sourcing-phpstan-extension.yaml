@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/patchlevel/event-sourcing-phpstan-extension"
 packagist: "https://packagist.org/packages/patchlevel/event-sourcing-phpstan-extension"
 stars: 1
-repo_updated_at: "2026-09-03T04:38:29Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+repo_updated_at: "2026-09-04T06:12:22Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T12:26:59Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "packagist:phpstan extension"

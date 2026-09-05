@@ -13,7 +13,7 @@ repository: "https://github.com/wearerequired/coding-standards"
 packagist: null
 stars: 12
 repo_updated_at: "2026-09-02T23:28:05Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags:
   - "phpcs"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

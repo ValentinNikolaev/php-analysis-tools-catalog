@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/TomasVotruba/class-leak"
 packagist: null
 stars: 149
-repo_updated_at: "2026-09-03T22:18:00Z"
-metadata_updated_at: "2026-09-04T00:57:35Z"
+repo_updated_at: "2026-09-04T08:18:24Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T00:57:35Z"
+last_discovered_at: "2026-09-05T06:35:11Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

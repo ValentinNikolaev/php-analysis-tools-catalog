@@ -23,14 +23,14 @@ latest_release_name: "Release v1.176.0"
 latest_release_tag: "v1.176.0"
 latest_release_url: "https://github.com/semgrep/semgrep/releases/tag/v1.176.0"
 latest_release_published_at: "2026-09-01T19:52:12Z"
-latest_release_checked_at: "2026-09-04T00:57:36Z"
+latest_release_checked_at: "2026-09-05T06:35:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-09-05T00:56:47Z"
-stars: 16502
-repo_updated_at: "2026-09-01T19:51:53Z"
-metadata_updated_at: "2026-09-04T00:57:36Z"
+stars: 16517
+repo_updated_at: "2026-09-04T23:54:12Z"
+metadata_updated_at: "2026-09-05T06:35:12Z"
 quality_tags:
   - "static-analysis"
 source: "https://github.com/semgrep/semgrep"

@@ -22,14 +22,14 @@ website_status_code: 200
 website_checked_at: "2026-09-05T00:56:47Z"
 website_error: ""
 repository: "https://github.com/tomzx/php-semver-checker"
-latest_release_checked_at: "2026-09-04T00:57:36Z"
+latest_release_checked_at: "2026-09-05T06:35:12Z"
 packagist: "https://packagist.org/packages/tomzx/php-semver-checker"
 latest_version: "v0.17.0"
 latest_version_released_at: "2025-10-30T07:02:48+00:00"
 packagist_checked_at: "2026-09-05T00:56:47Z"
 stars: 437
 repo_updated_at: "2026-02-05T06:59:48Z"
-metadata_updated_at: "2026-09-04T00:57:36Z"
+metadata_updated_at: "2026-09-05T06:35:12Z"
 quality_tags:
   - "php"
 source: "README.md"

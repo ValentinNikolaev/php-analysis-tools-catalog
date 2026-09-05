@@ -11,12 +11,12 @@ website_status_code: 200
 website_checked_at: "2026-09-05T00:56:47Z"
 website_error: ""
 repository: "https://github.com/scrutinizer-ci/scrutinizer"
-latest_release_checked_at: "2026-09-04T00:57:36Z"
+latest_release_checked_at: "2026-09-05T06:35:12Z"
 packagist: null
 packagist_checked_at: "2026-09-05T00:56:47Z"
 stars: 139
 repo_updated_at: "2017-01-05T10:04:00Z"
-metadata_updated_at: "2026-09-04T00:57:36Z"
+metadata_updated_at: "2026-09-05T06:35:12Z"
 quality_tags:
   - "archived"
 source: "https://github.com/scrutinizer-ci/scrutinizer"

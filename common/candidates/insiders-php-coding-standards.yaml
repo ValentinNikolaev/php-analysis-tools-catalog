@@ -1,0 +1,26 @@
+slug: "insiders-php-coding-standards"
+name: "php-coding-standards"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Contains a set of rules for PHP-CS-Fixer"
+website: "https://github.com/insiders/php-coding-standards"
+public_url: "https://github.com/insiders/php-coding-standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/insiders/php-coding-standards"
+packagist: "https://packagist.org/packages/insiders/php-coding-standards"
+stars: 0
+repo_updated_at: "2024-04-11T10:27:26Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-05T06:35:11Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-05T06:35:11Z"
+discovery_queries:
+  - "packagist:phpcs standard"

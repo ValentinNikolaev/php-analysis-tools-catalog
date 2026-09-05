@@ -1,0 +1,26 @@
+slug: "oblakstudio-wordpress-coding-standards"
+name: "wordpress-coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "A set of WordPress coding standards for PHPCS"
+website: "https://github.com/oblakstudio/wordpress-coding-standards"
+public_url: "https://github.com/oblakstudio/wordpress-coding-standards"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/oblakstudio/wordpress-coding-standards"
+packagist: "https://packagist.org/packages/oblak/wordpress-coding-standard"
+stars: 0
+repo_updated_at: "2026-09-05T01:41:23Z"
+metadata_updated_at: "2026-09-05T06:35:11Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-05T06:35:11Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-05T06:35:11Z"
+discovery_queries:
+  - "packagist:phpcs standard"
