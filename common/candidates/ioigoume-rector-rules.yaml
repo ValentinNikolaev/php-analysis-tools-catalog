@@ -13,7 +13,7 @@ repository: "https://github.com/ioigoume/rector-rules"
 packagist: "https://packagist.org/packages/ioigoume/rector-rules"
 stars: 0
 repo_updated_at: "2025-10-16T14:10:38Z"
-metadata_updated_at: "2026-09-04T06:39:21Z"
+metadata_updated_at: "2026-09-05T12:31:14Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-04T06:39:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T06:39:21Z"
+last_discovered_at: "2026-09-05T12:31:14Z"
 discovery_queries:
   - "packagist:rector rules"
