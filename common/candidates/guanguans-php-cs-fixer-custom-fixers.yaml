@@ -1,0 +1,26 @@
+slug: "guanguans-php-cs-fixer-custom-fixers"
+name: "php-cs-fixer-custom-fixers"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Use php-cs-fixer to format bats,blade.php,Dockerfile,env,json,md,mdx,sh,sql,tex,text,toml,txt,xml,yaml...files."
+website: "https://github.com/guanguans/php-cs-fixer-custom-fixers"
+public_url: "https://github.com/guanguans/php-cs-fixer-custom-fixers"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/guanguans/php-cs-fixer-custom-fixers"
+packagist: "https://packagist.org/packages/guanguans/php-cs-fixer-custom-fixers"
+stars: 4
+repo_updated_at: "2026-09-04T07:34:06Z"
+metadata_updated_at: "2026-09-06T18:25:53Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-06T18:25:53Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-06T18:25:53Z"
+discovery_queries:
+  - "packagist:phpcs standard"
