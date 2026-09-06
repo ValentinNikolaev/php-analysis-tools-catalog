@@ -1,0 +1,26 @@
+slug: "moduark-phpstan"
+name: "moduark-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for Moduark module boundaries."
+website: "https://github.com/cluion/moduark-phpstan"
+public_url: "https://github.com/cluion/moduark-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/cluion/moduark-phpstan"
+packagist: "https://packagist.org/packages/cluion/moduark-phpstan"
+stars: 0
+repo_updated_at: "2026-08-22T16:56:59Z"
+metadata_updated_at: "2026-09-06T06:36:01Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-06T06:36:01Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-06T06:36:01Z"
+discovery_queries:
+  - "packagist:phpstan extension"

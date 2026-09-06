@@ -1,0 +1,26 @@
+slug: "phpstan-result-type"
+name: "phpstan-result-type"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "PHPStan custom rule for a Rust-like Result Type"
+website: "https://github.com/brimmar/phpstan-result-type"
+public_url: "https://github.com/brimmar/phpstan-result-type"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/brimmar/phpstan-result-type"
+packagist: "https://packagist.org/packages/brimmar/phpstan-rustlike-result-extension"
+stars: 0
+repo_updated_at: "2026-09-05T10:02:58Z"
+metadata_updated_at: "2026-09-06T06:36:01Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-06T06:36:01Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-06T06:36:01Z"
+discovery_queries:
+  - "packagist:phpstan extension"
