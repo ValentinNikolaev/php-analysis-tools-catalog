@@ -13,7 +13,7 @@ repository: "https://github.com/revenkroz/zend-rector"
 packagist: "https://packagist.org/packages/revenkroz/zend-rector"
 stars: 1
 repo_updated_at: "2022-10-25T09:47:14Z"
-metadata_updated_at: "2026-09-04T18:27:57Z"
+metadata_updated_at: "2026-09-06T01:05:10Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-04T18:27:57Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-04T18:27:57Z"
+last_discovered_at: "2026-09-06T01:05:10Z"
 discovery_queries:
   - "packagist:rector rules"
