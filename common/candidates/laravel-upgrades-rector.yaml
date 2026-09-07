@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/MuhammadSadeeq/laravel-upgrades-rector"
 packagist: "https://packagist.org/packages/muhammadsadeeq/laravel-upgrades-rector"
 stars: 0
-repo_updated_at: "2026-09-05T16:44:11Z"
-metadata_updated_at: "2026-09-06T06:36:01Z"
+repo_updated_at: "2026-09-06T12:08:02Z"
+metadata_updated_at: "2026-09-07T06:49:48Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-01T18:31:17Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-06T06:36:01Z"
+last_discovered_at: "2026-09-07T06:49:48Z"
 discovery_queries:
   - "packagist:rector rules"
