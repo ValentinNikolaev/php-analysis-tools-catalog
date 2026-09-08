@@ -13,7 +13,7 @@ repository: "https://github.com/Codito-Dev/rector-money"
 packagist: "https://packagist.org/packages/codito/rector-money"
 stars: 2
 repo_updated_at: "2025-10-14T07:43:37Z"
-metadata_updated_at: "2026-09-07T01:03:47Z"
+metadata_updated_at: "2026-09-08T06:39:42Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-04T12:36:15Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-07T01:03:47Z"
+last_discovered_at: "2026-09-08T06:39:42Z"
 discovery_queries:
   - "packagist:rector rules"

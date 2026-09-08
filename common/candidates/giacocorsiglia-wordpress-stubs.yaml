@@ -1,0 +1,26 @@
+slug: "giacocorsiglia-wordpress-stubs"
+name: "wordpress-stubs"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "WordPress function, class, and global variable declaration stubs for easier static analysis."
+website: "https://github.com/GiacoCorsiglia/wordpress-stubs"
+public_url: "https://github.com/GiacoCorsiglia/wordpress-stubs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/GiacoCorsiglia/wordpress-stubs"
+packagist: "https://packagist.org/packages/giacocorsiglia/wordpress-stubs"
+stars: 35
+repo_updated_at: "2021-12-03T18:40:52Z"
+metadata_updated_at: "2026-09-08T06:39:42Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-08T06:39:42Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-08T06:39:42Z"
+discovery_queries:
+  - "packagist:static analysis"

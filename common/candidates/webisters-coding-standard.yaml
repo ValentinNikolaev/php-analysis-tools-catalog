@@ -1,0 +1,29 @@
+slug: "webisters-coding-standard"
+name: "coding-standard"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Shared PHP-CS-Fixer configuration and finder defining the Webisters coding style."
+website: "https://github.com/webisters/coding-standard"
+public_url: "https://github.com/webisters/coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/webisters/coding-standard"
+packagist: "https://packagist.org/packages/webisters/coding-standard"
+stars: 1
+repo_updated_at: "2026-07-22T11:01:57Z"
+metadata_updated_at: "2026-09-08T06:39:42Z"
+quality_tags:
+  - "code-quality"
+  - "linter"
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-08T06:39:42Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-08T06:39:42Z"
+discovery_queries:
+  - "packagist:phpcs standard"
