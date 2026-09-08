@@ -19,18 +19,18 @@ website_status_code: 200
 website_checked_at: "2026-09-08T01:00:03Z"
 website_error: ""
 repository: "https://github.com/opengrep/opengrep"
-latest_release_name: "Opengrep 1.29.0"
-latest_release_tag: "v1.29.0"
-latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.29.0"
-latest_release_published_at: "2026-08-28T18:22:54Z"
-latest_release_checked_at: "2026-09-07T06:49:48Z"
+latest_release_name: "Opengrep 1.30.0"
+latest_release_tag: "v1.30.0"
+latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.30.0"
+latest_release_published_at: "2026-09-07T11:20:14Z"
+latest_release_checked_at: "2026-09-08T12:36:37Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-09-08T01:00:03Z"
-stars: 3047
-repo_updated_at: "2026-09-07T01:05:47Z"
-metadata_updated_at: "2026-09-07T06:49:48Z"
+stars: 3057
+repo_updated_at: "2026-09-08T12:22:47Z"
+metadata_updated_at: "2026-09-08T12:36:37Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."

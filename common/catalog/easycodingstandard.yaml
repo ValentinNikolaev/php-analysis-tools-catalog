@@ -20,16 +20,16 @@ website_status_code: 200
 website_checked_at: "2026-09-08T01:00:03Z"
 website_error: ""
 repository: "https://github.com/ecsphp/ecs"
-latest_release_name: "Released ECS 13.3.0"
-latest_release_tag: "13.3.0"
-latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.0"
-latest_release_published_at: "2026-09-07T06:48:24Z"
-latest_release_checked_at: "2026-09-07T06:49:48Z"
+latest_release_name: "Released ECS 13.3.2"
+latest_release_tag: "13.3.2"
+latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.2"
+latest_release_published_at: "2026-09-07T09:08:38Z"
+latest_release_checked_at: "2026-09-08T12:36:37Z"
 packagist: null
 packagist_checked_at: "2026-09-08T01:00:03Z"
 stars: 1623
-repo_updated_at: "2026-09-07T06:47:38Z"
-metadata_updated_at: "2026-09-07T06:49:48Z"
+repo_updated_at: "2026-09-07T09:07:38Z"
+metadata_updated_at: "2026-09-08T12:36:37Z"
 quality_tags:
   - "php"
 source: "README.md"
