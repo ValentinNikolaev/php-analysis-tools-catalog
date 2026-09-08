@@ -3,8 +3,8 @@
     "catalog.json",
     "catalog.csv"
   ],
-  "as_of": "2026-09-08T12:36:35Z",
+  "as_of": "2026-09-08T18:31:02Z",
   "record_count": 111,
   "schema_version": 1,
-  "source_commit": "7e9e1711e3c649de927a936a8053fb3dd8b0c878"
+  "source_commit": "b8463e0bf5449bffe9eca634bf458ab964d248b5"
 }

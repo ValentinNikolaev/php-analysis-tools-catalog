@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/mousr/templates-phpstan-extension"
 packagist: "https://packagist.org/packages/mousr/templates-phpstan-extension"
 stars: 1
-repo_updated_at: "2026-09-07T17:08:36Z"
-metadata_updated_at: "2026-09-07T18:29:14Z"
+repo_updated_at: "2026-09-08T09:23:55Z"
+metadata_updated_at: "2026-09-08T18:31:02Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-06T18:25:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-07T18:29:14Z"
+last_discovered_at: "2026-09-08T18:31:02Z"
 discovery_queries:
   - "packagist:phpstan extension"
