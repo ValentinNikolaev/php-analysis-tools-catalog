@@ -12,12 +12,12 @@ website_status_code: 200
 website_checked_at: "2026-09-09T00:59:20Z"
 website_error: ""
 repository: "https://github.com/edsonmedina/php_testability"
-latest_release_checked_at: "2026-09-08T12:36:37Z"
+latest_release_checked_at: "2026-09-09T18:30:31Z"
 packagist: "https://packagist.org/packages/edsonmedina/php_testability"
 packagist_checked_at: "2026-09-09T00:59:20Z"
 stars: 130
 repo_updated_at: "2022-01-27T15:18:07Z"
-metadata_updated_at: "2026-09-08T12:36:37Z"
+metadata_updated_at: "2026-09-09T18:30:31Z"
 quality_tags:
   - "archived"
   - "php"

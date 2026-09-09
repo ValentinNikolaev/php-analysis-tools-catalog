@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/laravel/surveyor"
 packagist: "https://packagist.org/packages/laravel/surveyor"
 stars: 91
-repo_updated_at: "2026-09-04T20:22:06Z"
-metadata_updated_at: "2026-09-08T12:36:35Z"
+repo_updated_at: "2026-09-08T20:03:05Z"
+metadata_updated_at: "2026-09-09T18:30:31Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T18:26:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-08T12:36:35Z"
+last_discovered_at: "2026-09-09T18:30:31Z"
 discovery_queries:
   - "packagist:static analysis"
