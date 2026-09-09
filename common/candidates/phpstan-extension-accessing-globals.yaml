@@ -1,0 +1,26 @@
+slug: "phpstan-extension-accessing-globals"
+name: "phpstan-extension-accessing-globals"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extension for detecting code that accesses or modifies globally shared data, a common source of bugs."
+website: "https://github.com/jonbaldie/phpstan-extension-accessing-globals"
+public_url: "https://github.com/jonbaldie/phpstan-extension-accessing-globals"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/jonbaldie/phpstan-extension-accessing-globals"
+packagist: "https://packagist.org/packages/jonbaldie/phpstan-extension-accessing-globals"
+stars: 0
+repo_updated_at: "2026-09-08T23:27:41Z"
+metadata_updated_at: "2026-09-09T06:40:24Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-09T06:40:24Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-09T06:40:24Z"
+discovery_queries:
+  - "packagist:phpstan extension"

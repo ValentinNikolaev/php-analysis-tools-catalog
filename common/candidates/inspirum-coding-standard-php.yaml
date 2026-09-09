@@ -1,0 +1,28 @@
+slug: "inspirum-coding-standard-php"
+name: "coding-standard-php"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Inspirum Coding standard for PHPCS."
+website: "https://github.com/inspirum/coding-standard-php"
+public_url: "https://github.com/inspirum/coding-standard-php"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/inspirum/coding-standard-php"
+packagist: "https://packagist.org/packages/inspirum/coding-standard"
+stars: 2
+repo_updated_at: "2026-03-26T10:59:37Z"
+metadata_updated_at: "2026-09-09T06:40:24Z"
+quality_tags:
+  - "php"
+  - "phpcs"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-09T06:40:24Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-09T06:40:24Z"
+discovery_queries:
+  - "packagist:phpcs standard"

@@ -13,7 +13,7 @@ repository: "https://github.com/ghostwriter/rector-extension"
 packagist: "https://packagist.org/packages/ghostwriter/rector-extension"
 stars: 0
 repo_updated_at: "2026-09-05T05:36:38Z"
-metadata_updated_at: "2026-09-08T06:39:42Z"
+metadata_updated_at: "2026-09-09T06:40:24Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-04T12:36:15Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-08T06:39:42Z"
+last_discovered_at: "2026-09-09T06:40:24Z"
 discovery_queries:
   - "packagist:rector rules"
