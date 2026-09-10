@@ -1,0 +1,26 @@
+slug: "php-cs-fixer-rules"
+name: "php-cs-fixer-rules"
+category: "Fixers"
+artifact_type: "fixer"
+description: "PHP Coding Standards"
+website: "https://github.com/kdubuc/php-cs-fixer-rules"
+public_url: "https://github.com/kdubuc/php-cs-fixer-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/kdubuc/php-cs-fixer-rules"
+packagist: "https://packagist.org/packages/kdubuc/php-cs-fixer-rules"
+stars: 0
+repo_updated_at: "2024-09-18T11:51:10Z"
+metadata_updated_at: "2026-09-10T06:39:56Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-10T06:39:56Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-10T06:39:56Z"
+discovery_queries:
+  - "packagist:phpcs standard"

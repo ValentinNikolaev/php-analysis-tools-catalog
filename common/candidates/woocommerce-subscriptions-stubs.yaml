@@ -1,0 +1,26 @@
+slug: "woocommerce-subscriptions-stubs"
+name: "woocommerce-subscriptions-stubs"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "WooCommerce Subscriptions function and class declaration stubs for static analysis"
+website: "https://woocommerce.com/products/woocommerce-subscriptions/"
+public_url: "https://woocommerce.com/products/woocommerce-subscriptions/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-stubs/woocommerce-subscriptions-stubs"
+packagist: "https://packagist.org/packages/php-stubs/woocommerce-subscriptions-stubs"
+stars: 4
+repo_updated_at: "2026-08-06T00:34:43Z"
+metadata_updated_at: "2026-09-10T06:39:56Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-10T06:39:56Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-10T06:39:56Z"
+discovery_queries:
+  - "packagist:static analysis"
