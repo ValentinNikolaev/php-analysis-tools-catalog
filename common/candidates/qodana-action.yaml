@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/JetBrains/qodana-action"
 packagist: null
 stars: 310
-repo_updated_at: "2026-09-02T11:44:01Z"
-metadata_updated_at: "2026-09-09T18:30:31Z"
+repo_updated_at: "2026-09-10T10:32:52Z"
+metadata_updated_at: "2026-09-11T00:57:17Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-09T18:30:31Z"
+last_discovered_at: "2026-09-11T00:57:17Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"
