@@ -1,0 +1,27 @@
+slug: "vix-4800-phpstan-rules"
+name: "phpstan-rules"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "PHPStan rules"
+website: "https://packagist.org/packages/vix/phpstan-rules"
+public_url: "https://packagist.org/packages/vix/phpstan-rules"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/vix-4800/phpstan-rules"
+packagist: "https://packagist.org/packages/vix/phpstan-rules"
+stars: 0
+repo_updated_at: "2026-06-29T05:34:59Z"
+metadata_updated_at: "2026-09-11T06:39:19Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-11T06:39:19Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-11T06:39:19Z"
+discovery_queries:
+  - "packagist:phpstan extension"
