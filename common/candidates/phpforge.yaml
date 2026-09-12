@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/infocyph/PHPForge"
 packagist: "https://packagist.org/packages/infocyph/phpforge"
 stars: 1
-repo_updated_at: "2026-09-11T08:25:39Z"
-metadata_updated_at: "2026-09-11T12:36:01Z"
+repo_updated_at: "2026-09-11T16:21:37Z"
+metadata_updated_at: "2026-09-12T18:26:05Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-10T06:39:56Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-11T12:36:01Z"
+last_discovered_at: "2026-09-12T18:26:05Z"
 discovery_queries:
   - "packagist:static analysis"

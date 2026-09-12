@@ -13,7 +13,7 @@ repository: "https://github.com/edalzell/dead-code-detector-laravel-actions"
 packagist: "https://packagist.org/packages/edalzell/dead-code-detector-laravel-actions"
 stars: 0
 repo_updated_at: "2026-09-11T04:08:40Z"
-metadata_updated_at: "2026-09-11T12:36:01Z"
+metadata_updated_at: "2026-09-12T18:26:05Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-10T06:39:56Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-11T12:36:01Z"
+last_discovered_at: "2026-09-12T18:26:05Z"
 discovery_queries:
   - "packagist:phpstan extension"
