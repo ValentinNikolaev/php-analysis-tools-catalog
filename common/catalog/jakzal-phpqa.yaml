@@ -23,14 +23,14 @@ latest_release_name: "1.125.3"
 latest_release_tag: "v1.125.3"
 latest_release_url: "https://github.com/jakzal/phpqa/releases/tag/v1.125.3"
 latest_release_published_at: "2026-09-07T07:57:52Z"
-latest_release_checked_at: "2026-09-11T00:57:18Z"
+latest_release_checked_at: "2026-09-12T06:35:51Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-09-12T00:56:37Z"
-stars: 1322
+stars: 1323
 repo_updated_at: "2026-09-07T07:57:52Z"
-metadata_updated_at: "2026-09-11T00:57:18Z"
+metadata_updated_at: "2026-09-12T06:35:51Z"
 quality_tags:
   - "code-quality"
   - "php"

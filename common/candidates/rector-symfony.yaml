@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/rectorphp/rector-symfony"
 packagist: null
 stars: 239
-repo_updated_at: "2026-09-08T19:27:32Z"
-metadata_updated_at: "2026-09-11T00:57:17Z"
+repo_updated_at: "2026-09-11T18:53:39Z"
+metadata_updated_at: "2026-09-12T06:35:51Z"
 quality_tags:
   - "php"
   - "rector"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-11T00:57:17Z"
+last_discovered_at: "2026-09-12T06:35:51Z"
 discovery_queries:
   - "PHP Rector rules stars:>10"

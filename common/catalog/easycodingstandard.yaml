@@ -24,12 +24,12 @@ latest_release_name: "Released ECS 13.3.2"
 latest_release_tag: "13.3.2"
 latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.2"
 latest_release_published_at: "2026-09-07T09:08:38Z"
-latest_release_checked_at: "2026-09-11T00:57:18Z"
+latest_release_checked_at: "2026-09-12T06:35:51Z"
 packagist: null
 packagist_checked_at: "2026-09-12T00:56:37Z"
 stars: 1624
 repo_updated_at: "2026-09-09T10:41:26Z"
-metadata_updated_at: "2026-09-11T00:57:18Z"
+metadata_updated_at: "2026-09-12T06:35:51Z"
 quality_tags:
   - "php"
 source: "README.md"

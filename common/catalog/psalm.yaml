@@ -27,14 +27,14 @@ latest_release_name: "6.17.0"
 latest_release_tag: "6.17.0"
 latest_release_url: "https://github.com/vimeo/psalm/releases/tag/6.17.0"
 latest_release_published_at: "2026-09-10T12:43:54Z"
-latest_release_checked_at: "2026-09-11T00:57:18Z"
+latest_release_checked_at: "2026-09-12T06:35:51Z"
 packagist: "https://packagist.org/packages/vimeo/psalm"
 latest_version: "6.17.0"
 latest_version_released_at: "2026-09-10T11:14:46+00:00"
 packagist_checked_at: "2026-09-12T00:56:37Z"
-stars: 5892
+stars: 5891
 repo_updated_at: "2026-09-10T12:43:53Z"
-metadata_updated_at: "2026-09-11T00:57:18Z"
+metadata_updated_at: "2026-09-12T06:35:51Z"
 quality_tags:
   - "php"
   - "static-analysis"
