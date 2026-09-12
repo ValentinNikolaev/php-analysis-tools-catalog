@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/polylang/polylang-stubs"
 packagist: "https://packagist.org/packages/wpsyntex/polylang-stubs"
 stars: 6
-repo_updated_at: "2026-09-09T09:19:07Z"
-metadata_updated_at: "2026-09-11T06:39:19Z"
+repo_updated_at: "2026-09-11T11:44:59Z"
+metadata_updated_at: "2026-09-12T12:31:31Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-08T18:31:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-11T06:39:19Z"
+last_discovered_at: "2026-09-12T12:31:31Z"
 discovery_queries:
   - "packagist:static analysis"
