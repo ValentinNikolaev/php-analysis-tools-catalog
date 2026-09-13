@@ -12,12 +12,12 @@ website_status_code: 200
 website_checked_at: "2026-09-13T01:04:46Z"
 website_error: ""
 repository: "https://github.com/schmittjoh/php-manipulator"
-latest_release_checked_at: "2026-09-12T06:35:51Z"
+latest_release_checked_at: "2026-09-13T06:40:38Z"
 packagist: "https://packagist.org/packages/jms/php-manipulator"
 packagist_checked_at: "2026-09-13T01:04:46Z"
 stars: 105
 repo_updated_at: "2014-09-27T18:10:16Z"
-metadata_updated_at: "2026-09-12T06:35:51Z"
+metadata_updated_at: "2026-09-13T06:40:38Z"
 quality_tags: []
 source: "README.md"
 notes: ""

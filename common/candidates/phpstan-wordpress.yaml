@@ -13,7 +13,7 @@ repository: "https://github.com/szepeviktor/phpstan-wordpress"
 packagist: "https://packagist.org/packages/szepeviktor/phpstan-wordpress"
 stars: 332
 repo_updated_at: "2026-09-09T03:55:06Z"
-metadata_updated_at: "2026-09-12T06:35:51Z"
+metadata_updated_at: "2026-09-13T06:40:37Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-12T06:35:51Z"
+last_discovered_at: "2026-09-13T06:40:37Z"
 discovery_queries:
   - "packagist:phpstan extension"

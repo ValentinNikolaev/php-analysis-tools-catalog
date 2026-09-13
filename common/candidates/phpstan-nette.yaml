@@ -13,7 +13,7 @@ repository: "https://github.com/phpstan/phpstan-nette"
 packagist: null
 stars: 118
 repo_updated_at: "2026-09-11T01:22:52Z"
-metadata_updated_at: "2026-09-12T06:35:51Z"
+metadata_updated_at: "2026-09-13T06:40:37Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-12T06:35:51Z"
+last_discovered_at: "2026-09-13T06:40:37Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

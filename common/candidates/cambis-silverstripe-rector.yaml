@@ -13,7 +13,7 @@ repository: "https://github.com/Cambis/silverstripe-rector"
 packagist: "https://packagist.org/packages/cambis/silverstripe-rector"
 stars: 5
 repo_updated_at: "2026-09-12T01:16:28Z"
-metadata_updated_at: "2026-09-12T06:35:51Z"
+metadata_updated_at: "2026-09-13T06:40:37Z"
 quality_tags:
   - "rector"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-30T18:26:24Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-12T06:35:51Z"
+last_discovered_at: "2026-09-13T06:40:37Z"
 discovery_queries:
   - "packagist:rector rules"
