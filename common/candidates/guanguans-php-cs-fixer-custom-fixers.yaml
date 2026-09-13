@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/guanguans/php-cs-fixer-custom-fixers"
 packagist: "https://packagist.org/packages/guanguans/php-cs-fixer-custom-fixers"
 stars: 4
-repo_updated_at: "2026-09-12T03:16:14Z"
-metadata_updated_at: "2026-09-12T12:31:31Z"
+repo_updated_at: "2026-09-12T12:51:54Z"
+metadata_updated_at: "2026-09-13T12:32:04Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-06T18:25:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-12T12:31:31Z"
+last_discovered_at: "2026-09-13T12:32:04Z"
 discovery_queries:
   - "packagist:phpcs standard"
