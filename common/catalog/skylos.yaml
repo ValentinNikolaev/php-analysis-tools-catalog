@@ -21,18 +21,18 @@ website_status_code: 200
 website_checked_at: "2026-09-14T01:04:25Z"
 website_error: ""
 repository: "https://github.com/duriantaco/skylos"
-latest_release_name: "v4.36.1"
-latest_release_tag: "v4.36.1"
-latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v4.36.1"
-latest_release_published_at: "2026-09-08T14:33:30Z"
-latest_release_checked_at: "2026-09-13T06:40:38Z"
+latest_release_name: "v4.37.0"
+latest_release_tag: "v4.37.0"
+latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v4.37.0"
+latest_release_published_at: "2026-09-13T15:44:06Z"
+latest_release_checked_at: "2026-09-14T06:50:53Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-09-14T01:04:25Z"
-stars: 780
-repo_updated_at: "2026-09-13T05:33:00Z"
-metadata_updated_at: "2026-09-13T06:40:38Z"
+stars: 791
+repo_updated_at: "2026-09-13T15:44:06Z"
+metadata_updated_at: "2026-09-14T06:50:53Z"
 quality_tags:
   - "code-quality"
   - "php"

@@ -25,14 +25,14 @@ latest_release_name: "2.2.14"
 latest_release_tag: "2.2.14"
 latest_release_url: "https://github.com/phpstan/phpstan/releases/tag/2.2.14"
 latest_release_published_at: "2026-09-12T21:41:33Z"
-latest_release_checked_at: "2026-09-13T06:40:38Z"
+latest_release_checked_at: "2026-09-14T06:50:53Z"
 packagist: "https://packagist.org/packages/phpstan/phpstan"
 latest_version: "2.2.14"
 latest_version_released_at: "2026-09-12T21:39:33+00:00"
 packagist_checked_at: "2026-09-14T01:04:25Z"
-stars: 14101
-repo_updated_at: "2026-09-12T21:39:40Z"
-metadata_updated_at: "2026-09-13T06:40:38Z"
+stars: 14102
+repo_updated_at: "2026-09-14T01:43:23Z"
+metadata_updated_at: "2026-09-14T06:50:53Z"
 quality_tags:
   - "php"
   - "phpstan"
