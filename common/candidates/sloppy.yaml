@@ -1,0 +1,30 @@
+slug: "sloppy"
+name: "sloppy"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Laravel-aware static analysis for the debt AI coding agents leave behind. 24 rules, git-diff review, a Rector and Pint fix pass, Pest expectations, CI annotations, agent rulesets and an MCP server. Deterministic, local, no LLM."
+website: "https://github.com/Heyosseus/sloppy"
+public_url: "https://github.com/Heyosseus/sloppy"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/Heyosseus/sloppy"
+packagist: "https://packagist.org/packages/heyosseus/sloppy"
+stars: 13
+repo_updated_at: "2026-09-14T11:37:53Z"
+metadata_updated_at: "2026-09-14T12:37:43Z"
+quality_tags:
+  - "code-quality"
+  - "linter"
+  - "php"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-14T12:37:43Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-14T12:37:43Z"
+discovery_queries:
+  - "packagist:rector rules"
