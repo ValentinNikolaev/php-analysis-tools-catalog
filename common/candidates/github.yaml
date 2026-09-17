@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/ConductionNL/.github"
 packagist: "https://packagist.org/packages/conduction/hydra-gates"
 stars: 2
-repo_updated_at: "2026-09-15T18:29:39Z"
-metadata_updated_at: "2026-09-16T12:36:55Z"
+repo_updated_at: "2026-09-17T12:09:52Z"
+metadata_updated_at: "2026-09-17T12:36:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T00:27:57Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-16T12:36:55Z"
+last_discovered_at: "2026-09-17T12:36:57Z"
 discovery_queries:
   - "packagist:static analysis"

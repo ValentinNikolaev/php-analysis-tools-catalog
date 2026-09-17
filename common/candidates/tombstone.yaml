@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/scheb/tombstone"
 packagist: "https://packagist.org/packages/scheb/tombstone"
-stars: 290
+stars: 289
 repo_updated_at: "2026-06-08T17:21:48Z"
-metadata_updated_at: "2026-09-16T12:36:55Z"
+metadata_updated_at: "2026-09-17T12:36:57Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T12:27:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-16T12:36:55Z"
+last_discovered_at: "2026-09-17T12:36:57Z"
 discovery_queries:
   - "packagist:static analysis"

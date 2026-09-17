@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/psalm/psalm-plugin-laravel"
 packagist: null
 stars: 341
-repo_updated_at: "2026-09-16T09:32:21Z"
-metadata_updated_at: "2026-09-16T12:36:55Z"
+repo_updated_at: "2026-09-16T23:17:27Z"
+metadata_updated_at: "2026-09-17T12:36:57Z"
 quality_tags:
   - "php"
   - "psalm"
@@ -25,6 +25,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T12:32:32Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-16T12:36:55Z"
+last_discovered_at: "2026-09-17T12:36:57Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"
