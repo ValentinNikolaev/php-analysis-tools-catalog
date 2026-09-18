@@ -25,14 +25,14 @@ latest_release_name: "v3.95.25 Adalbertus"
 latest_release_tag: "v3.95.25"
 latest_release_url: "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/tag/v3.95.25"
 latest_release_published_at: "2026-09-08T11:11:48Z"
-latest_release_checked_at: "2026-09-17T12:36:58Z"
+latest_release_checked_at: "2026-09-18T18:29:33Z"
 packagist: "https://packagist.org/packages/friendsofphp/php-cs-fixer"
 latest_version: "v3.95.25"
 latest_version_released_at: "2026-09-08T11:11:37+00:00"
 packagist_checked_at: "2026-09-18T00:59:06Z"
-stars: 13550
-repo_updated_at: "2026-09-14T15:51:44Z"
-metadata_updated_at: "2026-09-17T12:36:58Z"
+stars: 13552
+repo_updated_at: "2026-09-18T11:26:08Z"
+metadata_updated_at: "2026-09-18T18:29:33Z"
 quality_tags:
   - "php"
   - "static-analysis"

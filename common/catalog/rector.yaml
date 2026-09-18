@@ -26,14 +26,14 @@ latest_release_name: "Released Rector 2.6.7"
 latest_release_tag: "2.6.7"
 latest_release_url: "https://github.com/rectorphp/rector/releases/tag/2.6.7"
 latest_release_published_at: "2026-09-13T20:25:13Z"
-latest_release_checked_at: "2026-09-17T12:36:58Z"
+latest_release_checked_at: "2026-09-18T18:29:33Z"
 packagist: "https://packagist.org/packages/rector/rector"
 latest_version: "2.6.7"
 latest_version_released_at: "2026-09-13T20:17:44+00:00"
 packagist_checked_at: "2026-09-18T00:59:06Z"
-stars: 10420
-repo_updated_at: "2026-09-17T10:43:51Z"
-metadata_updated_at: "2026-09-17T12:36:58Z"
+stars: 10424
+repo_updated_at: "2026-09-18T15:14:11Z"
+metadata_updated_at: "2026-09-18T18:29:33Z"
 quality_tags:
   - "php"
 source: "README.md"

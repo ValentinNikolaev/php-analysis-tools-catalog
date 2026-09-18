@@ -18,16 +18,16 @@ website_status_code: 200
 website_checked_at: "2026-09-18T00:59:06Z"
 website_error: ""
 repository: "https://github.com/kucherenko/jscpd"
-latest_release_name: "Release v5.2.1"
-latest_release_tag: "v5.2.1"
-latest_release_url: "https://github.com/kucherenko/jscpd/releases/tag/v5.2.1"
-latest_release_published_at: "2026-09-15T06:41:06Z"
-latest_release_checked_at: "2026-09-17T12:36:58Z"
+latest_release_name: "Release v5.3.0"
+latest_release_tag: "v5.3.0"
+latest_release_url: "https://github.com/kucherenko/jscpd/releases/tag/v5.3.0"
+latest_release_published_at: "2026-09-18T12:56:44Z"
+latest_release_checked_at: "2026-09-18T18:29:33Z"
 packagist: null
 packagist_checked_at: "2026-09-18T00:59:06Z"
-stars: 6222
-repo_updated_at: "2026-09-17T11:54:39Z"
-metadata_updated_at: "2026-09-17T12:36:58Z"
+stars: 6238
+repo_updated_at: "2026-09-18T17:48:53Z"
+metadata_updated_at: "2026-09-18T18:29:33Z"
 quality_tags:
   - "code-quality"
   - "static-analysis"
