@@ -1,0 +1,26 @@
+slug: "code-quality"
+name: "code-quality"
+category: "Coding standards"
+artifact_type: "analyzer"
+description: "Repository hosting code quality configuration files, shared in the organization"
+website: "https://github.com/phalcon/code-quality"
+public_url: "https://github.com/phalcon/code-quality"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phalcon/code-quality"
+packagist: "https://packagist.org/packages/phalcon/code-quality"
+stars: 0
+repo_updated_at: "2026-09-09T01:46:19Z"
+metadata_updated_at: "2026-09-19T06:36:40Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-19T06:36:40Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-19T06:36:40Z"
+discovery_queries:
+  - "packagist:phpcs standard"
