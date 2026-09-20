@@ -15,10 +15,10 @@ delivery: "Hosted repository analysis with pull-request integrations"
 reviewed_at: "2026-08-08"
 website: "https://deepsource.com/directory/php"
 public_url: "https://deepsource.com/directory/php"
-website_status: "unavailable"
-website_status_code: 404
-website_checked_at: "2026-09-19T00:57:15Z"
-website_error: "HTTP 404"
+website_status: "available"
+website_status_code: 200
+website_checked_at: "2026-09-20T01:04:47Z"
+website_error: ""
 repository: null
 packagist: null
 stars: 0

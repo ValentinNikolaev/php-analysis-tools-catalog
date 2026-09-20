@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/rasuvaeff/rector-named-literals"
 packagist: "https://packagist.org/packages/rasuvaeff/rector-named-literals"
 stars: 0
-repo_updated_at: "2026-08-15T13:56:29Z"
-metadata_updated_at: "2026-09-18T18:29:33Z"
+repo_updated_at: "2026-09-19T16:08:31Z"
+metadata_updated_at: "2026-09-20T01:04:47Z"
 quality_tags:
   - "code-quality"
   - "php"
@@ -25,6 +25,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-30T12:32:09Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-18T18:29:33Z"
+last_discovered_at: "2026-09-20T01:04:47Z"
 discovery_queries:
   - "packagist:rector rules"
