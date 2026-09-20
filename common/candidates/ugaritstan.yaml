@@ -13,7 +13,7 @@ repository: "https://github.com/ugaritco/ugaritstan"
 packagist: "https://packagist.org/packages/ugaritco/ugaritstan"
 stars: 0
 repo_updated_at: "2026-09-16T20:55:10Z"
-metadata_updated_at: "2026-09-19T06:36:40Z"
+metadata_updated_at: "2026-09-20T06:37:12Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-19T06:36:40Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-19T06:36:40Z"
+last_discovered_at: "2026-09-20T06:37:12Z"
 discovery_queries:
   - "packagist:phpstan extension"
