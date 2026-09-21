@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-09-21T06:51:37Z",
+  "as_of": "2026-09-21T12:35:18Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "73777936fd7bcf74329fe8771fdbadbb69b6a883",
+  "source_commit": "1e95279e9fb74e050caa49f768532d6b042f261c",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
@@ -1410,7 +1410,7 @@
       "latest_version": "2.1.1",
       "latest_version_released_at": "2024-03-01T13:26:32+00:00",
       "license": "MIT",
-      "lifecycle": "Active",
+      "lifecycle": "Quiet",
       "metadata_updated_at": "2026-09-21T06:51:38Z",
       "name": "name-collision-detector",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
