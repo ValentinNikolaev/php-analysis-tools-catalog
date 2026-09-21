@@ -1,25 +1,25 @@
-slug: "picklewagon-coding-standards"
-name: "picklewagon-coding-standards"
+slug: "wp-plugin-standards"
+name: "wp-plugin-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "Enforce PHP coding standards in a PHP project."
-website: "https://github.com/picklewagon/picklewagon-coding-standards"
-public_url: "https://github.com/picklewagon/picklewagon-coding-standards"
+description: "Shared PHP coding standards (ArtsFramework PHPCS ruleset) and PHPStan base config for Arts WordPress plugins"
+website: "https://github.com/artkrsk/wp-plugin-standards"
+public_url: "https://github.com/artkrsk/wp-plugin-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/picklewagon/picklewagon-coding-standards"
-packagist: "https://packagist.org/packages/picklewagon/picklewagon-coding-standards"
+repository: "https://github.com/artkrsk/wp-plugin-standards"
+packagist: "https://packagist.org/packages/arts/wp-plugin-standards"
 stars: 0
-repo_updated_at: "2022-10-15T08:28:07Z"
+repo_updated_at: "2026-08-13T10:48:30Z"
 metadata_updated_at: "2026-09-21T06:51:37Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-09-04T00:57:35Z"
+discovered_at: "2026-09-21T06:51:37Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-21T06:51:37Z"
 discovery_queries:

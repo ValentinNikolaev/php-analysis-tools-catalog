@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/konradmichalik/php-doc-block-header-fixer"
 packagist: "https://packagist.org/packages/konradmichalik/php-doc-block-header-fixer"
 stars: 2
-repo_updated_at: "2026-09-16T01:01:33Z"
-metadata_updated_at: "2026-09-20T01:04:47Z"
+repo_updated_at: "2026-09-20T17:50:44Z"
+metadata_updated_at: "2026-09-21T06:51:37Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-27T21:26:35Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-20T01:04:47Z"
+last_discovered_at: "2026-09-21T06:51:37Z"
 discovery_queries:
   - "packagist:phpcs standard"
