@@ -1,0 +1,26 @@
+slug: "ncac-phpcs-standard"
+name: "phpcs-standard"
+category: "Coding standards"
+artifact_type: "analyzer"
+description: "NCAC PHPCS Standard - TypeScript-like approach to PHP code quality : strict, explicit, readable, and modern"
+website: "https://github.com/NCAC/phpcs-standard"
+public_url: "https://github.com/NCAC/phpcs-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/NCAC/phpcs-standard"
+packagist: "https://packagist.org/packages/ncac/phpcs-standard"
+stars: 2
+repo_updated_at: "2026-09-22T18:31:03Z"
+metadata_updated_at: "2026-09-22T18:32:12Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-22T18:32:12Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-22T18:32:12Z"
+discovery_queries:
+  - "packagist:phpcs standard"
