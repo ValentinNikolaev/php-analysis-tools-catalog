@@ -24,14 +24,14 @@ latest_release_name: "v0.12.5"
 latest_release_tag: "0.12.5"
 latest_release_url: "https://github.com/carlosas/phpat/releases/tag/0.12.5"
 latest_release_published_at: "2026-09-15T18:21:32Z"
-latest_release_checked_at: "2026-09-22T12:37:18Z"
+latest_release_checked_at: "2026-09-23T18:31:29Z"
 packagist: "https://packagist.org/packages/carlosas/phpat"
 latest_version: "0.12.5"
 latest_version_released_at: "2026-09-15T18:11:37+00:00"
 packagist_checked_at: "2026-09-23T00:57:39Z"
-stars: 1278
+stars: 1279
 repo_updated_at: "2026-09-16T22:40:45Z"
-metadata_updated_at: "2026-09-22T12:37:18Z"
+metadata_updated_at: "2026-09-23T18:31:29Z"
 quality_tags:
   - "php"
   - "static-analysis"
