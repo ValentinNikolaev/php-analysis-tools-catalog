@@ -23,16 +23,16 @@ website_status_code: 200
 website_checked_at: "2026-09-24T00:59:03Z"
 website_error: ""
 repository: "https://github.com/SonarSource/sonar-php"
-latest_release_name: "4.0.0.16889"
-latest_release_tag: "4.0.0.16889"
-latest_release_url: "https://github.com/SonarSource/sonar-php/releases/tag/4.0.0.16889"
-latest_release_published_at: "2026-09-11T09:27:30Z"
-latest_release_checked_at: "2026-09-23T18:31:29Z"
+latest_release_name: "4.1.0.16998"
+latest_release_tag: "4.1.0.16998"
+latest_release_url: "https://github.com/SonarSource/sonar-php/releases/tag/4.1.0.16998"
+latest_release_published_at: "2026-09-24T10:59:24Z"
+latest_release_checked_at: "2026-09-24T18:31:30Z"
 packagist: null
 packagist_checked_at: "2026-09-24T00:59:03Z"
-stars: 432
-repo_updated_at: "2026-09-23T05:18:17Z"
-metadata_updated_at: "2026-09-23T18:31:29Z"
+stars: 433
+repo_updated_at: "2026-09-24T12:07:31Z"
+metadata_updated_at: "2026-09-24T18:31:30Z"
 quality_tags:
   - "code-quality"
   - "php"

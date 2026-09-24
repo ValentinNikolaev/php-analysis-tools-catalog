@@ -25,14 +25,14 @@ latest_release_name: "4.7.2"
 latest_release_tag: "4.7.2"
 latest_release_url: "https://github.com/deptrac/deptrac/releases/tag/4.7.2"
 latest_release_published_at: "2026-09-15T09:46:52Z"
-latest_release_checked_at: "2026-09-23T18:31:29Z"
+latest_release_checked_at: "2026-09-24T18:31:30Z"
 packagist: "https://packagist.org/packages/deptrac/deptrac"
 latest_version: "4.7.2"
 latest_version_released_at: "2026-09-15T09:46:07+00:00"
 packagist_checked_at: "2026-09-24T00:59:03Z"
-stars: 3019
+stars: 3020
 repo_updated_at: "2026-09-20T11:38:41Z"
-metadata_updated_at: "2026-09-23T18:31:29Z"
+metadata_updated_at: "2026-09-24T18:31:30Z"
 quality_tags:
   - "php"
 source: "README.md"
