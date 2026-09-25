@@ -1,0 +1,27 @@
+slug: "mockery-to-double-rector-plugin"
+name: "mockery-to-double-rector-plugin"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Automatically migrate from Mockery to JMac's Double"
+website: "https://github.com/eznix86/mockery-to-double-rector-plugin"
+public_url: "https://github.com/eznix86/mockery-to-double-rector-plugin"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/eznix86/mockery-to-double-rector-plugin"
+packagist: "https://packagist.org/packages/eznix86/mockery-to-double-rector"
+stars: 1
+repo_updated_at: "2026-09-24T20:42:02Z"
+metadata_updated_at: "2026-09-25T00:59:30Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-25T00:59:30Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-25T00:59:30Z"
+discovery_queries:
+  - "packagist:rector rules"
