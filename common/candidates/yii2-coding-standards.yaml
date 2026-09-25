@@ -1,0 +1,26 @@
+slug: "yii2-coding-standards"
+name: "yii2-coding-standards"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "Coding standards for Yii 2 apps."
+website: "https://mito.hu"
+public_url: "https://mito.hu"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/hellowearemito/yii2-coding-standards"
+packagist: "https://packagist.org/packages/mito/yii2-coding-standards"
+stars: 4
+repo_updated_at: "2022-09-05T15:29:13Z"
+metadata_updated_at: "2026-09-25T06:42:19Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-25T06:42:19Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-25T06:42:19Z"
+discovery_queries:
+  - "packagist:phpcs standard"
