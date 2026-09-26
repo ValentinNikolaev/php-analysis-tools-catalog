@@ -1,0 +1,27 @@
+slug: "filament-phpstan-macros"
+name: "filament-phpstan-macros"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan and Larastan understand macros registered on Filament components."
+website: "https://happenv.com"
+public_url: "https://happenv.com"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/happenv-com/filament-phpstan-macros"
+packagist: "https://packagist.org/packages/happenv-com/filament-phpstan-macros"
+stars: 0
+repo_updated_at: "2026-09-24T20:49:27Z"
+metadata_updated_at: "2026-09-26T06:38:14Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-26T06:38:14Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-26T06:38:14Z"
+discovery_queries:
+  - "packagist:phpstan extension"
