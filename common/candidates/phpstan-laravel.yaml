@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/calebdw/phpstan-laravel"
 packagist: "https://packagist.org/packages/calebdw/phpstan-laravel"
 stars: 32
-repo_updated_at: "2026-09-21T16:52:33Z"
-metadata_updated_at: "2026-09-24T18:31:30Z"
+repo_updated_at: "2026-09-26T00:02:09Z"
+metadata_updated_at: "2026-09-26T00:58:34Z"
 quality_tags:
   - "phpstan"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T18:27:08Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-24T18:31:30Z"
+last_discovered_at: "2026-09-26T00:58:34Z"
 discovery_queries:
   - "packagist:phpstan extension"

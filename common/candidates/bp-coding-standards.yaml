@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/buddypress/bp-coding-standards"
 packagist: "https://packagist.org/packages/buddypress/bp-coding-standards"
-stars: 1
+stars: 2
 repo_updated_at: "2026-08-02T04:07:51Z"
-metadata_updated_at: "2026-09-24T18:31:30Z"
+metadata_updated_at: "2026-09-26T00:58:34Z"
 quality_tags:
   - "phpcs"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-29T12:30:49Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-24T18:31:30Z"
+last_discovered_at: "2026-09-26T00:58:34Z"
 discovery_queries:
   - "packagist:phpcs standard"

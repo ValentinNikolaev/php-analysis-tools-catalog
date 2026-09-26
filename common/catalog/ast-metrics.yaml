@@ -17,21 +17,21 @@ website: "http://ast-metrics.dev"
 public_url: "http://ast-metrics.dev"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-09-25T00:59:31Z"
+website_checked_at: "2026-09-26T00:58:35Z"
 website_error: ""
 repository: "https://github.com/ast-metrics/ast-metrics"
 latest_release_name: "v0.43.1"
 latest_release_tag: "v0.43.1"
 latest_release_url: "https://github.com/ast-metrics/ast-metrics/releases/tag/v0.43.1"
 latest_release_published_at: "2026-09-15T08:50:39Z"
-latest_release_checked_at: "2026-09-24T18:31:30Z"
+latest_release_checked_at: "2026-09-26T00:58:35Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-09-25T00:59:31Z"
+packagist_checked_at: "2026-09-26T00:58:35Z"
 stars: 158
 repo_updated_at: "2026-09-17T15:10:36Z"
-metadata_updated_at: "2026-09-24T18:31:30Z"
+metadata_updated_at: "2026-09-26T00:58:35Z"
 quality_tags:
   - "code-quality"
   - "static-analysis"
