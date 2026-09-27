@@ -1,0 +1,26 @@
+slug: "faustbrian-coding-standard"
+name: "coding-standard"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Opinionated PHP-CS-Fixer presets and custom fixers for modern PHP, with ready-to-use rule sets, a preconfigured finder, and architecture-focused rules."
+website: "https://github.com/faustbrian/coding-standard"
+public_url: "https://github.com/faustbrian/coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/faustbrian/coding-standard"
+packagist: "https://packagist.org/packages/cline/coding-standard"
+stars: 0
+repo_updated_at: "2026-07-15T00:46:04Z"
+metadata_updated_at: "2026-09-27T06:40:07Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-09-27T06:40:07Z"
+last_reviewed_at: null
+last_discovered_at: "2026-09-27T06:40:07Z"
+discovery_queries:
+  - "packagist:phpcs standard"
