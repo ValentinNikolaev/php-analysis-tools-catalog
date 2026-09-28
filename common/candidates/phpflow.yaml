@@ -1,28 +1,27 @@
-slug: "yii2-extensions-phpstan"
-name: "phpstan"
-category: "Bugs finders"
-artifact_type: "extension"
-description: "Enhanced static analysis for Yii2 applications with PHPStan. Precise type inference, dynamic method resolution, and comprehensive property reflection."
-website: "https://github.com/yii2-extensions/phpstan"
-public_url: "https://github.com/yii2-extensions/phpstan"
+slug: "phpflow"
+name: "phpflow"
+category: "Architecture rules"
+artifact_type: "analyzer"
+description: "Static flow analyzer for PHP applications — trace routes through messages, services, database effects and external HTTP calls without running the app."
+website: "https://github.com/patryyyck/phpflow"
+public_url: "https://github.com/patryyyck/phpflow"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/yii2-extensions/phpstan"
+repository: "https://github.com/patryyyck/phpflow"
 packagist: null
 stars: 21
-repo_updated_at: "2026-08-24T12:12:23Z"
+repo_updated_at: "2026-09-28T06:13:57Z"
 metadata_updated_at: "2026-09-28T06:56:04Z"
 quality_tags:
   - "php"
-  - "phpstan"
   - "static-analysis"
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-13T18:35:00Z"
+discovered_at: "2026-09-28T06:56:04Z"
 last_reviewed_at: null
 last_discovered_at: "2026-09-28T06:56:04Z"
 discovery_queries:
