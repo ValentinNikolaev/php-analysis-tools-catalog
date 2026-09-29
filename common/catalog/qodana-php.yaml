@@ -19,7 +19,7 @@ website: "https://www.jetbrains.com/qodana/"
 public_url: "https://www.jetbrains.com/qodana/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-09-28T01:07:57Z"
+website_checked_at: "2026-09-29T01:04:59Z"
 website_error: ""
 repository: null
 packagist: null
