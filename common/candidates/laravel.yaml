@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/ShieldCI/laravel"
 packagist: "https://packagist.org/packages/shieldci/laravel"
 stars: 2
-repo_updated_at: "2026-09-27T21:25:38Z"
-metadata_updated_at: "2026-09-28T01:07:56Z"
+repo_updated_at: "2026-09-29T04:04:10Z"
+metadata_updated_at: "2026-09-29T06:44:11Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-28T01:07:56Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-28T01:07:56Z"
+last_discovered_at: "2026-09-29T06:44:11Z"
 discovery_queries:
   - "packagist:static analysis"
