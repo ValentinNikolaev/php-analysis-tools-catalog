@@ -22,12 +22,12 @@ latest_release_name: "PHP 7.1 Support"
 latest_release_tag: "v1.1.0"
 latest_release_url: "https://github.com/cwi-swat/php-analysis/releases/tag/v1.1.0"
 latest_release_published_at: "2017-12-23T19:58:45Z"
-latest_release_checked_at: "2026-09-29T12:41:07Z"
+latest_release_checked_at: "2026-09-30T12:43:27Z"
 packagist: null
 packagist_checked_at: "2026-09-30T01:06:22Z"
 stars: 28
 repo_updated_at: "2026-09-22T19:31:30Z"
-metadata_updated_at: "2026-09-29T12:41:07Z"
+metadata_updated_at: "2026-09-30T12:43:27Z"
 quality_tags: []
 source: "README.md"
 notes: ""
