@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/gplanchat/durable-rector"
 packagist: "https://packagist.org/packages/gplanchat/durable-rector"
 stars: 0
-repo_updated_at: "2026-09-30T01:33:14Z"
-metadata_updated_at: "2026-09-30T12:43:26Z"
+repo_updated_at: "2026-10-01T15:18:36Z"
+metadata_updated_at: "2026-10-01T18:34:53Z"
 quality_tags:
   - "php"
   - "rector"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-04T06:39:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-30T12:43:26Z"
+last_discovered_at: "2026-10-01T18:34:53Z"
 discovery_queries:
   - "packagist:rector rules"

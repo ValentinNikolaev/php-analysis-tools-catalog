@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/phpstan/phpstan-dibi"
 packagist: null
 stars: 16
-repo_updated_at: "2026-09-25T03:29:00Z"
-metadata_updated_at: "2026-09-30T12:43:26Z"
+repo_updated_at: "2026-10-01T05:58:48Z"
+metadata_updated_at: "2026-10-01T18:34:53Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-09-30T12:43:26Z"
+last_discovered_at: "2026-10-01T18:34:53Z"
 discovery_queries:
   - "PHPStan extension stars:>10"
