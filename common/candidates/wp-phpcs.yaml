@@ -1,25 +1,25 @@
-slug: "magicsunday-coding-standard"
-name: "coding-standard"
+slug: "wp-phpcs"
+name: "wp-phpcs"
 category: "Coding standards"
-artifact_type: "analyzer"
-description: "Shared coding-standard, static-analysis, test and CI configuration for the magicsunday/* projects"
-website: "https://github.com/magicsunday/coding-standard"
-public_url: "https://github.com/magicsunday/coding-standard"
+artifact_type: "ruleset"
+description: "rtCamp PHP_CodeSniffer standards for WordPress projects (rtCampWP + rtCampWP-Basic)."
+website: "https://github.com/rtCamp/wp-phpcs"
+public_url: "https://github.com/rtCamp/wp-phpcs"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/magicsunday/coding-standard"
-packagist: "https://packagist.org/packages/magicsunday/coding-standard"
+repository: "https://github.com/rtCamp/wp-phpcs"
+packagist: "https://packagist.org/packages/rtcamp/wp-phpcs"
 stars: 0
-repo_updated_at: "2026-10-01T20:20:06Z"
+repo_updated_at: "2026-10-01T18:23:44Z"
 metadata_updated_at: "2026-10-02T06:43:52Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-09-27T18:30:02Z"
+discovered_at: "2026-10-02T06:43:52Z"
 last_reviewed_at: null
 last_discovered_at: "2026-10-02T06:43:52Z"
 discovery_queries:
