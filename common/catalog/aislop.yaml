@@ -17,7 +17,7 @@ website: "https://scanaislop.com"
 public_url: "https://scanaislop.com"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-01T01:13:51Z"
+website_checked_at: "2026-10-02T01:03:38Z"
 website_error: ""
 repository: "https://github.com/scanaislop/aislop"
 latest_release_name: "v0.16.1"
@@ -28,7 +28,7 @@ latest_release_checked_at: "2026-10-01T18:34:53Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-01T01:13:51Z"
+packagist_checked_at: "2026-10-02T01:03:38Z"
 stars: 660
 repo_updated_at: "2026-09-30T02:35:39Z"
 metadata_updated_at: "2026-10-01T18:34:53Z"
