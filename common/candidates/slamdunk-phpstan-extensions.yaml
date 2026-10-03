@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/Slamdunk/phpstan-extensions"
 packagist: null
 stars: 72
-repo_updated_at: "2026-10-01T17:37:09Z"
-metadata_updated_at: "2026-10-01T18:34:53Z"
+repo_updated_at: "2026-10-01T20:43:41Z"
+metadata_updated_at: "2026-10-03T01:00:54Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-10T18:33:41Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-01T18:34:53Z"
+last_discovered_at: "2026-10-03T01:00:54Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

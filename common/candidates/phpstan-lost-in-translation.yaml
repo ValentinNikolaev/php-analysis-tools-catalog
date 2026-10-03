@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/jbboehr/phpstan-lost-in-translation"
 packagist: "https://packagist.org/packages/jbboehr/phpstan-lost-in-translation"
 stars: 2
-repo_updated_at: "2026-09-03T04:34:17Z"
-metadata_updated_at: "2026-10-01T18:34:53Z"
+repo_updated_at: "2026-10-01T23:28:21Z"
+metadata_updated_at: "2026-10-03T01:00:54Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T06:27:48Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-01T18:34:53Z"
+last_discovered_at: "2026-10-03T01:00:54Z"
 discovery_queries:
   - "packagist:phpstan extension"

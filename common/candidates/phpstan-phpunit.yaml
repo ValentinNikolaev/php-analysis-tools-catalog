@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/phpstan/phpstan-phpunit"
 packagist: "https://packagist.org/packages/phpstan/phpstan-phpunit"
 stars: 545
-repo_updated_at: "2026-10-01T12:03:41Z"
-metadata_updated_at: "2026-10-01T18:34:53Z"
+repo_updated_at: "2026-10-02T04:15:07Z"
+metadata_updated_at: "2026-10-03T01:00:54Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-08T00:00:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-01T18:34:53Z"
+last_discovered_at: "2026-10-03T01:00:54Z"
 discovery_queries:
   - "packagist:phpstan extension"
