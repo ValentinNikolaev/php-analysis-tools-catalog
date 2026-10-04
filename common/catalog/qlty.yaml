@@ -30,21 +30,21 @@ successor_of: "code-climate"
 reviewed_at: "2026-08-08"
 website: "https://qlty.sh/"
 public_url: "https://qlty.sh/"
-website_status: "available"
-website_status_code: 200
-website_checked_at: "2026-10-03T01:00:55Z"
-website_error: ""
+website_status: "bot_blocked"
+website_status_code: 403
+website_checked_at: "2026-10-04T01:33:12Z"
+website_error: "HTTP 403"
 repository: "https://github.com/qltysh/qlty"
 latest_release_name: "Release v0.651.0"
 latest_release_tag: "v0.651.0"
 latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.651.0"
 latest_release_published_at: "2026-10-01T16:52:46Z"
-latest_release_checked_at: "2026-10-03T01:00:55Z"
+latest_release_checked_at: "2026-10-04T01:33:12Z"
 packagist: null
-packagist_checked_at: "2026-10-03T01:00:55Z"
-stars: 3175
+packagist_checked_at: "2026-10-04T01:33:12Z"
+stars: 3176
 repo_updated_at: "2026-10-02T16:55:24Z"
-metadata_updated_at: "2026-10-03T01:00:55Z"
+metadata_updated_at: "2026-10-04T01:33:12Z"
 quality_tags:
   - "code-quality"
   - "php"
