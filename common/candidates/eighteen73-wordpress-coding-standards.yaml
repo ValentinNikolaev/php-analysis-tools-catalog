@@ -1,25 +1,25 @@
-slug: "fabianblum-phpcs-psr4-sniff"
-name: "phpcs-psr4-sniff"
+slug: "eighteen73-wordpress-coding-standards"
+name: "wordpress-coding-standards"
 category: "Coding standards"
 artifact_type: "ruleset"
-description: "[READ-ONLY] PHP_CodeSniffer sniff that checks class name matches PSR-4 project structure. (PHP 8.3 Ready) "
-website: "https://github.com/fabianblum/phpcs-psr4-sniff"
-public_url: "https://github.com/fabianblum/phpcs-psr4-sniff"
+description: "A collection of packages for eighteen73 coding standards and tools for WordPress projects."
+website: "https://github.com/eighteen73/wordpress-coding-standards"
+public_url: "https://github.com/eighteen73/wordpress-coding-standards"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
 website_error: ""
-repository: "https://github.com/fabianblum/phpcs-psr4-sniff"
-packagist: "https://packagist.org/packages/fabianblum/phpcs-psr4-sniff"
+repository: "https://github.com/eighteen73/wordpress-coding-standards"
+packagist: "https://packagist.org/packages/eighteen73/wordpress-coding-standards"
 stars: 1
-repo_updated_at: "2024-09-03T12:21:01Z"
+repo_updated_at: "2026-08-04T14:07:11Z"
 metadata_updated_at: "2026-10-05T07:01:01Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
 review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
-discovered_at: "2026-08-29T06:34:25Z"
+discovered_at: "2026-10-05T07:01:01Z"
 last_reviewed_at: null
 last_discovered_at: "2026-10-05T07:01:01Z"
 discovery_queries:

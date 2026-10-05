@@ -24,14 +24,14 @@ latest_release_name: "v0.17.0"
 latest_release_tag: "v0.17.0"
 latest_release_url: "https://github.com/scanaislop/aislop/releases/tag/v0.17.0"
 latest_release_published_at: "2026-10-02T22:07:09Z"
-latest_release_checked_at: "2026-10-04T01:33:12Z"
+latest_release_checked_at: "2026-10-05T07:01:03Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-10-05T01:09:40Z"
-stars: 666
+stars: 667
 repo_updated_at: "2026-10-03T18:19:52Z"
-metadata_updated_at: "2026-10-04T01:33:12Z"
+metadata_updated_at: "2026-10-05T07:01:03Z"
 quality_tags:
   - "code-quality"
   - "php"

@@ -11,8 +11,8 @@ Tools that inspect PHP code without running it to identify type errors, defects,
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [PHPStan](https://github.com/phpstan/phpstan)<br><sub>⭐ 14,120</sub> | PHP applications that need configurable type-safety checks and a broad extension ecosystem | Rule levels, baselines, and framework extensions support both gradual adoption and deep type analysis. |
-| [psalm](https://psalm.dev)<br><sub>⭐ 5,896</sub> | Projects needing advanced type modelling, taint analysis, and security checks | An expressive type system and taint engine cover correctness and application-security problems. |
+| [PHPStan](https://github.com/phpstan/phpstan)<br><sub>⭐ 14,121</sub> | PHP applications that need configurable type-safety checks and a broad extension ecosystem | Rule levels, baselines, and framework extensions support both gradual adoption and deep type analysis. |
+| [psalm](https://psalm.dev)<br><sub>⭐ 5,897</sub> | Projects needing advanced type modelling, taint analysis, and security checks | An expressive type system and taint engine cover correctness and application-security problems. |
 
 ## Coding standards
 
@@ -54,4 +54,4 @@ Wrappers, baseliners, multi-language engines, and focused analysis tools that do
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,855</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
+| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,874</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
