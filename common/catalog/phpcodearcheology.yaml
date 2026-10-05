@@ -17,7 +17,7 @@ website: "https://phpcodearcheology.github.io"
 public_url: "https://phpcodearcheology.github.io"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-04T01:33:12Z"
+website_checked_at: "2026-10-05T01:09:40Z"
 website_error: ""
 repository: "https://github.com/PhpCodeArcheology/PhpCodeArcheology"
 latest_release_name: "v2.11.2"
@@ -28,7 +28,7 @@ latest_release_checked_at: "2026-10-04T01:33:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-04T01:33:12Z"
+packagist_checked_at: "2026-10-05T01:09:40Z"
 stars: 92
 repo_updated_at: "2026-10-03T07:42:41Z"
 metadata_updated_at: "2026-10-04T01:33:12Z"
