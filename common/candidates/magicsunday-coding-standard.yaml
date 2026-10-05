@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/magicsunday/coding-standard"
 packagist: "https://packagist.org/packages/magicsunday/coding-standard"
 stars: 0
-repo_updated_at: "2026-10-03T20:58:49Z"
-metadata_updated_at: "2026-10-04T08:21:21Z"
+repo_updated_at: "2026-10-05T08:24:47Z"
+metadata_updated_at: "2026-10-05T12:41:58Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-27T18:30:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-04T08:21:21Z"
+last_discovered_at: "2026-10-05T12:41:58Z"
 discovery_queries:
   - "packagist:phpcs standard"
