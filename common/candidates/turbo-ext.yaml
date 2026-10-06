@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/phpstan/turbo-ext"
 packagist: null
 stars: 33
-repo_updated_at: "2026-10-04T19:31:07Z"
-metadata_updated_at: "2026-10-05T07:01:01Z"
+repo_updated_at: "2026-10-06T06:07:17Z"
+metadata_updated_at: "2026-10-06T12:39:30Z"
 quality_tags: []
 source: "github-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-14T18:33:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-05T07:01:01Z"
+last_discovered_at: "2026-10-06T12:39:30Z"
 discovery_queries:
   - "PHPStan extension stars:>10"
