@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/sorge-it/phpunit-pest-html-assertions"
 packagist: "https://packagist.org/packages/sorge-it/phpunit-pest-html-assertions"
 stars: 0
-repo_updated_at: "2026-10-05T10:33:24Z"
-metadata_updated_at: "2026-10-05T12:41:58Z"
+repo_updated_at: "2026-10-06T17:42:08Z"
+metadata_updated_at: "2026-10-06T18:33:35Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-05T12:41:58Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-05T12:41:58Z"
+last_discovered_at: "2026-10-06T18:33:35Z"
 discovery_queries:
   - "packagist:rector rules"
