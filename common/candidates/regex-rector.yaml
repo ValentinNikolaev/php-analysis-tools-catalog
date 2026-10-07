@@ -1,0 +1,29 @@
+slug: "regex-rector"
+name: "regex-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "[READ-ONLY] Rector rules that rewrite preg_* calls into the string functions the automata prove they match. Split of php-regex/php-regex."
+website: "https://github.com/php-regex/php-regex"
+public_url: "https://github.com/php-regex/php-regex"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/php-regex/regex-rector"
+packagist: "https://packagist.org/packages/php-regex/regex-rector"
+stars: 0
+repo_updated_at: "2026-10-07T13:29:28Z"
+metadata_updated_at: "2026-10-07T18:34:55Z"
+quality_tags:
+  - "php"
+  - "rector"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-07T18:34:55Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-07T18:34:55Z"
+discovery_queries:
+  - "packagist:rector rules"
