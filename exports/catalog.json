@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-10-08T12:41:33Z",
+  "as_of": "2026-10-08T18:34:33Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "c43a75b2d2ca6359bb26c02d4e1314499c0dfc2b",
+  "source_commit": "ad76d423a3d57ecdd13daaac6f708819b6bcfb87",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
@@ -2949,7 +2949,7 @@
       "latest_release_checked_at": "2026-10-08T12:41:34Z",
       "latest_version": "",
       "latest_version_released_at": null,
-      "lifecycle": "Quiet",
+      "lifecycle": "Inactive",
       "metadata_updated_at": "2026-10-08T12:41:34Z",
       "name": "PHP Static Type Checker",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
