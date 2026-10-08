@@ -1,0 +1,28 @@
+slug: "crucible"
+name: "crucible"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: " Independent test framework for PHP 8.3+. Runs PHPUnit and Pest suites unchanged, with zero Composer dependencies. Change-based test selection, flaky-test classification, property testing, a browser tier and Vitest in one run."
+website: "https://www.cruciblephp.com"
+public_url: "https://www.cruciblephp.com"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/cruciblephp/crucible"
+packagist: "https://packagist.org/packages/cruciblephp/crucible"
+stars: 3
+repo_updated_at: "2026-10-07T21:20:42Z"
+metadata_updated_at: "2026-10-08T06:45:53Z"
+quality_tags:
+  - "php"
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-08T06:45:53Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-08T06:45:53Z"
+discovery_queries:
+  - "packagist:phpstan extension"
