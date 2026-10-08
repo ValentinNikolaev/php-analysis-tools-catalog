@@ -28,7 +28,7 @@ Ready-to-use tools that enforce dependency boundaries and architectural constrai
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [Deptrac](https://github.com/sensiolabs-de/deptrac.git)<br><sub>⭐ 3,033</sub> | Layered applications and modular monoliths that enforce dependency boundaries in CI | Dependency rules convert intended architecture boundaries into repeatable CI checks. |
+| [Deptrac](https://github.com/sensiolabs-de/deptrac.git)<br><sub>⭐ 3,034</sub> | Layered applications and modular monoliths that enforce dependency boundaries in CI | Dependency rules convert intended architecture boundaries into repeatable CI checks. |
 
 ## Libraries and building blocks
 
@@ -54,4 +54,4 @@ Wrappers, baseliners, multi-language engines, and focused analysis tools that do
 
 | Tool | Recommended for | Why it stands out |
 |---|---|---|
-| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,915</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |
+| [Semgrep](https://semgrep.dev)<br><sub>⭐ 16,927</sub> | Security teams writing custom checks for PHP and polyglot repositories | Source-like patterns make custom bug and security checks accessible across multiple languages. |

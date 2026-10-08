@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/FriendsOfREDAXO/rexstan"
 packagist: null
 stars: 41
-repo_updated_at: "2026-10-06T01:23:12Z"
-metadata_updated_at: "2026-10-07T12:41:29Z"
+repo_updated_at: "2026-10-08T04:05:33Z"
+metadata_updated_at: "2026-10-08T12:41:33Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-07T12:41:29Z"
+last_discovered_at: "2026-10-08T12:41:33Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"
