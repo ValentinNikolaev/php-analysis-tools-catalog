@@ -13,7 +13,7 @@ repository: "https://github.com/php-regex/regex-rector"
 packagist: "https://packagist.org/packages/php-regex/regex-rector"
 stars: 0
 repo_updated_at: "2026-10-07T13:29:28Z"
-metadata_updated_at: "2026-10-07T18:34:55Z"
+metadata_updated_at: "2026-10-09T01:08:21Z"
 quality_tags:
   - "php"
   - "rector"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-07T18:34:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-07T18:34:55Z"
+last_discovered_at: "2026-10-09T01:08:21Z"
 discovery_queries:
   - "packagist:rector rules"

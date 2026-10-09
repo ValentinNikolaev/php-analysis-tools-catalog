@@ -23,7 +23,7 @@ website: "https://insight.symfony.com/"
 public_url: "https://insight.symfony.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-08T01:06:09Z"
+website_checked_at: "2026-10-09T01:08:22Z"
 website_error: ""
 repository: null
 packagist: null
