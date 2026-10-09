@@ -25,12 +25,12 @@ latest_release_name: "HHVM-3.15.0"
 latest_release_tag: "HHVM-3.15.0"
 latest_release_url: "https://github.com/facebook/hhvm/releases/tag/HHVM-3.15.0"
 latest_release_published_at: "2016-09-28T21:01:13Z"
-latest_release_checked_at: "2026-10-08T12:41:34Z"
+latest_release_checked_at: "2026-10-09T18:32:58Z"
 packagist: null
 packagist_checked_at: "2026-10-09T01:08:22Z"
-stars: 18665
-repo_updated_at: "2026-10-08T04:27:00Z"
-metadata_updated_at: "2026-10-08T12:41:34Z"
+stars: 18666
+repo_updated_at: "2026-10-09T17:40:46Z"
+metadata_updated_at: "2026-10-09T18:32:58Z"
 quality_tags:
   - "historical-analysis-only"
   - "php"

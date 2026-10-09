@@ -25,14 +25,14 @@ latest_release_name: "PHPMD 3.0.0"
 latest_release_tag: "3.0.0"
 latest_release_url: "https://github.com/phpmd/phpmd/releases/tag/3.0.0"
 latest_release_published_at: "2026-10-04T13:38:45Z"
-latest_release_checked_at: "2026-10-08T12:41:34Z"
+latest_release_checked_at: "2026-10-09T18:32:58Z"
 packagist: "https://packagist.org/packages/phpmd/phpmd"
 latest_version: "3.0.0"
 latest_version_released_at: "2026-10-04T13:20:01+00:00"
 packagist_checked_at: "2026-10-09T01:08:22Z"
-stars: 2463
+stars: 2464
 repo_updated_at: "2026-10-04T13:38:45Z"
-metadata_updated_at: "2026-10-08T12:41:34Z"
+metadata_updated_at: "2026-10-09T18:32:58Z"
 quality_tags:
   - "php"
   - "static-analysis"
