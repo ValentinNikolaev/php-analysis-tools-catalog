@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-10-10T06:41:24Z",
+  "as_of": "2026-10-10T12:36:21Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "c53726fc77c7a7727e950964a6ec76802d5518ef",
+  "source_commit": "158f58a8042237062d270d87a7c21c45d063a5a4",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
@@ -4812,7 +4812,7 @@
       "latest_version": "1.11.0",
       "latest_version_released_at": "2026-07-11T13:41:04+00:00",
       "license": "MIT",
-      "lifecycle": "Active",
+      "lifecycle": "Quiet",
       "metadata_updated_at": "2026-10-09T18:32:58Z",
       "name": "Static Analysis Results Baseliner",
       "notes": "Imported from Exakat's PHP static-analysis tools catalog after active-project verification.",
