@@ -35,7 +35,7 @@ SITE_SOURCE = ROOT / "site"
 EXPORT_SOURCE = ROOT / "exports"
 EXPORT_FILENAMES = ("catalog.json", "catalog.csv", "build-manifest.json")
 INITIAL_CATALOG_CARD_COUNT = 12
-SITE_JS_VERSION = 7
+SITE_JS_VERSION = 8
 DEFAULT_OUTPUT = ROOT / "site-dist"
 BUILD_MARKER = ".php-analysis-tools-site-build"
 REPOSITORY_URL = "https://github.com/ValentinNikolaev/php-analysis-tools-catalog"
@@ -343,7 +343,7 @@ def tradeoffs(tool: dict, name: str, *, inline: bool = False) -> str:
   <p class="tradeoff tradeoff--con"><strong>Con</strong><span>{escape(con)}</span></p>
   {evidence_links(tool, name)}""".strip()
     if inline:
-        return f'<div class="tradeoffs tradeoffs--inline" aria-label="Pros and cons for {escape(name)}">{content}</div>'
+        return f'<div class="tradeoffs tradeoffs--inline" role="group" aria-label="Pros and cons for {escape(name)}">{content}</div>'
     return f"""
 <details class="tradeoffs">
   <summary>Quick pros &amp; cons<span class="visually-hidden"> for {escape(name)}</span></summary>
@@ -451,7 +451,7 @@ def tool_card(
   {review_note(tool)}
   {f'<p class="availability-note">Official website currently unavailable</p>' if website_unavailable else ''}
   <div class="tool-card__footer">
-    <div class="resource-links" aria-label="Resources for {escape(name)}">{resource_links(tool, name)}</div>
+    <div class="resource-links" role="group" aria-label="Resources for {escape(name)}">{resource_links(tool, name)}</div>
     {compare_button}
   </div>
 </article>""".strip()
@@ -678,6 +678,7 @@ def validate_output(output: Path) -> None:
         output / "404.html",
         output / "assets" / "site.css",
         output / "assets" / "site.js",
+        output / "assets" / "theme.js",
         output / "assets" / "favicon.svg",
         output / "assets" / "social-preview.svg",
     )

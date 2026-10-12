@@ -127,13 +127,14 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertEqual(
             parser.scripts,
             [
+                "assets/theme.js?v=1",
                 f"assets/site.js?v={SITE_JS_VERSION}",
                 "https://static.cloudflareinsights.com/beacon.min.js",
             ],
         )
-        self.assertEqual(parser.script_attributes[1].get("type"), "module")
+        self.assertEqual(parser.script_attributes[2].get("type"), "module")
         self.assertEqual(
-            parser.script_attributes[1].get("data-cf-beacon"),
+            parser.script_attributes[2].get("data-cf-beacon"),
             '{"token":"1bc156f61a6c4baab33e1f9a082f72d4"}',
         )
 
@@ -165,9 +166,9 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn('<details class="site-nav__disclosure" open>', index)
         self.assertIn('<summary class="site-nav__summary">Menu</summary>', index)
         self.assertIn('<div class="site-nav__links">', index)
-        self.assertIn('name="theme-color" content="#f7f7fb"', index)
-        self.assertIn('name="theme-color" content="#0f1020"', index)
-        self.assertIn('href="assets/site.css?v=7"', index)
+        self.assertIn('name="theme-color" content="#f6f7f4"', index)
+        self.assertIn('name="theme-color" content="#101c23"', index)
+        self.assertIn('href="assets/site.css?v=8"', index)
 
     def test_client_filters_persist_all_facets_and_support_a_mobile_panel(self) -> None:
         script = (ROOT / "site" / "assets" / "site.js").read_text(encoding="utf-8")
@@ -291,7 +292,7 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn("deferredMemorial.content.getElementById(id)", script)
         self.assertIn("hydrateMemorial();", script)
         self.assertIn("const revealHashTarget = (fragment = window.location.hash)", script)
-        self.assertIn('window.addEventListener("hashchange", () => revealHashTarget())', script)
+        self.assertRegex(script, r'window\.addEventListener\("hashchange", \(\) => \{\s+revealHashTarget\(\)')
         self.assertIn("if (target.hidden)", script)
         self.assertIn("form.reset();", script)
         self.assertIn('target.scrollIntoView({ block: "start" })', script)
@@ -399,7 +400,7 @@ class GenerateSiteTests(unittest.TestCase):
             build_site(output, reference_time=self.REFERENCE_TIME, base_path="/preview")
             not_found = (output / "404.html").read_text(encoding="utf-8")
 
-        self.assertIn('href="/preview/assets/site.css?v=7"', not_found)
+        self.assertIn('href="/preview/assets/site.css?v=8"', not_found)
         self.assertIn('href="/preview/"', not_found)
         self.assertEqual(normalize_base_path("/preview"), "/preview/")
         with self.assertRaisesRegex(ValueError, "absolute URL path"):

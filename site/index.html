@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A searchable catalog of PHP static-analysis, code-quality, architecture, metrics, and refactoring tools.">
-  <meta name="theme-color" content="#f7f7fb" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f1020" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101c23" media="(prefers-color-scheme: dark)">
   <meta property="og:type" content="website">
   <meta property="og:title" content="PHP Analysis Tools Catalog">
   <meta property="og:description" content="Find and compare maintained PHP analysis tools by category, activity, stars, and release data.">
@@ -20,7 +20,8 @@
   <meta name="twitter:image" content="{{CANONICAL_URL}}assets/social-preview.png">
   <link rel="canonical" href="{{CANONICAL_URL}}">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/site.css?v=7">
+  <script src="assets/theme.js?v=1"></script>
+  <link rel="stylesheet" href="assets/site.css?v=8">
   <title>PHP Analysis Tools Catalog</title>
 </head>
 <body>
@@ -36,12 +37,12 @@
         <details class="site-nav__disclosure" open>
           <summary class="site-nav__summary">Menu</summary>
           <div class="site-nav__links">
-            <a href="#editors-choice">Editors’ Choice</a>
             <a href="#catalog">Catalog</a>
+            <a href="#editors-choice">Editors’ Choice</a>
             <a href="#hosted-services">Hosted services</a>
             <a href="#methodology">Methodology</a>
-            <a href="{{TOOL_PROPOSAL_URL}}">Submit a tool<span aria-hidden="true"> ↗</span></a>
             <a href="{{REPOSITORY_URL}}" aria-label="Open the PHP Analysis Tools Catalog source repository">GitHub<span aria-hidden="true"> ↗</span></a>
+            <button class="theme-toggle" type="button" hidden>Theme: System</button>
           </div>
         </details>
       </nav>
@@ -51,12 +52,12 @@
   <main id="main-content">
     <section class="hero shell" aria-labelledby="page-title">
       <div class="hero__content">
-        <p class="kicker">Maintainer-curated PHP tooling index</p>
-        <h1 id="page-title">Choose the right analysis tool for your PHP codebase.</h1>
-        <p class="hero__lede">Explore static analyzers, coding-standard tools, architecture guards, metrics, refactoring utilities, and hosted services in one current, searchable catalog.</p>
+        <p class="kicker">The PHP tooling catalog</p>
+        <h1 id="page-title">Find the right tools for your PHP codebase.</h1>
+        <p class="hero__lede">Compare analyzers, formatters, and refactoring tools. Search by task or framework, check the trade-offs, and build your quality toolkit.</p>
         <div class="hero__actions">
           <a class="button button--primary" href="#catalog">Browse all tools</a>
-          <a class="button button--secondary" href="{{TOOL_PROPOSAL_URL}}">Submit a tool</a>
+          <a class="button button--secondary" href="#editors-choice">Editor picks ↓</a>
         </div>
         <p class="hero__update">Catalog freshness: <strong>{{FRESH_COUNT}}/{{FRESH_TOTAL}} records</strong> refreshed within 7 days as of <time datetime="{{AS_OF_DATE}}">{{AS_OF_DATE}}</time>.</p>
       </div>
@@ -72,17 +73,10 @@
       <div class="shell">
         <div class="section-heading">
           <div>
-            <p class="kicker">Search installable tools</p>
+            <p class="kicker">Explore the catalog</p>
             <h2 id="catalog-title">Tools and packages</h2>
           </div>
-          <p>Installable analyzers, packages, plugins, and command-line tools come first. Recommended order prioritizes editorial relevance; repository activity remains a separate signal.</p>
-        </div>
-
-        <div class="catalog-mobile-bar">
-          <span id="catalog-mobile-results">{{TOOL_COUNT}} tools</span>
-          <button class="button button--quiet" id="catalog-filter-toggle" type="button" aria-expanded="false" aria-controls="catalog-filter-panel">
-            Filters · <span id="catalog-filter-count">0</span>
-          </button>
+          <p>Find tools for your workflow. Start with a category, or search by name, framework, or capability.</p>
         </div>
 
         <form class="catalog-controls" id="catalog-controls" role="search" aria-label="Filter the tool catalog">
@@ -91,7 +85,11 @@
               <label for="catalog-search">Search tools</label>
               <input id="catalog-search" name="q" type="search" placeholder="Try “security”, “Laravel”, or “metrics”" autocomplete="off">
             </div>
+            <button class="button button--quiet" id="catalog-filter-toggle" type="button" aria-expanded="false" aria-controls="catalog-filter-panel" hidden>
+              Filters · <span id="catalog-filter-count">0</span>
+            </button>
           </div>
+          <p class="catalog-mobile-results" id="catalog-mobile-results">{{TOOL_COUNT}} tools</p>
           <div class="catalog-filter-panel" id="catalog-filter-panel">
             <div class="control">
               <label for="catalog-category">Category</label>
@@ -159,9 +157,18 @@
           </div>
         </form>
 
+        <div class="category-shortcuts" role="group" aria-label="Browse popular tool categories" hidden>
+          <span>Browse by task</span>
+          <button type="button" data-catalog-category="" aria-pressed="true">All categories</button>
+          <button type="button" data-catalog-category="bug-finders" aria-pressed="false">Find bugs</button>
+          <button type="button" data-catalog-category="coding-standards" aria-pressed="false">Coding standards</button>
+          <button type="button" data-catalog-category="fixers" aria-pressed="false">Fix &amp; refactor</button>
+          <button type="button" data-catalog-category="architecture-rules" aria-pressed="false">Architecture</button>
+        </div>
+
         <div class="catalog-summary" aria-live="polite" aria-atomic="true">
           <p id="catalog-results">Showing {{TOOL_COUNT}} tools</p>
-          <p class="catalog-summary__hint">Default order: current editorial picks, then other current tools. Search covers descriptions, tags, ecosystems, capabilities, and trade-offs. <a href="#tool-grid">Jump to results ↓</a></p>
+          <p class="catalog-summary__hint">Recommended order: editor picks first. <a href="#tool-grid">Jump to results ↓</a></p>
         </div>
 
         <noscript>
@@ -169,24 +176,32 @@
         </noscript>
 
         <section class="editor-picks" id="editors-choice" aria-labelledby="editors-title">
-          <div class="section-heading section-heading--compact">
-            <div>
-              <p class="kicker">A practical starting point</p>
-              <h2 id="editors-title">Editors’ Choice</h2>
+          <details class="editor-picks__disclosure">
+            <summary>
+              <span><strong id="editors-title">Editors’ Choice</strong><span class="editor-picks__summary-note">A curated starting point for each task</span></span>
+              <span class="editor-picks__count">{{EDITOR_COUNT}} picks</span>
+            </summary>
+            <div class="editor-picks__content">
+              <div class="section-heading section-heading--compact">
+                <div>
+                  <p class="kicker">A practical starting point</p>
+                  <h2>Meet the editor picks</h2>
+                </div>
+                <p>One maintainer-curated starting point per category. The full set remains available below, with repository data and evidence-backed trade-offs.</p>
+              </div>
+              <div class="editor-grid editor-grid--featured">
+                {{EDITOR_FEATURED_CARDS}}
+              </div>
+              {{EDITOR_MORE_SECTION}}
             </div>
-            <p>One maintainer-curated starting point per category. The full set remains available below, with repository data and evidence-backed trade-offs.</p>
-          </div>
-          <div class="editor-grid editor-grid--featured">
-            {{EDITOR_FEATURED_CARDS}}
-          </div>
-          {{EDITOR_MORE_SECTION}}
+          </details>
         </section>
 
         <div class="catalog-list-heading">
           <h2>All installable tools</h2>
           <a class="text-link" href="{{TOOL_PROPOSAL_URL}}">Submit a missing tool<span aria-hidden="true"> ↗</span></a>
         </div>
-        <div class="tool-grid" id="tool-grid" aria-label="Filtered tool results">
+        <div class="tool-grid" id="tool-grid" role="region" aria-label="Filtered tool results">
           {{TOOL_CARDS}}
         </div>
         <div class="empty-state" id="catalog-empty" hidden>
@@ -218,7 +233,7 @@
             </form>
           </div>
           <p class="compare-dialog__hint">Catalog fields are a starting point. Verify compatibility, license terms, and current documentation with each project.</p>
-          <div class="comparison-table-wrap" id="compare-content"></div>
+          <div class="comparison-table-wrap" id="compare-content" tabindex="0" role="region" aria-label="Tool comparison table; scroll horizontally to see all tools"></div>
         </dialog>
       </div>
     </section>
@@ -297,7 +312,7 @@
     <div class="shell site-footer__inner">
       <p>PHP Analysis Tools Catalog</p>
       <p>Generated from public repository metadata. Verify tool compatibility and licensing with each project. This site uses <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics</a> for aggregate traffic measurement.</p>
-      <div class="footer-links" aria-label="Catalog policies and downloads">
+      <div class="footer-links" role="group" aria-label="Catalog policies and downloads">
         <a href="{{REPOSITORY_URL}}/blob/master/EDITORIAL-POLICY.md">Editorial policy</a>
         <a href="{{REPOSITORY_URL}}/blob/master/LICENSE">Code license</a>
         <a href="{{REPOSITORY_URL}}/blob/master/DATA-LICENSE.md">Data license</a>
