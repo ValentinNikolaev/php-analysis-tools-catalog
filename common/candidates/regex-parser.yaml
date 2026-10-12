@@ -1,10 +1,10 @@
 slug: "regex-parser"
-name: "regex-parser"
+name: "PHPRegex"
 category: "DIY"
 artifact_type: "library"
-description: "RegexParser: Static Analysis, Linter & Logic Solver for PHP"
-website: "https://github.com/yoeunes/regex-parser/blob/main/README.md"
-public_url: "https://github.com/yoeunes/regex-parser/blob/main/README.md"
+description: "PHPRegex: static analysis, linter & logic solver for PHP regular expressions"
+website: "https://php-regex.com"
+public_url: "https://php-regex.com"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
