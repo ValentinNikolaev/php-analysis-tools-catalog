@@ -35,6 +35,9 @@ Build the site locally into a disposable directory:
 python scripts/generate_site.py --output site-dist
 ```
 
+For the static category/tool routes, selection-guide sources, sitemap, and
+account-side search-engine setup, see [Search indexing](docs/search-indexing.md).
+
 ## Catalog Changes
 
 `common/catalog/*.yaml` is the source of truth for published catalog entries.

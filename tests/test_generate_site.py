@@ -171,7 +171,7 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertIn('<div class="site-nav__links">', index)
         self.assertIn('name="theme-color" content="#f6f7f4"', index)
         self.assertIn('name="theme-color" content="#101c23"', index)
-        self.assertIn('href="assets/site.css?v=8"', index)
+        self.assertIn('href="assets/site.css?v=9"', index)
 
     def test_client_filters_persist_all_facets_and_support_a_mobile_panel(self) -> None:
         script = (ROOT / "site" / "assets" / "site.js").read_text(encoding="utf-8")

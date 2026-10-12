@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "phpstan-vs-psalm",
+    "title": "PHPStan vs Psalm: choosing a PHP static analyzer",
+    "description": "Compare gradual type checking, framework support, taint analysis, and adoption costs when choosing PHPStan or Psalm.",
+    "sections": [
+      {
+        "heading": "Start with the checks your application needs",
+        "paragraphs": [
+          "Both tools analyze PHP source to find type errors and bugs. The useful comparison is how well each understands your application and how much configuration and annotation work the team can maintain.",
+          "Try one analyzer on a representative module before adding it to CI. Include framework integrations, database access, and dynamic code; review whether findings describe defects you can act on. This is the catalog's suggested evaluation approach, rather than a performance ranking."
+        ],
+        "tools": ["php-stan", "psalm"]
+      },
+      {
+        "heading": "PHPStan: gradual checks and framework extensions",
+        "paragraphs": [
+          "PHPStan offers cumulative rule levels so teams can increase strictness gradually. A baseline can separate existing findings from new ones while the team improves the codebase.",
+          "Framework extensions help PHPStan understand conventions that ordinary PHP types do not describe. Check extension compatibility before choosing the analyzer version for a Laravel, Symfony, or Doctrine project. Higher strictness can require additional type information and configuration."
+        ],
+        "tools": ["php-stan", "larastan", "phpstan-symfony"],
+        "sources": ["https://phpstan.org/user-guide/rule-levels", "https://phpstan.org/user-guide/baseline", "https://phpstan.org/user-guide/extension-library"]
+      },
+      {
+        "heading": "Psalm: types and tainted-data analysis",
+        "paragraphs": [
+          "Psalm combines type checking with a taint-analysis mode that follows untrusted data toward sensitive operations. If this is part of your security workflow, evaluate it using the actual entry points and sinks in your application.",
+          "Advanced type modelling and security checks still need accurate annotations and configuration. Static analysis supports a security review; it does not establish that an application is free of vulnerabilities."
+        ],
+        "tools": ["psalm"],
+        "sources": ["https://psalm.dev/docs/", "https://psalm.dev/docs/security_analysis/"]
+      },
+      {
+        "heading": "Make the adoption cost visible",
+        "paragraphs": [
+          "Record the required PHP version, framework support, findings that need fixing, baseline size, and time needed to configure a trial. Use the current catalog records below for installation and compatibility; verify the final setup against the project's documentation.",
+          "Start with the analyzer that gives your team useful, maintainable feedback. Add a second analyzer only when its additional findings justify the extra configuration and CI work."
+        ],
+        "tools": ["php-stan", "psalm"]
+      }
+    ]
+  },
+  {
+    "slug": "phpcs-vs-php-cs-fixer-vs-pint",
+    "title": "PHP_CodeSniffer vs PHP CS Fixer vs Laravel Pint",
+    "description": "Choose between coding-standard checks, configurable automatic fixes, and Laravel-oriented formatting defaults.",
+    "sections": [
+      {
+        "heading": "Separate coding standards from type analysis",
+        "paragraphs": [
+          "These tools help keep code style consistent. Choose them alongside a type analyzer when you need both kinds of feedback. A clean formatting check does not establish that the program behaves correctly."
+        ],
+        "tools": ["phpcsstandards-php-codesniffer", "php-cs-fixer", "laravel-pint"]
+      },
+      {
+        "heading": "PHP_CodeSniffer: enforce standards and custom sniffs",
+        "paragraphs": [
+          "PHP_CodeSniffer detects coding-standard violations through sniffs and rulesets. Its companion command, PHP Code Beautifier and Fixer, can fix supported violations. This makes it useful when a team already relies on a community standard or maintains detailed custom sniffs.",
+          "Check which rules can be fixed automatically and which require a code change. A large standard needs deliberate configuration so the resulting findings are useful to the team."
+        ],
+        "tools": ["phpcsstandards-php-codesniffer"],
+        "sources": ["https://github.com/PHPCSStandards/PHP_CodeSniffer"]
+      },
+      {
+        "heading": "PHP CS Fixer: configure automatic fixes",
+        "paragraphs": [
+          "PHP CS Fixer provides automatic coding-standard fixes through configurable rules and rule sets. Use it when the team wants to control its formatting policy directly.",
+          "Introduce broad rule changes in a dedicated formatting change so reviewers can inspect the diff. Review the tool's risky-rule options before enabling changes that can affect behavior."
+        ],
+        "tools": ["php-cs-fixer"],
+        "sources": ["https://cs.symfony.com/", "https://cs.symfony.com/doc/usage.html"]
+      },
+      {
+        "heading": "Laravel Pint: begin with Laravel defaults",
+        "paragraphs": [
+          "Pint is built on PHP CS Fixer and supplies opinionated formatting presets. It is a practical starting point for Laravel projects that prefer a smaller configuration surface.",
+          "Compare Pint's presets and configuration options with your team's existing style policy. If you need direct control of a broader fixer configuration, evaluate PHP CS Fixer itself."
+        ],
+        "tools": ["laravel-pint", "php-cs-fixer"],
+        "sources": ["https://laravel.com/docs/12.x/pint"]
+      },
+      {
+        "heading": "Keep one formatting policy",
+        "paragraphs": [
+          "Choose one primary formatter and check its policy in CI. If you combine tools, verify their rules do not repeatedly undo one another's changes. Use the catalog records for current installation commands and PHP requirements."
+        ],
+        "tools": ["phpcsstandards-php-codesniffer", "php-cs-fixer", "laravel-pint"]
+      }
+    ]
+  },
+  {
+    "slug": "laravel-code-quality-tools",
+    "title": "Choosing code-quality tools for Laravel",
+    "description": "Build a Laravel quality workflow with formatting, framework-aware type analysis, architectural checks, and reviewed refactoring.",
+    "sections": [
+      {
+        "heading": "Formatting: Laravel Pint",
+        "paragraphs": [
+          "Start with a consistent formatting policy. Laravel Pint provides PHP-CS-Fixer-based presets with little initial configuration, so style review can be automated before human code review."
+        ],
+        "tools": ["laravel-pint"],
+        "sources": ["https://laravel.com/docs/12.x/pint"]
+      },
+      {
+        "heading": "Framework-aware analysis: PHPStan and Larastan",
+        "paragraphs": [
+          "Larastan extends PHPStan for Laravel conventions such as facades and framework-provided types. Check its compatibility table against the project's Laravel and PHP versions before installing it.",
+          "Choose an initial analysis level you can maintain. For existing applications, baseline current findings and tighten checks gradually rather than hiding every finding with a blanket ignore."
+        ],
+        "tools": ["php-stan", "larastan"],
+        "sources": ["https://github.com/larastan/larastan", "https://phpstan.org/user-guide/baseline"]
+      },
+      {
+        "heading": "Architecture: enforce the boundaries you use",
+        "paragraphs": [
+          "If the application has layers or modules, Deptrac can check allowed dependency relationships. Define rules from the application's intended architecture and keep the dependency map aligned with code changes."
+        ],
+        "tools": ["deptrac"],
+        "sources": ["https://github.com/deptrac/deptrac"]
+      },
+      {
+        "heading": "Refactoring: review automated changes",
+        "paragraphs": [
+          "Rector applies automated PHP refactoring and upgrade rules. Choose rules that match the migration you are performing, inspect their changes, and run the application's tests before accepting the result.",
+          "Introduce these tools incrementally. Formatting, static analysis, architectural checks, and refactoring serve different tasks; only keep checks that produce useful feedback for this application."
+        ],
+        "tools": ["rector"],
+        "sources": ["https://getrector.com/documentation"]
+      }
+    ]
+  }
+]

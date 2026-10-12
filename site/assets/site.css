@@ -1799,6 +1799,78 @@ body:has(.compare-tray:not([hidden])) {
   }
 }
 
+.document-page {
+  padding-block: 2rem 4rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.document-heading {
+  max-width: 72ch;
+  margin-bottom: 2.5rem;
+}
+
+.document-heading h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.document-lede {
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.document-section {
+  margin-block: 2.5rem;
+}
+
+.reading {
+  max-width: 72ch;
+}
+
+.document-page a,
+.browse-links a,
+.guide-links a {
+  overflow-wrap: anywhere;
+}
+
+.reading .tool-facts,
+.reading .tool-facts dd,
+.reading .tradeoff {
+  font-size: 1rem;
+}
+
+.document-page .tool-facts dd {
+  overflow-wrap: anywhere;
+}
+
+.browse-links,
+.guide-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 0.75rem 2rem;
+  padding-left: 1.25rem;
+}
+
+.browse-links a,
+.guide-links a {
+  display: inline-block;
+  padding-block: 0.4rem;
+}
+
+.guide-links p {
+  margin-top: 0.2rem;
+  color: var(--muted);
+}
+
 @media (min-width: 360px) and (max-width: 720px) {
   .hero__stats {
     grid-template-columns: repeat(4, minmax(0, 1fr));
