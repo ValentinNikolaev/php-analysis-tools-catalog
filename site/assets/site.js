@@ -13,6 +13,9 @@
   const filterPanel = document.querySelector("#catalog-filter-panel");
   const emptyState = document.querySelector("#catalog-empty");
   const editorPicks = document.querySelector("#editors-choice");
+  const editorDisclosure = editorPicks?.querySelector(".editor-picks__disclosure");
+  const categoryShortcuts = document.querySelector(".category-shortcuts");
+  const categoryButtons = Array.from(document.querySelectorAll("[data-catalog-category]"));
   const compareTray = document.querySelector("#compare-tray");
   const compareCount = document.querySelector("#compare-count");
   const compareSelection = document.querySelector("#compare-selection");
@@ -226,6 +229,9 @@
       mobileResultLabel.textContent = compactGroupedResultText;
     }
     if (filterCountLabel) filterCountLabel.textContent = String(selectedFacetCount());
+    for (const button of categoryButtons) {
+      button.setAttribute("aria-pressed", String(button.dataset.catalogCategory === facets.category.value));
+    }
     if (emptyState) emptyState.hidden = visibleCount + visibleHostedCount !== 0;
     if (hostedSection instanceof HTMLElement) {
       hostedSection.hidden = Boolean(query && visibleHostedCount === 0);
@@ -238,6 +244,19 @@
 
   const selectHasValue = (select, value) =>
     Array.from(select.options).some((option) => option.value === value);
+
+  if (categoryShortcuts instanceof HTMLElement) {
+    categoryShortcuts.hidden = false;
+    for (const button of categoryButtons) {
+      button.addEventListener("click", () => {
+        const category = button.dataset.catalogCategory || "";
+        if (!selectHasValue(facets.category, category)) return;
+        facets.category.value = category;
+        hydrateCatalog();
+        applyFilters();
+      });
+    }
+  }
 
   const restoreFromAddress = () => {
     const params = new URLSearchParams(window.location.search);
@@ -451,7 +470,7 @@
 
   if (filterPanel instanceof HTMLElement) {
     filterPanel.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && mobileQuery.matches) {
+      if (event.key === "Escape") {
         setPanelOpen(false);
         if (filterToggle instanceof HTMLButtonElement) filterToggle.focus();
       }
@@ -465,7 +484,6 @@
   };
 
   mobileQuery.addEventListener("change", (event) => {
-    setPanelOpen(!event.matches);
     setNavigationForViewport(event.matches);
   });
 
@@ -475,7 +493,26 @@
         navDisclosure.open = false;
       }
     });
+    navDisclosure.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && mobileQuery.matches) {
+        navDisclosure.open = false;
+        navDisclosure.querySelector("summary")?.focus();
+      }
+    });
   }
+
+  const revealEditorPicks = () => {
+    if (!(editorDisclosure instanceof HTMLDetailsElement)) return;
+    if (editorPicks.hidden) {
+      form.reset();
+      applyResetNow();
+    }
+    editorDisclosure.open = true;
+  };
+
+  document.querySelectorAll('a[href="#editors-choice"]').forEach((link) => {
+    link.addEventListener("click", revealEditorPicks);
+  });
 
   document.querySelectorAll('a[href^="#tool-"]').forEach((link) => {
     link.addEventListener("click", () => {
@@ -484,14 +521,19 @@
     });
   });
 
-  window.addEventListener("hashchange", () => revealHashTarget());
+  window.addEventListener("hashchange", () => {
+    revealHashTarget();
+    if (window.location.hash === "#editors-choice") revealEditorPicks();
+  });
 
   restoreFromAddress();
   if (search.value.trim() || selectedFacetCount() || sort.value !== "recommended") {
     hydrateCatalog();
   }
-  setPanelOpen(!mobileQuery.matches);
+  if (filterToggle instanceof HTMLButtonElement) filterToggle.hidden = false;
+  setPanelOpen(false);
   setNavigationForViewport(mobileQuery.matches);
   applyFilters({ updateUrl: false });
   revealHashTarget();
+  if (window.location.hash === "#editors-choice") revealEditorPicks();
 })();
