@@ -42,6 +42,7 @@ class DocumentParser(HTMLParser):
         self.hrefs: list[str] = []
         self.scripts: list[str] = []
         self.script_attributes: list[dict[str, str | None]] = []
+        self.buttons: list[dict[str, str | None]] = []
         self.h1_count = 0
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
@@ -55,6 +56,8 @@ class DocumentParser(HTMLParser):
             self.script_attributes.append(values)
         if tag == "h1":
             self.h1_count += 1
+        if tag == "button":
+            self.buttons.append(values)
 
 
 class ActiveElementCounter(HTMLParser):
@@ -405,6 +408,23 @@ class GenerateSiteTests(unittest.TestCase):
         self.assertEqual(normalize_base_path("/preview"), "/preview/")
         with self.assertRaisesRegex(ValueError, "absolute URL path"):
             normalize_base_path("https://example.com/preview")
+
+    def test_not_found_page_provides_the_shared_theme_control(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "site"
+            build_site(output, reference_time=self.REFERENCE_TIME, base_path="/preview")
+            not_found = (output / "404.html").read_text(encoding="utf-8")
+
+        parser = DocumentParser()
+        parser.feed(not_found)
+        self.assertIn("/preview/assets/theme.js?v=1", parser.scripts)
+        theme_controls = [
+            button for button in parser.buttons
+            if "theme-toggle" in (button.get("class") or "").split()
+        ]
+        self.assertEqual(len(theme_controls), 1)
+        self.assertEqual(theme_controls[0].get("type"), "button")
+        self.assertIn("hidden", theme_controls[0])
 
     def test_tool_content_is_escaped_and_unsafe_urls_are_rejected(self) -> None:
         card = tool_card(
