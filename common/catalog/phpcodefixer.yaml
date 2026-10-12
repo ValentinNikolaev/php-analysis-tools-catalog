@@ -9,19 +9,19 @@ website: "https://github.com/wapmorgan/PhpCodeFixer"
 public_url: "https://github.com/wapmorgan/PhpCodeFixer"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-11T01:11:25Z"
+website_checked_at: "2026-10-12T01:13:48Z"
 website_error: ""
 repository: "https://github.com/wapmorgan/PhpDeprecationDetector"
 latest_release_name: "2.0.33: 8.2 fix and 8.0 rules change"
 latest_release_tag: "2.0.33"
 latest_release_url: "https://github.com/wapmorgan/PhpDeprecationDetector/releases/tag/2.0.33"
 latest_release_published_at: "2023-04-23T09:24:55Z"
-latest_release_checked_at: "2026-10-11T01:11:25Z"
+latest_release_checked_at: "2026-10-12T01:13:48Z"
 packagist: null
-packagist_checked_at: "2026-10-11T01:11:25Z"
+packagist_checked_at: "2026-10-12T01:13:48Z"
 stars: 364
 repo_updated_at: "2024-02-14T12:40:26Z"
-metadata_updated_at: "2026-10-11T01:11:25Z"
+metadata_updated_at: "2026-10-12T01:13:48Z"
 quality_tags:
   - "static-analysis"
 source: "README.md"
