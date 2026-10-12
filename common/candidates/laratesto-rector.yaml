@@ -1,0 +1,26 @@
+slug: "laratesto-rector"
+name: "laratesto-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "Rector rules and Artisan migration command for Laravel PHPUnit suites to Laratesto"
+website: "https://github.com/ichinya/laratesto-rector"
+public_url: "https://github.com/ichinya/laratesto-rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ichinya/laratesto-rector"
+packagist: "https://packagist.org/packages/ichinya/laratesto-rector"
+stars: 0
+repo_updated_at: "2026-10-12T14:34:06Z"
+metadata_updated_at: "2026-10-12T18:35:00Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-12T18:35:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-12T18:35:00Z"
+discovery_queries:
+  - "packagist:rector rules"
