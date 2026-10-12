@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{DESCRIPTION}}">
+  {{VERIFICATION_TAGS}}
+  <meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101c23" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <meta property="og:site_name" content="PHP Analysis Tools Catalog">
+  <meta property="og:image" content="{{SITE_URL}}assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}}">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{SITE_URL}}assets/social-preview.png">
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+  <link rel="icon" href="{{ROOT_PATH}}assets/favicon.svg" type="image/svg+xml">
+  <script src="{{ROOT_PATH}}assets/theme.js?v=1"></script>
+  <script src="{{ROOT_PATH}}assets/page.js?v=1" defer></script>
+  <link rel="stylesheet" href="{{ROOT_PATH}}assets/site.css?v=9">
+  <title>{{TITLE}} | PHP Analysis Tools Catalog</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="{{ROOT_PATH}}" aria-label="PHP Analysis Tools Catalog home">
+        <span class="brand__mark" aria-hidden="true">&lt;?&gt;</span>
+        <span>PHP Analysis Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <details class="site-nav__disclosure" open>
+          <summary class="site-nav__summary">Menu</summary>
+          <div class="site-nav__links">
+            <a href="{{ROOT_PATH}}#catalog">Search tools</a>
+            <a href="{{ROOT_PATH}}browse/">Browse categories</a>
+            <a href="{{ROOT_PATH}}browse/#guides">Guides</a>
+            <a href="{{REPOSITORY_URL}}">GitHub<span aria-hidden="true"> ↗</span></a>
+            <button class="theme-toggle" type="button" hidden>Theme: System</button>
+          </div>
+        </details>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="shell document-page">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="{{ROOT_PATH}}">Home</a><span aria-hidden="true"> / </span>
+      <a href="{{ROOT_PATH}}browse/">Browse</a><span aria-hidden="true"> / </span>
+      <span aria-current="page">{{TITLE}}</span>
+    </nav>
+    <header class="document-heading">
+      <p class="kicker">{{KICKER}}</p>
+      <h1>{{TITLE}}</h1>
+      <p class="document-lede">{{DESCRIPTION}}</p>
+    </header>
+    {{CONTENT}}
+  </main>
+  <footer class="site-footer">
+    <div class="shell site-footer__inner">
+      <p>PHP Analysis Tools Catalog</p>
+      <p>Verify compatibility and licensing with each project. This site uses <a href="https://www.cloudflare.com/web-analytics/">Cloudflare Web Analytics</a> for aggregate traffic measurement.</p>
+      <div class="footer-links" role="group" aria-label="Catalog policies and downloads">
+        <a href="{{REPOSITORY_URL}}/blob/master/EDITORIAL-POLICY.md">Editorial policy</a>
+        <a href="{{REPOSITORY_URL}}/blob/master/DATA-LICENSE.md">Data license</a>
+        <a href="{{ROOT_PATH}}exports/catalog.json" download>JSON</a>
+        <a href="{{ROOT_PATH}}exports/catalog.csv" download>CSV</a>
+        <a href="{{ROOT_PATH}}sitemap.xml">Sitemap</a>
+        <a href="#main-content">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token":"1bc156f61a6c4baab33e1f9a082f72d4"}'></script>
+</body>
+</html>

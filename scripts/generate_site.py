@@ -3,10 +3,13 @@ from __future__ import annotations
 import argparse
 import html
 import ipaddress
+import json
+import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+from xml.etree import ElementTree
 
 from catalog_lib import (
     CATEGORY_IDS,
@@ -22,6 +25,7 @@ from catalog_lib import (
     read_pros_cons,
 )
 from generate_readme import (
+    CATEGORY_DESCRIPTIONS,
     apply_editor_choice_copy,
     category_title,
     is_dead,
@@ -286,13 +290,13 @@ def recommended_tools(
     )
 
 
-def title_icon(tool: dict) -> str:
+def title_icon(tool: dict, root_path: str = "") -> str:
     icon = str(tool.get("title_icon") or "").strip()
     label = str(tool.get("title_icon_label") or "Tool type").strip()
     if not icon.startswith("assets/tool-icons/") or "/../" in f"/{icon}/":
         return ""
     return (
-        f'<img class="tool-title-icon" src="{escape(icon)}" '
+        f'<img class="tool-title-icon" src="{escape(root_path + icon)}" '
         f'alt="{escape(label)}" title="{escape(label)}">'
     )
 
@@ -352,7 +356,8 @@ def tradeoffs(tool: dict, name: str, *, inline: bool = False) -> str:
 
 
 def tool_card(
-    tool: dict, reference_time: datetime, rank: int, *, compare_enabled: bool = False
+    tool: dict, reference_time: datetime, rank: int, *, compare_enabled: bool = False,
+    root_path: str = "",
 ) -> str:
     activity_rank, status = lifecycle(tool, reference_time)
     name = str(tool.get("name") or "Unnamed tool")
@@ -438,7 +443,7 @@ def tool_card(
   <div class="tool-card__heading">
     <div>
       <span class="eyebrow">{escape(category_title(category))}</span>
-      <h3><a href="{escape(primary_url(tool))}" aria-label="Open the {escape(name)} project page">{escape(name)}</a>{title_icon(tool)}</h3>
+      <h3><a href="{escape(primary_url(tool))}" aria-label="Open the {escape(name)} project page">{escape(name)}</a>{title_icon(tool, root_path)}</h3>
     </div>
     <div class="badge-group">{relevance_badge(tool, status)}{status_badge(tool, status)}</div>
   </div>
@@ -451,7 +456,9 @@ def tool_card(
   {review_note(tool)}
   {f'<p class="availability-note">Official website currently unavailable</p>' if website_unavailable else ''}
   <div class="tool-card__footer">
-    <div class="resource-links" role="group" aria-label="Resources for {escape(name)}">{resource_links(tool, name)}</div>
+    <div class="resource-links" role="group" aria-label="Resources for {escape(name)}">{resource_links(tool, name)}
+      {f'<a class="resource-link" href="{escape(root_path)}tools/{escape(slug)}/" aria-label="Catalog details for {escape(name)}">Details</a>' if not is_dead(tool, reference_time) else ''}
+    </div>
     {compare_button}
   </div>
 </article>""".strip()
@@ -536,7 +543,10 @@ def metadata_freshness(
     return fresh, len(tools)
 
 
-def render_index(tools: list[dict], reference_time: datetime) -> str:
+def render_index(
+    tools: list[dict], reference_time: datetime, site_url: str = SITE_URL,
+    verification_tags: str = "",
+) -> str:
     template = (SITE_SOURCE / "index.html").read_text(encoding="utf-8")
     current_tools = apply_pros_cons(
         [tool for tool in tools if not is_dead(tool, reference_time)],
@@ -609,7 +619,15 @@ def render_index(tools: list[dict], reference_time: datetime) -> str:
     )
 
     replacements = {
-        "{{CANONICAL_URL}}": SITE_URL,
+        "{{CANONICAL_URL}}": escape(site_url),
+        "{{VERIFICATION_TAGS}}": verification_tags,
+        "{{DISCOVERY_SECTION}}": (
+            '<section class="section shell" id="browse" aria-labelledby="browse-title">'
+            '<h2 id="browse-title">Browse PHP tools by category</h2>'
+            '<p>Explore every current tool and its trade-offs, or start with a practical guide.</p>'
+            f'{discovery_links(current_tools, load_guides(), "")}'
+            '</section>'
+        ),
         "{{REPOSITORY_URL}}": REPOSITORY_URL,
         "{{CURRENT_COUNT}}": str(len(current_tools)),
         "{{TOOL_COUNT}}": str(len(catalog_tools)),
@@ -649,12 +667,225 @@ def render_index(tools: list[dict], reference_time: datetime) -> str:
         "Every catalog entry remains available below, but search, filtering, and sorting require JavaScript.",
         'The first recommendations remain available below. For the complete catalog, use the '
         f'<a href="{escape(REPOSITORY_URL)}#complete-catalog">canonical README</a> or '
-        '<a href="exports/catalog.json">catalog JSON</a>. Search, filtering, sorting, and comparison require JavaScript.',
+        '<a href="exports/catalog.json">catalog JSON</a>. '
+        '<a href="browse/">Browse every current tool by category</a> without JavaScript. '
+        'Search, filtering, sorting, and comparison require JavaScript.',
     )
     template = template.replace("assets/site.js?v=3", f"assets/site.js?v={SITE_JS_VERSION}")
     if "{{" in template or "}}" in template:
         raise ValueError("Unresolved placeholder remains in site/index.html")
     return template
+
+
+def checked_slug(value: object) -> str:
+    slug = str(value or "")
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+        raise ValueError(f"Invalid site route slug: {slug!r}")
+    return slug
+
+
+def load_guides() -> list[dict]:
+    guides = json.loads((SITE_SOURCE / "guides.json").read_text(encoding="utf-8"))
+    if not isinstance(guides, list):
+        raise ValueError("Site guides must be a list")
+    slugs: set[str] = set()
+    for guide in guides:
+        slug = checked_slug(guide.get("slug"))
+        if slug in slugs or not guide.get("title") or not guide.get("description") or not guide.get("sections"):
+            raise ValueError(f"Duplicate or incomplete site guide: {slug}")
+        slugs.add(slug)
+        for section in guide["sections"]:
+            if not section.get("heading") or not section.get("paragraphs") or not section.get("tools"):
+                raise ValueError(f"Incomplete section in site guide: {slug}")
+            if any(not safe_url(url) for url in section.get("sources", [])):
+                raise ValueError(f"Unsafe source URL in site guide: {slug}")
+    return guides
+
+
+def search_verification_tags(path: Path | None = None) -> str:
+    path = path or SITE_SOURCE / "search-verification.json"
+    values = json.loads(path.read_text(encoding="utf-8"))
+    allowed = {"google-site-verification", "msvalidate.01"}
+    if not isinstance(values, dict) or set(values) - allowed:
+        raise ValueError("Unsupported search verification setting")
+    if any(not isinstance(value, str) for value in values.values()):
+        raise ValueError("Search verification values must be strings")
+    return "\n  ".join(
+        f'<meta name="{name}" content="{escape(value.strip())}">'
+        for name, value in sorted(values.items()) if value.strip()
+    )
+
+
+def discovery_links(tools: list[dict], guides: list[dict], root_path: str) -> str:
+    categories = sorted({str(tool["category"]) for tool in tools}, key=category_rank)
+    links = "".join(
+        f'<li><a href="{root_path}categories/{category_id(category)}/">'
+        f'{escape(category_title(category))}</a> '
+        f'<span class="muted">({sum(tool["category"] == category for tool in tools)})</span></li>'
+        for category in categories
+    )
+    guide_links = "".join(
+        f'<li><a href="{root_path}guides/{guide["slug"]}/">{escape(guide["title"])}</a>'
+        f'<p>{escape(guide["description"])}</p></li>' for guide in guides
+    )
+    return (
+        f'<ul class="browse-links">{links}</ul>'
+        f'<section id="guides" class="document-section"><h2>PHP tool selection guides</h2>'
+        f'<ul class="guide-links">{guide_links}</ul></section>'
+    )
+
+
+def render_page(
+    route: str, title: str, description: str, content: str, *, kicker: str,
+    site_url: str, verification_tags: str,
+) -> str:
+    root_path = "../" * len(route.strip("/").split("/"))
+    template = (SITE_SOURCE / "page.html").read_text(encoding="utf-8")
+    replacements = {
+        "{{TITLE}}": escape(title), "{{DESCRIPTION}}": escape(description),
+        "{{CONTENT}}": content, "{{KICKER}}": escape(kicker),
+        "{{CANONICAL_URL}}": escape(site_url + route), "{{SITE_URL}}": escape(site_url),
+        "{{ROOT_PATH}}": root_path, "{{REPOSITORY_URL}}": REPOSITORY_URL,
+        "{{VERIFICATION_TAGS}}": verification_tags,
+    }
+    for token, value in replacements.items():
+        template = template.replace(token, value)
+    return template
+
+
+def tool_links(tools: list[dict], root_path: str = "../../") -> str:
+    return '<ul class="browse-links">' + "".join(
+        f'<li><a href="{root_path}tools/{checked_slug(tool["slug"])}/">{escape(tool["name"])}</a></li>'
+        for tool in tools
+    ) + '</ul>'
+
+
+def tool_page_content(tool: dict, tools: list[dict], guides: list[dict], reference_time: datetime) -> str:
+    name = str(tool["name"])
+    category = str(tool["category"])
+    editorial_copy = read_editor_choice_copy().get(tool["slug"], {})
+    content = ""
+    if editorial_copy:
+        content += (
+            '<section class="document-section reading"><h2>When to use it</h2>'
+            f'<p>{escape(editorial_copy["recommended_for"])}</p>'
+            f'<p>{escape(editorial_copy["why_it_stands_out"])}</p></section>'
+        )
+    content += (
+        '<section class="document-section reading"><h2>Installation and compatibility</h2>'
+        f'{comparable_facts(tool, name)}'
+        '<p>Check the project documentation for configuration and version-specific requirements.</p>'
+        f'<div class="resource-links">{resource_links(tool, name)}</div></section>'
+        '<section class="document-section reading"><h2>Strengths and limitations</h2>'
+        f'{tradeoffs(tool, name, inline=True)}{review_note(tool)}</section>'
+        '<section class="document-section reading"><h2>Repository activity</h2>'
+        f'<p>Activity: {escape(lifecycle(tool, reference_time)[1])}. '
+        'Repository activity is a separate signal from suitability for your application.</p>'
+    )
+    if safe_url(tool.get("repository")):
+        content += (
+            '<dl class="tool-facts">'
+            f'<div><dt>Latest release</dt><dd>{escape(latest_version(tool))}</dd></div>'
+            f'<div><dt>Last commit</dt><dd>{date_markup(tool.get("repo_updated_at"))}</dd></div>'
+            f'<div><dt>Last release</dt><dd>{date_markup(tool.get("latest_release_published_at") or tool.get("latest_version_released_at"))}</dd></div>'
+            '</dl>'
+        )
+    content += f'<p>Metadata checked: {date_markup(tool.get("metadata_updated_at"))}.</p></section>'
+    if tool.get("website_status") == "unavailable":
+        content += '<p class="notice">The official website was unavailable at the last metadata check. Use the available source or package links.</p>'
+    related = [candidate for candidate in tools if candidate["category"] == category and candidate["slug"] != tool["slug"]][:4]
+    content += (
+        '<section class="document-section"><h2>Explore related tools</h2>'
+        f'<p><a href="../../categories/{category_id(category)}/">Browse all {escape(category_title(category).lower())}</a>. '
+        'Tools in the same category can serve different workflows; compare their requirements and limitations.</p>'
+        f'{tool_links(related)}</section>'
+    )
+    relevant_guides = [guide for guide in guides if any(tool["slug"] in section["tools"] for section in guide["sections"])]
+    if relevant_guides:
+        content += '<section class="document-section"><h2>Selection guides</h2><ul>' + "".join(
+            f'<li><a href="../../guides/{guide["slug"]}/">{escape(guide["title"])}</a></li>' for guide in relevant_guides
+        ) + '</ul></section>'
+    return content
+
+
+def guide_content(guide: dict, by_slug: dict[str, dict]) -> str:
+    sections = []
+    for section in guide["sections"]:
+        tools = []
+        for slug in section["tools"]:
+            if slug not in by_slug:
+                raise ValueError(f'Guide {guide["slug"]} refers to an unavailable tool: {slug}')
+            tools.append(by_slug[slug])
+        paragraphs = "".join(f'<p>{escape(value)}</p>' for value in section["paragraphs"])
+        sources = "".join(
+            f'<li><a href="{escape(url)}">{escape(urlparse(url).netloc + urlparse(url).path.rstrip("/"))}</a></li>'
+            for url in section.get("sources", [])
+        )
+        sections.append(
+            '<section class="document-section reading">'
+            f'<h2>{escape(section["heading"])}</h2>{paragraphs}{tool_links(tools)}'
+            f'{"<p>Official documentation:</p><ul>" + sources + "</ul>" if sources else ""}</section>'
+        )
+    return "".join(sections)
+
+
+def build_discovery_pages(
+    output: Path, tools: list[dict], reference_time: datetime, site_url: str, verification_tags: str,
+) -> list[str]:
+    current = recommended_tools(
+        apply_pros_cons([tool for tool in tools if not is_dead(tool, reference_time)], read_pros_cons()),
+        reference_time, editor_choice_order(),
+    )
+    by_slug = {checked_slug(tool["slug"]): tool for tool in current}
+    if len(by_slug) != len(current):
+        raise ValueError("Duplicate tool route slug")
+    guides = load_guides()
+    routes: list[str] = []
+
+    def write(route: str, title: str, description: str, content: str, kicker: str) -> None:
+        target = output / route / "index.html"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(render_page(
+            route, title, description, content, kicker=kicker,
+            site_url=site_url, verification_tags=verification_tags,
+        ), encoding="utf-8")
+        routes.append(route)
+
+    write(
+        "browse/", "Browse PHP analysis tools",
+        "Find PHP analyzers, coding-standard tools, refactoring utilities, and hosted services by category, with practical selection guides.",
+        '<section aria-labelledby="categories-title"><h2 id="categories-title">Tool categories</h2>'
+        + discovery_links(current, guides, "../") + '</section>', "Explore the catalog",
+    )
+    for category in sorted({str(tool["category"]) for tool in current}, key=category_rank):
+        members = [tool for tool in current if tool["category"] == category]
+        cards = "\n".join(tool_card(tool, reference_time, rank, root_path="../../") for rank, tool in enumerate(members, 1))
+        write(
+            f"categories/{category_id(category)}/", f"PHP {category_title(category).lower()}",
+            CATEGORY_DESCRIPTIONS.get(category, "Explore specialized PHP analysis tools."),
+            '<section class="document-section"><h2>Tools in this category</h2>'
+            f'<p>{len(members)} tools. Editor picks appear first; review the requirements and trade-offs of each tool.</p>'
+            f'<div class="tool-grid">{cards}</div></section>', "Tool category",
+        )
+    for tool in current:
+        description = str(tool.get("description") or tool.get("upstream_description") or tool["pro"])
+        write(
+            f'tools/{tool["slug"]}/', str(tool["name"]), description,
+            tool_page_content(tool, current, guides, reference_time), category_title(str(tool["category"])),
+        )
+    for guide in guides:
+        write(f'guides/{guide["slug"]}/', guide["title"], guide["description"], guide_content(guide, by_slug), "Selection guide")
+    return routes
+
+
+def write_sitemap(output: Path, routes: list[str], site_url: str) -> None:
+    namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    ElementTree.register_namespace("", namespace)
+    root = ElementTree.Element(f"{{{namespace}}}urlset")
+    for route in ["", *sorted(routes)]:
+        entry = ElementTree.SubElement(root, f"{{{namespace}}}url")
+        ElementTree.SubElement(entry, f"{{{namespace}}}loc").text = site_url + route
+    ElementTree.ElementTree(root).write(output / "sitemap.xml", encoding="utf-8", xml_declaration=True)
 
 
 def normalize_base_path(value: str) -> str:
@@ -676,11 +907,15 @@ def validate_output(output: Path) -> None:
     required = (
         output / "index.html",
         output / "404.html",
+        output / "sitemap.xml",
+        output / "browse" / "index.html",
         output / "assets" / "site.css",
         output / "assets" / "site.js",
         output / "assets" / "theme.js",
+        output / "assets" / "page.js",
         output / "assets" / "favicon.svg",
         output / "assets" / "social-preview.svg",
+        output / "assets" / "social-preview.png",
     )
     missing = [str(path.relative_to(output)) for path in required if not path.is_file()]
     missing.extend(
@@ -691,11 +926,23 @@ def validate_output(output: Path) -> None:
     if missing:
         raise ValueError("Missing generated site files: " + ", ".join(missing))
 
-    index = (output / "index.html").read_text(encoding="utf-8")
-    if index.count("<h1") != 1:
-        raise ValueError("Generated home page must contain exactly one H1")
-    if "{{" in index or "}}" in index:
-        raise ValueError("Generated home page contains unresolved template placeholders")
+    for path in output.rglob("*.html"):
+        markup = path.read_text(encoding="utf-8")
+        if markup.count("<h1") != 1:
+            raise ValueError(f"Generated page must contain exactly one H1: {path.relative_to(output)}")
+        if "{{" in markup or "}}" in markup:
+            raise ValueError(f"Generated page contains unresolved template placeholders: {path.relative_to(output)}")
+        for target in re.findall(r'(?:href|src)="([^"]+)"', markup):
+            parsed = urlparse(html.unescape(target))
+            if parsed.scheme or parsed.netloc or not parsed.path or parsed.path.startswith("/"):
+                continue
+            local = (path.parent / parsed.path).resolve()
+            if not local.is_relative_to(output.resolve()):
+                raise ValueError(f"Local link escapes generated site: {target}")
+            if local.is_dir():
+                local /= "index.html"
+            if not local.is_file():
+                raise ValueError(f"Broken local link in {path.relative_to(output)}: {target}")
 
 
 def prepare_output(output: Path) -> None:
@@ -722,7 +969,11 @@ def build_site(
     prepare_output(output)
 
     tools = load_catalog()
-    (output / "index.html").write_text(render_index(tools, reference_time), encoding="utf-8")
+    site_url = urlparse(SITE_URL)._replace(path=base_path).geturl()
+    verification_tags = search_verification_tags()
+    (output / "index.html").write_text(render_index(tools, reference_time, site_url, verification_tags), encoding="utf-8")
+    routes = build_discovery_pages(output, tools, reference_time, site_url, verification_tags)
+    write_sitemap(output, routes, site_url)
     (output / "404.html").write_text(render_not_found(base_path), encoding="utf-8")
     shutil.copytree(SITE_SOURCE / "assets", output / "assets")
     export_files = [EXPORT_SOURCE / name for name in EXPORT_FILENAMES]
