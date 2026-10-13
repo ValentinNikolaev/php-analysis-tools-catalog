@@ -1,0 +1,27 @@
+slug: "code-style-pint"
+name: "code-style-pint"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "A Laravel Pint preset that implements the coding standards defined in the artisanpack-ui/code-style PHPCS package. This package provides a pre-configured pint.json file to enforce consistent code formatting with Laravel Pint, including rules for array syntax, spacing, brace positioning, import ordering, and strict type declarations."
+website: "https://github.com/ArtisanPack-UI/code-style-pint"
+public_url: "https://github.com/ArtisanPack-UI/code-style-pint"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/ArtisanPack-UI/code-style-pint"
+packagist: "https://packagist.org/packages/artisanpack-ui/code-style-pint"
+stars: 0
+repo_updated_at: "2026-06-09T01:00:49Z"
+metadata_updated_at: "2026-10-13T06:48:42Z"
+quality_tags:
+  - "php"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-13T06:48:42Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-13T06:48:42Z"
+discovery_queries:
+  - "packagist:phpcs standard"

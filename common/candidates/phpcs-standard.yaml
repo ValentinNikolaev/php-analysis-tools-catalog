@@ -13,7 +13,7 @@ repository: "https://github.com/drevops/phpcs-standard"
 packagist: "https://packagist.org/packages/drevops/phpcs-standard"
 stars: 4
 repo_updated_at: "2026-10-09T21:29:49Z"
-metadata_updated_at: "2026-10-12T01:13:47Z"
+metadata_updated_at: "2026-10-13T06:48:42Z"
 quality_tags:
   - "php"
   - "phpcs"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T12:27:46Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-12T01:13:47Z"
+last_discovered_at: "2026-10-13T06:48:42Z"
 discovery_queries:
   - "packagist:phpcs standard"
