@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/brimmar/phpstan-result-type"
 packagist: "https://packagist.org/packages/brimmar/phpstan-rustlike-result-extension"
 stars: 0
-repo_updated_at: "2026-10-12T22:36:09Z"
-metadata_updated_at: "2026-10-13T06:48:42Z"
+repo_updated_at: "2026-10-14T02:33:40Z"
+metadata_updated_at: "2026-10-14T12:37:14Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-06T06:36:01Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-13T06:48:42Z"
+last_discovered_at: "2026-10-14T12:37:14Z"
 discovery_queries:
   - "packagist:phpstan extension"
