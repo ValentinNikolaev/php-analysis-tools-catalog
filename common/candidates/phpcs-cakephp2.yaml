@@ -1,0 +1,26 @@
+slug: "phpcs-cakephp2"
+name: "phpcs-cakephp2"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHP_CodeSniffer standard for CakePHP 2, based on the CakePHP coding standard"
+website: "https://pieceofcake2.github.io/phpcs-cakephp2/"
+public_url: "https://pieceofcake2.github.io/phpcs-cakephp2/"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/pieceofcake2/phpcs-cakephp2"
+packagist: "https://packagist.org/packages/pieceofcake2/phpcs-cakephp2"
+stars: 0
+repo_updated_at: "2026-10-15T23:56:29Z"
+metadata_updated_at: "2026-10-16T00:54:29Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-16T00:54:29Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-16T00:54:29Z"
+discovery_queries:
+  - "packagist:phpcs standard"
