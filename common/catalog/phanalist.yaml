@@ -23,14 +23,14 @@ latest_release_name: "v1.1.14"
 latest_release_tag: "v1.1.14"
 latest_release_url: "https://github.com/denzyldick/phanalist/releases/tag/v1.1.14"
 latest_release_published_at: "2026-10-07T11:43:16Z"
-latest_release_checked_at: "2026-10-15T12:37:41Z"
+latest_release_checked_at: "2026-10-16T18:30:26Z"
 packagist: "https://packagist.org/packages/denzyl/phanalist"
 latest_version: "v1.1.14"
 latest_version_released_at: "2026-10-07T11:00:53+00:00"
 packagist_checked_at: "2026-10-16T00:54:29Z"
-stars: 161
+stars: 162
 repo_updated_at: "2026-10-08T08:53:13Z"
-metadata_updated_at: "2026-10-15T12:37:41Z"
+metadata_updated_at: "2026-10-16T18:30:26Z"
 quality_tags:
   - "php"
   - "static-analysis"

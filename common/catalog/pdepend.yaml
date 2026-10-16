@@ -27,14 +27,14 @@ latest_release_name: "PHP Depend 3.0.0"
 latest_release_tag: "3.0.0"
 latest_release_url: "https://github.com/pdepend/pdepend/releases/tag/3.0.0"
 latest_release_published_at: "2026-10-01T16:07:42Z"
-latest_release_checked_at: "2026-10-15T12:37:41Z"
+latest_release_checked_at: "2026-10-16T18:30:26Z"
 packagist: "https://packagist.org/packages/pdepend/pdepend"
 latest_version: "3.0.0"
 latest_version_released_at: "2026-09-29T07:30:15+00:00"
 packagist_checked_at: "2026-10-16T00:54:29Z"
-stars: 961
+stars: 960
 repo_updated_at: "2026-10-11T15:21:08Z"
-metadata_updated_at: "2026-10-15T12:37:41Z"
+metadata_updated_at: "2026-10-16T18:30:26Z"
 quality_tags:
   - "code-quality"
   - "php"

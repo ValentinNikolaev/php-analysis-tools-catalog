@@ -11,12 +11,12 @@ website_status_code: 200
 website_checked_at: "2026-10-16T00:54:29Z"
 website_error: ""
 repository: "https://github.com/Roave/FunctionFQNReplacer"
-latest_release_checked_at: "2026-10-15T12:37:41Z"
+latest_release_checked_at: "2026-10-16T18:30:26Z"
 packagist: null
 packagist_checked_at: "2026-10-16T00:54:29Z"
 stars: 157
 repo_updated_at: "2017-07-05T06:04:52Z"
-metadata_updated_at: "2026-10-15T12:37:41Z"
+metadata_updated_at: "2026-10-16T18:30:26Z"
 quality_tags:
   - "archived"
 source: "README.md"
