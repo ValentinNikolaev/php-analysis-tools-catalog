@@ -13,7 +13,7 @@ repository: "https://github.com/Heyosseus/sloppy"
 packagist: "https://packagist.org/packages/heyosseus/sloppy"
 stars: 157
 repo_updated_at: "2026-10-15T13:56:29Z"
-metadata_updated_at: "2026-10-16T18:30:26Z"
+metadata_updated_at: "2026-10-18T01:01:07Z"
 quality_tags:
   - "code-quality"
   - "linter"
@@ -25,6 +25,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-14T12:37:43Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-16T18:30:26Z"
+last_discovered_at: "2026-10-18T01:01:07Z"
 discovery_queries:
   - "packagist:rector rules"

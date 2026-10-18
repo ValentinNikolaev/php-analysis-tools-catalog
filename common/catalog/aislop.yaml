@@ -17,21 +17,21 @@ website: "https://scanaislop.com"
 public_url: "https://scanaislop.com"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-17T00:55:26Z"
+website_checked_at: "2026-10-18T01:01:07Z"
 website_error: ""
 repository: "https://github.com/scanaislop/aislop"
 latest_release_name: "v0.18.1"
 latest_release_tag: "v0.18.1"
 latest_release_url: "https://github.com/scanaislop/aislop/releases/tag/v0.18.1"
 latest_release_published_at: "2026-10-06T22:17:20Z"
-latest_release_checked_at: "2026-10-16T18:30:26Z"
+latest_release_checked_at: "2026-10-18T01:01:07Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-17T00:55:26Z"
-stars: 687
-repo_updated_at: "2026-10-15T06:20:40Z"
-metadata_updated_at: "2026-10-16T18:30:26Z"
+packagist_checked_at: "2026-10-18T01:01:07Z"
+stars: 688
+repo_updated_at: "2026-10-17T06:04:17Z"
+metadata_updated_at: "2026-10-18T01:01:07Z"
 quality_tags:
   - "code-quality"
   - "php"

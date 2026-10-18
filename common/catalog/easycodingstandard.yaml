@@ -17,19 +17,19 @@ website: "https://github.com/Symplify/EasyCodingStandard"
 public_url: "https://github.com/Symplify/EasyCodingStandard"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-17T00:55:26Z"
+website_checked_at: "2026-10-18T01:01:07Z"
 website_error: ""
 repository: "https://github.com/ecsphp/ecs"
 latest_release_name: "Released ECS 13.3.7"
 latest_release_tag: "13.3.7"
 latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.7"
 latest_release_published_at: "2026-10-14T21:37:04Z"
-latest_release_checked_at: "2026-10-16T18:30:26Z"
+latest_release_checked_at: "2026-10-18T01:01:07Z"
 packagist: null
-packagist_checked_at: "2026-10-17T00:55:26Z"
-stars: 1624
+packagist_checked_at: "2026-10-18T01:01:07Z"
+stars: 1625
 repo_updated_at: "2026-10-14T21:46:34Z"
-metadata_updated_at: "2026-10-16T18:30:26Z"
+metadata_updated_at: "2026-10-18T01:01:07Z"
 quality_tags:
   - "php"
 source: "README.md"

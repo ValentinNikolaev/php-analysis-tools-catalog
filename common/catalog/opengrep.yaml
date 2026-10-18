@@ -16,21 +16,21 @@ website: "https://github.com/opengrep/opengrep"
 public_url: "https://github.com/opengrep/opengrep"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-17T00:55:26Z"
+website_checked_at: "2026-10-18T01:01:07Z"
 website_error: ""
 repository: "https://github.com/opengrep/opengrep"
 latest_release_name: "Opengrep 1.31.0"
 latest_release_tag: "v1.31.0"
 latest_release_url: "https://github.com/opengrep/opengrep/releases/tag/v1.31.0"
 latest_release_published_at: "2026-10-15T12:44:05Z"
-latest_release_checked_at: "2026-10-16T18:30:26Z"
+latest_release_checked_at: "2026-10-18T01:01:07Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-17T00:55:26Z"
-stars: 3193
-repo_updated_at: "2026-10-16T16:35:41Z"
-metadata_updated_at: "2026-10-16T18:30:26Z"
+packagist_checked_at: "2026-10-18T01:01:07Z"
+stars: 3197
+repo_updated_at: "2026-10-17T23:47:17Z"
+metadata_updated_at: "2026-10-18T01:01:07Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."
