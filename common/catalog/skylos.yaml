@@ -18,21 +18,21 @@ website: "https://skylos.dev/"
 public_url: "https://skylos.dev/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-18T01:01:07Z"
+website_checked_at: "2026-10-19T01:01:27Z"
 website_error: ""
 repository: "https://github.com/duriantaco/skylos"
 latest_release_name: "v4.50.1"
 latest_release_tag: "v4.50.1"
 latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v4.50.1"
 latest_release_published_at: "2026-10-15T10:01:12Z"
-latest_release_checked_at: "2026-10-18T01:01:07Z"
+latest_release_checked_at: "2026-10-19T01:01:27Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-18T01:01:07Z"
-stars: 847
-repo_updated_at: "2026-10-18T00:44:57Z"
-metadata_updated_at: "2026-10-18T01:01:07Z"
+packagist_checked_at: "2026-10-19T01:01:27Z"
+stars: 848
+repo_updated_at: "2026-10-18T16:09:46Z"
+metadata_updated_at: "2026-10-19T01:01:27Z"
 quality_tags:
   - "code-quality"
   - "php"
