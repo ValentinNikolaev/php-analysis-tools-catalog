@@ -27,12 +27,12 @@ latest_release_name: "4.1.0.16998"
 latest_release_tag: "4.1.0.16998"
 latest_release_url: "https://github.com/SonarSource/sonar-php/releases/tag/4.1.0.16998"
 latest_release_published_at: "2026-09-24T10:59:24Z"
-latest_release_checked_at: "2026-10-19T01:01:27Z"
+latest_release_checked_at: "2026-10-20T06:40:22Z"
 packagist: null
 packagist_checked_at: "2026-10-20T00:56:35Z"
 stars: 433
-repo_updated_at: "2026-10-18T22:35:55Z"
-metadata_updated_at: "2026-10-19T01:01:27Z"
+repo_updated_at: "2026-10-20T01:19:30Z"
+metadata_updated_at: "2026-10-20T06:40:22Z"
 quality_tags:
   - "code-quality"
   - "php"

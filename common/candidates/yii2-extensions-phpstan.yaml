@@ -13,7 +13,7 @@ repository: "https://github.com/yii2-extensions/phpstan"
 packagist: null
 stars: 19
 repo_updated_at: "2026-10-18T12:29:43Z"
-metadata_updated_at: "2026-10-19T01:01:26Z"
+metadata_updated_at: "2026-10-20T06:40:21Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-13T18:35:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-19T01:01:26Z"
+last_discovered_at: "2026-10-20T06:40:21Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

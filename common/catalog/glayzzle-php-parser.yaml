@@ -10,7 +10,7 @@ ecosystems:
   - "php"
 catalog_status: "current"
 description: "PHP parser written for Node.js that extracts tokens and an abstract syntax tree."
-upstream_description: ":herb: NodeJS PHP Parser - extract AST or tokens"
+upstream_description: "NodeJS PHP Parser - extract AST or tokens"
 best_for: "JavaScript and Node.js tooling that needs to parse PHP without running PHP."
 license: "BSD-3-Clause"
 reviewed_at: "2026-08-08"
@@ -25,14 +25,14 @@ latest_release_name: "v3.7.0"
 latest_release_tag: "v3.7.0"
 latest_release_url: "https://github.com/glayzzle/php-parser/releases/tag/v3.7.0"
 latest_release_published_at: "2026-06-10T13:41:43Z"
-latest_release_checked_at: "2026-10-19T01:01:27Z"
+latest_release_checked_at: "2026-10-20T06:40:22Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-10-20T00:56:35Z"
 stars: 564
 repo_updated_at: "2026-10-02T14:51:16Z"
-metadata_updated_at: "2026-10-19T01:01:27Z"
+metadata_updated_at: "2026-10-20T06:40:22Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"
