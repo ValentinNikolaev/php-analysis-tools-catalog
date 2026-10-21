@@ -33,14 +33,14 @@ latest_release_name: "3.4.1 - 2026-07-27"
 latest_release_tag: "3.4.1"
 latest_release_url: "https://github.com/WordPress/WordPress-Coding-Standards/releases/tag/3.4.1"
 latest_release_published_at: "2026-07-27T11:55:49Z"
-latest_release_checked_at: "2026-10-20T06:40:22Z"
+latest_release_checked_at: "2026-10-21T06:41:37Z"
 packagist: "https://packagist.org/packages/wp-coding-standards/wpcs"
 latest_version: "3.4.1"
 latest_version_released_at: "2026-07-27T11:53:23+00:00"
 packagist_checked_at: "2026-10-21T00:56:28Z"
-stars: 2833
-repo_updated_at: "2026-10-07T20:26:57Z"
-metadata_updated_at: "2026-10-20T06:40:22Z"
+stars: 2834
+repo_updated_at: "2026-10-20T22:13:09Z"
+metadata_updated_at: "2026-10-21T06:41:37Z"
 quality_tags:
   - "php"
   - "phpcs"
