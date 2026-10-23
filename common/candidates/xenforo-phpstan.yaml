@@ -1,0 +1,27 @@
+slug: "xenforo-phpstan"
+name: "xenforo-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan for XenForo add-ons - the configuration an add-on needs to be analysed against a forum, the methods class extensions add to core classes, the container shortcuts, and the legacy class names XenForo 2.3 aliases at runtime"
+website: "https://github.com/hampel/xenforo-phpstan"
+public_url: "https://github.com/hampel/xenforo-phpstan"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/hampel/xenforo-phpstan"
+packagist: "https://packagist.org/packages/hampel/xenforo-phpstan"
+stars: 0
+repo_updated_at: "2026-10-23T06:10:56Z"
+metadata_updated_at: "2026-10-23T06:41:25Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-23T06:41:25Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-23T06:41:25Z"
+discovery_queries:
+  - "packagist:phpstan extension"
