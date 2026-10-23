@@ -25,14 +25,14 @@ latest_release_name: "2.3.1"
 latest_release_tag: "2.3.1"
 latest_release_url: "https://github.com/phpstan/phpstan/releases/tag/2.3.1"
 latest_release_published_at: "2026-10-08T21:10:31Z"
-latest_release_checked_at: "2026-10-22T06:41:40Z"
+latest_release_checked_at: "2026-10-23T12:36:12Z"
 packagist: "https://packagist.org/packages/phpstan/phpstan"
 latest_version: "2.3.1"
 latest_version_released_at: "2026-10-08T21:09:11+00:00"
 packagist_checked_at: "2026-10-23T00:58:25Z"
-stars: 14133
-repo_updated_at: "2026-10-22T05:40:06Z"
-metadata_updated_at: "2026-10-22T06:41:40Z"
+stars: 14135
+repo_updated_at: "2026-10-23T11:13:38Z"
+metadata_updated_at: "2026-10-23T12:36:12Z"
 quality_tags:
   - "php"
   - "phpstan"
