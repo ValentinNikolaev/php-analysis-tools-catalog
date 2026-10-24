@@ -16,7 +16,7 @@ website: "https://hub.docker.com/r/jakzal/phpqa/"
 public_url: "https://hub.docker.com/r/jakzal/phpqa/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-23T00:58:25Z"
+website_checked_at: "2026-10-24T00:54:53Z"
 website_error: ""
 repository: "https://github.com/jakzal/phpqa"
 latest_release_name: "1.125.8"
@@ -27,7 +27,7 @@ latest_release_checked_at: "2026-10-23T12:36:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-23T00:58:25Z"
+packagist_checked_at: "2026-10-24T00:54:53Z"
 stars: 1321
 repo_updated_at: "2026-10-12T10:17:19Z"
 metadata_updated_at: "2026-10-23T12:36:12Z"
