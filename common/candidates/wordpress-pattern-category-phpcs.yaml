@@ -1,0 +1,26 @@
+slug: "wordpress-pattern-category-phpcs"
+name: "wordpress-pattern-category-phpcs"
+category: "Coding standards"
+artifact_type: "ruleset"
+description: "PHPCS sniffs for enforcing categories in WordPress block pattern files."
+website: "https://github.com/bradp/wordpress-pattern-category-phpcs"
+public_url: "https://github.com/bradp/wordpress-pattern-category-phpcs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/bradp/wordpress-pattern-category-phpcs"
+packagist: "https://packagist.org/packages/bradp/wordpress-pattern-category-phpcs"
+stars: 0
+repo_updated_at: "2026-08-08T12:44:00Z"
+metadata_updated_at: "2026-10-24T06:37:41Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-24T06:37:41Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-24T06:37:41Z"
+discovery_queries:
+  - "packagist:phpcs standard"
