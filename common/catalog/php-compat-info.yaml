@@ -15,7 +15,7 @@ website: "https://llaville.github.io/php-compatinfo/7.2/"
 public_url: "https://llaville.github.io/php-compatinfo/7.2/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-24T00:54:53Z"
+website_checked_at: "2026-10-25T01:01:00Z"
 website_error: ""
 repository: "https://github.com/llaville/php-compatinfo"
 latest_release_name: "7.2.6"
@@ -26,7 +26,7 @@ latest_release_checked_at: "2026-10-24T18:28:42Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-10-24T00:54:53Z"
+packagist_checked_at: "2026-10-25T01:01:00Z"
 stars: 382
 repo_updated_at: "2026-10-24T06:50:40Z"
 metadata_updated_at: "2026-10-24T18:28:42Z"
