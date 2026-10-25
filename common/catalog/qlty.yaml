@@ -39,12 +39,12 @@ latest_release_name: "Release v0.662.0"
 latest_release_tag: "v0.662.0"
 latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.662.0"
 latest_release_published_at: "2026-10-23T00:30:18Z"
-latest_release_checked_at: "2026-10-24T18:28:42Z"
+latest_release_checked_at: "2026-10-25T18:29:00Z"
 packagist: null
 packagist_checked_at: "2026-10-25T01:01:00Z"
-stars: 3202
+stars: 3203
 repo_updated_at: "2026-10-24T01:59:54Z"
-metadata_updated_at: "2026-10-24T18:28:42Z"
+metadata_updated_at: "2026-10-25T18:29:00Z"
 quality_tags:
   - "code-quality"
   - "php"
