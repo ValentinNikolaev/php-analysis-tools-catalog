@@ -19,18 +19,18 @@ website_status_code: 200
 website_checked_at: "2026-10-26T01:00:08Z"
 website_error: ""
 repository: "https://github.com/jakzal/phpqa"
-latest_release_name: "1.125.8"
-latest_release_tag: "v1.125.8"
-latest_release_url: "https://github.com/jakzal/phpqa/releases/tag/v1.125.8"
-latest_release_published_at: "2026-10-12T10:17:20Z"
-latest_release_checked_at: "2026-10-25T18:29:00Z"
+latest_release_name: "1.125.9"
+latest_release_tag: "v1.125.9"
+latest_release_url: "https://github.com/jakzal/phpqa/releases/tag/v1.125.9"
+latest_release_published_at: "2026-10-26T08:33:31Z"
+latest_release_checked_at: "2026-10-26T18:40:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-10-26T01:00:08Z"
 stars: 1321
-repo_updated_at: "2026-10-25T14:30:08Z"
-metadata_updated_at: "2026-10-25T18:29:00Z"
+repo_updated_at: "2026-10-26T08:33:31Z"
+metadata_updated_at: "2026-10-26T18:40:32Z"
 quality_tags:
   - "code-quality"
   - "php"

@@ -21,18 +21,18 @@ website_status_code: 200
 website_checked_at: "2026-10-26T01:00:08Z"
 website_error: ""
 repository: "https://github.com/duriantaco/skylos"
-latest_release_name: "v5.0.0"
-latest_release_tag: "v5.0.0"
-latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v5.0.0"
-latest_release_published_at: "2026-10-23T03:55:20Z"
-latest_release_checked_at: "2026-10-25T18:29:00Z"
+latest_release_name: "v5.1.1"
+latest_release_tag: "v5.1.1"
+latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v5.1.1"
+latest_release_published_at: "2026-10-26T13:32:31Z"
+latest_release_checked_at: "2026-10-26T18:40:32Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-10-26T01:00:08Z"
 stars: 852
-repo_updated_at: "2026-10-25T16:41:59Z"
-metadata_updated_at: "2026-10-25T18:29:00Z"
+repo_updated_at: "2026-10-26T13:32:30Z"
+metadata_updated_at: "2026-10-26T18:40:32Z"
 quality_tags:
   - "code-quality"
   - "php"

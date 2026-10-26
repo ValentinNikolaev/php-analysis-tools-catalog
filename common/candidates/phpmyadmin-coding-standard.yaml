@@ -3,8 +3,8 @@ name: "coding-standard"
 category: "Coding standards"
 artifact_type: "ruleset"
 description: "phpMyAdmin PHP CodeSniffer Coding Standard"
-website: "https://github.com/phpmyadmin/coding-standard"
-public_url: "https://github.com/phpmyadmin/coding-standard"
+website: "https://packagist.org/packages/phpmyadmin/coding-standard"
+public_url: "https://packagist.org/packages/phpmyadmin/coding-standard"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
@@ -13,7 +13,7 @@ repository: "https://github.com/phpmyadmin/coding-standard"
 packagist: "https://packagist.org/packages/phpmyadmin/coding-standard"
 stars: 20
 repo_updated_at: "2026-08-13T15:35:35Z"
-metadata_updated_at: "2026-10-25T18:28:58Z"
+metadata_updated_at: "2026-10-26T18:40:32Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T06:27:43Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-25T18:28:58Z"
+last_discovered_at: "2026-10-26T18:40:32Z"
 discovery_queries:
   - "packagist:phpcs standard"
