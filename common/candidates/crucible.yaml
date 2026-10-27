@@ -13,7 +13,7 @@ repository: "https://github.com/cruciblephp/crucible"
 packagist: "https://packagist.org/packages/cruciblephp/crucible"
 stars: 3
 repo_updated_at: "2026-10-25T06:45:01Z"
-metadata_updated_at: "2026-10-26T06:53:47Z"
+metadata_updated_at: "2026-10-27T12:39:29Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-08T06:45:53Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T06:53:47Z"
+last_discovered_at: "2026-10-27T12:39:29Z"
 discovery_queries:
   - "packagist:phpstan extension"

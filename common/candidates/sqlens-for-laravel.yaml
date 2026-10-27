@@ -13,7 +13,7 @@ repository: "https://github.com/pushery/sqlens-for-laravel"
 packagist: "https://packagist.org/packages/pushery/sqlens-for-laravel"
 stars: 11
 repo_updated_at: "2026-10-22T18:07:54Z"
-metadata_updated_at: "2026-10-26T06:53:47Z"
+metadata_updated_at: "2026-10-27T12:39:29Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-01T06:45:18Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T06:53:47Z"
+last_discovered_at: "2026-10-27T12:39:29Z"
 discovery_queries:
   - "packagist:static analysis"
