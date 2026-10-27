@@ -1,0 +1,26 @@
+slug: "php-stubs"
+name: "php-stubs"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHP stub declarations of WooCommerce extensions, for static analysis of code that integrates with them."
+website: "https://github.com/woocommerce/php-stubs"
+public_url: "https://github.com/woocommerce/php-stubs"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/woocommerce/php-stubs"
+packagist: "https://packagist.org/packages/woocommerce/php-stubs"
+stars: 0
+repo_updated_at: "2026-10-26T20:23:48Z"
+metadata_updated_at: "2026-10-27T00:58:59Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-27T00:58:59Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-27T00:58:59Z"
+discovery_queries:
+  - "packagist:phpstan extension"
