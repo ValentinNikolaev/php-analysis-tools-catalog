@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-10-28T00:45:19Z",
+  "as_of": "2026-10-28T06:31:21Z",
   "attribution": "PHP Analysis Tools Catalog by Valentin Nikolaev and contributors",
   "data_license": "https://creativecommons.org/licenses/by/4.0/",
   "schema_version": 1,
-  "source_commit": "cd2c1980e5779b10f7aea5e28d89ef99a7cd043f",
+  "source_commit": "544a66474345019c2072f071fbf36aacaac6f62e",
   "source_repository": "https://github.com/ValentinNikolaev/php-analysis-tools-catalog",
   "tool_count": 111,
   "tools": [
