@@ -13,7 +13,7 @@ repository: "https://github.com/mspirkov/yii2-phpstan"
 packagist: "https://packagist.org/packages/mspirkov/yii2-phpstan-rules"
 stars: 20
 repo_updated_at: "2026-10-25T09:38:38Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+metadata_updated_at: "2026-10-28T00:45:19Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-17T18:27:29Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T18:40:32Z"
+last_discovered_at: "2026-10-28T00:45:19Z"
 discovery_queries:
   - "packagist:phpstan extension"

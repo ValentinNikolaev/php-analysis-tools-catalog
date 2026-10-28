@@ -13,7 +13,7 @@ repository: "https://github.com/php-collective/code-sniffer"
 packagist: "https://packagist.org/packages/php-collective/code-sniffer"
 stars: 7
 repo_updated_at: "2026-10-25T20:41:26Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+metadata_updated_at: "2026-10-28T00:45:19Z"
 quality_tags:
   - "php"
   - "phpcs"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-23T12:26:33Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T18:40:32Z"
+last_discovered_at: "2026-10-28T00:45:19Z"
 discovery_queries:
   - "packagist:static analysis"

@@ -13,7 +13,7 @@ repository: "https://github.com/HelgeSverre/pest-to-phpunit"
 packagist: "https://packagist.org/packages/helgesverre/pest-to-phpunit"
 stars: 7
 repo_updated_at: "2026-10-14T15:15:24Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+metadata_updated_at: "2026-10-28T00:45:19Z"
 quality_tags:
   - "php"
   - "rector"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-01T18:31:17Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T18:40:32Z"
+last_discovered_at: "2026-10-28T00:45:19Z"
 discovery_queries:
   - "packagist:rector rules"

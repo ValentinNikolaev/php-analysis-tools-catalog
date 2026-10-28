@@ -1,0 +1,30 @@
+slug: "dresscode"
+name: "dresscode"
+category: "Fixers"
+artifact_type: "fixer"
+description: "👔 DressCode: checks and fixes PHP coding style, and upgrades code to newer PHP and to new versions of libraries. Built on a lossless syntax tree, so it changes only what it touches. PER-CS, PSR-12, Symfony, Nette."
+website: "https://dresscode.run"
+public_url: "https://dresscode.run"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/dg/dresscode"
+packagist: "https://packagist.org/packages/dresscode/dresscode"
+stars: 3
+repo_updated_at: "2026-10-28T00:18:13Z"
+metadata_updated_at: "2026-10-28T00:45:19Z"
+quality_tags:
+  - "linter"
+  - "php"
+  - "phpcs"
+  - "rector"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-28T00:45:19Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-28T00:45:19Z"
+discovery_queries:
+  - "packagist:phpcs standard"

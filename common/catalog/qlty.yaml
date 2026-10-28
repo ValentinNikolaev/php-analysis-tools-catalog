@@ -32,19 +32,19 @@ website: "https://qlty.sh/"
 public_url: "https://qlty.sh/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-27T00:59:00Z"
+website_checked_at: "2026-10-28T00:45:20Z"
 website_error: ""
 repository: "https://github.com/qltysh/qlty"
 latest_release_name: "Release v0.662.0"
 latest_release_tag: "v0.662.0"
 latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.662.0"
 latest_release_published_at: "2026-10-23T00:30:18Z"
-latest_release_checked_at: "2026-10-26T18:40:32Z"
+latest_release_checked_at: "2026-10-28T00:45:20Z"
 packagist: null
-packagist_checked_at: "2026-10-27T00:59:00Z"
-stars: 3206
-repo_updated_at: "2026-10-24T01:59:54Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+packagist_checked_at: "2026-10-28T00:45:20Z"
+stars: 3208
+repo_updated_at: "2026-10-27T19:21:21Z"
+metadata_updated_at: "2026-10-28T00:45:20Z"
 quality_tags:
   - "code-quality"
   - "php"

@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/guanguans/rector-rules"
 packagist: "https://packagist.org/packages/guanguans/rector-rules"
 stars: 1
-repo_updated_at: "2026-10-12T09:36:14Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+repo_updated_at: "2026-10-27T14:56:03Z"
+metadata_updated_at: "2026-10-28T00:45:19Z"
 quality_tags:
   - "linter"
   - "rector"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-31T06:49:01Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-26T18:40:32Z"
+last_discovered_at: "2026-10-28T00:45:19Z"
 discovery_queries:
   - "packagist:rector rules"

@@ -18,19 +18,19 @@ website: "https://hhvm.com/"
 public_url: "https://hhvm.com/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-27T00:59:00Z"
+website_checked_at: "2026-10-28T00:45:20Z"
 website_error: ""
 repository: "https://github.com/facebook/hhvm"
 latest_release_name: "HHVM-3.15.0"
 latest_release_tag: "HHVM-3.15.0"
 latest_release_url: "https://github.com/facebook/hhvm/releases/tag/HHVM-3.15.0"
 latest_release_published_at: "2016-09-28T21:01:13Z"
-latest_release_checked_at: "2026-10-26T18:40:32Z"
+latest_release_checked_at: "2026-10-28T00:45:20Z"
 packagist: null
-packagist_checked_at: "2026-10-27T00:59:00Z"
+packagist_checked_at: "2026-10-28T00:45:20Z"
 stars: 18677
 repo_updated_at: "2026-10-26T13:22:55Z"
-metadata_updated_at: "2026-10-26T18:40:32Z"
+metadata_updated_at: "2026-10-28T00:45:20Z"
 quality_tags:
   - "historical-analysis-only"
   - "php"
