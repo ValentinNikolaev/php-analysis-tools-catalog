@@ -1,0 +1,26 @@
+slug: "composerplugins"
+name: "ComposerPlugins"
+category: "Coding standards"
+artifact_type: "extension"
+description: "A collection of composer plugins for specific installation instruction for composer packages."
+website: "https://github.com/SimplyAdmire/ComposerPlugins"
+public_url: "https://github.com/SimplyAdmire/ComposerPlugins"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/SimplyAdmire/ComposerPlugins"
+packagist: "https://packagist.org/packages/simplyadmire/composer-plugins"
+stars: 14
+repo_updated_at: "2016-05-12T12:01:24Z"
+metadata_updated_at: "2026-10-29T06:31:21Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-29T06:31:21Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-29T06:31:21Z"
+discovery_queries:
+  - "packagist:phpcs standard"

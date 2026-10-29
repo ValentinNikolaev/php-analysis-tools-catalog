@@ -25,14 +25,14 @@ latest_release_name: "4.0.4 - 2026-08-06"
 latest_release_tag: "4.0.4"
 latest_release_url: "https://github.com/PHPCSStandards/PHP_CodeSniffer/releases/tag/4.0.4"
 latest_release_published_at: "2026-08-06T03:09:54Z"
-latest_release_checked_at: "2026-10-28T00:45:20Z"
+latest_release_checked_at: "2026-10-29T06:31:22Z"
 packagist: "https://packagist.org/packages/phpcsstandards/php_codesniffer"
 latest_version: "4.0.4"
 latest_version_released_at: "2026-08-06T02:45:27+00:00"
 packagist_checked_at: "2026-10-29T00:44:46Z"
-stars: 1564
+stars: 1565
 repo_updated_at: "2026-10-21T02:58:18Z"
-metadata_updated_at: "2026-10-28T00:45:20Z"
+metadata_updated_at: "2026-10-29T06:31:22Z"
 quality_tags:
   - "php"
   - "static-analysis"

@@ -22,12 +22,12 @@ latest_release_name: "Release v5.4.2"
 latest_release_tag: "v5.4.2"
 latest_release_url: "https://github.com/kucherenko/jscpd/releases/tag/v5.4.2"
 latest_release_published_at: "2026-10-20T16:14:54Z"
-latest_release_checked_at: "2026-10-28T00:45:20Z"
+latest_release_checked_at: "2026-10-29T06:31:22Z"
 packagist: null
 packagist_checked_at: "2026-10-29T00:44:46Z"
-stars: 6455
-repo_updated_at: "2026-10-27T16:32:47Z"
-metadata_updated_at: "2026-10-28T00:45:20Z"
+stars: 6461
+repo_updated_at: "2026-10-28T13:06:38Z"
+metadata_updated_at: "2026-10-29T06:31:22Z"
 quality_tags:
   - "code-quality"
   - "static-analysis"

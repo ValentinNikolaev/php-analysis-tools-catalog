@@ -22,14 +22,14 @@ latest_release_name: "7.2.6"
 latest_release_tag: "7.2.6"
 latest_release_url: "https://github.com/llaville/php-compatinfo/releases/tag/7.2.6"
 latest_release_published_at: "2026-04-22T05:01:40Z"
-latest_release_checked_at: "2026-10-28T00:45:20Z"
+latest_release_checked_at: "2026-10-29T06:31:22Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-10-29T00:44:46Z"
-stars: 382
-repo_updated_at: "2026-10-25T07:01:29Z"
-metadata_updated_at: "2026-10-28T00:45:20Z"
+stars: 381
+repo_updated_at: "2026-10-28T13:08:44Z"
+metadata_updated_at: "2026-10-29T06:31:22Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"
