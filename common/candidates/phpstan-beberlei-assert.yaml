@@ -13,7 +13,7 @@ repository: "https://github.com/phpstan/phpstan-beberlei-assert"
 packagist: "https://packagist.org/packages/phpstan/phpstan-beberlei-assert"
 stars: 43
 repo_updated_at: "2026-10-27T07:46:39Z"
-metadata_updated_at: "2026-10-29T06:31:21Z"
+metadata_updated_at: "2026-10-30T12:28:51Z"
 quality_tags:
   - "php"
   - "phpstan"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-12T12:32:55Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-29T06:31:21Z"
+last_discovered_at: "2026-10-30T12:28:51Z"
 discovery_queries:
   - "packagist:phpstan extension"

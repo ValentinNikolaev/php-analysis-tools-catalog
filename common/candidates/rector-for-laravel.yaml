@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/jcergolj/rector-for-laravel"
 packagist: "https://packagist.org/packages/jcergolj/rector-for-laravel"
 stars: 1
-repo_updated_at: "2026-10-16T16:26:15Z"
-metadata_updated_at: "2026-10-29T06:31:21Z"
+repo_updated_at: "2026-10-30T11:08:54Z"
+metadata_updated_at: "2026-10-30T12:28:51Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-09-01T01:10:20Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-29T06:31:21Z"
+last_discovered_at: "2026-10-30T12:28:51Z"
 discovery_queries:
   - "packagist:rector rules"

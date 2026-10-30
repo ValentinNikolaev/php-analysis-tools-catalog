@@ -30,14 +30,14 @@ latest_release_name: "php-ast 1.1.4"
 latest_release_tag: "v1.1.4"
 latest_release_url: "https://github.com/nikic/php-ast/releases/tag/v1.1.4"
 latest_release_published_at: "2026-10-28T19:41:39Z"
-latest_release_checked_at: "2026-10-29T06:31:22Z"
+latest_release_checked_at: "2026-10-30T12:28:52Z"
 packagist: "https://packagist.org/packages/nikic/php-ast"
 latest_version: "v1.1.4"
 latest_version_released_at: "2026-10-28T19:32:43+00:00"
 packagist_checked_at: "2026-10-30T00:45:41Z"
-stars: 984
+stars: 983
 repo_updated_at: "2026-10-28T19:39:54Z"
-metadata_updated_at: "2026-10-29T06:31:22Z"
+metadata_updated_at: "2026-10-30T12:28:52Z"
 quality_tags:
   - "ast"
   - "php"
