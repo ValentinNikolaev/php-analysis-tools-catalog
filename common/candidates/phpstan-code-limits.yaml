@@ -1,0 +1,26 @@
+slug: "phpstan-code-limits"
+name: "phpstan-code-limits"
+category: "Bugs finders"
+artifact_type: "ruleset"
+description: "PHPStan rules that enforce size, layout and expression limits on PHP code"
+website: "https://github.com/gboquizosanchez/phpstan-code-limits"
+public_url: "https://github.com/gboquizosanchez/phpstan-code-limits"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/gboquizosanchez/phpstan-code-limits"
+packagist: "https://packagist.org/packages/gboquizosanchez/phpstan-code-limits"
+stars: 0
+repo_updated_at: "2026-10-21T10:51:31Z"
+metadata_updated_at: "2026-10-30T06:31:00Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-10-30T06:31:00Z"
+last_reviewed_at: null
+last_discovered_at: "2026-10-30T06:31:00Z"
+discovery_queries:
+  - "packagist:phpstan extension"
