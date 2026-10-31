@@ -3,8 +3,8 @@ name: "sqlens-for-laravel"
 category: "Bugs finders"
 artifact_type: "analyzer"
 description: "Database safety for Laravel on PostgreSQL and MySQL. SQLens lints the SQL your migrations actually emit for lock and downtime risk, audits live schemas, detects drift and security issues, classifies deploy risk, and provides deterministic CI-ready guards with explicit pass, fail, or undetermined results."
-website: "https://github.com/pushery/sqlens-for-laravel"
-public_url: "https://github.com/pushery/sqlens-for-laravel"
+website: "https://docs.pushery.com/sqlens-for-laravel/"
+public_url: "https://docs.pushery.com/sqlens-for-laravel/"
 website_status: "unknown"
 website_status_code: 0
 website_checked_at: null
@@ -13,7 +13,7 @@ repository: "https://github.com/pushery/sqlens-for-laravel"
 packagist: "https://packagist.org/packages/pushery/sqlens-for-laravel"
 stars: 11
 repo_updated_at: "2026-10-22T18:07:54Z"
-metadata_updated_at: "2026-10-29T18:25:01Z"
+metadata_updated_at: "2026-10-31T00:37:18Z"
 quality_tags:
   - "php"
 source: "packagist-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-01T06:45:18Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-29T18:25:01Z"
+last_discovered_at: "2026-10-31T00:37:18Z"
 discovery_queries:
   - "packagist:static analysis"

@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/noldor/phpstan-extension"
 packagist: "https://packagist.org/packages/noldors/phpstan-extension"
 stars: 0
-repo_updated_at: "2026-10-29T17:03:35Z"
-metadata_updated_at: "2026-10-29T18:25:01Z"
+repo_updated_at: "2026-10-29T19:44:13Z"
+metadata_updated_at: "2026-10-31T00:37:18Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-10-26T06:53:47Z"
 last_reviewed_at: null
-last_discovered_at: "2026-10-29T18:25:01Z"
+last_discovered_at: "2026-10-31T00:37:18Z"
 discovery_queries:
   - "packagist:phpstan extension"

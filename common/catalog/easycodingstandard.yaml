@@ -17,7 +17,7 @@ website: "https://github.com/Symplify/EasyCodingStandard"
 public_url: "https://github.com/Symplify/EasyCodingStandard"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-10-30T00:45:41Z"
+website_checked_at: "2026-10-31T00:37:19Z"
 website_error: ""
 repository: "https://github.com/ecsphp/ecs"
 latest_release_name: "ECS 13.3.12"
@@ -26,7 +26,7 @@ latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.12"
 latest_release_published_at: "2026-10-29T14:53:53Z"
 latest_release_checked_at: "2026-10-30T12:28:52Z"
 packagist: null
-packagist_checked_at: "2026-10-30T00:45:41Z"
+packagist_checked_at: "2026-10-31T00:37:19Z"
 stars: 1625
 repo_updated_at: "2026-10-30T09:39:25Z"
 metadata_updated_at: "2026-10-30T12:28:52Z"
