@@ -35,16 +35,16 @@ website_status_code: 200
 website_checked_at: "2026-11-03T23:21:46Z"
 website_error: ""
 repository: "https://github.com/qltysh/qlty"
-latest_release_name: "Release v0.665.0"
-latest_release_tag: "v0.665.0"
-latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.665.0"
-latest_release_published_at: "2026-10-29T22:09:41Z"
-latest_release_checked_at: "2026-11-03T00:56:44Z"
+latest_release_name: "Release v0.667.0"
+latest_release_tag: "v0.667.0"
+latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.667.0"
+latest_release_published_at: "2026-11-03T17:58:16Z"
+latest_release_checked_at: "2026-11-04T06:18:56Z"
 packagist: null
 packagist_checked_at: "2026-11-03T23:21:46Z"
-stars: 3212
-repo_updated_at: "2026-11-03T00:53:01Z"
-metadata_updated_at: "2026-11-03T00:56:44Z"
+stars: 3214
+repo_updated_at: "2026-11-04T01:14:31Z"
+metadata_updated_at: "2026-11-04T06:18:56Z"
 quality_tags:
   - "code-quality"
   - "php"
