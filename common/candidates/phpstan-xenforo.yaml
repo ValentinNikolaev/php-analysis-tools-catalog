@@ -1,0 +1,26 @@
+slug: "phpstan-xenforo"
+name: "phpstan-xenforo"
+category: "Bugs finders"
+artifact_type: "analyzer"
+description: "Adds PHPStan analysis to a XenForo add-on"
+website: "https://github.com/DragonByteTech/phpstan-xenforo"
+public_url: "https://github.com/DragonByteTech/phpstan-xenforo"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/DragonByteTech/phpstan-xenforo"
+packagist: "https://packagist.org/packages/dragonbytetech/phpstan-xenforo"
+stars: 0
+repo_updated_at: "2026-10-21T16:07:55Z"
+metadata_updated_at: "2026-11-05T06:43:44Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-05T06:43:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-05T06:43:44Z"
+discovery_queries:
+  - "packagist:phpstan extension"

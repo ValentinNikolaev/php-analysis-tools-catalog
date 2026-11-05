@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/CodeIgniter/phpstan-codeigniter"
 packagist: null
 stars: 22
-repo_updated_at: "2026-11-02T11:04:57Z"
-metadata_updated_at: "2026-11-04T06:18:56Z"
+repo_updated_at: "2026-11-04T18:39:02Z"
+metadata_updated_at: "2026-11-05T06:43:44Z"
 quality_tags:
   - "php"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-13T18:35:00Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-04T06:18:56Z"
+last_discovered_at: "2026-11-05T06:43:44Z"
 discovery_queries:
   - "topic:php topic:static-analysis stars:>20"

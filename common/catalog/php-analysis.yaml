@@ -22,12 +22,12 @@ latest_release_name: "v0.3.6"
 latest_release_tag: "v0.3.6"
 latest_release_url: "https://github.com/cwi-swat/php-analysis/releases/tag/v0.3.6"
 latest_release_published_at: "2026-10-15T13:35:36Z"
-latest_release_checked_at: "2026-11-04T06:18:56Z"
+latest_release_checked_at: "2026-11-05T06:43:45Z"
 packagist: null
 packagist_checked_at: "2026-11-04T19:43:55Z"
 stars: 28
 repo_updated_at: "2026-10-15T10:39:31Z"
-metadata_updated_at: "2026-11-04T06:18:56Z"
+metadata_updated_at: "2026-11-05T06:43:45Z"
 quality_tags: []
 source: "README.md"
 notes: ""

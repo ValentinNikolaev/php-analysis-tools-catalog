@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/previousnext/coding-standard"
 packagist: "https://packagist.org/packages/previousnext/coding-standard"
 stars: 3
-repo_updated_at: "2026-11-04T04:06:07Z"
-metadata_updated_at: "2026-11-04T06:18:56Z"
+repo_updated_at: "2026-11-04T23:02:56Z"
+metadata_updated_at: "2026-11-05T06:43:44Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-25T18:27:05Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-04T06:18:56Z"
+last_discovered_at: "2026-11-05T06:43:44Z"
 discovery_queries:
   - "packagist:phpcs standard"
