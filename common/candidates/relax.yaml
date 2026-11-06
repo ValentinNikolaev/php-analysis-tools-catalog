@@ -1,0 +1,26 @@
+slug: "relax"
+name: "relax"
+category: "Fixers"
+artifact_type: "fixer"
+description: "🔧 Use the same php-cs-fixer configuration across all of your projects, with presets for common project layouts (Laravel, PHP packages, etc.). "
+website: "https://github.com/realodix/relax"
+public_url: "https://github.com/realodix/relax"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/realodix/relax"
+packagist: "https://packagist.org/packages/realodix/relax"
+stars: 3
+repo_updated_at: "2026-03-13T17:27:20Z"
+metadata_updated_at: "2026-11-06T06:41:44Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-06T06:41:44Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-06T06:41:44Z"
+discovery_queries:
+  - "packagist:phpcs standard"
