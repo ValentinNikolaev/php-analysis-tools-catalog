@@ -14,17 +14,17 @@ website: "https://codeberg.org/Jumping-Beaver/PHP_Static_Type_Checker"
 public_url: "https://codeberg.org/Jumping-Beaver/PHP_Static_Type_Checker"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-05T19:55:40Z"
+website_checked_at: "2026-11-06T19:22:57Z"
 website_error: ""
 repository: "https://github.com/Jumping-Beaver/PHP_Static_Type_Checker"
-latest_release_checked_at: "2026-11-05T06:43:45Z"
+latest_release_checked_at: "2026-11-06T19:22:57Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-11-05T19:55:40Z"
+packagist_checked_at: "2026-11-06T19:22:57Z"
 stars: 0
 repo_updated_at: "2026-04-08T16:22:23Z"
-metadata_updated_at: "2026-11-05T06:43:45Z"
+metadata_updated_at: "2026-11-06T19:22:57Z"
 quality_tags: []
 source: "https://github.com/exakat/php-static-analysis-tools"
 notes: "Imported from Exakat's PHP static-analysis tools catalog after active-project verification."
