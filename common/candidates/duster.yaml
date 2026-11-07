@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/tighten/duster"
 packagist: "https://packagist.org/packages/tightenco/duster"
 stars: 604
-repo_updated_at: "2026-10-27T22:39:06Z"
-metadata_updated_at: "2026-11-06T19:22:56Z"
+repo_updated_at: "2026-11-07T06:56:05Z"
+metadata_updated_at: "2026-11-07T21:48:28Z"
 quality_tags:
   - "linter"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-24T18:27:08Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-06T19:22:56Z"
+last_discovered_at: "2026-11-07T21:48:28Z"
 discovery_queries:
   - "packagist:phpcs standard"
