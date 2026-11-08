@@ -1,0 +1,28 @@
+slug: "phpsyntax"
+name: "phpsyntax"
+category: "Fixers"
+artifact_type: "fixer"
+description: "🌳 PhpSyntax: a lossless concrete syntax tree (CST) for PHP. Every token, space and comment is in the tree and printing it gives the file back byte for byte, so a tool changes only what it touches. Comes with a mutation API for refactoring, formatters and code generation."
+website: "https://phpsyntax.deegee.dev"
+public_url: "https://phpsyntax.deegee.dev"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/phpsyntax/phpsyntax"
+packagist: "https://packagist.org/packages/phpsyntax/phpsyntax"
+stars: 12
+repo_updated_at: "2026-11-08T10:06:06Z"
+metadata_updated_at: "2026-11-08T13:22:34Z"
+quality_tags:
+  - "php"
+  - "static-analysis"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-08T13:22:34Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-08T13:22:34Z"
+discovery_queries:
+  - "packagist:static analysis"
