@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/AxeWP/WPGraphQL-Coding-Standards"
 packagist: null
 stars: 11
-repo_updated_at: "2026-11-01T20:47:08Z"
-metadata_updated_at: "2026-11-07T21:48:28Z"
+repo_updated_at: "2026-11-08T20:44:23Z"
+metadata_updated_at: "2026-11-08T22:02:42Z"
 quality_tags:
   - "phpcs"
 source: "github-search"
@@ -22,6 +22,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-16T00:28:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-07T21:48:28Z"
+last_discovered_at: "2026-11-08T22:02:42Z"
 discovery_queries:
   - "PHPCS coding standard stars:>10"

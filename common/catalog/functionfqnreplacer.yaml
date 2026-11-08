@@ -8,15 +8,15 @@ website: "https://github.com/Roave/FunctionFQNReplacer"
 public_url: "https://github.com/Roave/FunctionFQNReplacer"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-07T21:48:29Z"
+website_checked_at: "2026-11-08T22:02:43Z"
 website_error: ""
 repository: "https://github.com/Roave/FunctionFQNReplacer"
-latest_release_checked_at: "2026-11-07T21:48:29Z"
+latest_release_checked_at: "2026-11-08T22:02:43Z"
 packagist: null
-packagist_checked_at: "2026-11-07T21:48:29Z"
+packagist_checked_at: "2026-11-08T22:02:43Z"
 stars: 157
 repo_updated_at: "2017-07-05T06:04:52Z"
-metadata_updated_at: "2026-11-07T21:48:29Z"
+metadata_updated_at: "2026-11-08T22:02:43Z"
 quality_tags:
   - "archived"
 source: "README.md"

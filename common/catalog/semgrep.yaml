@@ -16,21 +16,21 @@ website: "https://semgrep.dev"
 public_url: "https://semgrep.dev"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-07T21:48:29Z"
+website_checked_at: "2026-11-08T22:02:43Z"
 website_error: ""
 repository: "https://github.com/semgrep/semgrep"
 latest_release_name: "Release v1.184.0"
 latest_release_tag: "v1.184.0"
 latest_release_url: "https://github.com/semgrep/semgrep/releases/tag/v1.184.0"
 latest_release_published_at: "2026-11-05T19:17:04Z"
-latest_release_checked_at: "2026-11-07T21:48:29Z"
+latest_release_checked_at: "2026-11-08T22:02:43Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-11-07T21:48:29Z"
-stars: 17541
+packagist_checked_at: "2026-11-08T22:02:43Z"
+stars: 17556
 repo_updated_at: "2026-11-06T00:05:37Z"
-metadata_updated_at: "2026-11-07T21:48:29Z"
+metadata_updated_at: "2026-11-08T22:02:43Z"
 quality_tags:
   - "static-analysis"
 source: "https://github.com/semgrep/semgrep"
