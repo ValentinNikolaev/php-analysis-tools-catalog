@@ -13,7 +13,7 @@ repository: "https://github.com/realodix/relax"
 packagist: "https://packagist.org/packages/realodix/relax"
 stars: 3
 repo_updated_at: "2026-03-13T17:27:20Z"
-metadata_updated_at: "2026-11-08T13:22:34Z"
+metadata_updated_at: "2026-11-09T22:19:47Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-11-06T06:41:44Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-08T13:22:34Z"
+last_discovered_at: "2026-11-09T22:19:47Z"
 discovery_queries:
   - "packagist:phpcs standard"

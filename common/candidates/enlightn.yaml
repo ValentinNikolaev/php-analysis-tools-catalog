@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/enlightn/enlightn"
 packagist: "https://packagist.org/packages/enlightn/enlightn"
-stars: 982
+stars: 983
 repo_updated_at: "2024-06-15T19:11:23Z"
-metadata_updated_at: "2026-11-08T22:02:42Z"
+metadata_updated_at: "2026-11-09T22:19:47Z"
 quality_tags:
   - "code-quality"
   - "security"
@@ -24,6 +24,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-21T12:27:21Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-08T22:02:42Z"
+last_discovered_at: "2026-11-09T22:19:47Z"
 discovery_queries:
   - "packagist:static analysis"
