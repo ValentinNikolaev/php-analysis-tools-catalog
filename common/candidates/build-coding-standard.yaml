@@ -1,0 +1,26 @@
+slug: "build-coding-standard"
+name: "build-coding-standard"
+category: "Fixers"
+artifact_type: "fixer"
+description: "The shared PHP coding standard of the PrestaHaven modules and packages: the PHP-CS-Fixer config, the base PHPStan config, the PHPCS standard PrestaHavenCompatibility and the PHPUnit config template. (read-only split of prestashopheaven/mono-build-standards)"
+website: "https://github.com/prestashopheaven/build-coding-standard"
+public_url: "https://github.com/prestashopheaven/build-coding-standard"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/prestashopheaven/build-coding-standard"
+packagist: "https://packagist.org/packages/prestashopheaven/build-coding-standard"
+stars: 0
+repo_updated_at: "2026-11-07T15:45:28Z"
+metadata_updated_at: "2026-11-09T06:23:43Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-09T06:23:43Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-09T06:23:43Z"
+discovery_queries:
+  - "packagist:phpcs standard"
