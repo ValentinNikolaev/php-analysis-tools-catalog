@@ -15,7 +15,7 @@ website: "https://github.com/kucherenko/jscpd"
 public_url: "https://github.com/kucherenko/jscpd"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-09T22:19:48Z"
+website_checked_at: "2026-11-10T19:42:29Z"
 website_error: ""
 repository: "https://github.com/kucherenko/jscpd"
 latest_release_name: "Release v5.4.3"
@@ -24,7 +24,7 @@ latest_release_url: "https://github.com/kucherenko/jscpd/releases/tag/v5.4.3"
 latest_release_published_at: "2026-11-08T06:54:08Z"
 latest_release_checked_at: "2026-11-09T22:19:48Z"
 packagist: null
-packagist_checked_at: "2026-11-09T22:19:48Z"
+packagist_checked_at: "2026-11-10T19:42:29Z"
 stars: 6523
 repo_updated_at: "2026-11-08T06:54:29Z"
 metadata_updated_at: "2026-11-09T22:19:48Z"
