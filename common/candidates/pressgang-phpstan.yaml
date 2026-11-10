@@ -1,0 +1,27 @@
+slug: "pressgang-phpstan"
+name: "pressgang-phpstan"
+category: "Bugs finders"
+artifact_type: "extension"
+description: "PHPStan extensions for PressGang controller manifests and dynamic model getters."
+website: "https://pressgang.dev"
+public_url: "https://pressgang.dev"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/pressgang-wp/pressgang-phpstan"
+packagist: "https://packagist.org/packages/pressgang-wp/phpstan"
+stars: 0
+repo_updated_at: "2026-10-14T11:09:39Z"
+metadata_updated_at: "2026-11-10T07:15:18Z"
+quality_tags:
+  - "phpstan"
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-10T07:15:18Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-10T07:15:18Z"
+discovery_queries:
+  - "packagist:phpstan extension"
