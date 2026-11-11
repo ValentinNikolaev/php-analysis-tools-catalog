@@ -11,9 +11,9 @@ website_checked_at: null
 website_error: ""
 repository: "https://github.com/overtrue/phplint"
 packagist: "https://packagist.org/packages/overtrue/phplint"
-stars: 1021
-repo_updated_at: "2026-11-03T15:27:06Z"
-metadata_updated_at: "2026-11-09T22:19:47Z"
+stars: 1022
+repo_updated_at: "2026-11-11T05:37:14Z"
+metadata_updated_at: "2026-11-11T06:14:48Z"
 quality_tags:
   - "linter"
   - "php"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-08-20T18:27:03Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-09T22:19:47Z"
+last_discovered_at: "2026-11-11T06:14:48Z"
 discovery_queries:
   - "packagist:static analysis"

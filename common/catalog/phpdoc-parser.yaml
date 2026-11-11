@@ -31,14 +31,14 @@ latest_release_name: "2.4.1"
 latest_release_tag: "2.4.1"
 latest_release_url: "https://github.com/phpstan/phpdoc-parser/releases/tag/2.4.1"
 latest_release_published_at: "2026-10-30T19:37:33Z"
-latest_release_checked_at: "2026-11-09T22:19:48Z"
+latest_release_checked_at: "2026-11-11T06:14:48Z"
 packagist: "https://packagist.org/packages/phpstan/phpdoc-parser"
 latest_version: "2.4.1"
 latest_version_released_at: "2026-10-30T19:36:28+00:00"
 packagist_checked_at: "2026-11-10T19:42:29Z"
-stars: 1543
+stars: 1545
 repo_updated_at: "2026-11-07T10:23:30Z"
-metadata_updated_at: "2026-11-09T22:19:48Z"
+metadata_updated_at: "2026-11-11T06:14:48Z"
 quality_tags:
   - "php"
   - "phpstan"

@@ -24,12 +24,12 @@ latest_release_name: "ECS 13.3.15"
 latest_release_tag: "13.3.15"
 latest_release_url: "https://github.com/ecsphp/ecs/releases/tag/13.3.15"
 latest_release_published_at: "2026-11-07T20:03:42Z"
-latest_release_checked_at: "2026-11-09T22:19:48Z"
+latest_release_checked_at: "2026-11-11T06:14:48Z"
 packagist: null
 packagist_checked_at: "2026-11-10T19:42:29Z"
 stars: 1630
-repo_updated_at: "2026-11-09T16:17:44Z"
-metadata_updated_at: "2026-11-09T22:19:48Z"
+repo_updated_at: "2026-11-10T12:50:36Z"
+metadata_updated_at: "2026-11-11T06:14:48Z"
 quality_tags:
   - "php"
 source: "README.md"
