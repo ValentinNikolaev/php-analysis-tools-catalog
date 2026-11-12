@@ -32,7 +32,7 @@ website: "https://qlty.sh/"
 public_url: "https://qlty.sh/"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-12T00:41:11Z"
+website_checked_at: "2026-11-12T23:37:43Z"
 website_error: ""
 repository: "https://github.com/qltysh/qlty"
 latest_release_name: "Release v0.668.0"
@@ -41,7 +41,7 @@ latest_release_url: "https://github.com/qltysh/qlty/releases/tag/v0.668.0"
 latest_release_published_at: "2026-11-06T19:10:33Z"
 latest_release_checked_at: "2026-11-12T15:12:02Z"
 packagist: null
-packagist_checked_at: "2026-11-12T00:41:11Z"
+packagist_checked_at: "2026-11-12T23:37:43Z"
 stars: 3224
 repo_updated_at: "2026-11-10T12:17:47Z"
 metadata_updated_at: "2026-11-12T15:12:02Z"
