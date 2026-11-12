@@ -1,0 +1,26 @@
+slug: "phalcon4to5-rector"
+name: "phalcon4to5-rector"
+category: "Fixers"
+artifact_type: "fixer"
+description: "基于 Rector 的 Phalcon Framework 4 → 5 自动升级规则集。Rector 官方目前没有 Phalcon 规则包，本项目按照 rectorphp/rector-symfony 的扩展包结构，实现 Phalcon 5 官方升级指南 中的破坏性变更，让应用代码升级尽可能自动化。"
+website: "https://github.com/xuwenxiong/phalcon4to5-rector"
+public_url: "https://github.com/xuwenxiong/phalcon4to5-rector"
+website_status: "unknown"
+website_status_code: 0
+website_checked_at: null
+website_error: ""
+repository: "https://github.com/xuwenxiong/phalcon4to5-rector"
+packagist: "https://packagist.org/packages/xuwenxiong/phalcon4to5-rector"
+stars: 0
+repo_updated_at: "2026-11-12T12:06:41Z"
+metadata_updated_at: "2026-11-12T15:12:02Z"
+quality_tags: []
+source: "packagist-search"
+notes: "Review category and description before promoting through a normal catalog pull request."
+review_status: "pending"
+review_notes: "Requires editorial relevance, category, and maintenance review."
+discovered_at: "2026-11-12T15:12:02Z"
+last_reviewed_at: null
+last_discovered_at: "2026-11-12T15:12:02Z"
+discovery_queries:
+  - "packagist:rector rules"
