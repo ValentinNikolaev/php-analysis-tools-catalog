@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/nth-root/phpstan-security"
 packagist: "https://packagist.org/packages/nth-root/phpstan-security"
 stars: 3
-repo_updated_at: "2026-11-10T12:06:34Z"
-metadata_updated_at: "2026-11-12T15:12:02Z"
+repo_updated_at: "2026-11-13T06:51:08Z"
+metadata_updated_at: "2026-11-13T19:39:51Z"
 quality_tags:
   - "security"
   - "static-analysis"
@@ -23,6 +23,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-11-07T05:56:25Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-12T15:12:02Z"
+last_discovered_at: "2026-11-13T19:39:51Z"
 discovery_queries:
   - "packagist:phpstan extension"

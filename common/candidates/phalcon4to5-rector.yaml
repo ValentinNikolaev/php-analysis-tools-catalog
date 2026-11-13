@@ -12,8 +12,8 @@ website_error: ""
 repository: "https://github.com/xuwenxiong/phalcon4to5-rector"
 packagist: "https://packagist.org/packages/xuwenxiong/phalcon4to5-rector"
 stars: 0
-repo_updated_at: "2026-11-12T12:06:41Z"
-metadata_updated_at: "2026-11-12T15:12:02Z"
+repo_updated_at: "2026-11-13T11:57:09Z"
+metadata_updated_at: "2026-11-13T19:39:51Z"
 quality_tags: []
 source: "packagist-search"
 notes: "Review category and description before promoting through a normal catalog pull request."
@@ -21,6 +21,6 @@ review_status: "pending"
 review_notes: "Requires editorial relevance, category, and maintenance review."
 discovered_at: "2026-11-12T15:12:02Z"
 last_reviewed_at: null
-last_discovered_at: "2026-11-12T15:12:02Z"
+last_discovered_at: "2026-11-13T19:39:51Z"
 discovery_queries:
   - "packagist:rector rules"
