@@ -16,7 +16,7 @@ website: "https://semgrep.dev"
 public_url: "https://semgrep.dev"
 website_status: "available"
 website_status_code: 200
-website_checked_at: "2026-11-13T19:39:52Z"
+website_checked_at: "2026-11-14T17:59:15Z"
 website_error: ""
 repository: "https://github.com/semgrep/semgrep"
 latest_release_name: "Release v1.185.0"
@@ -27,7 +27,7 @@ latest_release_checked_at: "2026-11-13T19:39:52Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
-packagist_checked_at: "2026-11-13T19:39:52Z"
+packagist_checked_at: "2026-11-14T17:59:15Z"
 stars: 17652
 repo_updated_at: "2026-11-13T00:03:04Z"
 metadata_updated_at: "2026-11-13T19:39:52Z"
