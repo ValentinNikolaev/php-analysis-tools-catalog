@@ -20,18 +20,18 @@ website_status_code: 200
 website_checked_at: "2026-11-14T17:59:15Z"
 website_error: ""
 repository: "https://github.com/scanaislop/aislop"
-latest_release_name: "v0.20.1"
-latest_release_tag: "v0.20.1"
-latest_release_url: "https://github.com/scanaislop/aislop/releases/tag/v0.20.1"
-latest_release_published_at: "2026-11-11T23:31:38Z"
-latest_release_checked_at: "2026-11-13T19:39:52Z"
+latest_release_name: "aislop v0.22.1"
+latest_release_tag: "v0.22.1"
+latest_release_url: "https://github.com/scanaislop/aislop/releases/tag/v0.22.1"
+latest_release_published_at: "2026-11-14T10:21:30Z"
+latest_release_checked_at: "2026-11-14T22:22:08Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-11-14T17:59:15Z"
-stars: 741
-repo_updated_at: "2026-11-13T19:33:04Z"
-metadata_updated_at: "2026-11-13T19:39:52Z"
+stars: 744
+repo_updated_at: "2026-11-14T12:26:18Z"
+metadata_updated_at: "2026-11-14T22:22:08Z"
 quality_tags:
   - "code-quality"
   - "php"

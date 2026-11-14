@@ -25,14 +25,14 @@ latest_release_name: "v5.6.0"
 latest_release_tag: "v5.6.0"
 latest_release_url: "https://github.com/duriantaco/skylos/releases/tag/v5.6.0"
 latest_release_published_at: "2026-11-11T04:19:07Z"
-latest_release_checked_at: "2026-11-13T19:39:52Z"
+latest_release_checked_at: "2026-11-14T22:22:08Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-11-14T17:59:15Z"
-stars: 942
-repo_updated_at: "2026-11-13T15:04:07Z"
-metadata_updated_at: "2026-11-13T19:39:52Z"
+stars: 943
+repo_updated_at: "2026-11-14T14:58:51Z"
+metadata_updated_at: "2026-11-14T22:22:08Z"
 quality_tags:
   - "code-quality"
   - "php"
