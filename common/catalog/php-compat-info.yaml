@@ -22,14 +22,14 @@ latest_release_name: "7.2.7"
 latest_release_tag: "7.2.7"
 latest_release_url: "https://github.com/llaville/php-compatinfo/releases/tag/7.2.7"
 latest_release_published_at: "2026-10-31T05:05:19Z"
-latest_release_checked_at: "2026-11-14T22:22:08Z"
+latest_release_checked_at: "2026-11-16T06:26:12Z"
 packagist: null
 latest_version: ""
 latest_version_released_at: null
 packagist_checked_at: "2026-11-15T18:49:50Z"
 stars: 383
 repo_updated_at: "2026-10-31T07:27:02Z"
-metadata_updated_at: "2026-11-14T22:22:08Z"
+metadata_updated_at: "2026-11-16T06:26:12Z"
 quality_tags:
   - "php"
 source: "https://github.com/exakat/php-static-analysis-tools"

@@ -27,12 +27,12 @@ latest_release_name: "4.2.0.27261"
 latest_release_tag: "4.2.0.27261"
 latest_release_url: "https://github.com/SonarSource/sonar-php/releases/tag/4.2.0.27261"
 latest_release_published_at: "2026-10-27T10:18:35Z"
-latest_release_checked_at: "2026-11-14T22:22:08Z"
+latest_release_checked_at: "2026-11-16T06:26:12Z"
 packagist: null
 packagist_checked_at: "2026-11-15T18:49:50Z"
 stars: 432
-repo_updated_at: "2026-11-14T17:03:37Z"
-metadata_updated_at: "2026-11-14T22:22:08Z"
+repo_updated_at: "2026-11-16T01:07:36Z"
+metadata_updated_at: "2026-11-16T06:26:12Z"
 quality_tags:
   - "code-quality"
   - "php"
